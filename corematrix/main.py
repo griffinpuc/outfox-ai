@@ -61,7 +61,7 @@ def calculateCorrelationMatrix():
 # CALCULATE RECOMMENDATIONS
 # calculates a list of recommended categories based on a category input
 def calculateRecommendations(param, resultNo):
-    df = pd.read_csv(csvLink3, index_col = "index")
+    df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
     calc.get_recommendations(df, param, resultNo)
 
 def listTags():
