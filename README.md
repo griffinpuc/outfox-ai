@@ -11,7 +11,7 @@ This platform is powered by a correlational matrix built using [Pandas](https://
 - Generate correlational matrix from boolean table
 - Provide recommendations based on an input tag
 
-##Usage
+## Usage
 1. Clone this repository
 2. Add a CSV data file to <code>ROOT_DIR/csv/raw_data.csv</code>
 3. Run csv formatter: <code>python ./main.py fmcsv</code>
