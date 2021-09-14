@@ -13,11 +13,12 @@ This platform is powered by a correlational matrix built using [Pandas](https://
 
 ## Usage
 1. Clone this repository
-2. Add a CSV data file to <code>ROOT_DIR/csv/raw_data.csv</code>
-3. Run csv formatter: <code>python ./main.py fmcsv</code>
-4. Build boolean matrix: <code>python ./main.py gbt</code>
-5. Build correlational matrix: <code>python ./main.py gcm</code> (This may take some time depending on matrix size and PC specs)
-6. Test recommendation output: <code> python ./main.py rec [tag] [output num]</code>
+2. Install [Pandas](https://pandas.pydata.org/): <code>pip install pandas</code>
+3. Add a CSV data file to <code>ROOT_DIR/csv/raw_data.csv</code>
+4. Run csv formatter: <code>python ./main.py fmcsv</code>
+5. Build boolean matrix: <code>python ./main.py gbt</code>
+6. Build correlational matrix: <code>python ./main.py gcm</code> (This may take some time depending on matrix size and PC specs)
+7. Test recommendation output: <code> python ./main.py rec [tag] [output num]</code>
 
 ## Sample Recommendation
 ### Input/Output:
