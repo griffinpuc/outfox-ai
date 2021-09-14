@@ -16,17 +16,18 @@
 
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
-
+import urllib.request
 import string
 import json
 import os
 import sys
 import subprocess
+import requests
 
 url = sys.argv[1]
 print(url)
 outFile = "temp-link-text.txt"
-page = urlopen(url + "/profiles")
+page = urllib.request.urlopen(url + "/profiles")
 html = page.read().decode("utf-8")
 soup = BeautifulSoup(html, "html.parser")
 pageData = soup.getText()

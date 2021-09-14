@@ -27,17 +27,17 @@ if os.path.exists(outName):
 
 file1 = open(fileName, 'r')
 Lines = file1.readlines()
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm") #setting up spacy
 
 tags = []
 pageContent = ""
-for line in Lines:
+for line in Lines: #putting all of the text into one string
     nLine = " , "+ line
     pageContent = pageContent + nLine
 
 
 
-dSet = nlp(pageContent)
+dSet = nlp(pageContent) #running nlp on the content of the page to get tags
 tagSet = numpy.asarray(dSet.ents)
 
 
@@ -45,8 +45,8 @@ tagMap = {}
 
 
 for j in range(len(tagSet)):
-    if str(tagSet[j][0])  not in tagMap:
-        print("new thing:"+ str(tagSet[j][0]))
+    if str(tagSet[j][0])  not in tagMap:        #adding all distinct tags to the list
+       
         tags.append(str(tagSet[j][0]))
         tagMap[str(tagSet[j][0]) ] = len(tags)
 
@@ -54,12 +54,11 @@ for j in range(len(tagSet)):
 
 
 
-file1 = open(outName, 'w')
-file1.write("{")
-file1.write('"Tags" : [')
+file1 = open(outName, 'w') #writing to a file
+
 for i in range(len(tags)):
     file1.write(tags[i]+ "\n")
         # file1.write(",")
 
-file1.write("]}")
+
 file1.close()

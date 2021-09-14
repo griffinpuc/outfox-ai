@@ -21,22 +21,22 @@ Lines = file1.readlines()
 nlp = spacy.load("en_core_web_sm")
 
 
-class Class:
+class Class: #used so that the data can be formatted into json
     def __init__(self, department, className, tagList):
         self.department = department
         self.className = className
         self.tagList = tagList
 
 
-        # Strips the newline character
+        
 
 lineBuffer = []
 classes = []
 lastDept = ""
-for line in Lines:
+for line in Lines: #iterating over the lines
 
     lineBuffer.append(line)
-    if(len(lineBuffer) > 3 and line == "\n"):
+    if(len(lineBuffer) > 3 and line == "\n"): # specific code to the Marist Course Catalog. Reformat as needed to pull in the dept, class name, and to run spacy nlp on descriptions
 
         
         table = string.maketrans("0123456789", '**********')
@@ -52,9 +52,9 @@ for line in Lines:
             for i in range(1, len(lineBuffer)-2):
                 description += lineBuffer[i]
                 
-            dSet = nlp(description.decode('utf-8', 'ignore'))
+            dSet = nlp(description.decode('utf-8', 'ignore')) #running nlp on the descriptions
             tagArr = numpy.asarray(dSet.ents)
-            classes.append(Class(lastDept, className, tagArr))
+            classes.append(Class(lastDept, className, tagArr)) #saving to an object for easier formatting
             
            
             lastDept = lineBuffer[len(lineBuffer)-2]
@@ -66,7 +66,7 @@ for line in Lines:
 file1 = open(newFile, 'w')
 file1.write("{")
 file1.write('"Classes" : [')
-for i in range(len(classes)):
+for i in range(len(classes)): #writing the objects out to a file
     mTArr = []
     
     for j in range(len(classes[i].tagList)):

@@ -32,20 +32,20 @@ if os.path.exists(outName):
 # Using readlines()
 file1 = open(fileName, 'r')
 Lines = file1.readlines()
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm") #setting up spacy nlp
 
 
 
-        # Strips the newline character
+        
 
 
 tags = []
-tagMap = {}
+tagMap = {} #used to avoid duplicates
 lineBuffer = []
 for line in Lines:
 
     lineBuffer.append(line)
-    if(len(lineBuffer) == 10 ):
+    if(len(lineBuffer) == 10 ): #processing the text in blocks of 10 lines
         
         tBlock = ""
         for i in range(len(lineBuffer)):
@@ -55,7 +55,7 @@ for line in Lines:
         tagArr = numpy.asarray(dSet.ents)
         for j in range(len(tagArr)):
             
-            if str(tagArr[j][0]) in tagMap:
+            if str(tagArr[j][0]) in tagMap: # avoiding duplicates by checking if the tag already exists before adding
                 continue
             tags.append(str(tagArr[j][0]))
             tagMap[str(tagArr[j][0])] = len(tags)
@@ -63,7 +63,7 @@ for line in Lines:
 
 
 
-file1 = open(outName, 'w+')
+file1 = open(outName, 'w+') #writing to the new file
 file1.write("{")
 file1.write('"Tags" : [\n')
 for i in range(len(tags)):
