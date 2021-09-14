@@ -2,7 +2,7 @@
 
 ## What are we doing?
 **CM3** = (Correlational Matrix Model Manager)  
-We are building a recommendation AI that will work with an existing platform, Outfox.  
+We are building a recommendation AI that will work with an existing platform, [Outfox](https://github.com/briangormanly/outfox).  
 This platform is powered by a correlational matrix built using [Pandas](https://pandas.pydata.org/)  
 
 ## Features
