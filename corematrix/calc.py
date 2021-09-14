@@ -27,7 +27,7 @@ def generateBools(csvLink, outputName):
     # loop through
     for string in df["tags"]:
         subtag_list = []
-        for substring in string.split(","):
+        for substring in str(string).split(","):
             subtag_list.append(substring.strip())
         tag_lists.append(subtag_list)
         
