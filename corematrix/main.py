@@ -61,7 +61,7 @@ def calculateCorrelationMatrix():
 # CALCULATE RECOMMENDATIONS
 # calculates a list of recommended categories based on a category input
 def calculateRecommendations(param, resultNo):
-    df = pd.read_csv(csvLink3, index_col = "index")
+    df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
     calc.get_recommendations(df, param, resultNo)
 
 def listTags():
@@ -71,11 +71,6 @@ def listTags():
         taglist += (string+', ')
     print(taglist)
 
-def formatCSV():
-    df = calc.returnDf(csvLink1)
-    df["tags"] = df["tags"].map(funcs.splitAndSplice)
-
-    funcs.saveFile(csvLink1, df.to_csv())
 
 # THROW ERROR FUNCTION
 # throw cmd error/help function
@@ -87,9 +82,8 @@ def throwCmdError():
     print('main.py gcm                       |  GENERATE CORRELATIONAL MATRIX')
     print('main.py rec <cat tag> <# to gen>  |  GENERATE RECOMMENDATIONS')
     print('main.py tags                      |  LIST ALL TAGS')
-    print('main.py fmcsv                     |  FORMAT CSV TO SPECFICIATION [EXPERIMENTAL DOESNT WORK]\n')
     print('Suggested workflow:')
-    print('Man. import raw_data.csv > fmcsv > gbt > gcm\n')
+    print('Man. import raw_data.csv > gbt > gcm\n')
 
 # MAIN FUNCTION
 # takes args and does some stuff
