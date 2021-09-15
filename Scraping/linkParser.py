@@ -34,11 +34,11 @@ pageContent = ""
 for line in Lines: #putting all of the text into one string
     nLine = " , "+ line
     pageContent = pageContent + nLine
-
-
+file1.close()
+os.remove(fileName)
 
 dSet = nlp(pageContent) #running nlp on the content of the page to get tags
-tagSet = numpy.asarray(dSet.ents)
+tagSet = numpy.asarray(dSet.ents,  dtype="object")
 
 
 tagMap = {}
