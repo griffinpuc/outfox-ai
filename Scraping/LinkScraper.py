@@ -9,28 +9,20 @@
 # UPDATED BY: SA
 #
 
-
-
-
-
-
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
-import urllib.request
-import string
-import json
-import os
-import sys
-import subprocess
 import requests
-
+from bs4 import BeautifulSoup
+import sys
+import os
+import re
 url = sys.argv[1]
-print(url)
-outFile = "temp-link-text.txt"
-page = urllib.request.urlopen(url + "/profiles")
-html = page.read().decode("utf-8")
-soup = BeautifulSoup(html, "html.parser")
-pageData = soup.getText()
+
+
+page = requests.get(url)
+soup = BeautifulSoup(page.content, 'html.parser')
+cleanStuff = soup.getText()
+cleanedCleanStuff = re.sub('[^0-9a-zA-Z]+', ' ', cleanStuff)
+
+
 
 
 outName = "temp-link-text.txt"
@@ -40,10 +32,5 @@ if os.path.exists(outName):
 
 
 file1 = open(outName, 'w+')
-file1.write(pageData)
-
-
+file1.write(cleanedCleanStuff)
 file1.close()
-
-
-
