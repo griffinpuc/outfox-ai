@@ -9,7 +9,7 @@ IF %argC%==0 (
     set /p url="enter url:"
     echo.
     set /p outfile="enter a new file name ending in .txt:"
-    python3 LinkScraper.py %url% 
+    python LinkScraper.py %url% 
     echo Webpage collected, processing...
     python linkParser.py %outfile%
     echo the file with the tags in it will be in the new file: %outfile%.
