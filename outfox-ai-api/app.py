@@ -14,6 +14,10 @@ def hello():
     return jsonify({'name':'Jimit',
                     'address':'India'})
 
+#@app.route("/returnRelated"):
+    # talk to reccommendation engine and return json
+
+
 @app.route('/returnExploreRecords')
 def getExploreRecords():
     userid = request.args['userID']
