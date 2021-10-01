@@ -34,13 +34,13 @@ def getRecUsers():
 
 
 @app.route('/getRecGroups')
-def getRecUsers():
+def getRecGroups():
     userid = request.args['userid']
     return jsonify({"test": "groupData"})
 
 
 @app.route('/getRecResources')
-def getRecUsers():
+def getRecResources():
     userid = request.args['userid']
     return jsonify({"test": "resourceData"})
 
