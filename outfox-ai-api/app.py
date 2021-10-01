@@ -30,19 +30,19 @@ def getExploreRecords():
 @app.route('/getRecUsers')
 def getRecUsers():
     userid = request.args['userid']
-    return jsonify({"test": "userData"}})
+    return jsonify({"test": "userData"})
 
 
 @app.route('/getRecGroups')
 def getRecUsers():
     userid = request.args['userid']
-    return jsonify({"test": "groupData"}})
+    return jsonify({"test": "groupData"})
 
 
 @app.route('/getRecResources')
 def getRecUsers():
     userid = request.args['userid']
-    return jsonify({"test": "resourceData"}})
+    return jsonify({"test": "resourceData"})
 
 
 if __name__ == '__main__':
