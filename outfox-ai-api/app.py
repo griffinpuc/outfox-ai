@@ -24,5 +24,26 @@ def getExploreRecords():
 
     return testAlgo.giveData(userid)
 
+
+
+
+@app.route('/getRecUsers')
+def getRecUsers():
+    userid = request.args['userid']
+    return jsonify({"test": "userData"}})
+
+
+@app.route('/getRecGroups')
+def getRecUsers():
+    userid = request.args['userid']
+    return jsonify({"test": "groupData"}})
+
+
+@app.route('/getRecResources')
+def getRecUsers():
+    userid = request.args['userid']
+    return jsonify({"test": "resourceData"}})
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=105)
