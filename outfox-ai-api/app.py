@@ -31,40 +31,40 @@ def getExploreRecords():
 def getRecUsers():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify({"test": "userData", "userid":str(userid}), "page": str(pg))
+    return jsonify({"test": "userData", "userid":str(userid), "page": str(pg)})
 
 
 @app.route('/getRecGroups')
 def getRecGroups():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify({"test": "userData", "userid":str(userid}), "page": str(pg))
+    return jsonify({"test": "userData", "userid":str(userid), "page": str(pg)})
 
 
 @app.route('/getRecResources')
 def getRecResources():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify({"test": "userData", "userid":str(userid}), "page": str(pg))
+    return jsonify({"test": "userData", "userid":str(userid), "page": str(pg)})
 
 
 
 @app.route('/getUserPgs')
 def getUserPgs():
     userid = request.args['userid']
-    return jsonify({"test": "userData", "userid":str(userid})})
+    return jsonify({"test": "userData", "userid":str(userid)})
 
 
 @app.route('/getGroupPgs')
 def getGroupPgs():
     userid = request.args['userid']
-    return jsonify({"test": "userData", "userid":str(userid})})
+    return jsonify({"test": "userData", "userid":str(userid)})
 
 
 @app.route('/getResourcePgs')
 def getResourcePgs():
     userid = request.args['userid']
-    return jsonify({"test": "userData", "userid":str(userid})})
+    return jsonify({"test": "userData", "userid":str(userid)})
 
 
 if __name__ == '__main__':
