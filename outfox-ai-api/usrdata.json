@@ -1,0 +1,31 @@
+{
+    "users" :[
+        {
+            "username": "griffin",
+            "id": "1",
+            "tags": [
+                "ComputerScience",
+                "Mathematics",
+                "SeniorYear"
+            ]
+        },
+        {
+            "username": "jsmith",
+            "id": "665",
+            "tags": [
+                "Business",
+                "Advertising",
+                "Finance"
+            ]
+        },
+        {
+            "username": "Roxy",
+            "id": "668",
+            "tags": [
+                "ComputerScience",
+                "Mathematics",
+                "Hacking"
+            ]
+        }
+    ]
+}

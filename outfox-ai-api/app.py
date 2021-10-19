@@ -2,7 +2,10 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 import testAlgo
+import json
 app = Flask(__name__)
+f = open('usrdata.json',)
+data = json.load(f)
 
 @app.route('/hello/', methods=['GET', 'POST'])
 
@@ -31,7 +34,7 @@ def getExploreRecords():
 def getRecUsers():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify({"test": "userData", "userid":str(userid), "page": str(pg)})
+    return jsonify(data)#PUT MY DATA HERE
 
 
 @app.route('/getRecGroups')
