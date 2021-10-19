@@ -1,5 +1,32 @@
 {
-    "users" :[
+    "users": [
+        {
+            "username": "kohlsean",
+            "id": "666",
+            "tags": [
+                "Drawing",
+                "History",
+                "Marketing"
+            ]
+        },
+        {
+            "username": "andrewmat21",
+            "id": "667",
+            "tags": [
+                "Art",
+                "Finance",
+                "Fashion"
+            ]
+        },
+        {
+            "username": "mHammill",
+            "id": "669",
+            "tags": [
+                "Society",
+                "Law",
+                "Justice"
+            ]
+        },
         {
             "username": "griffin",
             "id": "1",
