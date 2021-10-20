@@ -83,8 +83,7 @@ def correlate_with_every_tag(df, tag_a, dict_mode = True):
     
     unique_tags = list(df.columns)
     unique_tags.pop(0)
-    # In dict_mode, the results are stored in a dict, which is good for analyzing one tag
-    # However, in order to transform the data into a df later, we need a list output
+
     if dict_mode:
         # Loop through every tag and store the correlation in the dict
         correlation_dict = {}
@@ -187,5 +186,6 @@ def get_recommendations(df, tag, num_of_recommendations):
     
     recommendations_df = find_highest_correlations(corr_df, num_of_recommendations)
     
+    print("\n====================================\n\nRECOMMENDED TAGS: " + str(list(recommendations_df["tag"])))
     recengine.calculateAll(list(recommendations_df["tag"]))
     #print("Recommendations:", list(recommendations_df["tag"]))

@@ -104,7 +104,5 @@ if __name__ == "__main__":
             calculateRecommendations(term, num)
         elif(option == "tags"):
             listTags()
-        elif(option == "fmcsv"):
-            formatCSV()
         else:
             print('Unrecognized command.')

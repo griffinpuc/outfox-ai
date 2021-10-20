@@ -1,5 +1,9 @@
 import os
 import csv
+import collections
+
+from numpy import cos
+from numpy.core.fromnumeric import sort
 import Levenshtein
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -20,19 +24,36 @@ def calculateSimAll(tagArray):
     file = open(csvLink1)
     reader = csv.reader(file, delimiter=',')
 
-    grouparray = [''] * 194
+    grouparray = [''] * 195
+    namearray = [''] * 195
     
     i = 0
     for row in reader:
+        grouparray[i] = ' '.join(str(tagArray).split(', '))
         if(i>0):
-            grouparray[i-1] = ' '.join(str(row[2]).split(', '))
+            grouparray[i] = ' '.join(str(row[2]).split(', '))
+            namearray[i] = str(row[1])
         i+=1
     
     vect = CountVectorizer().fit_transform(grouparray)
     vectors = vect.toarray()
     csim = cosine_similarity(vectors)
 
-    print(str(cosineCompVecter(vectors[0], vectors[20])))
+    topval = 0
+    topgroup = ""
+
+    z=0
+    for group in grouparray:
+        if(z > 0):
+            val = cosineCompVecter(vectors[0], vectors[z])
+            if(val > topval):
+                topval = val
+                topgroup = namearray[z]
+
+        z+=1
+
+    print("RECOMMENDED GROUP: " + topgroup + ": " + str(topval) + "\n\n====================================\n")
+    
 
 
 def calculateSimilarity(tagArray1, tagArray2):
