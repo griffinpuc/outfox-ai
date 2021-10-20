@@ -8,8 +8,13 @@
 # UPDATED BY: GCP
 #
 
+# todo:
+# - change from csv to sql table:
+#   - https://pandas.pydata.org/docs/reference/api/pandas.read_sql_table.html
+
 import pandas as pd
 import funcs
+import recengine
 
 # RETURN DATA FRAME:
 # returns a data frame from a csv file
@@ -182,4 +187,5 @@ def get_recommendations(df, tag, num_of_recommendations):
     
     recommendations_df = find_highest_correlations(corr_df, num_of_recommendations)
     
-    print("Recommendations:", list(recommendations_df["tag"]))
+    recengine.calculateAll(list(recommendations_df["tag"]))
+    #print("Recommendations:", list(recommendations_df["tag"]))
