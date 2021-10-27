@@ -186,6 +186,6 @@ def get_recommendations(df, tag, num_of_recommendations):
     
     recommendations_df = find_highest_correlations(corr_df, num_of_recommendations)
     
-    print("\n====================================\n\nRECOMMENDED TAGS: " + str(list(recommendations_df["tag"])))
-    recengine.calculateAll(list(recommendations_df["tag"]))
-    #print("Recommendations:", list(recommendations_df["tag"]))
+    #print("\n====================================\n\nRECOMMENDED TAGS: " + str(list(recommendations_df["tag"])))
+    return recengine.calculateAll(list(recommendations_df["tag"]))
+    

@@ -7,6 +7,7 @@ from numpy.core.fromnumeric import sort
 import Levenshtein
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from lib import *
 
 groupNum = 912
 
@@ -14,9 +15,6 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) # This is the Project Root
 csvLink1 = ROOT_DIR+"\\csv\\raw_data.csv"
 
 def calculateAll(tagArray):
-    calculateSimAll(tagArray)
-
-def calculateSimAll(tagArray):
     file = open(csvLink1)
     reader = csv.reader(file, delimiter=',')
 
@@ -47,8 +45,10 @@ def calculateSimAll(tagArray):
                 topgroup = namearray[z]
 
         z+=1
-
-    print("RECOMMENDED GROUP: " + topgroup + ": " + str(topval) + "\n\n====================================\n")
+    
+    
+    return Group(topgroup, tagArray)
+    #print("RECOMMENDED GROUP: " + topgroup + ": " + str(topval) + "\n\n====================================\n")
     
 
 
