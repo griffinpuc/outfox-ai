@@ -1,8 +1,7 @@
 {
-    "users": [
-        {
-            "username": "kohlsean",
-            "id": "666",
+    "users": [{
+            "username": "P1R4EO6I65",
+            "id": "716",
             "tags": [
                 "Drawing",
                 "History",
@@ -10,48 +9,12 @@
             ]
         },
         {
-            "username": "andrewmat21",
-            "id": "667",
+            "username": "8FZ34LPCA0",
+            "id": "717",
             "tags": [
                 "Art",
                 "Finance",
                 "Fashion"
-            ]
-        },
-        {
-            "username": "mHammill",
-            "id": "669",
-            "tags": [
-                "Society",
-                "Law",
-                "Justice"
-            ]
-        },
-        {
-            "username": "griffin",
-            "id": "1",
-            "tags": [
-                "ComputerScience",
-                "Mathematics",
-                "SeniorYear"
-            ]
-        },
-        {
-            "username": "jsmith",
-            "id": "665",
-            "tags": [
-                "Business",
-                "Advertising",
-                "Finance"
-            ]
-        },
-        {
-            "username": "Roxy",
-            "id": "668",
-            "tags": [
-                "ComputerScience",
-                "Mathematics",
-                "Hacking"
             ]
         }
     ]
