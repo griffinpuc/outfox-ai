@@ -30,7 +30,7 @@ csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
 # API FUNCS
 def getGroupRecsFromUser(userObj):
 
-    userObj.tags = getUserTags(userObj.Id)
+    userObj.tags = getUserTags(userObj.id)
 
     tags = userObj.tags
 
@@ -95,4 +95,6 @@ def getUserTags(userId):
     }
 
     return tempDict[userId]
+
+print(getGroupRecsFromUser(User("test", 669, [])))
 
