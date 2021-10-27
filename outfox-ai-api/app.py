@@ -4,8 +4,11 @@ from flask import request
 import testAlgo
 import json
 app = Flask(__name__)
-f = open('usrdata.json',)
-data = json.load(f)
+uf = open('usrdata.json',)
+uData = json.load(uf)
+gf = open('grpdata.json',)
+gData = json.load(gf)
+
 
 @app.route('/hello/', methods=['GET', 'POST'])
 
@@ -34,14 +37,14 @@ def getExploreRecords():
 def getRecUsers():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify(data)#PUT MY DATA HERE
+    return jsonify(uData)#PUT MY DATA HERE
 
 
 @app.route('/getRecGroups')
 def getRecGroups():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify({"test": "userData", "userid":str(userid), "page": str(pg)})
+    return jsonify(gData)
 
 
 @app.route('/getRecResources')
