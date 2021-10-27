@@ -8,31 +8,27 @@ import Levenshtein
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) # This is your Project Root
+groupNum = 912
+
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) # This is the Project Root
 csvLink1 = ROOT_DIR+"\\csv\\raw_data.csv"
 
 def calculateAll(tagArray):
     calculateSimAll(tagArray)
-    #i = 0
-    #for row in reader:
-    #    if(i>0):
-    #        val = calculateSimilarity(tagArray, row[2].split(','))
-    #        print(row[2] + ": " + str(val))
-    #    i+=1
 
 def calculateSimAll(tagArray):
     file = open(csvLink1)
     reader = csv.reader(file, delimiter=',')
 
-    grouparray = [''] * 195
-    namearray = [''] * 195
+    grouparray = [''] * groupNum
+    namearray = [''] * groupNum
     
     i = 0
     for row in reader:
         grouparray[i] = ' '.join(str(tagArray).split(', '))
         if(i>0):
-            grouparray[i] = ' '.join(str(row[2]).split(', '))
-            namearray[i] = str(row[1])
+            grouparray[i] = ' '.join(str(row[1]).split(', '))
+            namearray[i] = str(row[0])
         i+=1
     
     vect = CountVectorizer().fit_transform(grouparray)
