@@ -2,7 +2,7 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 
-from corematrix import corematrix
+from corematrix_lib import *
 
 import testAlgo
 import json
