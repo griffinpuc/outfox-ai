@@ -80,10 +80,9 @@ def injectUserGroups(groupsTotal, userId, cursor):
         for i in range(0, groupsTotal):
             
             csvrow = csvdata.getRow()
-            print(csvrow)
             groupNO = id_generator(10)
             sql = ('INSERT INTO groups (groupname, groupdescription, createdby, datetimeadd) VALUES (\'{groupname}\', \'{groupdescription}\', \'{createdby}\', \'{datetimeadd}\') RETURNING id')
-            cur.execute(sql.format(groupname=csvrow[0]+groupNO, groupdescription='AUTO GENERATED GROUP', createdby=userId, datetimeadd=datetime.datetime.now()))
+            cur.execute(sql.format(groupname=csvrow[0]+" ["+groupNO + "]", groupdescription='AUTO GENERATED GROUP', createdby=userId, datetimeadd=datetime.datetime.now()))
             prevId = cur.fetchone()[0]
 
             sql = ('INSERT INTO tags (id, tag, createdate) VALUES (\'{id}\', \'{tags}\', \'{datetime}\')')
