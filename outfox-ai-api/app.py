@@ -5,7 +5,7 @@ from flask import request
 import sys
 sys.path.append('../')
 
-import corematrix_lib as cm
+import corematrix_lib
 
 import testAlgo
 import json
@@ -53,7 +53,7 @@ def getRecGroups():
     userid = request.args['userid']
     pg = request.args['page']
 
-    return cm.corematrix.getGroupRecsFromUser(userid)
+    return corematrix_lib.corematrix.getGroupRecsFromUser(userid)
 
 
 
