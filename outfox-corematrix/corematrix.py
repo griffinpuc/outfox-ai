@@ -29,6 +29,9 @@ csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
 
 # API FUNCS
 def getGroupRecsFromUser(userObj):
+
+    userObj.tags = getUserTags(userObj.Id)
+
     tags = userObj.tags
 
     groupList = []
@@ -38,7 +41,7 @@ def getGroupRecsFromUser(userObj):
         groupList.insert(i, calculateRecommendations(tag, 3))
         i+=1
     
-    return(json.dumps([Group.__dict__ for Group in groupList]))
+    return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupList]) + ' }')
 
 
 # GENERATE BOOL MATRIX:
@@ -83,18 +86,13 @@ def calculateRecommendations(param, resultNo):
 
     return retObj
 
-##############################################
-# HEY!
-# HERE SAM. SAM ITS HERE LOOK:
-def test():
+#
+#
+def getUserTags(userId):
 
-    # USER OBJECT
-    user = User("test", 1, ["CHEMISTRY", "BIOLOGY", "COMPUTERSCIENCE"])
+    tempDict={
+        669 : ["CHEMISTRY", "BIOLOGY", "COMPUTERSCIENCE"]
+    }
 
-    # RECIEVE JSON RESPONSE, OR OBJECT WHATEVER YOU WANT
-    print(getGroupRecsFromUser(user))
-
-# test
-test()
-##############################################
+    return tempDict[userId]
 
