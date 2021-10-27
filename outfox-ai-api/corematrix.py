@@ -91,7 +91,8 @@ def getUserTags(userId):
 
     tempDict={
         669 : ["CHEMISTRY", "BIOLOGY", "COMPUTERSCIENCE"],
-        718 : ["COMPUTERSCIENCE", "CREATIVITY", "PARTICLES"]
+        718 : ["COMPUTERSCIENCE", "CREATIVITY", "PARTICLES"],
+        719 : ["LIFE", "LANGUAGESTUDY", "COMMUNICATIONS"]
     }
 
     return tempDict[userId]
