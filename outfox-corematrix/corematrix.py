@@ -44,6 +44,7 @@ def getGroupRecsFromUser(userObj):
     return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupList]) + ' }')
 
 
+
 # GENERATE BOOL MATRIX:
 # generates a csv file with bool values corresponding to each category tag
 def generateBoolMatrix():
