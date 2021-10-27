@@ -29,7 +29,6 @@ csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
 
 # API FUNCS
 def getGroupRecsFromUser(userObj):
-    uname = userObj.username
     tags = userObj.tags
 
     groupList = []
@@ -38,14 +37,6 @@ def getGroupRecsFromUser(userObj):
     for tag in tags:
         groupList.insert(i, calculateRecommendations(tag, 3))
         i+=1
-
-    #groupA = calculateRecommendations(tags[0], 3)
-    #groupB = calculateRecommendations(tags[1], 3)
-    #groupC = calculateRecommendations(tags[2], 3)
-
-    #dataGroup = GroupData(groupA, groupB, groupC)
-
-    #print(dataGroup.groupA.id)
     
     return(json.dumps([Group.__dict__ for Group in groupList]))
 
