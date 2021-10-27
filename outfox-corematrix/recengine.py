@@ -35,6 +35,7 @@ def calculateAll(tagArray):
 
     topval = 0
     topgroup = ""
+    topindex = 0
 
     z=0
     for group in grouparray:
@@ -43,11 +44,11 @@ def calculateAll(tagArray):
             if(val > topval):
                 topval = val
                 topgroup = namearray[z]
+                topindex = z
 
         z+=1
     
-    
-    return Group(topgroup, tagArray)
+    return Group(topindex, tagArray)
     #print("RECOMMENDED GROUP: " + topgroup + ": " + str(topval) + "\n\n====================================\n")
     
 
