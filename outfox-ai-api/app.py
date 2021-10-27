@@ -2,7 +2,7 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 
-from .. import corematrix
+from corematrix import corematrix
 
 import testAlgo
 import json
@@ -51,6 +51,7 @@ def getRecGroups():
     pg = request.args['page']
 
     return corematrix.getGroupRecsFromUser(userid)
+
 
 
 @app.route('/getRecResources')
