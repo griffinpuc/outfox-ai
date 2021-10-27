@@ -1,8 +1,13 @@
 from flask import Flask
 from flask import jsonify
 from flask import request
+
+from .. import corematrix
+
 import testAlgo
 import json
+
+
 app = Flask(__name__)
 uf = open('usrdata.json',)
 uData = json.load(uf)
@@ -44,7 +49,8 @@ def getRecUsers():
 def getRecGroups():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify(gData)
+
+    return corematrix.getGroupRecsFromUser(userid)
 
 
 @app.route('/getRecResources')
