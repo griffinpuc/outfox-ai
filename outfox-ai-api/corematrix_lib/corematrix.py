@@ -11,9 +11,7 @@
 
 import calc
 import funcs
-import sys
 import os
-import csv
 import pandas as pd
 from tqdm import tqdm
 from lib import *

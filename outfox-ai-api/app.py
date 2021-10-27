@@ -2,7 +2,9 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 
-from corematrix_lib import *
+import sys
+sys.path.append('../')
+
 
 import testAlgo
 import json
