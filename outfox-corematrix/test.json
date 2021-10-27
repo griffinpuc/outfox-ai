@@ -1,0 +1,15 @@
+[
+    {
+        "id": "INTRODUCTION TO CHEMISTRY", 
+        "tags": ["PARTICLES", "ENERGY", "ELEMENTS"]
+    }, 
+        
+    {
+        "id": "TOPICS IN BIOLOGY",
+        "tags": ["LIFE", "CELLS", "ANIMALS"]
+    },
+    {
+        "id": "Z/OS ADVANCED TOPICS",
+        "tags": ["IBM", "ZOS", "COMPUTINGTECHNOLOGY"]
+    }
+]

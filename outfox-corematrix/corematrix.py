@@ -92,10 +92,18 @@ def calculateRecommendations(param, resultNo):
 
     return retObj
 
+##############################################
+# HEY!
+# HERE SAM. SAM ITS HERE LOOK:
 def test():
+
+    # USER OBJECT
     user = User("test", 1, ["CHEMISTRY", "BIOLOGY", "COMPUTERSCIENCE"])
+
+    # RECIEVE JSON RESPONSE, OR OBJECT WHATEVER YOU WANT
     print(getGroupRecsFromUser(user))
 
+# test
 test()
-
+##############################################
 
