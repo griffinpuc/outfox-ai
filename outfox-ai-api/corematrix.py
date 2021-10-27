@@ -90,7 +90,8 @@ def calculateRecommendations(param, resultNo):
 def getUserTags(userId):
 
     tempDict={
-        669 : ["CHEMISTRY", "BIOLOGY", "COMPUTERSCIENCE"]
+        669 : ["CHEMISTRY", "BIOLOGY", "COMPUTERSCIENCE"],
+        718 : ["COMPUTERSCIENCE", "CREATIVITY", "PARTICLES"]
     }
 
     return tempDict[userId]
