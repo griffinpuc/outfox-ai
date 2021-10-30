@@ -24,5 +24,5 @@ if __name__ == "__main__":
 
         connect.connect()
         csvdata.parseCSV(csvLink)
-        connect.clearDatabase()
+        #connect.clearDatabase()
         connect.injectUsers(entryTotal, groupsTotal)
