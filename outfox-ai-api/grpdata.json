@@ -1,0 +1,52 @@
+{
+    "groups": [
+        {
+            "id": "294",
+            "tags": [
+                "Fashion",
+                "Introduction",
+                "Drawing"
+            ]
+        },
+        {
+            "id": "298",
+            "tags": [
+                "Psychology",
+                "Medical",
+                "Philosophy"
+            ]
+        },
+        {
+            "id": "299",
+            "tags": [
+                "Sociology",
+                "Psychology",
+                "Medical"
+            ]
+        },
+        {
+            "id": "304",
+            "tags": [
+                "Accounting",
+                "Finance",
+                "Economics"
+            ]
+        },
+        {
+            "id": "329",
+            "tags": [
+                "Biology",
+                "Medical",
+                "NaturalScience"
+            ]
+        },
+        {
+            "id": "338",
+            "tags": [
+                "Planning",
+                "Elective",
+                "Finance"
+            ]
+        }
+    ]
+}

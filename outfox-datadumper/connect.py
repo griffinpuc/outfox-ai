@@ -78,15 +78,15 @@ def injectUserGroups(groupsTotal, userId, cursor):
         cur = cursor
         
         for i in range(0, groupsTotal):
+            
             csvrow = csvdata.getRow()
-
             groupNO = id_generator(10)
             sql = ('INSERT INTO groups (groupname, groupdescription, createdby, datetimeadd) VALUES (\'{groupname}\', \'{groupdescription}\', \'{createdby}\', \'{datetimeadd}\') RETURNING id')
-            cur.execute(sql.format(groupname=csvrow[1]+groupNO, groupdescription='AUTO GENERATED GROUP', createdby=userId, datetimeadd=datetime.datetime.now()))
+            cur.execute(sql.format(groupname=csvrow[0]+" ["+groupNO + "]", groupdescription='AUTO GENERATED GROUP', createdby=userId, datetimeadd=datetime.datetime.now()))
             prevId = cur.fetchone()[0]
 
             sql = ('INSERT INTO tags (id, tag, createdate) VALUES (\'{id}\', \'{tags}\', \'{datetime}\')')
-            cur.execute(sql.format(id=prevId, tags=csvrow[2],datetime=datetime.datetime.now()))
+            cur.execute(sql.format(id=prevId, tags=csvrow[1],datetime=datetime.datetime.now()))
 
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -101,7 +101,9 @@ def clearDatabase():
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
 
-        sql = ('DELETE FROM users WHERE ID != 1')
+        sql = ('DELETE FROM friends')
+        cur.execute(sql)
+        sql = ('DELETE FROM users WHERE ID != 669')
         cur.execute(sql)
         sql = ('DELETE FROM groups')
         cur.execute(sql)
