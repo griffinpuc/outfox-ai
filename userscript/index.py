@@ -43,7 +43,7 @@ while True:
     signup_button = driver.find_elements_by_xpath('/html/body/div/div/div/nav/div/ul[2]/li[2]/a')[0]
     signup_button.click()
 
-    time.sleep(3)
+    #time.sleep(3)
 
     #
     #GENERATE USER LOGIN INFO
@@ -83,7 +83,7 @@ while True:
     signup_button = driver.find_elements_by_xpath('/html/body/div/div/div/section/div/form/button')[0]
     signup_button.click()
 
-    time.sleep(3)#Wait for new user page to load
+    time.sleep(1)#Wait for new user page to load
 
 
     #
@@ -102,14 +102,10 @@ while True:
     #
     groupname = driver.find_element_by_name("groupName")
     print("GT: "+grouptitle)
-    groupname.send_keys(grouptitle)
-
-    time.sleep(1)
+    groupname.send_keys(grouptitle)#AUTO GEN
 
     groupdesc = driver.find_element_by_name("groupDescription")
-    groupdesc.send_keys(grouptags)
-
-    time.sleep(1)
+    groupdesc.send_keys(grouptags)#AUTO GEN
 
     subgroup = driver.find_elements_by_xpath('/html/body/div/div/div/div[3]/div/div[1]/div[1]/div[2]/div[2]/form/button')[0]
     subgroup.click()
