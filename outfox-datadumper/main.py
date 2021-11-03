@@ -8,7 +8,7 @@ import connect
 #TRIGGERS IF INVALID CMD ARGUMENT TOTAL
 def throwCmdError():
     print('\nIncorrect command usage:')
-    print('main.py <total entries> <password for accounts> <link to csv>\n')
+    print('main.py <total entries> <total groups per user> <link to csv>\n')
 
 #
 #MAIN FUNCTION

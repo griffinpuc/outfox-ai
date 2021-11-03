@@ -52,13 +52,17 @@ def injectUsers(entryTotal, groupsTotal):
         params = config()
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
+
+        hashhPw = "$2b$10$z.NZ2Gdjkpqh.fcvHIoWGua3PHxZGg5oBdMmCztWXh1ALUpZ3PgPm" #Mark hamills! hamham123
         
         for i in range(0, entryTotal):
             userNO = id_generator(10)
 
-            sql = ('INSERT INTO users (username, firstname, lastname, email) VALUES (\'{username}\', \'{firstname}\', \'{lastname}\', \'{email}\') RETURNING id')
-            cur.execute(sql.format(username=userNO, firstname='USER', lastname=userNO, email=userNO+'@gmail.com'))
+            sql = ('INSERT INTO users (username, firstname, lastname, email, hashpw) VALUES (\'{username}\', \'{firstname}\', \'{lastname}\', \'{email}\', \'{hashpw}\') RETURNING id')
+            cur.execute(sql.format(username=userNO, firstname='USER', lastname=userNO, email=userNO+'@gmail.com', hashpw=hashhPw))
             injectUserGroups(groupsTotal, cur.fetchone()[0], cur)
+
+            #print(i)
 
         conn.commit()
         cur.close()
@@ -94,7 +98,7 @@ def injectUserGroups(groupsTotal, userId, cursor):
 #
 #CLEAR DATABASE FUNCTION
 #CLEARS USERS AND GROUPS TABLES
-def clearDatabase():
+def clearDatabases():
     conn = None
     try:
         params = config()
@@ -118,4 +122,7 @@ def clearDatabase():
         if conn is not None:
             print('Completed database clear.')
             conn.close()
+
+def clearDatabase():
+    print('BOOYA!')
 
