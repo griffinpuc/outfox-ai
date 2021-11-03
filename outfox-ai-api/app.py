@@ -61,7 +61,9 @@ def getRecGroups():
 def getRecResources():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify({"test": "userData", "userid":str(userid), "page": str(pg)})
+    
+    return('{ "resources" : [ {"id":"669", "tags":["t1","t2","t3"]}, {"id":"718", "tags":["t1","t2","t3"]}, {"id":"719", "tags":["t1","t2","t3"]} ] }')
+    #return jsonify({"test": "userData", "userid":str(userid), "page": str(pg)})
 
 
 
