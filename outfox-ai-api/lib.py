@@ -8,3 +8,8 @@ class Group:
     def __init__(self, id, tags):
         self.id = id
         self.tags = tags
+
+class Resource:
+    def __init__(self, id, tags):
+        self.id = id
+        self.tags = tags

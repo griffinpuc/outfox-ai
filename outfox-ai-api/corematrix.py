@@ -41,7 +41,23 @@ def getGroupRecsFromUser(userObj):
     
     return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupList]) + ' }')
 
+# API FUNCS
+def getResourceRecsFromUser(userObj):
 
+    userObj.tags = getUserTags(userObj.id)
+
+    tags = userObj.tags
+
+    resourceList = []
+
+    i=0
+    for tag in tags:
+        resource = Resource(0, calculateTags(tag, 3))
+        
+        resourceList.insert(i, resource)
+        i+=1
+    
+    return(' { "resources":' + json.dumps([Resource.__dict__ for Resource in resourceList]) + ' }')
 
 # GENERATE BOOL MATRIX:
 # generates a csv file with bool values corresponding to each category tag
@@ -85,6 +101,12 @@ def calculateRecommendations(param, resultNo):
 
     return retObj
 
+def calculateTags(param, resultNo):
+    df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
+    retObj = calc.get_only_tags(df, param, resultNo)
+
+    return retObj
+
 #
 #
 def getUserTags(userId):
@@ -96,6 +118,3 @@ def getUserTags(userId):
     }
 
     return tempDict[userId]
-
-print(getGroupRecsFromUser(User("test", 669, [])))
-
