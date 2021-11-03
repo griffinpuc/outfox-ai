@@ -61,8 +61,8 @@ def getRecGroups():
 def getRecResources():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify({"test": "userData", "userid":str(userid), "page": str(pg)})
 
+    return corematrix.getResourceRecsFromUser(corematrix.User("test", int(userid), []))
 
 
 @app.route('/getUserPgs')
