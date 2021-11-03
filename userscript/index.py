@@ -63,10 +63,10 @@ while True:
     #SIGNUP AS NEW USER
     #
     elem = driver.find_element_by_name("firstName")
-    elem.send_keys("ad")
+    elem.send_keys("USER")#Previously ("ad")
 
     lname = driver.find_elements_by_name("lastName")[0]
-    lname.send_keys("min")
+    lname.send_keys(name)#Previously ("min")
 
     uname = driver.find_elements_by_name("userName")[0]
     uname.send_keys(name)#AUTO GEN
