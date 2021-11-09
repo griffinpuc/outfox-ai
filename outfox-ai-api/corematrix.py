@@ -41,7 +41,7 @@ def getGroupRecsFromUser(userObj, pageNum):
             #groupList.insert(i, obj)
         i+=1
 
-    groupListP = groupList[(pageNum*10):(pageNum*10)+10]
+    groupListP = groupList[(int(pageNum)*10):(int(pageNum)*10)+10]
     return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
 # API FUNCS
