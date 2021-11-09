@@ -41,7 +41,8 @@ def getGroupRecsFromUser(userObj, pageNum):
             #groupList.insert(i, obj)
         i+=1
 
-    return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupList[(pageNum*10):(pageNum*10)+10]]) + ' }')
+    groupListP = groupList[(pageNum*10):(pageNum*10)+10]
+    return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
 # API FUNCS
 def getResourceRecsFromUser(userObj):
@@ -111,3 +112,4 @@ def calculateTags(param, resultNo):
 
     return retObj
 
+#print(getGroupRecsFromUser(User("test", int('699'), []), 0))
