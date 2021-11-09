@@ -111,4 +111,3 @@ def calculateTags(param, resultNo):
 
     return retObj
 
-print(getGroupRecsFromUser(User("test", 669, []), 1))
