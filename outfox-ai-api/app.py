@@ -53,7 +53,7 @@ def getRecGroups():
     userid = request.args['userid']
     pg = request.args['page']
 
-    return corematrix.getGroupRecsFromUser(corematrix.User("test", int(userid), []))
+    return corematrix.getGroupRecsFromUser(corematrix.User("test", int(userid), []))[(pg*10)-10:(pg*10)]
 
 
 

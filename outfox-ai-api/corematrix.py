@@ -26,9 +26,9 @@ csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
 
 
 # API FUNCS
-def getGroupRecsFromUser(userObj):
+def getGroupRecsFromUser(userObj, pagenum):
 
-    userObj.tags = getUserTags(userObj.id)
+    userObj.tags = ["CHEMISTRY", "CREATIVITY", "PARTICLES", "DIGITALMEDIA", "PAINTING","LIFE", "LANGUAGESTUDY", "COMMUNICATIONS", "TECHNOLOGY"]
 
     tags = userObj.tags
 
@@ -36,15 +36,18 @@ def getGroupRecsFromUser(userObj):
 
     i=0
     for tag in tags:
-        groupList.insert(i, calculateRecommendations(tag, 3))
+        for obj in calculateRecommendations(tag, 3, 5):
+            groupList.insert(i, obj)
         i+=1
+    
+    print(str(i))
     
     return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupList]) + ' }')
 
 # API FUNCS
 def getResourceRecsFromUser(userObj):
 
-    userObj.tags = getUserTags(userObj.id)
+    userObj.tags = ["CHEMISTRY", "CREATIVITY", "PARTICLES", "DIGITALMEDIA", "PAINTING","LIFE", "LANGUAGESTUDY", "COMMUNICATIONS", "TECHNOLOGY"]
 
     tags = userObj.tags
 
@@ -95,11 +98,13 @@ def calculateCorrelationMatrix():
 
 # CALCULATE RECOMMENDATIONS
 # calculates a list of recommended categories based on a category input
-def calculateRecommendations(param, resultNo):
+def calculateRecommendations(param, modifier, resultNo):
     df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
-    retObj = calc.get_recommendations(df, param, resultNo)
+    retObj = calc.get_recommendations(df, param, modifier)
 
-    return retObj
+    sortedVals = sorted(retObj, key=lambda x: x.value, reverse=True)
+
+    return sortedVals[:resultNo]
 
 def calculateTags(param, resultNo):
     df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
@@ -107,14 +112,4 @@ def calculateTags(param, resultNo):
 
     return retObj
 
-#
-#
-def getUserTags(userId):
-
-    tempDict={
-        669 : ["CHEMISTRY", "BIOLOGY", "COMPUTERSCIENCE"],
-        718 : ["COMPUTERSCIENCE", "CREATIVITY", "PARTICLES"],
-        719 : ["LIFE", "LANGUAGESTUDY", "COMMUNICATIONS"]
-    }
-
-    return tempDict[userId]
+print(getGroupRecsFromUser(User("test", 669, []), 0))

@@ -13,3 +13,8 @@ class Resource:
     def __init__(self, id, tags):
         self.id = id
         self.tags = tags
+
+class CosineObj:
+    def __init__(self, groupa, value):
+        self.group = groupa
+        self.value = value

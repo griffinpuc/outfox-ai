@@ -33,22 +33,16 @@ def calculateAll(tagArray):
     vectors = vect.toarray()
     csim = cosine_similarity(vectors)
 
-    topval = 0
-    topgroup = ""
-    topindex = 0
+    cosineVectors = []
 
-    z=0
+    x=0
     for group in grouparray:
-        if(z > 0):
-            val = cosineCompVecter(vectors[0], vectors[z])
-            if(val > topval):
-                topval = val
-                topgroup = namearray[z]
-                topindex = z
-
-        z+=1
+        if(x>0):
+            val = cosineCompVecter(vectors[0], vectors[x])
+            cosineVectors.append(CosineObj(namearray[x], val))
+        x+=1
     
-    return Group(topindex, tagArray)
+    return cosineVectors
     #print("RECOMMENDED GROUP: " + topgroup + ": " + str(topval) + "\n\n====================================\n")
     
 
