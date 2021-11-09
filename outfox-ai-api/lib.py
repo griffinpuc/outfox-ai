@@ -15,6 +15,7 @@ class Resource:
         self.tags = tags
 
 class CosineObj:
-    def __init__(self, groupa, value):
+    def __init__(self, groupa, value, tags):
         self.group = groupa
         self.value = value
+        self.tags = tags

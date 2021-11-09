@@ -26,7 +26,7 @@ csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
 
 
 # API FUNCS
-def getGroupRecsFromUser(userObj, pagenum):
+def getGroupRecsFromUser(userObj, pageNum):
 
     userObj.tags = ["CHEMISTRY", "CREATIVITY", "PARTICLES", "DIGITALMEDIA", "PAINTING","LIFE", "LANGUAGESTUDY", "COMMUNICATIONS", "TECHNOLOGY"]
 
@@ -37,12 +37,11 @@ def getGroupRecsFromUser(userObj, pagenum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            groupList.insert(i, obj)
+            groupList.insert(i, Group(obj.group, obj.tags))
+            #groupList.insert(i, obj)
         i+=1
-    
-    print(str(i))
-    
-    return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupList]) + ' }')
+
+    return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupList[(pageNum*10):(pageNum*10)+10]]) + ' }')
 
 # API FUNCS
 def getResourceRecsFromUser(userObj):
@@ -112,4 +111,4 @@ def calculateTags(param, resultNo):
 
     return retObj
 
-print(getGroupRecsFromUser(User("test", 669, []), 0))
+print(getGroupRecsFromUser(User("test", 669, []), 1))

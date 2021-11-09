@@ -39,7 +39,7 @@ def calculateAll(tagArray):
     for group in grouparray:
         if(x>0):
             val = cosineCompVecter(vectors[0], vectors[x])
-            cosineVectors.append(CosineObj(namearray[x], val))
+            cosineVectors.append(CosineObj(x, val, tagArray))
         x+=1
     
     return cosineVectors
