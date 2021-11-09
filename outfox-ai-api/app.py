@@ -55,7 +55,11 @@ def getRecGroups():
 
     return corematrix.getGroupRecsFromUser(corematrix.User("test", int(userid), []))[(pg*10)-10:(pg*10)]
 
+@app.route('/newResource')
+def postNewResource():
+    resource = request.args['resource']
 
+    print(resource)
 
 @app.route('/getRecResources')
 def getRecResources():
