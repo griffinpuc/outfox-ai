@@ -10,7 +10,7 @@ def consumeResourceId(resourceId):
 def scrapeTxt(filePath):
 
     # Using readlines()
-    file1 = open(filePath, 'rb')
+    file1 = open(filePath, 'r')
     Lines = file1.readlines()
 
     tags = []
