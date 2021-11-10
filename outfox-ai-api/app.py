@@ -51,7 +51,7 @@ def getRecUsers():
 
 
 @app.route('/getRecGroups')
-def getRecGroups():
+def getRecGroups(): 
     userid = request.args['userid']
     pg = request.args['page']
 
@@ -64,7 +64,7 @@ def getRecResources():
 
     return corematrix.getResourceRecsFromUser(int(userid), pg)
 
-@app.route('/newResource')
+@app.route('/newResource', methods=['POST'])
 def postNewResource():
     resource = request.args['resource']
 
