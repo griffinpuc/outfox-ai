@@ -68,7 +68,7 @@ def getRecResources():
 def getNewResource():
     resource = request.args['resource']
 
-    print('INCOMING RESOURCE TO PARSE: ' + str(resource))
+    print('INCOMING RESOURCE TO PARSE: ' + str(resource), flush=True)
     #corescraper.consumeResourceId(resource)
 
     return jsonify({"test": "userData", "userid":str(resource)})
