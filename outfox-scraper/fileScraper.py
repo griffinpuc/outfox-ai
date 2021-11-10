@@ -17,7 +17,7 @@ import numpy
 import pandas as pd
 import os
 import sys
-fileName = sys.argv[1]
+fileName = "F:/Repositories/outfox-ai/test.txt"
 
 outName = "file-tags.txt"
 

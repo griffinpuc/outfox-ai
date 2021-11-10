@@ -156,4 +156,4 @@ def calculateTags(param, resultNo):
 
     return retObj
 
-print(getUserRecsFromUser(669, 0))
+#print(getResourceRecsFromUser(669, 0))
