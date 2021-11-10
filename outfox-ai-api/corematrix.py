@@ -25,9 +25,26 @@ csvLink2 = ROOT_DIR+"\\csv\\group_tags_bool.csv"
 csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
 
 
-# API FUNCS
-def getGroupRecsFromUser(userObj, pageNum):
 
+##############################################################################################
+##############################################################################################
+#                                                                                            #
+#      *             (        )   (              )                (        )      )  (       #
+#    (  `     (      )\ )  ( /(   )\ )        ( /(    (     *   ) )\ )  ( /(   ( /(  )\ )    #
+#    )\))(    )\    (()/(  )\()) (()/(    (   )\())   )\  ` )  /((()/(  )\())  )\())(()/(    #
+#   ((_)()\((((_)(   /(_))((_)\   /(_))   )\ ((_)\  (((_)  ( )(_))/(_))((_)\  ((_)\  /(_))   #
+#   (_()((_))\ _ )\ (_))   _((_) (_))_|_ ((_) _((_) )\___ (_(_())(_))    ((_)  _((_)(_))     #
+#   |  \/  |(_)_\(_)|_ _| | \| | | |_ | | | || \| |((/ __||_   _||_ _|  / _ \ | \| |/ __|    #
+#   | |\/| | / _ \   | |  | .` | | __|| |_| || .` | | (__   | |   | |  | (_) || .` |\__ \    #
+#   |_|  |_|/_/ \_\ |___| |_|\_| |_|   \___/ |_|\_|  \___|  |_|  |___|  \___/ |_|\_||___/    #
+#                                                                                            #
+##############################################################################################
+##############################################################################################                                 
+
+# GET GROUP RECOMMENDATIONS
+def getGroupRecsFromUser(userId, pageNum):
+
+    userObj = User(userId, [])
     userObj.tags = ["CHEMISTRY", "CREATIVITY", "PARTICLES", "DIGITALMEDIA", "PAINTING","LIFE", "LANGUAGESTUDY", "COMMUNICATIONS", "TECHNOLOGY"]
 
     tags = userObj.tags
@@ -38,29 +55,56 @@ def getGroupRecsFromUser(userObj, pageNum):
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
             groupList.insert(i, Group(obj.group, obj.tags))
-            #groupList.insert(i, obj)
-        i+=1
+            i+=1
 
     groupListP = groupList[(int(pageNum)*10):(int(pageNum)*10)+10]
     return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
-# API FUNCS
-def getResourceRecsFromUser(userObj):
+# GET RESOURCE RECOMMENDATIONS
+def getResourceRecsFromUser(userId, pageNum):
 
-    userObj.tags = ["CHEMISTRY", "CREATIVITY", "PARTICLES", "DIGITALMEDIA", "PAINTING","LIFE", "LANGUAGESTUDY", "COMMUNICATIONS", "TECHNOLOGY"]
+    userObj = User(userId, [])
+    userObj.tags = ["CHEMISTRY", "CHILDREN", "PARTICLES", "CREATIVE", "PAINTING","LIFE", "LANGUAGESTUDY", "SOCIETY", "TECHNOLOGY"]
 
     tags = userObj.tags
 
     resourceList = []
+    
+    i=0
+    for tag in tags:
+        for obj in calculateRecommendations(tag, 3, 5):
+            resourceList.insert(i, Resource(i, obj.tags))
+            i+=1
+
+    print(i)
+
+    resourceListP = resourceList[(int(pageNum)*10):(int(pageNum)*10)+10]
+
+    return(' { "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
+
+# GET USER RECOMMENDATIONS
+def getUserRecsFromUser(userId, pageNum):
+
+    userObj = User(userId, [])
+    userObj.tags = ["PHYSICAL", "NUTRITION", "PARTICLES", "DIGITALMEDIA", "ANIMALS","LIFE", "LANGUAGESTUDY", "PHOTOGRAPHY", "PAINTING"]
+
+    tags = userObj.tags
+
+    userList = []
 
     i=0
     for tag in tags:
-        resource = Resource(0, calculateTags(tag, 3))
-        
-        resourceList.insert(i, resource)
-        i+=1
-    
-    return(' { "resources":' + json.dumps([Resource.__dict__ for Resource in resourceList]) + ' }')
+        for obj in calculateRecommendations(tag, 3, 5):
+            userList.insert(i, User(i, obj.tags))
+            i+=1
+
+    userListP = userList[(int(pageNum)*10):(int(pageNum)*10)+10]
+    return(' { "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
+
+
+
+##############################################################################################
+##############################################################################################
 
 # GENERATE BOOL MATRIX:
 # generates a csv file with bool values corresponding to each category tag
@@ -112,4 +156,4 @@ def calculateTags(param, resultNo):
 
     return retObj
 
-#print(getGroupRecsFromUser(User("test", int('699'), []), 0))
+print(getUserRecsFromUser(669, 0))

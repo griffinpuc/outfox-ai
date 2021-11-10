@@ -45,7 +45,8 @@ def getExploreRecords():
 def getRecUsers():
     userid = request.args['userid']
     pg = request.args['page']
-    return jsonify(uData)#PUT MY DATA HERE
+    
+    return corematrix.getUserRecsFromUser(int(userid), pg)
 
 
 @app.route('/getRecGroups')
@@ -53,20 +54,20 @@ def getRecGroups():
     userid = request.args['userid']
     pg = request.args['page']
 
-    return corematrix.getGroupRecsFromUser(corematrix.User("test", int(userid), []), pg)
-
-@app.route('/newResource')
-def postNewResource():
-    resource = request.args['resource']
-
-    print(resource)
+    return corematrix.getGroupRecsFromUser(int(userid), pg)
 
 @app.route('/getRecResources')
 def getRecResources():
     userid = request.args['userid']
     pg = request.args['page']
 
-    return corematrix.getResourceRecsFromUser(corematrix.User("test", int(userid), []))
+    return corematrix.getResourceRecsFromUser(int(userid), pg)
+
+@app.route('/newResource')
+def postNewResource():
+    resource = request.args['resource']
+
+    print(resource)
 
 
 @app.route('/getUserPgs')
