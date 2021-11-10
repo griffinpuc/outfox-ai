@@ -54,7 +54,7 @@ def getGroupRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            groupList.insert(i, Group(obj.group, obj.tags))
+            groupList.insert(i, Group(obj.group+3655, obj.tags))
             i+=1
 
     groupListP = groupList[(int(pageNum)*10):(int(pageNum)*10)+10]
@@ -156,4 +156,4 @@ def calculateTags(param, resultNo):
 
     return retObj
 
-#print(getResourceRecsFromUser(669, 0))
+print(getGroupRecsFromUser(669, 0))
