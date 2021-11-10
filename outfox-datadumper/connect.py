@@ -135,8 +135,8 @@ def poop():
         
         for i in range(0, 100):
 
-            sql = ('INSERT INTO resources (type, title, description, mutable) VALUES (\'{type}\', \'{title}\', \'{description}\', \'{mutable}\') RETURNING id')
-            cur.execute(sql.format(type="Link", title="Test", description="Test test", mutable=False))
+            sql = ('INSERT INTO resources (type, title, description, mutable, creatorid) VALUES (\'{type}\', \'{title}\', \'{description}\', \'{mutable}\', \'{cid}\') RETURNING id')
+            cur.execute(sql.format(type="Link", title="Test", description="Test test", mutable=False, cid=669))
 
             print('DOOOOOOOOOOOOOOONE')
 

@@ -38,4 +38,10 @@ def scrapeTxt(filePath):
     
     return tags
 
-print(scrapeTxt("F:\Repositories\outfox-ai\\test.txt"))
+def scraptTxt2(filePath):
+    file1 = open(filePath, 'r', encoding="utf-8")
+    txt = file1.read()
+
+    return(nlp(txt).ents)
+
+print(scraptTxt2("F:\Repositories\outfox-ai\TreeFrogsAssignment.txt"))
