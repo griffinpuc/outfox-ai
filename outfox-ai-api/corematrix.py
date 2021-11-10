@@ -24,7 +24,10 @@ csvLink1 = ROOT_DIR+"\\csv\\raw_data.csv"
 csvLink2 = ROOT_DIR+"\\csv\\group_tags_bool.csv"
 csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
 
-
+# Should be 0 at default, but here for testing porposes ;)
+grpModifier = 3655
+resModifier = 332
+usrModifier = 731
 
 ##############################################################################################
 ##############################################################################################
@@ -54,7 +57,7 @@ def getGroupRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            groupList.insert(i, Group(obj.group+3655, obj.tags))
+            groupList.insert(i, Group(obj.group+grpModifier, obj.tags))
             i+=1
 
     groupListP = groupList[(int(pageNum)*10):(int(pageNum)*10)+10]
@@ -73,7 +76,7 @@ def getResourceRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            resourceList.insert(i, Resource(i+332, obj.tags))
+            resourceList.insert(i, Resource(i+resModifier, obj.tags))
             i+=1
 
     print(i)
@@ -95,7 +98,7 @@ def getUserRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            userList.insert(i, User(i+731, obj.tags))
+            userList.insert(i, User(i+usrModifier, obj.tags))
             i+=1
 
     userListP = userList[(int(pageNum)*10):(int(pageNum)*10)+10]

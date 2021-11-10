@@ -43,18 +43,23 @@ def connect():
             conn.close()
 
 #
-#INJECT USERS FUNCTION
-#CREATES USERS IN DATABASE
-def injectUsers(entryTotal, groupsTotal):
+def getResourcePath(resourceId):
     conn = None
+    resourcePath = ""
+
     try:
         params = config()
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
 
         
-        sql = ('INSERT INTO users (username, firstname, lastname, email, hashpw) VALUES (\'{username}\') RETURNING id')
-        cur.execute(sql.format(username=1))
+        sql = ('SELECT * from resources where id={resourceId}')
+        cur.execute(sql.format(resourceId=resourceId))
+
+        row = cur.fetchone()
+        
+        resourceUrl = row[4]
+        resourcePath = row[5]
 
         conn.commit()
         cur.close()
@@ -62,5 +67,7 @@ def injectUsers(entryTotal, groupsTotal):
         print(error)
     finally:
         if conn is not None:
-            print('Completed data injection. Created entries.')
+            print('Recieved resource upload')
             conn.close()
+
+            return resourcePath

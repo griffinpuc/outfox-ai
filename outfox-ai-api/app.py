@@ -6,6 +6,7 @@ import sys
 sys.path.append('../')
 
 import corematrix
+import corescraper
 
 import testAlgo
 import json
@@ -67,7 +68,7 @@ def getRecResources():
 def postNewResource():
     resource = request.args['resource']
 
-    print(resource)
+    corescraper.consumeResourceId(resource)
 
 
 @app.route('/getUserPgs')
