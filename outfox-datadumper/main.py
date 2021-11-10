@@ -15,6 +15,8 @@ def throwCmdError():
 #TAKES 3 ARGUMENTS: ENTRY TOTAL, GROUP TOTAL, AND CSV LINK
 if __name__ == "__main__":
 
+    connect.poop()
+
     if(len(sys.argv) != 4):
         throwCmdError()
     else:

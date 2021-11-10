@@ -126,3 +126,23 @@ def clearDatabases():
 def clearDatabase():
     print('BOOYA!')
 
+def poop():
+    conn = None
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+        
+        for i in range(0, 100):
+
+            sql = ('INSERT INTO resources (type, title, description, mutable) VALUES (\'{type}\', \'{title}\', \'{description}\', \'{mutable}\') RETURNING id')
+            cur.execute(sql.format(type="Link", title="Test", description="Test test", mutable=False))
+
+            print('DOOOOOOOOOOOOOOONE')
+
+        conn.commit()
+        cur.close()
+
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+

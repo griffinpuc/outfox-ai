@@ -73,7 +73,7 @@ def getResourceRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            resourceList.insert(i, Resource(i, obj.tags))
+            resourceList.insert(i, Resource(i+131, obj.tags))
             i+=1
 
     print(i)
@@ -95,7 +95,7 @@ def getUserRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            userList.insert(i, User(i, obj.tags))
+            userList.insert(i, User(i+716, obj.tags))
             i+=1
 
     userListP = userList[(int(pageNum)*10):(int(pageNum)*10)+10]
