@@ -64,7 +64,7 @@ def getRecResources():
 
     return corematrix.getResourceRecsFromUser(int(userid), pg)
 
-@app.route('/newResource', methods=['POST'])
+@app.route('/newResource', methods=['POST'])#test
 def postNewResource():
     resource = request.args['resource']
 
