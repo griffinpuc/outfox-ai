@@ -99,7 +99,7 @@ def getUserRecsFromUser(userId, pageNum):
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
             if(i==0):
-                userList.insert(i, User(719, obj.tags))
+                userList.insert(i, User(922, obj.tags))
             else:
                 userList.insert(i, User(i+usrModifier, obj.tags))
             i+=1
