@@ -68,6 +68,7 @@ def getRecResources():
 def postNewResource():
     resource = request.args['resource']
 
+    print('test')
     corescraper.consumeResourceId(resource)
 
 

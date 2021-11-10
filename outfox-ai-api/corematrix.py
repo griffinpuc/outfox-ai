@@ -159,4 +159,4 @@ def calculateTags(param, resultNo):
 
     return retObj
 
-print(getGroupRecsFromUser(669, 0))
+#print(getGroupRecsFromUser(669, 0))
