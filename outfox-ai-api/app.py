@@ -71,6 +71,8 @@ def getNewResource():
     print('test')
     corescraper.consumeResourceId(resource)
 
+    return jsonify({"test": "userData", "userid":str(resource)})
+
 
 @app.route('/getUserPgs')
 def getUserPgs():
