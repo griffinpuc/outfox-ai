@@ -4,6 +4,7 @@ import datetime
 import string
 import random
 import csvdata
+from faker import Faker
 
 from config import config
 
@@ -56,10 +57,13 @@ def injectUsers(entryTotal, groupsTotal):
         hashhPw = "$2b$10$z.NZ2Gdjkpqh.fcvHIoWGua3PHxZGg5oBdMmCztWXh1ALUpZ3PgPm" #Mark hamills! hamham123
         
         for i in range(0, entryTotal):
+            fake = Faker()
             userNO = id_generator(10)
+            fName = fake.name().split(' ')[0]
+            lName = fake.name().split(' ')[1]
 
             sql = ('INSERT INTO users (username, firstname, lastname, email, hashpw) VALUES (\'{username}\', \'{firstname}\', \'{lastname}\', \'{email}\', \'{hashpw}\') RETURNING id')
-            cur.execute(sql.format(username=userNO, firstname='USER', lastname=userNO, email=userNO+'@gmail.com', hashpw=hashhPw))
+            cur.execute(sql.format(username=userNO, firstname=fName, lastname=lName, email=userNO+'@gmail.com', hashpw=hashhPw))
             injectUserGroups(groupsTotal, cur.fetchone()[0], cur)
 
             #print(i)
@@ -107,7 +111,7 @@ def clearDatabases():
 
         sql = ('DELETE FROM friends')
         cur.execute(sql)
-        sql = ('DELETE FROM users WHERE ID != 669')
+        sql = ('DELETE FROM users WHERE ID != 669 & ID!=')
         cur.execute(sql)
         sql = ('DELETE FROM groups')
         cur.execute(sql)
@@ -139,6 +143,26 @@ def poop():
             cur.execute(sql.format(type="Link", title="Test", description="Test test", mutable=False, cid=718))
 
             print('DOOOOOOOOOOOOOOONE')
+
+        conn.commit()
+        cur.close()
+
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def poop2():
+    conn = None
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+        
+        fake = Faker()
+        sql = ('UPDATE users where where firstname=\'Ad\' SET firstname='+fake.name().split(' ')[0]+' SET lastname='+fake.name().split(' ')[1])
+        cur.execute(sql)
+
+        print('DOOOOOOOOOOOOOOONE')
 
         conn.commit()
         cur.close()
