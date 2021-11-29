@@ -1,0 +1,105 @@
+Goods and Services Tax (GST) is an indirect tax (or consumption tax) used in India on the supply of goods and services. It is a comprehensive, multistage, destination-based tax: comprehensive because it has subsumed almost all the indirect taxes except a few state taxes. Multi-staged as it is, the GST is imposed at every step in the production process, but is meant to be refunded to all parties in the various stages of production other than the final consumer and as a destination-based tax, it is collected from point of consumption and not point of origin like previous taxes.
+Goods and services are divided  into five different  tax slabs for collection of tax: 0%, 5%, 12%, 18% and 28%. However, petroleum products, alcoholic drinks, and electricity are not taxed under GST and instead are taxed separately by the individual state governments, as per the previous tax system. There is a special rate of 0.25% on rough precious and semi-precious stones and 3% on gold.  In addition a cess of 22% or other rates on top of 28% GST applies on few items like aerated drinks, luxury cars and tobacco products. Pre-GST, the statutory tax rate for most goods was about 26.5%, Post-GST, most goods are expected to be in the 18% tax range.
+The tax came into effect from 1 July 2017 through the implementation of the One Hundred and First Amendment of the Constitution of India by the Indian government. The GST replaced existing multiple taxes levied by the central and state governments.
+The tax rates, rules and regulations are governed by the GST Council which consists of the finance ministers of the central government and all the states. The GST is meant to replace a slew of indirect taxes with a federated tax and is therefore expected to reshape the country's $2.4 trillion economy, but its implementation has received criticism. Positive outcomes of the GST includes the travel time in interstate movement, which dropped by 20%, because of disbanding of interstate check posts.
+
+
+== History ==
+
+
+=== Formation ===
+The reform of India's indirect tax regime was started in 1986 by Vishwanath Pratap Singh, Finance Minister in Rajiv Gandhi’s government, with the introduction of the Modified Value Added Tax (MODVAT). Subsequently, Prime  Minister P V Narasimha Rao and his Finance Minister Manmohan Singh, initiated early discussions on a Value Added Tax (VAT) at the state level. A single common "Goods and Services Tax (GST)" was proposed and given a go-ahead in 1999 during a meeting between the  Prime Minister Atal Bihari Vajpayee and his economic advisory panel, which included three former RBI governors IG Patel, Bimal Jalan and C Rangarajan. Vajpayee set up a committee headed by the Finance Minister of West Bengal, Asim Dasgupta to design a GST model.The Asim Dasgupta committee which was also tasked with putting in place the back-end technology and logistics (later came to be known as the GST Network, or GSTN, in 2015). It later came out for rolling out a uniform taxation regime in the country. In 2002, the Vajpayee government formed a task force under Vijay Kelkar to recommend tax reforms. In 2005, the Kelkar committee recommended rolling out GST as suggested by the 12th Finance Commission.After the defeat of the BJP-led NDA government in the 2004 Lok Sabha election and the election of a Congress-led UPA government, the new Finance Minister P Chidambaram in February 2006 continued work on the same and proposed a GST rollout by 1 April 2010. However, in 2011, with the Trinamool Congress routing CPI(M) out of power in West Bengal, Asim Dasgupta resigned as the head of the GST committee. Dasgupta admitted in an interview that 80% of the task had been done.The UPA introduced the 115th Constitution Amendment Bill on 22 March 2011 in the Lok Sabha to bring about the GST. It ran into opposition from the Bharatiya Janata Party and other parties and was referred to a Standing Committee headed by the BJP's former Finance Minister Yashwant Sinha. The committee submitted its report in August 2013, but in October 2013 Gujarat Chief Minister Narendra Modi raised objections that led to the bill's indefinite postponement. The Minister for Rural Development Jairam Ramesh attributed the GST Bill's failure to the "single handed opposition of Narendra Modi".In the 2014 Lok Sabha election, the Bharatiya Janata Party (BJP)-led NDA government was elected into power. With the consequential dissolution of the 15th Lok Sabha, the GST Bill – approved by the standing committee for reintroduction – lapsed. Seven months after the formation of the then Modi government, the new Finance Minister Arun Jaitley introduced the GST Bill in the Lok Sabha, where the BJP had a majority. In February 2015, Jaitley set another deadline of 1 April 2017 to implement GST. In May 2016, the Lok Sabha passed the Constitution Amendment Bill, paving way for GST. However, the Opposition, led by the Congress, demanded that the GST Bill be again sent back for review to the Select Committee of the Rajya Sabha due to disagreements on several statements in the Bill relating to taxation. Finally, in August 2016, the Amendment Bill was passed. Over the next 15 to 20 days, 18 states ratified the Constitution amendment Bill and the President Pranab Mukherjee gave his assent to it.A 21-member selected committee was formed to look into the proposed GST laws. After GST Council approved the Central Goods and Services Tax Bill 2017 (The CGST Bill), the Integrated Goods and Services Tax Bill 2017 (The IGST Bill), the Union Territory Goods and Services Tax Bill 2017 (The UTGST Bill), the Goods and Services Tax (Compensation to the States) Bill 2017 (The Compensation Bill), these Bills were passed by the Lok Sabha on 29 March 2017. The Rajya Sabha passed these Bills on 6 April 2017 and were then enacted as Acts on 12 April 2017. Thereafter, State Legislatures of different States have passed respective State Goods and Services Tax Bills. After the enactment of various GST laws, Goods and Services Tax was launched all over India with effect from 1 July 2017. The Jammu and Kashmir state legislature passed its GST act on 7 July 2017, thereby ensuring that the entire nation is brought under a unified indirect taxation system. There was to be no GST on the sale and purchase of securities. That continues to be governed by Securities Transaction Tax (STT).
+
+
+=== Implementation ===
+The GST was launched at midnight on  1 July 2017 by the President of India, and the Government of India. The launch was marked by a historic midnight (30 June – 1 July) session of both the houses of parliament convened at the Central Hall of the Parliament. Though the session was attended by high-profile guests from the business and the entertainment industry including Ratan Tata, it was boycotted by the opposition due to the predicted problems that it was bound to lead for the middle and lower class Indians. The tax was strongly opposed by the opposing Indian National Congress. It is one of the few midnight sessions that have been held by the parliament - the others being the declaration of India's independence on 15 August 1947, and the silver and golden jubilees of that occasion. After its launch, the GST rates have been modified multiple times, the latest being on 22 December 2018, where a panel of federal and state finance ministers decided to revise GST rates on 28 goods and 53 services.Members of the Congress boycotted the GST launch altogether. They were joined by members of the Trinamool Congress, Communist Parties of India and the DMK. The parties reported that they found virtually no difference between the GST and the existing taxation system, claiming that the government was trying to merely rebrand the current taxation system. They also argued that the GST would increase existing rates on common daily goods while reducing rates on luxury items, and affect many Indians adversely, especially the middle, lower middle and poorer income groups.
+
+
+== Tax ==
+
+
+=== Taxes subsumed ===
+The single GST subsumed several taxes and levies, which included central excise duty, services tax, additional customs duty, surcharges, state-level value added tax and Octroi. Other levies which were applicable on inter-state transportation of goods have also been done away with in GST regime. GST is levied on all transactions such as sale, transfer, purchase, barter, lease, or import of goods and/or services.
+India adopted a dual GST model, meaning that taxation is administered by both the Union and state governments. Transactions made within a single state are levied with Central GST (CGST) by the Central Government and State GST (SGST) by the State governments. For inter-state transactions and imported goods or services, an Integrated GST (IGST) is levied by the Central Government. GST is a consumption-based tax/destination-based tax, therefore, taxes are paid to the state where the goods or services are consumed not the state in which they were produced. IGST complicates tax collection for State Governments by disabling them from collecting the tax owed to them directly from the Central Government. Under the previous system, a state would only have to deal with a single government in order to collect tax revenue.
+
+
+=== HSN code ===
+India is a member of World Customs Organization (WCO) since 1971. It was originally using 6-digit HSN codes to classify commodities for Customs and Central Excise. Later Customs and Central Excise added two more digits to make the codes more precise, resulting in an 8 digit classification. The purpose of HSN codes is to make GST systematic and globally accepted.
+HSN codes will remove the need to upload the detailed description of the goods. This will save time and make filing easier since GST returns are automated.
+If a company has turnover up to ₹15 million (US$200,000) in the preceding financial year then they did not mention the HSN code while supplying goods on invoices. If a company has turnover more than ₹15 million (US$200,000) but up to ₹50 million (US$660,000), then they need to mention the first two digits of HSN code while supplying goods on invoices. If turnover crosses ₹50 million (US$660,000) then they shall mention the first 4 digits of HSN code on invoices.
+
+
+=== Rate ===
+The GST is imposed at variable rates on variable items. The rate of GST is 18% for soaps and 28% on washing detergents. GST on movie tickets is based on slabs, with 18% GST for tickets that cost less than ₹100 and 28% GST on tickets costing more than ₹100 and 28% on commercial vehicle and private and 5% on readymade clothes. The rate on under-construction property booking is 12%. Some industries and products were exempted by the government and remain untaxed under GST, such as dairy products, products of milling industries, fresh vegetables & fruits, meat products, and other groceries and necessities.Checkposts across the country were abolished ensuring free and fast movement of goods. Such efficient transportation of goods was further ensured by subsuming octroi within the ambit of GST.
+The Central Government had proposed to insulate the revenues of the States from the impact of GST, with the expectation that in due course, GST will be levied on petroleum and petroleum products. The central government had assured states of compensation for any revenue loss incurred by them from the date of GST for a period of five years. However, no concrete laws have yet been made to support such action. GST council adopted concept paper discouraging tinkering with rates.
+
+
+=== e-Way Bill ===
+An e-Way Bill is an electronic permit for shipping goods similar to a waybill. It was made compulsory for inter-state transport of goods from 1 June 2018. It is required to be generated for every inter-state movement of goods beyond 10 kilometres (6.2 mi) and the threshold limit of ₹50,000 (US$660).It is a paperless, technology solution and critical anti-evasion tool to check tax leakages and clamping down on trade that currently happens on a cash basis. The pilot started on 1 February 2018 but was withdrawn after glitches in the GST Network. The states are divided into four zones for rolling out in phases by end of April 2018.
+A unique e-Way Bill Number (EBN) is generated either by the supplier, recipient or the transporter. The EBN can be a printout, SMS or written on invoice is valid. The GST/Tax Officers tally the e-Way Bill listed goods with goods carried with it. The mechanism is aimed at plugging loopholes like overloading, understating etc. Each e-way bill has to be matched with a GST invoice.
+Transporter ID and PIN Code now compulsory from 01-Oct-2018.
+It is a critical compliance-related GSTN project under the GST, with a capacity to process 75 lakh e-way bills per day.
+Intra-State e-Way Bill
+The five states piloting this project are Andhra Pradesh, Gujarat, Kerala, Telangana and Uttar Pradesh, which account for 61.8% of the inter-state e-way bills, started mandatory intrastate e-way bill from 15 April 2018 to further reduce tax evasion. It was successfully introduced in Karnataka from 1 April 2018. The intrastate e-way bill will pave the way for a seamless, nationwide single e-way bill system. Six more states Jharkhand, Bihar, Tripura, Madhya Pradesh, Uttarakhand and Haryana will roll it out from 20 April 18. All states are mandated to introduce it by 30 May 2018.
+
+
+=== Reverse Charge Mechanism ===
+Reverse Charge Mechanism (RCM) is a system in GST where the receiver pays the tax on behalf of unregistered, smaller material and service suppliers. The receiver of the goods is eligible for Input Tax Credit, while the unregistered dealer is not.
+The central Government released Rs 35,298 crore to the state under GST compensation. For the implementation, this amount was given to the state to compensate the revenue. Central government has to face many criticisms for delay in compensation.
+
+
+=== Goods kept outside the GST ===
+Alcohol for human consumption (i.e., not for commercial use).
+Petrol and petroleum products (GST will apply at a later date), i.e., petroleum crude, high-speed diesel, motor spirit (petrol), natural gas, aviation turbine fuel.
+
+
+== Revenue Distribution ==
+Revenue earned from GST (intra state transaction - seller and buyer both are located in same state) is shared equally on 50-50 basis between central and respective state governments. Example: if state of Goa has collected a total GST revenue (intra state transaction - seller and buyer both are located in same state) of 100 crores in month of January then share of central government (CGST) will be 50 crores and remaining 50 crores will be share of Goa state government (SGST) for month of January.For distribution of IGST (inter state transaction - seller and buyer both are located in different states) collection, revenue is collected by central government and shared with state where good is imported. Example: 'A' is a seller located in state of Goa selling a product to 'B' a buyer of that product located in state of Punjab, then IGST collected from this transaction will be shared equally on 50-50 basis between central and Punjab state governments only.
+
+
+== GST Council ==
+GST Council is the governing body of GST having 33 members, out of which 2 members are of centre and 31 members are from 28 state and 3 Union territories with legislation. The council contains the following members (a) Union Finance Minister (as chairperson) (b) Union Minister of States in charge of revenue or finance (as member) (c) the ministers of states in charge of finance or taxation or other ministers as nominated by each states government (as member). GST Council is an apex member committee to modify, reconcile or to procure any law or regulation based on the context of goods and services tax in India. The council is headed by the union finance minister Nirmala Sitharaman assisted with the finance minister of all the states of India. The GST council is responsible for any revision or enactment of rule or any rate changes of the goods and services in India.
+
+
+== Goods and Services Tax Network (GSTN) ==
+The GSTN software is developed by Infosys Technologies and the Information Technology network that provides the computing resources is maintained by the NIC. "Goods and Services Tax Network" (GSTN) is a nonprofit organisation formed for creating a sophisticated network, accessible to stakeholders, government and taxpayers to access information from a single source (portal). The portal is accessible to the Tax authorities for tracking down every transaction, while taxpayers have the ability to connect for their tax returns.
+The GSTN's authorised capital is ₹10 crore (US$1.3 million) in which initially the Central Government held 24.5 percent of shares while the state government held 24.5 percent. The remaining 51 percent were held by non-Government financial institutions, HDFC and HDFC Bank hold 20%, ICICI Bank holds 10%, NSE Strategic Investment holds 10% and LIC Housing Finance holds 11% .However, later it was made a wholly owned government company having equal shares of state and central government.
+
+
+== Statistics ==
+Goods and Services Tax (India) Revenue Statistics
+
+
+=== Revenue Collections ===
+Statistical Details of GST Revenue Collected
+
+
+=== Returns ===
+Statistical Details of GST Returns filed
+Around 38 lakh new taxpayers have registered under GST regime and the total count has crossed one crore if we include the 64 lakh earlier ones. Total number of taxpayers were above 1.14 crore in October 2018.
+
+
+== Criticism ==
+Technicalities of GST implementation in India have been criticized by global financial institutions/industries, sections of Indian media and opposition political parties in India. World Bank's 2018 version of India Development Update described India's version of GST as too complex, noticing various flaws compared to GST systems prevalent in other countries; most significantly, the second-highest tax rate among a sample of 115 countries at 28%.GST's implementation in India has been further criticized by Indian businessmen for problems including tax refund delays and too much documentation and administrative effort needed. According to a partner at PwC India, when the first GST returns were filed in August 2017, the system crashed under the weight of filings.The opposition Indian National Congress has consistently been among the most vocal opponents of GST implementation in India with party President, and leader of the opposition, Rahul Gandhi, slamming BJP for allegedly "destroying small businessmen and industries" in the country. He went on to pejoratively dub GST as "Gabbar Singh Tax" after an ill-famed, fictional dacoit in Bollywood. Claiming the implementation of GST as a "way of removing money from the pockets of the poor", Rahul has called it as a "big failure" while declaring that if the Congress party is elected to power, it will implement a single slab GST instead of different slabs. In the run-up to the elections in various states of India, Rahul has intensified his "Gabbar Singh" criticisms on Modi's administration.
+
+
+== See also ==
+The Great Hedge of India, a historic colonial-era inland customs border
+Goods and Services Tax (Australia)
+Goods and Services Tax (Canada)
+Goods and Services Tax (Hong Kong)
+Goods and Services Tax (Malaysia)
+Goods and Services Tax (Singapore)
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Official website
+e-Way Bill System at ewaybill.nic.in. National Informatics Centre.
+CBIC GST Law
+GST Council

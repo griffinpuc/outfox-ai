@@ -1,0 +1,44 @@
+In molecular biology, the five-prime cap (5′ cap) is a specially altered nucleotide on the 5′ end of some primary transcripts such as precursor messenger RNA. This process, known as mRNA capping, is highly regulated and vital in the creation of stable and mature messenger RNA able to undergo translation during protein synthesis. Mitochondrial mRNA and chloroplastic mRNA are not capped.
+
+
+== Structure ==
+
+In eukaryotes, the 5′ cap (cap-0), found on the 5′ end of an mRNA molecule, consists of a guanine nucleotide connected to mRNA via an unusual 5′ to 5′ triphosphate linkage.  This guanosine is methylated on the 7 position directly after capping in vivo by a methyltransferase. It is referred to as a 7-methylguanylate cap, abbreviated m7G.
+In multicellular eukaryotes and some viruses, further modifications exist, including the methylation of the 2′ hydroxy-groups of the first 2 ribose sugars of the 5′ end of the mRNA. cap-1 has a methylated 2′-hydroxy group on the first ribose sugar, while cap-2 has methylated 2′-hydroxy groups on the first two ribose sugars, shown on the right. The 5′ cap is chemically similar to the 3′ end of an RNA molecule (the 5′ carbon of the cap ribose is bonded, and the 3′ unbonded). This provides significant resistance to 5′ exonucleases.Small nuclear RNAs contain unique 5′-caps. Sm-class snRNAs are found with 5′-trimethylguanosine caps, while Lsm-class snRNAs are found with 5′-monomethylphosphate caps.In bacteria, and potentially also in higher organisms, some RNAs are capped with NAD+, NADH, or 3′-dephospho-coenzyme A.In all organisms, mRNA molecules can be decapped in a process known as messenger RNA decapping.
+
+
+== Capping process ==
+The starting point for capping with 7-methylguanylate is the unaltered 5′ end of an RNA molecule, which terminates at a triphosphate group. This features a final nucleotide followed by three phosphate groups attached to the 5′ carbon. The capping process is initiated before the completion of transcription, as the nascent pre-mRNA is being synthesized.
+
+One of the terminal phosphate groups is removed by RNA triphosphatase, leaving a bisphosphate group (i.e. 5′(ppN)[pN]n);
+GTP is added to the terminal bisphosphate by mRNA guanylyltransferase, losing a pyrophosphate from the GTP substrate in the process. This results in the 5′–5′ triphosphate linkage, producing 5′(Gp)(ppN)[pN]n;
+The 7-nitrogen of guanine is methylated by mRNA (guanine-N7-)-methyltransferase, with S-adenosyl-L-methionine being demethylated to produce S-adenosyl-L-homocysteine, resulting in 5′(m7Gp)(ppN)[pN]n (cap-0);
+Cap-adjacent modifications can occur, normally to the first and second nucleotides, producing up to 5′(m7Gp)(ppN*)(pN*)[pN]n (cap-1 and cap-2);
+If the nearest cap-adjacent nucleotide is 2′-O-ribose methyl-adenosine (i.e. 5′(m7Gp)(ppAm)[pN]n), it can be further methylated at the N6 methyl position to form N6-methyladenosine, resulting in 5′(m7Gp)(ppm6Am)[pN]n.The mechanism of capping with NAD+, NADH, or 3′-dephospho-coenzyme A is different. Capping with NAD+, NADH, or 3′-dephospho-coenzyme A is accomplished through an "ab initio capping mechanism," in which NAD+, NADH, or 3′-desphospho-coenzyme A serves as a "non-canonical initiating nucleotide" (NCIN) for transcription initiation by RNA polymerase and thereby directly is incorporated into the RNA product. Both bacterial RNA polymerase and eukaryotic RNA polymerase II are able to carry out this "ab initio capping mechanism".
+
+
+== Targeting ==
+For capping with 7-methylguanylate, the capping enzyme complex (CEC) binds to RNA polymerase II before transcription starts. As soon as the 5′ end of the new transcript emerges from RNA polymerase II, the CEC carries out the capping process (this kind of mechanism ensures capping, as with polyadenylation). The enzymes for capping can only bind to RNA polymerase II, ensuring specificity to only these transcripts, which are almost entirely mRNA.Capping with NAD+, NADH, or 3′-dephospho-coenzyme A is targeted by promoter sequence. Capping with NAD+, NADH, or 3′-dephospho-coenzyme A occurs only at promoters that have certain sequences at and immediately upstream of the transcription start site and therefore occurs only for RNAs synthesized from certain promoters.
+
+
+== Function ==
+The 5′ cap has four main functions:
+
+Regulation of nuclear export;
+Prevention of degradation by exonucleases;
+Promotion of translation (see ribosome and translation);
+Promotion of 5′ proximal intron excision.Nuclear export of RNA is regulated by the cap binding complex (CBC), which binds exclusively to 7-methylguanylate-capped RNA. The CBC is then recognized by the nuclear pore complex and exported.  Once in the cytoplasm after the pioneer round of translation, the CBC is replaced by the translation factors eIF4E and eIF4G of the eIF4F complex. This complex is then recognized by other translation initiation machinery including the ribosome.Capping with 7-methylguanylate prevents 5′ degradation in two ways.  First, degradation of the mRNA by 5′ exonucleases is prevented (as mentioned above) by functionally looking like a 3′ end.  Second, the CBC and eIF4E/eIF4G block the access of decapping enzymes to the cap.  This increases the half-life of the mRNA, essential in eukaryotes as the export and translation processes take significant time.
+Decapping of a 7-methylguanylate-capped mRNA is catalyzed by the decapping complex made up of at least Dcp1 and Dcp2, which must compete with eIF4E to bind the cap.  Thus the 7-methylguanylate cap is a marker of an actively translating mRNA and is used by cells to regulate mRNA half-lives in response to new stimuli.  Undesirable mRNAs are sent to P-bodies for temporary storage or decapping, the details of which are still being resolved.The mechanism of 5′ proximal intron excision promotion is not well understood, but the 7-methylguanylate cap appears to loop around and interact with the spliceosome in the splicing process, promoting intron excision.
+
+
+== See also ==
+Messenger RNA decapping
+Eukaryotic initiation factor 4F (eIF4F)
+Cap analysis gene expression
+
+
+== References ==
+
+
+== External links ==
+"RNA Caps". PubMed Medical Subject Heading (MeSH). National Institutes of Health.

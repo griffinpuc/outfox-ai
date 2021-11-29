@@ -1,0 +1,39 @@
+Family (Latin: familia, plural familiae) is one of the eight major hierarchical taxonomic ranks in Linnaean taxonomy; it is classified between order and genus. A family may be divided into subfamilies, which are intermediate ranks between the ranks of family and genus. The official family names are Latin in origin; however, popular names are often used: for example, walnut trees and hickory trees belong to the family Juglandaceae, but that family is commonly referred to as being the "walnut family".
+What belongs to a family—or if a described family should be recognized at all—are proposed and determined by practicing taxonomists. There are no hard rules for describing or recognizing a family, but in plants, they can be characterized on the basis of both vegetative and reproductive feature of plant species. Taxonomists often take different positions about descriptions, and there may be no broad consensus across the scientific community for some time. The publishing of new data and opinions often enables adjustments and consensus.
+
+
+== Nomenclature ==
+The naming of families is codified by various international bodies using the following suffixes:
+
+In fungal, algal, and botanical nomenclature, the family names of plants, fungi, and algae end with the suffix "-aceae", with the exception of a small number of historic but widely used names including Compositae and Gramineae.
+In zoological nomenclature, the family names of animals end with the suffix "-idae".
+
+
+== History ==
+The taxonomic term familia was first used by French botanist Pierre Magnol in his Prodromus historiae generalis plantarum, in quo familiae plantarum per tabulas disponuntur (1689) where he called the seventy-six groups of plants he recognised in his tables families (familiae). The concept of rank at that time was not yet settled, and in the preface to the Prodromus Magnol spoke of uniting his families into larger genera, which is far from how the term is used today.
+Carl Linnaeus used the word familia in his Philosophia botanica (1751) to denote major groups of plants: trees, herbs, ferns, palms, and so on. He used this term only in the morphological section of the book, discussing the vegetative and generative organs of plants.
+Subsequently, in French botanical publications, from Michel Adanson's Familles naturelles des plantes (1763) and until the end of the 19th century, the word famille was used as a French equivalent of the Latin ordo (or ordo naturalis).
+In zoology, the family as a rank intermediate between order and genus was introduced by Pierre André Latreille in his Précis des caractères génériques des insectes, disposés dans un ordre naturel (1796). He used families (some of them were not named) in some but not in all his orders of "insects" (which then included all arthropods).
+In nineteenth-century works such as the Prodromus of Augustin Pyramus de Candolle and the Genera Plantarum of George Bentham and Joseph Dalton Hooker this word ordo was used for what now is given the rank of family.
+
+
+== Uses ==
+Families can be used for evolutionary, palaeontological and genetic studies because they are more stable than lower taxonomic levels such as genera and species.
+
+
+== See also ==
+Systematics, the study of the diversity of living organisms
+Cladistics, the classification of organisms by their order of branching in an evolutionary tree
+Phylogenetics, the study of evolutionary relatedness among various groups of organisms
+Taxonomy
+Virus classification
+List of Anuran families
+List of Testudines families
+List of fish families
+List of families of spiders
+
+
+== References ==
+
+
+== Bibliography ==

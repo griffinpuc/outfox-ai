@@ -1,0 +1,40 @@
+Digital sculpting, also known as sculpt modeling or 3D sculpting, is the use of software that offers tools to push, pull, smooth, grab, pinch or otherwise manipulate a digital object as if it were made of a real-life substance such as clay.
+
+
+== Sculpting technology ==
+The geometry used in digital sculpting programs to represent the model can vary; each offers different benefits and limitations. The majority of digital sculpting tools on the market use mesh-based geometry, in which an object is represented by an interconnected surface mesh of polygons that can be pushed and pulled around. This is somewhat similar to the physical process of beating copper plates to sculpt a scene in relief. Other digital sculpting tools use voxel-based geometry, in which the volume of the object is the basic element. Material can be added and removed, much like sculpting in clay. Still other tools make use of more than one basic geometry representation.
+A benefit of mesh-based programs is that they support sculpting at multiple resolutions on a single model. Areas of the model that are finely detailed can have very small polygons while other areas can have larger polygons. In many mesh-based programs, the mesh can be edited at different levels of detail, and the changes at one level will propagate to higher and lower levels of model detail. A limitation of mesh-based sculpting is the fixed topology of the mesh; the specific arrangement of the polygons can limit the ways in which detail can be added or manipulated.
+A benefit of voxel-based sculpting is that voxels allow complete freedom over form. The topology of a model can be altered continually during the sculpting process as material is added and subtracted, which frees the sculptor from considering the layout of polygons on the model's surface. Voxels, however, are more limited in handling multiple levels of detail. Unlike mesh-based modeling, broad changes made to voxels at a low level of detail may completely destroy finer details.
+
+
+== Uses ==
+Sculpting can often introduce details to meshes that would otherwise have been difficult or impossible to create using traditional 3D modeling techniques. This makes it preferable for achieving photorealistic and hyperrealistic results, though, many stylized results are achieved as well.
+Sculpting is primarily used in high poly organic modeling (the creation of 3D models which consist mainly of curves or irregular surfaces, as opposed to hard surface modeling). It is also used by auto manufacturers in their design of new cars.It can create the source meshes for low poly game models used in video games. In conjunction with other 3D modeling and texturing techniques and Displacement and Normal mapping, it can greatly enhance the appearance of game meshes often to the point of photorealism. Some sculpting programs like 3D-Coat, Zbrush, and Mudbox offer ways to integrate their workflows with traditional 3D modeling and rendering programs. Conversely, 3D modeling applications like 3ds Max, Maya and MODO are now incorporating sculpting capability as well, though these are usually less advanced than tools found in sculpting-specific applications.
+High poly sculpts are also extensively used in CG artwork for movies, industrial design, art, photorealistic illustrations, and for prototyping in 3D printing.
+
+Virtual clothes are digital garments used for video game characters (avatars / 3D models), in animation films and commercials, and as clothing for digital doubles in films such as "The Hobbit", for dangerous scenes or when it is simply impossible to use a real-life actor. Virtual clothing is commonly also used for dressing up a player's avatar in a virtual world game as well as for making selling virtual clothes in 3D marketplaces like Second Life, Renderosity, DAZ 3D, Sansar and more. Additional uses for digital clothes is for VR and AI technologies, online shop catalogs of fashion retailers, and even for scene of crime recreation purposes.
+Virtual clothes can be created by traditional 3D sculpting typically using software programs such as ZBrush or the Marvelous Designer software program, which is a pattern-based garment creation tool for creating clothes specifically for 3D models/Avatars. Marvelous Designer garments also have the benefit of being dynamic, meaning, they can be used for animations and support cloth dynamics, so that the cloth reacts to a movement, wind blowing on it or the 3d model changing its posture - and the clothing adjusts to it to simulate and replicate a real-life look and feel. 
+Patterns for virtual clothing made in Marvelous Designer (MD) do not require calculating extra fabric margins for seam allowances, as is required for real-life patterns. Digital clothes are never manufactured in the real world. However, digital clothing requires special fabric settings ("Physical Property Settings") in order to re-create the thickness and stiffness properties real-life fabrics have, such as leather, silk, cotton, denim etc. so that the digital garment behaves in a desirable realistic way. 
+The Pattern-based garment maker programs for virtual clothes require no seamstress sewing education or experience sewing clothes from a pattern. However, the 3D artist does need to learn to use such programs as well as master the techniques for virtually sewing digital clothes and to understand the principles of pattern making and of creating the correct fabric presets for every material type. The same garment can look entirely different with a different physical property setting. Alternately, CG artists can obtain 3D clothing sewing patterns made specifically for programs such as MD.
+
+
+== Sculpting programs ==
+There are a number of digital sculpting tools available. Some popular tools for creating are:
+
+Traditional 3D modeling suites are also beginning to include sculpting capability. 3D modeling programs which currently feature some form of sculpting include the following:
+
+
+== See also ==
+2.5D
+3D modeling
+3D printing
+NURBS (non-uniform rational B-spline)
+Polygon mesh
+Polygonal modeling
+Sketch-based modeling
+Subdivision surface
+Voxel
+
+
+== References ==
+Online 3D Modeling Software

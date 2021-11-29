@@ -1,0 +1,1092 @@
+In mathematical analysis, the intermediate value theorem states that if f is a continuous  function whose domain contains the interval [a, b], then it takes on any given value between f(a) and f(b) at some point within the interval.
+This has two important corollaries:
+
+If a continuous function has values of opposite sign inside an interval, then it has a root in that interval (Bolzano's theorem).
+The image of a continuous function over an interval is itself an interval.
+
+
+== Motivation ==
+
+This captures an intuitive property of continuous functions over the real numbers: given f continuous on [1, 2] with the known values f(1) = 3 and f(2) = 5, then the graph of y = f(x) must pass through the horizontal line y = 4 while x moves from 1 to 2. It represents the idea that the graph of a continuous function on a closed interval can be drawn without lifting a pencil from the paper.
+
+
+== Theorem ==
+The intermediate value theorem states the following:
+Consider an interval 
+  
+    
+      
+        I
+        =
+        [
+        a
+        ,
+        b
+        ]
+      
+    
+    {\displaystyle I=[a,b]}
+   of real numbers 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+   and a continuous function 
+  
+    
+      
+        f
+        :
+        I
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle f\colon I\to \mathbb {R} }
+  . Then
+
+Version I. if 
+  
+    
+      
+        u
+      
+    
+    {\displaystyle u}
+   is a number between 
+  
+    
+      
+        f
+        (
+        a
+        )
+      
+    
+    {\displaystyle f(a)}
+   and 
+  
+    
+      
+        f
+        (
+        b
+        )
+      
+    
+    {\displaystyle f(b)}
+  , that is,  then there is a 
+  
+    
+      
+        c
+        ∈
+        (
+        a
+        ,
+        b
+        )
+      
+    
+    {\displaystyle c\in (a,b)}
+   such that 
+  
+    
+      
+        f
+        (
+        c
+        )
+        =
+        u
+      
+    
+    {\displaystyle f(c)=u}
+  .
+Version II. the image set 
+  
+    
+      
+        f
+        (
+        I
+        )
+      
+    
+    {\displaystyle f(I)}
+   is also an interval, and it contains 
+  
+    
+      
+        
+          
+            [
+          
+        
+        min
+        (
+        f
+        (
+        a
+        )
+        ,
+        f
+        (
+        b
+        )
+        )
+        ,
+        max
+        (
+        f
+        (
+        a
+        )
+        ,
+        f
+        (
+        b
+        )
+        )
+        
+          
+            ]
+          
+        
+      
+    
+    {\displaystyle {\bigl [}\min(f(a),f(b)),\max(f(a),f(b)){\bigr ]}}
+  ,Remark: Version II states that the set of function values has no gap. For any two function values 
+  
+    
+      
+        c
+        <
+        d
+      
+    
+    {\displaystyle c<d}
+  , even if they are outside the interval between 
+  
+    
+      
+        f
+        (
+        a
+        )
+      
+    
+    {\displaystyle f(a)}
+   and 
+  
+    
+      
+        f
+        (
+        b
+        )
+      
+    
+    {\displaystyle f(b)}
+  , all points in the interval 
+  
+    
+      
+        
+          
+            [
+          
+        
+        c
+        ,
+        d
+        
+          
+            ]
+          
+        
+      
+    
+    {\displaystyle {\bigl [}c,d{\bigr ]}}
+   are also function values,
+
+  
+    
+      
+        
+          
+            [
+          
+        
+        c
+        ,
+        d
+        
+          
+            ]
+          
+        
+        ⊆
+        f
+        (
+        I
+        )
+      
+    
+    {\displaystyle {\bigl [}c,d{\bigr ]}\subseteq f(I)}
+  .A subset of the real numbers with no internal gap is an interval. Version I is naturally contained in Version II.
+
+
+== Relation to completeness ==
+The theorem depends on, and is equivalent to, the completeness of the real numbers. The intermediate value theorem does not apply to the rational numbers Q because gaps exist between rational numbers; irrational numbers fill those gaps. For example, the function 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          x
+          
+            2
+          
+        
+        −
+        2
+      
+    
+    {\displaystyle f(x)=x^{2}-2}
+   for 
+  
+    
+      
+        x
+        ∈
+        
+          Q
+        
+      
+    
+    {\displaystyle x\in \mathbb {Q} }
+   satisfies 
+  
+    
+      
+        f
+        (
+        0
+        )
+        =
+        −
+        2
+      
+    
+    {\displaystyle f(0)=-2}
+   and 
+  
+    
+      
+        f
+        (
+        2
+        )
+        =
+        2
+      
+    
+    {\displaystyle f(2)=2}
+  . However, there is no rational number 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   such that 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        0
+      
+    
+    {\displaystyle f(x)=0}
+  , because 
+  
+    
+      
+        
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\sqrt {2}}}
+   is an irrational number.
+
+
+== Proof ==
+The theorem may be proven as a consequence of the completeness property of the real numbers as follows:We shall prove the first case, 
+  
+    
+      
+        f
+        (
+        a
+        )
+        <
+        u
+        <
+        f
+        (
+        b
+        )
+      
+    
+    {\displaystyle f(a)<u<f(b)}
+  . The second case is similar.
+Let 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   be the set of all 
+  
+    
+      
+        x
+        ∈
+        [
+        a
+        ,
+        b
+        ]
+      
+    
+    {\displaystyle x\in [a,b]}
+   such that 
+  
+    
+      
+        f
+        (
+        x
+        )
+        ≤
+        u
+      
+    
+    {\displaystyle f(x)\leq u}
+  . Then 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   is non-empty since 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   is an element of 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  . Since 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   is non-empty and bounded above by 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  , by completeness, the supremum 
+  
+    
+      
+        c
+        =
+        sup
+        S
+      
+    
+    {\displaystyle c=\sup S}
+   exists. That is, 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   is the smallest number that is greater than or equal to every member of 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  . We claim that 
+  
+    
+      
+        f
+        (
+        c
+        )
+        =
+        u
+      
+    
+    {\displaystyle f(c)=u}
+  .
+Fix some 
+  
+    
+      
+        ε
+        >
+        0
+      
+    
+    {\displaystyle \varepsilon >0}
+  . Since 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   is continuous, there is a 
+  
+    
+      
+        δ
+        >
+        0
+      
+    
+    {\displaystyle \delta >0}
+   such that 
+  
+    
+      
+        
+          |
+        
+        f
+        (
+        x
+        )
+        −
+        f
+        (
+        c
+        )
+        
+          |
+        
+        <
+        ε
+      
+    
+    {\displaystyle |f(x)-f(c)|<\varepsilon }
+   whenever 
+  
+    
+      
+        
+          |
+        
+        x
+        −
+        c
+        
+          |
+        
+        <
+        δ
+      
+    
+    {\displaystyle |x-c|<\delta }
+  . This means that
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        −
+        ε
+        <
+        f
+        (
+        c
+        )
+        <
+        f
+        (
+        x
+        )
+        +
+        ε
+      
+    
+    {\displaystyle f(x)-\varepsilon <f(c)<f(x)+\varepsilon }
+  for all 
+  
+    
+      
+        x
+        ∈
+        (
+        c
+        −
+        δ
+        ,
+        c
+        +
+        δ
+        )
+      
+    
+    {\displaystyle x\in (c-\delta ,c+\delta )}
+  . By the properties of the supremum, there exists some 
+  
+    
+      
+        
+          a
+          
+            ∗
+          
+        
+        ∈
+        (
+        c
+        −
+        δ
+        ,
+        c
+        ]
+      
+    
+    {\displaystyle a^{*}\in (c-\delta ,c]}
+   that is contained in 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  , and so
+
+  
+    
+      
+        f
+        (
+        c
+        )
+        <
+        f
+        (
+        
+          a
+          
+            ∗
+          
+        
+        )
+        +
+        ε
+        ≤
+        u
+        +
+        ε
+      
+    
+    {\displaystyle f(c)<f(a^{*})+\varepsilon \leq u+\varepsilon }
+  .Picking 
+  
+    
+      
+        
+          a
+          
+            ∗
+            ∗
+          
+        
+        ∈
+        (
+        c
+        ,
+        c
+        +
+        δ
+        )
+      
+    
+    {\displaystyle a^{**}\in (c,c+\delta )}
+  , we know that 
+  
+    
+      
+        
+          a
+          
+            ∗
+            ∗
+          
+        
+        ∉
+        S
+      
+    
+    {\displaystyle a^{**}\not \in S}
+   because 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   is the supremum of 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  . This means that
+
+  
+    
+      
+        f
+        (
+        c
+        )
+        >
+        f
+        (
+        
+          a
+          
+            ∗
+            ∗
+          
+        
+        )
+        −
+        ε
+         
+        >
+        u
+        −
+        ε
+      
+    
+    {\displaystyle f(c)>f(a^{**})-\varepsilon \ >u-\varepsilon }
+  .Both inequalities
+
+  
+    
+      
+        u
+        −
+        ε
+        <
+        f
+        (
+        c
+        )
+        <
+        u
+        +
+        ε
+      
+    
+    {\displaystyle u-\varepsilon <f(c)<u+\varepsilon }
+  are valid for all 
+  
+    
+      
+        ε
+        >
+        0
+      
+    
+    {\displaystyle \varepsilon >0}
+  , from which we deduce 
+  
+    
+      
+        f
+        (
+        c
+        )
+        =
+        u
+      
+    
+    {\displaystyle f(c)=u}
+   as the only possible value, as stated.
+Remark: The intermediate value theorem can also be proved using the methods of non-standard analysis, which places "intuitive" arguments involving infinitesimals on a rigorous footing.
+
+
+== History ==
+The theorem was first proved by Bernard Bolzano in 1817. Bolzano used the following formulation of the theorem:Let 
+  
+    
+      
+        f
+        ,
+        ϕ
+      
+    
+    {\displaystyle f,\phi }
+   be continuous functions on the interval between 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   and 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+   such that 
+  
+    
+      
+        f
+        (
+        α
+        )
+        <
+        ϕ
+        (
+        α
+        )
+      
+    
+    {\displaystyle f(\alpha )<\phi (\alpha )}
+   and 
+  
+    
+      
+        f
+        (
+        β
+        )
+        >
+        ϕ
+        (
+        β
+        )
+      
+    
+    {\displaystyle f(\beta )>\phi (\beta )}
+  . Then there is an 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   between 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   and 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+   such that 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        ϕ
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)=\phi (x)}
+  .
+The equivalence between this formulation and the modern one can be shown by setting 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   to the appropriate constant function. Augustin-Louis Cauchy provided the modern formulation and a proof in 1821. Both were inspired by the goal of formalizing the analysis of functions and the work of Joseph-Louis Lagrange. The idea that continuous functions possess the intermediate value property has an earlier origin. Simon Stevin proved the intermediate value theorem for polynomials (using a cubic as an example) by providing an algorithm for constructing the decimal expansion of the solution.  The algorithm iteratively subdivides the interval into 10 parts, producing an additional decimal digit at each step of the iteration. Before the formal definition of continuity was given, the intermediate value property was given as part of the definition of a continuous function. Proponents include Louis Arbogast, who assumed the functions to have no jumps, satisfy the intermediate value property and have increments whose sizes corresponded to the sizes of the increments of the variable.
+Earlier authors held the result to be intuitively obvious and requiring no proof.  The insight of Bolzano and Cauchy was to define a general notion of continuity (in terms of infinitesimals in Cauchy's case and using real inequalities in Bolzano's case), and to provide a proof based on such definitions.
+
+
+== Generalizations ==
+The intermediate value theorem is closely linked to the topological notion of connectedness and follows from the basic properties of connected sets in metric spaces and connected subsets of R in particular:
+
+If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   and 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+   are metric spaces, 
+  
+    
+      
+        f
+        :
+        X
+        →
+        Y
+      
+    
+    {\displaystyle f\colon X\to Y}
+   is a continuous map, and 
+  
+    
+      
+        E
+        ⊂
+        X
+      
+    
+    {\displaystyle E\subset X}
+   is a connected subset, then 
+  
+    
+      
+        f
+        (
+        E
+        )
+      
+    
+    {\displaystyle f(E)}
+   is connected. (*)
+A subset 
+  
+    
+      
+        E
+        ⊂
+        
+          R
+        
+      
+    
+    {\displaystyle E\subset \mathbb {R} }
+   is connected if and only if it satisfies the following property: 
+  
+    
+      
+        x
+        ,
+        y
+        ∈
+        E
+        ,
+         
+        x
+        <
+        r
+        <
+        y
+        
+        ⟹
+        
+        r
+        ∈
+        E
+      
+    
+    {\displaystyle x,y\in E,\ x<r<y\implies r\in E}
+  . (**)In fact, connectedness is a topological property and (*) generalizes to topological spaces: If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   and 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+   are topological spaces, 
+  
+    
+      
+        f
+        :
+        X
+        →
+        Y
+      
+    
+    {\displaystyle f\colon X\to Y}
+   is a continuous map, and 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   is a connected space, then 
+  
+    
+      
+        f
+        (
+        X
+        )
+      
+    
+    {\displaystyle f(X)}
+   is connected.  The preservation of connectedness under continuous maps can be thought of as a generalization of the intermediate value theorem, a property of real valued functions of a real variable, to continuous functions in general spaces.
+Recall the first version of the intermediate value theorem, stated previously:
+
+The intermediate value theorem is an immediate consequence of these two properties of connectedness:
+
+The intermediate value theorem generalizes in a natural way: Suppose that X is a connected topological space and (Y, <) is a totally ordered set equipped with the order topology, and let f : X → Y be a continuous map. If a and b are two points in X and u is a point in Y lying between f(a) and f(b) with respect to <, then there exists c in X such that f(c) = u.  The original theorem is recovered by noting that R is connected and that its natural topology is the order topology.
+The Brouwer fixed-point theorem is a related theorem that, in one dimension, gives a special case of the intermediate value theorem.
+
+
+== Converse is false ==
+A Darboux function is a real-valued function f that has the "intermediate value property," i.e., that satisfies the conclusion of the intermediate value theorem: for any two values a and b in the domain of f, and any y between f(a) and f(b), there is some c between a and b with f(c) = y.  The intermediate value theorem says that every continuous function is a Darboux function.  However, not every Darboux function is continuous; i.e., the converse of the intermediate value theorem is false.
+As an example, take the function f : [0, ∞) → [−1, 1] defined by f(x) = sin(1/x) for x > 0 and f(0) = 0. This function is not continuous at x = 0 because the limit of f(x) as x tends to 0 does not exist; yet the function has the intermediate value property.  Another, more complicated example is given by the Conway base 13 function.
+In fact, Darboux's theorem states that all functions that result from the differentiation of some other function on some interval have the intermediate value property (even though they need not be continuous).
+Historically, this intermediate value property has been suggested as a definition for continuity of real-valued functions; this definition was not adopted.
+
+
+== Practical applications ==
+A similar result is the Borsuk–Ulam theorem, which says that a continuous map from the 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  -sphere to Euclidean 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  -space will always map some pair of antipodal points to the same place.
+
+In general, for any continuous function whose domain is some closed convex 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  -dimensional shape and any point inside the shape (not necessarily its center), there exist two antipodal points with respect to the given point whose functional value is the same.
+The theorem also underpins the explanation of why rotating a wobbly table will bring it to stability (subject to certain easily  met constraints).
+
+
+== See also ==
+Mean value theorem – On the existence of a tangent to an arc parallel to the line through its endpoints
+Non-atomic measure
+Hairy ball theorem – Even-dimensional spheres have no nonzero continuous tangent vector fields
+
+
+== References ==
+
+
+== External links ==
+Intermediate value theorem at ProofWiki
+Intermediate value Theorem - Bolzano Theorem at cut-the-knot
+Bolzano's Theorem by Julio Cesar de la Yncera, Wolfram Demonstrations Project.
+Weisstein, Eric W. "Intermediate Value Theorem". MathWorld.
+Belk, Jim (January 2, 2012). "Two-dimensional version of the Intermediate Value Theorem". Stack Exchange.
+Mizar system proof: http://mizar.org/version/current/html/topreal5.html#T4

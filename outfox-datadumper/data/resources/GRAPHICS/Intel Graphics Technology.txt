@@ -1,0 +1,174 @@
+Intel Graphics Technology (GT) is the collective name for a series of integrated graphics processors (IGPs) produced by Intel that are manufactured on the same package or die as the central processing unit (CPU).  It was first introduced in 2010 as Intel HD Graphics and renamed in 2017 as Intel UHD Graphics.
+Intel Iris Graphics and Intel Iris Pro Graphics are the IGP series introduced in 2013 with some models of Haswell processors as the high-performance versions of HD Graphics. Iris Pro Graphics was the first in the series to incorporate embedded DRAM. Since 2016 Intel refers to the technology as Intel Iris Plus Graphics with the release of Kaby Lake.
+In the fourth quarter of 2013, Intel integrated graphics represented, in units, 65% of all PC graphics processor shipments.  However, this percentage does not represent actual adoption as a number of these shipped units end up in systems with discrete graphics cards.
+
+
+== History ==
+Before the introduction of Intel HD Graphics, Intel integrated graphics were built into the motherboard's northbridge, as part of the Intel's Hub Architecture. They were known as Intel Extreme Graphics and Intel GMA. As part of the Platform Controller Hub (PCH) design, the northbridge was eliminated and graphics processing was moved to the same die as the central processing unit (CPU).
+The previous Intel integrated graphics solution, Intel GMA, had a reputation of lacking performance and features, and therefore was not considered to be a good choice for more demanding graphics applications, such as 3D gaming. The performance increases brought by Intel's HD Graphics made the products competitive with integrated graphics adapters made by its rivals, Nvidia and ATI/AMD. Intel HD Graphics, featuring minimal power consumption that is important in laptops, was capable enough that PC manufacturers often stopped offering discrete graphics options in both low-end and high-end laptop lines, where reduced dimensions and low power consumption are important.
+
+
+== Generations ==
+
+Intel HD and Iris Graphics are divided into generations, and within each generation are divided into 'tiers' of increasing performance, denominated by the 'GTx' label. Each generation corresponds to the implementation of a Gen graphics microarchitecture with a corresponding GEN instruction set architecture since Gen4.
+
+
+=== Gen5 Architecture ===
+
+
+==== Westmere ====
+In January 2010, Clarkdale and Arrandale processors with Ironlake graphics were released, and branded as Celeron, Pentium, or Core with HD Graphics. There was only one specification: 12 execution units, up to 43.2 GFLOPS at 900 MHz. It can decode a H264 1080p video at up to 40 fps.
+Its direct predecessor, the GMA X4500, featured 10 EUs at 800 MHz, but it lacked some capabilities.
+
+
+=== Gen6 Architecture ===
+
+
+==== Sandy Bridge ====
+In January 2011, the Sandy Bridge processors were released, introducing the "second generation" HD Graphics:
+
+Sandy Bridge Celeron and Pentium have Intel HD, while Core i3 and above have either HD 2000 or HD 3000.  HD Graphics 2000 and 3000 include hardware video encoding and HD postprocessing effects.
+
+
+=== Gen7 Architecture ===
+
+
+==== Ivy Bridge ====
+On 24 April 2012, Ivy Bridge was released, introducing the "third generation" of Intel's HD graphics:
+Ivy Bridge Celeron and Pentium have Intel HD, while Core i3 and above have either HD 2500 or HD 4000.  HD Graphics 2500 and 4000 include hardware video encoding and HD postprocessing effects.
+For some low-power mobile CPUs there is limited video decoding support, while none of the desktop CPUs have this limitation.
+HD P4000 is featured on the Ivy Bridge E3 Xeon processors with the 12X5 v2 descriptor, and supports unbuffered ECC RAM.
+
+
+==== Haswell ====
+
+On 12 September 2012, Haswell CPUs were announced, with four models of integrated GPUs:
+
+The 128 MB of eDRAM in the Iris Pro GT3e is in the same package as the CPU, but on a separate die manufactured in a different process. Intel refers to this as a Level 4 cache, available to both CPU and GPU, naming it Crystalwell.  The Linux drm/i915 driver is aware and capable of using this eDRAM since kernel version 3.12.
+
+
+=== Gen8 Architecture ===
+
+
+==== Broadwell ====
+In November 2013, it was announced that Broadwell-K desktop processors (aimed at enthusiasts) will also carry Iris Pro Graphics.The following models of integrated GPU are announced for Broadwell processors:
+
+
+==== Braswell ====
+
+
+=== Gen9 Architecture ===
+
+
+==== Skylake ====
+The Skylake line of processors, launched in August 2015, retires VGA support, while supporting multi-monitor setups of up to three monitors connected via HDMI 1.4, DisplayPort 1.2 or Embedded DisplayPort (eDP) 1.3 interfaces.The following models of integrated GPU are available or announced for the Skylake processors:
+
+
+==== Apollo Lake ====
+The Apollo Lake line of processors was launched in August 2016.
+
+
+==== Kaby Lake ====
+The Kaby Lake line of processors was introduced in August 2016. New features: speed increases, support for 4K UHD "premium" (DRM encoded) streaming services, media engine with full hardware acceleration of 8- and 10-bit HEVC and VP9 decode.
+
+
+==== Kaby Lake Refresh / Amber Lake / Coffee Lake / Coffee Lake Refresh / Whiskey Lake / Comet Lake ====
+The Kaby Lake line of processors was introduced in October 2017. New features: HDCP 2.2 support 
+
+
+==== Gemini Lake ====
+New Features: HDMI 2.0 support, VP9 10-bit Profile2 hardware decoder
+
+
+=== Gen11 Architecture ===
+
+
+==== Ice Lake ====
+New features: 10 nm Gen 11 GPU microarchitecture, two HEVC 10-bit encode pipelines, three 4K display pipelines (or 2x 5K60, 1x 4K120), variable rate shading (VRS), and integer scaling.While the microarchitecture continues to support double-precision floating-point as previous versions did, the mobile configurations of it do not include the feature and therefore on these it is supported only through emulation.
+
+
+=== Xe LP Architecture (formerly Gen12) ===
+
+These are based on the Intel Xe-LP microarchitecture, the low power variant of the Intel Xe GPU architecture also known as Gen 12. New features include Sampler Feedback, Dual Queue Support, DirectX12 View Instancing Tier2, and AV1 8-bit and 10-bit fixed-function hardware decoding.
+
+
+== Features ==
+
+
+=== Intel Insider ===
+Beginning with Sandy Bridge, the graphics processors include a form of digital copy protection and digital rights management (DRM) called Intel Insider, which allows decryption of protected media within the processor. Previously there was a similar technology called Protected Audio Video Path (PAVP).
+
+
+=== HDCP ===
+Intel Graphics Technology supports the HDCP technology, but the actual HDCP support depends on the computer's motherboard.
+
+
+=== Intel Quick Sync Video ===
+
+Intel Quick Sync Video is Intel's  hardware video encoding and decoding technology, which is integrated into some of the Intel CPUs. The name "Quick Sync" refers to the use case of quickly transcoding ("syncing") a video from, for example, a DVD or Blu-ray Disc to a format appropriate to, for example, a smartphone. Quick Sync was introduced with the Gen 6 in Sandy Bridge microprocessors on 9 January 2011.
+
+
+=== Graphics Virtualization Technology ===
+Graphics Virtualization Technology (GVT) was announced 1 January 2014 and introduced at the same time as Intel Iris Pro. Intel integrated GPUs support the following sharing methods:
+Direct passthrough (GVT-d): the GPU is available for a single virtual machine without sharing with other machines
+Paravirtualized API forwarding (GVT-s): the GPU is shared by multiple virtual machines using a virtual graphics driver; few supported graphics APIs (OpenGL, DirectX), no support for GPGPU
+Full GPU virtualization (GVT-g): the GPU is shared by multiple virtual machines (and by the host machine) on a time-sharing basis using a native graphics driver; similar to AMD's MxGPU and Nvidia's vGPU, which are available only on professional line cards (Radeon Pro and Nvidia Quadro)
+
+
+=== Multiple monitors ===
+
+
+==== Ivy Bridge ====
+HD 2500 and HD 4000 GPUs in Ivy Bridge CPUs are advertised as supporting three active monitors, but this only works if two of the monitors are configured identically, which covers many but not all three-monitor configurations.  The reason for this is that the chipsets only include two phase-locked loops (PLLs) for generating the pixel clocks timing the data being transferred to the displays.Therefore, three simultaneously active monitors can only be achieved when at least two of them share the same pixel clock, such as:
+
+Using two or three DisplayPort connections, as they require only a single pixel clock for all connections. Passive adapters from DisplayPort to some other connector do not count as a DisplayPort connection, as they rely on the chipset being able to emit a non-DisplayPort signal through the DisplayPort connector. Active adapters that contain additional logic to convert the DisplayPort signal to some other format count as a DisplayPort connection.
+Using two non-DisplayPort connections of the same connection type (for example, two HDMI connections) and the same clock frequency (like when connected to two identical monitors at the same resolution), so that a single unique pixel clock can be shared between both connections.Another possible three-monitor solution uses the Embedded DisplayPort on a mobile CPU (which does not use a chipset PLL at all) along with any two chipset outputs.
+
+
+==== Haswell ====
+ASRock Z87- and H87-based motherboards support three displays simultaneously. Asus H87-based motherboards are also advertised to support three independent monitors at once.
+
+
+== Capabilities (GPU hardware) ==
+OpenCL 2.1 and 2.2 possible with software update on OpenCL 2.0 hardware (Broadwell+) with future software updates.Support for Direct3D 9 in Mesa is only implemented for Gallium3D-style drivers, and is thus only available with the newer Gallium3D Iris driver, which is the default for Broadwell+ since Mesa 20.0. It is not supported in the classic Mesa i965 driver.
+The classic Mesa i965 driver, which is the only one for Haswell and older on Linux, only supports core profile for OpenGL 3.1+, not compatibility profile. The Iris Gallium3D driver supports compatibility profile for OpenGL 4.6.
+All GVT virtualization methods are supported since the Broadwell processor family with KVM and Xen.
+
+
+== Capabilities (GPU video acceleration) ==
+
+Intel developed a dedicated SIP core which implements multiple video decompression and compression algorithms branded Intel Quick Sync Video. Some are implemented completely, some only partially.
+
+
+=== Hardware-accelerated algorithms ===
+
+
+=== Intel Pentium and Celeron family ===
+
+
+=== Intel Atom family ===
+
+
+== Documentation ==
+Intel releases programming manuals for most of Intel HD Graphics devices via its Open Source Technology Center.  This allows various open source enthusiasts and hackers to contribute to driver development, and port drivers to various operating systems, without the need for reverse engineering.
+
+
+== See also ==
+Video card
+Accelerated processing unit (APU)
+Free and open-source graphics device driver
+List of Intel graphics processing units
+List of Nvidia graphics processing units
+List of AMD graphics processing units
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Intel Graphics Performance Analyzers 2021.3
+Intel's Embedded DRAM
+Intel Open Source Technology Center: Linux graphics documentation (includes the GPU manuals)

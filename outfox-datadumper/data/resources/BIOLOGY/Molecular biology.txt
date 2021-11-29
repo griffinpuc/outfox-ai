@@ -1,0 +1,89 @@
+Molecular biology  is the branch of biology that seeks to understand the molecular basis of biological activity in and between cells, including molecular synthesis, modification, mechanisms, and interactions. Molecular biology was first described as an approach focused on the underpinnings of biological phenomena - uncovering the structures of biological molecules as well as their interactions, and how these interactions explain observations of classical biology.Molecular biology is not simply the study of biological molecules and their interactions; rather, it is also collection of techniques developed since the field's genesis which have enabled scientists to learn about molecular processes. One notable technique which has revolutionized the field is the polymerase chain reaction (PCR), which was developed in 1983. PCR is a reaction which amplifies small quantities of DNA, and it's used in many applications across scientific disciplines, as will be discussed later.The central dogma of molecular biology describes the process in which DNA is transcribed into RNA, which is then translated into protein.Molecular biology also plays a critical role in the understanding of structures, functions, and internal controls within individual cells, all of which can be used to efficiently target new drugs, diagnose disease, and better understand cell physiology. Some clinical research and medical therapies arising from molecular biology are covered under gene therapy whereas the use of molecular biology or molecular cell biology in medicine is now referred to as molecular medicine.
+
+
+== History of molecular biology ==
+
+Molecular biology sits at the intersection of biochemistry and genetics; as these scientific disciplines emerged and evolved in the 20th century, it became clear that they both sought to determine the molecular mechanisms which underlie vital cellular functions.  Advances in molecular biology have been closely related to the development of new technologies and their optimization.  Molecular biology has been elucidated by the work of many scientists, and thus the history of the field depends on an understanding of these scientists and their experiments.
+While molecular biology was established as an official branch of science in the 1930s, the term wasn't coined until 1938 by Warren Weaver. At the time, Weaver was the director of Natural Sciences for the Rockefeller Foundation and believed that biology was about to undergo significant change due to recent advancements in technology, such as X-ray crystallography.The field of genetics arose as an attempt to understand the molecular mechanisms of genetic inheritance and the structure of a gene. Gregor Mendel pioneered this work in 1866, when he first wrote the laws of genetic inheritance based on his studies of mating crosses in pea plants.  One such law of genetic inheritance is the law of segregation, which states that diploid individuals with two alleles for a particular gene will pass one of these alleles to their offspring.  Because of his critical work, the study of genetic inheritance is commonly referred to as Mendelian genetics.In 1953, James Watson and Francis Crick published the double helical structure of DNA courtesy of the X-ray crystallography work done by Rosalind Franklin and Maurice Wilkins. Watson and Crick described the structure of DNA and the interactions within the molecule. This publication jump-started research into molecular biology and increased interest in the subject.In 1961, it was demonstrated that when a gene encodes a protein, three sequential bases of a gene’s DNA specify each successive amino acid of the protein.  Thus the genetic code is a triplet code, where each triplet (called a codon) specifies a particular amino acid.  Furthermore, it was shown that the codons do not overlap with each other in the DNA sequence encoding a protein, and that each sequence is read from a fixed starting point.
+During 1962-1964, through the use of conditional lethal mutants of a bacterial virus, fundamental advances were made in our understanding of the functions and interactions of the proteins employed in the machinery of DNA replication, DNA repair,  DNA recombination, and in the assembly of molecular structures.
+
+
+== Relationship to other biological sciences ==
+
+The following list describes a viewpoint on the interdisciplinary relationships between molecular biology and other related fields.
+Molecular biology is the study of the molecular underpinnings of the biological phenomena, focusing on molecular synthesis, modification, mechanisms and interactions.
+Biochemistry is the study of the chemical substances and vital processes occurring in living organisms. Biochemists focus heavily on the role, function, and structure of biomolecules such as proteins, lipids, carbohydrates and nucleic acids.
+Genetics is the study of how genetic differences affect organisms. Genetics attempts to predict how mutations, individual genes and genetic interactions can affect the expression of a phenotypeWhile researchers practice techniques specific to molecular biology, it is common to combine these with methods from genetics and biochemistry. Much of molecular biology is quantitative, and recently a significant amount of work has been done using computer science techniques such as bioinformatics and computational biology. Molecular genetics, the study of gene structure and function, has been among the most prominent sub-fields of molecular biology since the early 2000s. Other branches of biology are informed by molecular biology, by either directly studying the interactions of molecules in their own right such as in cell biology and developmental biology, or indirectly, where molecular techniques are used to infer historical attributes of populations or species, as in fields in evolutionary biology such as population genetics and phylogenetics. There is also a long tradition of studying biomolecules "from the ground up", or molecularly, in biophysics.
+
+
+== Techniques of molecular biology ==
+
+
+=== Molecular cloning ===
+
+Molecular cloning is a recombinant DNA technology which was first developed in the 1960's. In this technique, DNA coding for a protein of interest is cloned using polymerase chain reaction (PCR), and/or restriction enzymes into a plasmid (expression vector). A vector has 3 distinctive features: an origin of replication, a multiple cloning site (MCS), and a selective marker (usually antibiotic resistance). Upstream of the multiple cloning site are the promoter regions and the transcription start site, which regulate the expression of cloned gene.
+This plasmid can be inserted into either bacterial or animal cells. Introducing DNA into bacterial cells can be done by transformation via uptake of naked DNA, conjugation via cell-cell contact or by transduction via viral vector. Introducing DNA into eukaryotic cells, such as animal cells, by physical or chemical means is called transfection. Several different transfection techniques are available, such as calcium phosphate transfection, electroporation, microinjection and liposome transfection. The plasmid may be integrated into the genome, resulting in a stable transfection, or may remain independent of the genome, called transient transfection.DNA coding for a protein of interest is now inside a cell, and the protein can now be expressed. A variety of systems, such as inducible promoters and specific cell-signaling factors, are available to help express the protein of interest at high levels. Large quantities of a protein can then be extracted from the bacterial or eukaryotic cell. The protein can be tested for enzymatic activity under a variety of situations, the protein may be crystallized so its tertiary structure can be studied, or, in the pharmaceutical industry, the activity of new drugs against the protein can be studied.
+
+
+=== Polymerase chain reaction ===
+
+Polymerase chain reaction (PCR) is an extremely versatile technique for copying DNA. In brief, PCR allows a specific DNA sequence to be copied or modified in predetermined ways. The reaction is extremely powerful and under perfect conditions could amplify one DNA molecule to become 1.07 billion molecules in less than two hours. PCR has many applications, including the study of gene expression, the detection of pathogenic microorganisms, the detection of genetic mutations, and the introduction of mutations to DNA. The PCR technique can be used to introduce restriction enzyme sites to ends of DNA molecules, or to mutate particular bases of DNA, the latter is a method referred to as site-directed mutagenesis. PCR can also be used to determine whether a particular DNA fragment is found in a cDNA library. PCR has many variations, like reverse transcription PCR (RT-PCR) for amplification of RNA, and, more recently, quantitative PCR which allow for quantitative measurement of DNA or RNA molecules.
+
+
+=== Gel electrophoresis ===
+
+Gel electrophoresis is one of the principal tools of molecular biology. The basic principle is that DNA, RNA, and proteins can all be separated by means of an electric field and size. In agarose gel electrophoresis, DNA and RNA can be separated on the basis of size by running the DNA through an electrically charged agarose gel. Proteins can be separated on the basis of size by using an SDS-PAGE gel, or on the basis of size and their electric charge by using what is known as a 2D gel electrophoresis.
+
+
+=== The Bradford Assay ===
+
+The Bradford Assay is a molecular biology technique which enables the fast, accurate quantitation of protein molecules utilizing the unique properties of a dye called Coomassie Brilliant Blue G-250. Coomassie Blue undergoes a visible color shift from reddish-brown to bright blue upon binding to protein. In its unstable, cationic state, Coomassie Blue has a background wavelength of 465 nm and gives off a reddish-brown color. When Coomassie Blue binds to protein in an acidic solution, the background wavelength shifts to 595 nm and the dye gives off a bright blue color. Proteins in the assay bind Coomassie blue in about 2 minutes, and the protein-dye complex is stable for about an hour, although it's recommended that absorbance readings are taken within 5 to 20 minutes of reaction initiation. The concentration of protein in the Bradford assay can then be measured using a visible light spectrophotometer, and therefore does not require extensive equipment.This method was developed in 1975 by Marion M. Bradford, and has enabled significantly faster, more accurate protein quantitation compared to previous methods: the Lowry procedure and the biuret assay. Unlike the previous methods, the Bradford assay is not susceptible to interference by several non-protein molecules, including ethanol, sodium chloride, and magnesium chloride.  However, it is susceptible to influence by strong alkaline buffering agents, such as sodium dodecyl sulfate (SDS).
+
+
+=== Macromolecule blotting and probing ===
+The terms northern, western and eastern blotting are derived from what initially was a molecular biology joke that played on the term Southern blotting, after the technique described by Edwin Southern for the hybridisation of blotted DNA. Patricia Thomas, developer of the RNA blot which then became known as the northern blot, actually didn't use the term.
+
+
+==== Southern blotting ====
+
+Named after its inventor, biologist Edwin Southern, the Southern blot is a method for probing for the presence of a specific DNA sequence within a DNA sample. DNA samples before or after restriction enzyme (restriction endonuclease) digestion are separated by gel electrophoresis and then transferred to a membrane by blotting via capillary action. The membrane is then exposed to a labeled DNA probe that has a complement base sequence to the sequence on the DNA of interest. Southern blotting is less commonly used in laboratory science due to the capacity of other techniques, such as PCR, to detect specific DNA sequences from DNA samples. These blots are still used for some applications, however, such as measuring transgene copy number in transgenic mice or in the engineering of gene knockout embryonic stem cell lines.
+
+
+==== Northern blotting ====
+
+The northern blot is used to study the presence of specific RNA molecules as relative comparison among a set of different samples of RNA.  It is essentially a combination of denaturing RNA gel electrophoresis, and a blot.  In this process RNA is separated based on size and is then transferred to a membrane that is then probed with a labeled complement of a sequence of interest. The results may be visualized through a variety of ways depending on the label used; however, most result in the revelation of bands representing the sizes of the RNA detected in sample.  The intensity of these bands is related to the amount of the target RNA in the samples analyzed.  The procedure is commonly used to study when and how much gene expression is occurring by measuring how much of that RNA is present in different samples, assuming that no post-transcriptional regulation occurs and that the levels of mRNA reflect proportional levels of the corresponding protein being produced.  It is one of the most basic tools for determining at what time, and under what conditions, certain genes are expressed in living tissues.
+
+
+==== Western blotting ====
+
+In western blotting, proteins are first separated by size, in a thin gel sandwiched between two glass plates in a technique known as SDS-PAGE. The proteins in the gel are then transferred to a polyvinylidene fluoride (PVDF), nitrocellulose, nylon, or other support membrane. This membrane can then be probed with solutions of antibodies. Antibodies that specifically bind to the protein of interest can then be visualized by a variety of techniques, including colored products, chemiluminescence, or autoradiography. Often, the antibodies are labeled with enzymes. When a chemiluminescent substrate is exposed to the enzyme it allows detection. Using western blotting techniques allows not only detection but also quantitative analysis. Analogous methods to western blotting can be used to directly stain specific proteins in live cells or tissue sections.
+
+
+==== Eastern blotting ====
+
+The eastern blotting technique is used to detect post-translational modification of proteins. Proteins blotted on to the PVDF or nitrocellulose membrane are probed for modifications using specific substrates.
+
+
+=== Microarrays ===
+
+A DNA microarray is a collection of spots attached to a solid support such as a microscope slide where each spot contains one or more single-stranded DNA oligonucleotide fragments. Arrays make it possible to put down large quantities of very small (100 micrometre diameter) spots on a single slide. Each spot has a DNA fragment molecule that is complementary to a single DNA sequence. A variation of this technique allows the gene expression of an organism at a particular stage in development to be qualified (expression profiling). In this technique the RNA in a tissue is isolated and converted to labeled complementary DNA (cDNA). This cDNA is then hybridized to the fragments on the array and visualization of the hybridization can be done. Since multiple arrays can be made with exactly the same position of fragments, they are particularly useful for comparing the gene expression of two different tissues, such as a healthy and cancerous tissue. Also, one can measure what genes are expressed and how that expression changes with time or with other factors.
+There are many different ways to fabricate microarrays; the most common are silicon chips, microscope slides with spots of ~100 micrometre diameter, custom arrays, and arrays with larger spots on porous membranes (macroarrays). There can be anywhere from 100 spots to more than 10,000 on a given array. Arrays can also be made with molecules other than DNA.
+
+
+=== Allele-specific oligonucleotide ===
+
+Allele-specific oligonucleotide (ASO) is a technique that allows detection of single base mutations without the need for PCR or gel electrophoresis. Short (20–25 nucleotides in length), labeled probes are exposed to the non-fragmented target DNA, hybridization occurs with high specificity due to the short length of the probes and even a single base change will hinder hybridization. The target DNA is then washed and the labeled probes that didn't hybridize are removed. The target DNA is then analyzed for the presence of the probe via radioactivity or fluorescence. In this experiment, as in most molecular biology techniques, a control must be used to ensure successful experimentation.In molecular biology, procedures and technologies are continually being developed and older technologies abandoned. For example, before the advent of DNA gel electrophoresis (agarose or polyacrylamide), the size of DNA molecules was typically determined by rate sedimentation in sucrose gradients, a slow and labor-intensive technique requiring expensive instrumentation; prior to sucrose gradients, viscometry was used. Aside from their historical interest, it is often worth knowing about older technology, as it is occasionally useful to solve another new problem for which the newer technique is inappropriate.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+ Media related to Molecular biology at Wikimedia Commons
+Biochemistry and Molecular Biology at Curlie

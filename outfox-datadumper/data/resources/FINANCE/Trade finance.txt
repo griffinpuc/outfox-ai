@@ -1,0 +1,45 @@
+Trade finance signifies financing for trade, and it concerns both domestic and international trade transactions. A trade transaction requires a seller of goods and services as well as a buyer. Various intermediaries such as banks and financial institutions can facilitate these transactions by financing the trade. Trade finance manifest itself in the form of letters of credit (LOC), guarantees or insurance and is usually provided by intermediaries.
+
+
+== Description ==
+While a seller (or exporter) can require the purchaser (an importer) to prepay for goods shipped, the purchaser (importer) may wish to reduce risk by requiring the seller to document the goods that have been shipped. Banks may assist by providing various forms of support. For example, the importer's bank may provide a letter of credit to the exporter (or the exporter's bank) providing for payment upon presentation of certain documents, such as a bill of lading. The exporter's bank may make a loan (by advancing funds) to the exporter on the basis of the export contract.
+Other forms of trade finance can include export finance, documentary collection, trade credit insurance, finetrading, factoring, supply chain finance, or forfaiting. Some forms are specifically designed to supplement traditional financing.
+ Export finance - When an exporter’s operating cycle (length of time it takes to sell its inventory and collect on its sales) exceeds the credit terms extended by its trade creditors (suppliers), the exporter has a financing requirement. Export finance is needed to cover the gap between when an exporter is able to turn inventory and trade receivables to cash and when it has to pay on its trade payables.Secure trade finance depends on verifiable and secure tracking of physical risks and events in the chain between exporter and importer. The advent of new information and communication technologies allows the development of risk mitigation models which have developed into advance finance models. This allows very low risk of advance payment given to the Exporter, while preserving the Importer's normal payment credit terms and without burdening the importer's balance sheet. As trade transactions become more flexible and increase in volume, demand for these technologies has grown.
+
+
+== Products and services ==
+Banks and financial institutions offer the following products and services in their trade finance branches.
+
+Letter of credit: It is an undertaking/promise given by a Bank/Financial Institute on behalf of the Buyer/Importer to the Seller/Exporter, that, if the Seller/Exporter presents the complying documents to the Buyer's designated Bank/Financial Institute as specified by the Buyer/Importer in the Purchase Agreement then the Buyer's Bank/Financial Institute will make payment to the Seller/Exporter.
+Bank guarantee: It is an undertaking/promise given by a Bank on behalf of the Applicant and in favour of the Beneficiary. Whereas, the Bank has agreed and undertakes that, if the Applicant failed to fulfill his obligations either Financial or Performance as per the Agreement made between the Applicant and the Beneficiary, then the Guarantor Bank on behalf of the Applicant will make payment of the guarantee amount to the Beneficiary upon receipt of a demand or claim from the Beneficiary.Bank guarantee has various types like
+1. Tender Bond
+2. Advance Payment
+3. Performance Bond
+4. Financial
+5. Retention
+6. Labour
+7. ready for basic analysis
+
+Export
+Import
+Collection and discounting of bills: It is a major trade service offered by the Banks. The Seller's Bank collects the payment proceeds on behalf of the Seller, from the Buyer or Buyer's Bank, for the goods sold by the Seller to the Buyer as per the agreement made between the Seller and the Buyer.Supply Chain intermediaries have expanded in recent years to offer importers a funded transaction of individual trades from foreign supplier to importers warehouse or customers designated point of receipt. The Supply Chain products offer importers a funded transaction based on customer order book.
+
+
+== Methods of payment ==
+Popular methods of payment used in international trade include:
+Advance payment- the buyer arranges for their bank to pay the supplier around 30% of the order value upfront when ordering, and the other 70% when the goods are released or shipped.
+Letter of credit (L/C) - this document gives the seller two guarantees that the payment will be made by the buyer :one guarantee from the buyer's bank and another from the seller's bank.
+Bills for collection (B/E or D/C) - here a bill of exchange (B/E) is used; or documentary collection (D/C) which is a transaction whereby the exporter entrusts the collection of the payment for a sale to its bank (remitting bank), which sends the documents that its buyer needs to the importer’s bank (collecting bank), with instructions to release the documents to the buyer for payment.
+Open account - this method can be used by business partners who trust each other; the two partners need to have their accounts with the banks that are correspondent banks.
+
+
+== See also ==
+Supply chain engineering
+
+
+== References ==
+
+
+== External links ==
+"Trade Finance Guide: A Quick Reference for U.S. Exporters", International Trade Administration, U.S. Department of Commerce
+Federation of International Trade Associations

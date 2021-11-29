@@ -1,0 +1,91 @@
+In biochemistry and pharmacology, a ligand is a substance that forms a complex with a biomolecule to serve a biological purpose. The etymology stems from ligare, which means 'to bind'. In protein-ligand binding, the ligand is usually a molecule which produces a signal by binding to a site on a target protein.  The binding typically results in a change of conformational isomerism (conformation) of the target protein. In DNA-ligand binding studies, the ligand can be a small molecule, ion, or protein which binds to the DNA double helix.  The relationship between ligand and binding partner is a function of charge, hydrophobicity, and molecular structure.  The instance of binding occurs over an infinitesimal range of time and space, so the rate constant is usually a very small number.
+Binding occurs by intermolecular forces, such as ionic bonds, hydrogen bonds and Van der Waals forces. The association or docking is actually reversible through dissociation. Measurably irreversible covalent bonding between a ligand and target molecule is atypical in biological systems. In contrast to the definition of ligand in metalorganic and inorganic chemistry, in biochemistry it is ambiguous whether the ligand generally binds at a metal site, as is the case in hemoglobin.  In general, the interpretation of ligand is contextual with regards to what sort of binding has been observed. 
+Ligand binding to a receptor protein alters the conformation by affecting the three-dimensional shape orientation. The conformation of a receptor protein composes the functional state. Ligands include substrates, inhibitors, activators, signaling lipids, and neurotransmitters. The rate of binding is called affinity, and this measurement typifies a tendency or strength of the effect. Binding affinity is actualized not only by host–guest interactions, but also by solvent effects that can play a dominant, steric role which drives non-covalent binding in solution.  The solvent provides a chemical environment for the ligand and receptor to adapt, and thus accept or reject each other as partners.
+Radioligands are radioisotope labeled compounds used in vivo as tracers in PET studies and for in vitro binding studies.
+
+
+== Receptor/ligand binding affinity ==
+The interaction of ligands with their binding sites can be characterized in terms of a binding affinity. In general, high-affinity ligand binding results from greater attractive forces between the ligand and its receptor while low-affinity ligand binding involves less attractive force. In general, high-affinity binding results in a higher occupancy of the receptor by its ligand than is the case for low-affinity binding; the residence time (lifetime of the receptor-ligand complex) does not correlate. High-affinity binding of ligands to receptors is often physiologically important when some of the binding energy can be used to cause a conformational change in the receptor, resulting in altered behavior for example of an associated ion channel or enzyme.
+A ligand that can bind to and alter the function of the receptor that triggers a physiological response is called a receptor agonist. Ligands that bind to a receptor but fail to activate the physiological response are receptor antagonists.
+
+Agonist binding to a receptor can be characterized both in terms of how much physiological response can be triggered (that is, the efficacy) and in terms of the concentration of the agonist that is required to produce the physiological response (often measured as EC50, the concentration required to produced the half-maximal response). High-affinity ligand binding implies that a relatively low concentration of a ligand is adequate to maximally occupy a ligand-binding site and trigger a physiological response. Receptor affinity is measured by an inhibition constant or Ki value, the concentration required to occupy 50% of the receptor.  Ligand affinities are most often measured indirectly as an IC50 value from a competition binding experiment where the concentration of a ligand required to displace 50% of a fixed concentration of reference ligand is determined. The Ki value can be estimated from IC50 through the Cheng Prusoff equation.  Ligand affinities can also be measured directly as a dissociation constant (Kd) using methods such as fluorescence quenching, isothermal titration calorimetry or surface plasmon resonance.Low-affinity binding (high Ki level) implies that a relatively high concentration of a ligand is required before the binding site is maximally occupied and the maximum physiological response to the ligand is achieved. In the example shown to the right, two different ligands bind to the same receptor binding site. Only one of the agonists shown can maximally stimulate the receptor and, thus, can be defined as a full agonist. An agonist that can only partially activate the physiological response is called a partial agonist. In this example, the concentration at which the full agonist (red curve) can half-maximally activate the receptor is about 5 x 10−9 Molar (nM = nanomolar).
+
+Binding affinity is most commonly determined using a radiolabeled ligand, known as a tagged ligand. Homologous competitive binding experiments involve binding competition between a tagged ligand and an untagged ligand.
+Real-time based methods, which are often label-free, such as surface plasmon resonance, dual-polarization interferometry and multi-parametric surface plasmon resonance (MP-SPR) can not only quantify the affinity from concentration based assays; but also from the kinetics of association and dissociation, and in the later cases, the conformational change induced upon binding. MP-SPR also enables measurements in high saline dissociation buffers thanks to a unique optical setup. Microscale thermophoresis (MST), an immobilization-free method was developed. This method allows the determination of the binding affinity without any limitation to the ligand's molecular weight.For the use of statistical mechanics in a quantitative study of the
+ligand-receptor binding affinity, see the comprehensive article
+on the configurational partition function.
+
+
+=== Drug potency and binding affinity ===
+Binding affinity data alone does not determine the overall potency of a drug. Potency is a result of the complex interplay of both the binding affinity and the ligand efficacy. Ligand efficacy refers to the ability of the ligand to produce a biological response upon binding to the target receptor and the quantitative magnitude of this response. This response may be as an agonist, antagonist, or inverse agonist, depending on the physiological response produced.
+
+
+== Selective and non-selective ==
+
+Selective ligands have a tendency to bind to very limited kinds of receptor, whereas non-selective ligands bind to several types of receptors. This plays an important role in pharmacology, where drugs that are non-selective tend to have more adverse effects, because they bind to several other receptors in addition to the one generating the desired effect.
+
+
+== Hydrophobic ligands ==
+For hydrophobic ligands (e.g. PIP2) in complex with a hydrophobic protein (e.g. lipid-gated ion channels) determining the affinity is complicated by non-specific hydrophobic interactions. Non-specific hydrophobic interactions can be overcome when the affinity of the ligand is high. For example, PIP2 binds with high affinity to PIP2 gated ion channels. 
+
+
+== Bivalent ligand ==
+Bivalent ligands consist of two drug-like molecules (pharmacophores or ligands) connected by an inert linker. There are various kinds of bivalent ligands and are often classified based on what the pharmacophores target. Homobivalent ligands target two of the same receptor types. Heterobivalent ligands target two different receptor types. Bitopic ligands target an orthosteric binding sites and allosteric binding sites on the same receptor.In scientific research, bivalent ligands have been used to study receptor dimers and to investigate their properties. This class of ligands was pioneered by Philip S. Portoghese and coworkers while studying the opioid receptor system. Bivalent ligands were also reported early on by Micheal Conn and coworkers for the gonadotropin-releasing hormone receptor. Since these early reports, there have been many bivalent ligands reported for various G protein-coupled receptor (GPCR) systems including cannabinoid, serotonin, oxytocin, and melanocortin receptor systems, and for GPCR-LIC systems (D2 and nACh receptors).Bivalent ligands usually tend to be larger than their monovalent counterparts, and therefore, not 'drug-like.' (See Lipinski's rule of five.) Many believe this limits their applicability in clinical settings. In spite of these beliefs, there have been many ligands that have reported successful pre-clinical animal studies. Given that some bivalent ligands can have many advantages compared to their monovalent counterparts (such as tissue selectivity, increased binding affinity, and increased potency or efficacy), bivalents may offer some clinical advantages as well.
+
+
+== Mono- and polydesmic ligands ==
+Ligands of proteins can be characterized also by the number of protein chains they bind. “Monodesmic” ligands (μόνος: single, δεσμός: binding) are ligands that bind a single protein chain, while "polydesmic” ligands (πολοί: many)  are frequent in protein complexes, and are ligands that bind more than one protein chain, typically in or near protein interfaces. Recent research shows that the type of ligands and binding site structure has profound consequences for the evolution, function, allostery and folding of protein compexes.
+
+
+== Privileged scaffold ==
+A privileged scaffold is a molecular framework or chemical moiety that is statistically recurrent among known drugs or among a specific array of biologically active compounds. These privileged elements can be used as a basis for designing new active biological compounds or compound libraries.
+
+
+== Methods used to study binding ==
+Main methods to study protein–ligand interactions are principal hydrodynamic and calorimetric techniques, and principal spectroscopic and structural methods such as
+
+Fourier transform spectroscopy
+Raman spectroscopy
+Fluorescence spectroscopy
+Circular dichroism
+Nuclear magnetic resonance
+Mass spectrometry
+Atomic force microscope
+Paramagnetic probes
+Dual polarisation interferometry
+Multi-parametric surface plasmon resonance
+Ligand binding assay and radioligand binding assayOther techniques include:
+fluorescence intensity,
+bimolecular fluorescence complementation,
+FRET (fluorescent resonance energy transfer) / FRET quenching
+surface plasmon resonance,
+bio-layer interferometry,
+Coimmunopreciptation
+indirect ELISA,
+equilibrium dialysis,
+gel electrophoresis,
+far western blot,
+fluorescence polarization anisotropy,
+electron paramagnetic resonance,
+microscale thermophoresis
+The dramatically increased computing power of supercomputers and personal computers has made it possible to study protein–ligand interactions also by means of computational chemistry. For example, a worldwide grid of well over a million ordinary PCs was harnessed for cancer research in the project grid.org, which ended in April 2007.  Grid.org has been succeeded by similar projects such as World Community Grid, Human Proteome Folding Project, Compute Against Cancer and Folding@Home.
+
+
+== See also ==
+Agonist
+Schild regression
+Allosteric regulation
+Ki Database
+Docking@Home
+GPUGRID.net
+DNA binding ligand
+BindingDB
+SAMPL Challenge
+
+
+== References ==
+
+
+== External links ==
+BindingDB, a public database of measured protein-ligand binding affinities.
+BioLiP, a comprehensive database for ligand-protein interactions.

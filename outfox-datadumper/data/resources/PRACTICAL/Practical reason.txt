@@ -1,0 +1,49 @@
+In philosophy, practical reason is the use of reason to decide how to act. It contrasts with theoretical reason, often called speculative reason, the use of reason to decide what to follow. For example, agents use practical reason to decide whether to build a telescope, but theoretical reason to decide which of two theories of light and optics is the best.
+
+
+== Overview ==
+Practical reason is understood by most philosophers as determining a plan of action. Thomistic ethics defines the first principle of practical reason as "good is to be done and pursued, and evil is to be avoided." For Kant, practical reason has a law-abiding quality because the categorical imperative is understood to be binding one to one's duty rather than subjective preferences. Utilitarians tend to see reason as an instrument for the satisfactions of wants and needs.
+In classical philosophical terms, it is very important to distinguish three domains of human activity: theoretical reason, which investigates the truth of contingent events as well as necessary truths; practical reason, which determines whether a prospective course of action is worth pursuing; and productive or technical reason, which attempts to find the best means for a given end. Aristotle viewed philosophical activity as the highest activity of the human being and gave pride of place to metaphysics or wisdom. Since Descartes practical judgment and reasoning have been treated with less respect because of the demand for greater certainty and an infallible method to justify beliefs.
+
+
+== In argumentation ==
+Practical reasoning is basically goal-directed reasoning from an agent's goal, and from some action selected as a means to carry out the goal, to the agent's reasoned decision to carry out the action. The agent can be a person or a technical device, such as a robot or  a software device for multi-agent communications. It is a type of reasoning used all the time in everyday life and all kinds of technology where autonomous reasoning is required. Argumentation theorists have identified two kinds of practical reasoning: instrumental practical reasoning that does not explicitly take values into account, and value-based practical reasoning. The following argumentation scheme for instrumental practical reasoning is given in Walton, Reed & Macagno (2008). The pronoun I represents an autonomous agent.
+
+
+=== Argumentation scheme for instrumental practical reasoning ===
+Critical questions
+
+CQ1: What other goals do I have that should be considered that might conflict with G?
+CQ2: What alternative actions to my bringing about A that would also bring about G should be considered?
+CQ3: Among bringing about A and these alternative actions, which is arguably the most efficient?
+CQ4: What grounds are there for arguing that it is practically possible for me to bring about A?
+CQ5: What consequences of my bringing about A should also be taken into account?It can be seen from CQ5  that argumentation from consequences is closely related to the scheme for practical reasoning.
+It has often been disputed in philosophy whether practical reasoning is purely instrumental or whether it needs to be based on values. Argument from values is combined with practical reasoning in the type of argumentation called value-based practical reasoning. The following argumentation scheme for value-based practical reasoning is given in Atkinson, Bench-Capon & McBurney (2005, pp. 2–3).
+
+
+=== Argumentation scheme for value-based practical reasoning ===
+In the current circumstances R
+we should perform action A
+to achieve New Circumstances S
+which will realize some goal G
+which will promote some value V.Practical reasoning is used in arguments, but also in explanations used to draw conclusions about an agent's goals, motives or intentions, based on reports of what the agent said or did.
+Practical reasoning is centrally important in artificial intelligence, and also vitally important in many other fields such as law, medicine and engineering. It has been known as a distinctive type of argumentation as far back as Aristotle.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Sources ==
+Elijah Millgram, ed., Varieties of Practical Reasoning, Cambridge, Massachusetts:  MIT Press, 2001.  ISBN 0-262-63220-9.
+Joseph Raz, ed., Practical Reasoning, Oxford:  Oxford University Press, 1978.  ISBN 0-19-875041-2.
+Charles Taylor, "Explanation and Practical Reason," in Philosophical Arguments, Cambridge, Massachusetts: Harvard University Press, 1995. ISBN 0-674-66476-0.
+
+
+== External links ==
+Wallace, R. Jay (26 March 2014). "Practical Reason".  In Zalta, Edward N. (ed.). Stanford Encyclopedia of Philosophy.
+Christopher, Toner (March 2010). "Medieval Theories of Practical Reason". Internet Encyclopedia of Philosophy.
+Celano, Anthony (3 December 2014). "Medieval Theories of Practical Reason".  In Zalta, Edward N. (ed.). Stanford Encyclopedia of Philosophy.
+Millgram, Elijah (11 May 2016). "Practical Reason and the Structure of Actions".  In Zalta, Edward N. (ed.). Stanford Encyclopedia of Philosophy.

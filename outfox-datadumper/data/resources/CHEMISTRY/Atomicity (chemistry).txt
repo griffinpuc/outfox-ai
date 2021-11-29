@@ -1,0 +1,15 @@
+Atomicity is defined as the total number of atoms present in a molecule. For example, each molecule of oxygen (O2) is composed of two oxygen atoms. So atomicity of oxygen is 2. In older contexts, atomicity is sometimes used in the same sense as valency. Some authors also use the term to refer to the maximum number of valencies observed for an element.On the basis of atomicity, molecules can be classified as:                   
+
+Monatomic – composed of one atom e.g. He, Ne, Ar, Kr (all noble gases are monatomic)
+Diatomic – composed of two atoms e.g. H2 , N2 , O2 , F2 , Cl2 (all halogens are usually diatomic)
+Triatomic – composed of three atoms e.g. O3
+Polyatomic – composed of three or more atoms e.g. P4 , S8All metals and some other elements, such as carbon, do not have a simple structure but consist of a very large and indefinite number of atoms bonded together. Their atomicity cannot be determined and is usually considered as 1.
+Atomicity may vary in different allotropes of the same element.
+There is a simple way to determine the atomicity of any homonuclear molecule. It can be determined as a ratio of molecular weight and atomic weight. For example, the molecular weight of oxygen is 31.999, while it's atomic weight is 15.999. On dividing the two, we get atomicity as (31.999/15.999) which is roughly equal to 2.
+
+
+== Examples ==
+The atomicity of the first 30 elements in the periodic table is as follows:
+
+
+== References ==

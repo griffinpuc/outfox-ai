@@ -1,0 +1,131 @@
+Computational biology involves the development and application of data-analytical and theoretical methods, mathematical modelling and computational simulation techniques to the study of biological, ecological, behavioural, and social systems. The field is broadly defined and includes foundations in biology, applied mathematics, statistics, biochemistry, chemistry, biophysics, molecular biology, genetics, genomics, computer science, ecology, and evolution.Computational biology is different from biological computing, which is a subfield of computer engineering using bioengineering and biology to build computers.
+
+
+== Introduction ==
+Computational biology, which includes many aspects of bioinformatics and much more, is the science of using biological data to develop algorithms or models in order to understand biological systems and relationships. 
+Until recently, biologists did not have access to very large amounts of data. This data has now become commonplace, particularly in molecular biology and genomics. Researchers were able to develop analytical methods for interpreting biological information, but were unable to share them quickly among colleagues.Bioinformatics began to develop in the early 1970s. It was considered the science of analyzing informatics processes of various biological systems. At this time, research in artificial intelligence was using network models of the human brain in order to generate new algorithms. This use of biological data to develop other fields pushed biological researchers to revisit the idea of using computers to evaluate and compare large data sets. By 1982, information was being shared among researchers through the use of punch cards. The amount of data being shared began to grow exponentially by the end of the 1980s. This required the development of new computational methods in order to quickly analyze and interpret relevant information.Since the late 1990s, computational biology has become an important part of developing emerging technologies for the field of biology.
+The terms computational biology and evolutionary computation have a similar name, but are not to be confused. Unlike computational biology, evolutionary computation is not concerned with modeling and analyzing biological data. It instead creates algorithms based on the ideas of evolution across species. Sometimes referred to as genetic algorithms, the research of this field can be applied to computational biology. While evolutionary computation is not inherently a part of computational biology, computational evolutionary biology is a subfield of it.Computational biology has been used to help sequence the human genome, create accurate models of the human brain, and assist in modeling biological systems.
+
+
+== Subfields ==
+
+
+=== Computational anatomy ===
+
+Computational anatomy is a discipline focusing on the study of anatomical shape and form at the visible or gross anatomical 
+  
+    
+      
+        50
+        −
+        100
+        μ
+      
+    
+    {\displaystyle 50-100\mu }
+   
+scale of morphology. It involves the development and application of computational, mathematical and data-analytical methods for modeling and simulation of biological structures. It focuses on the anatomical structures being imaged, rather than the medical imaging devices. Due to the availability of dense 3D measurements via technologies such as magnetic resonance imaging (MRI), computational anatomy has emerged as a subfield of medical imaging and bioengineering for extracting anatomical coordinate systems at the morphome scale in 3D.
+The original formulation of computational anatomy is as a generative model of shape and form from exemplars acted upon via transformations. The diffeomorphism group is used to study different coordinate systems via coordinate transformations as generated via the Lagrangian and Eulerian velocities of flow from one anatomical configuration in 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle {\mathbb {R} }^{3}}
+   to another. It relates with shape statistics and morphometrics, with the distinction that diffeomorphisms are used to map coordinate systems, whose study is known as diffeomorphometry.
+
+
+=== Computational biomodeling ===
+
+Computational biomodeling is a field concerned with building computer models of biological systems. Computational biomodeling aims to develop and use visual simulations in order to assess the complexity of biological systems. This is accomplished through the use of specialized algorithms, and visualization software. These models allow for prediction of how systems will react under different environments. This is useful for determining if a system is robust. A robust biological system is one that “maintain their state and functions against external and internal perturbations”, which is essential for a biological system to survive. Computational biomodeling generates a large archive of such data, allowing for analysis from multiple users. While current techniques focus on small biological systems, researchers are working on approaches that will allow for larger networks to be analyzed and modeled. A majority of researchers believe that this will be essential in developing modern medical approaches to creating new drugs and gene therapy.
+A useful modelling approach is to use Petri nets via tools such as esyN.
+
+
+=== Computational ecology ===
+Computational methods in ecology have seen increasing interest. Until recent decades, theoretical ecology has largely dealt with analytic models that were largely detached from the statistical models used by empirical ecologists. However, computational methods have aided in developing ecological theory via simulation of ecological systems, in addition to increasing application of methods from computational statistics in ecological analyses.
+
+
+=== Computational evolutionary biology ===
+Computational biology has assisted the field of evolutionary biology in many capacities. This includes:
+
+Using DNA data to reconstruct the tree of life with computational phylogenetics
+Fitting population genetics models (either forward time or backward time) to DNA data to make inferences about demographic or selective history
+Building population genetics models of evolutionary systems from first principles in order to predict what is likely to evolve
+
+
+=== Computational genomics ===
+
+Computational genomics is a field within genomics which studies the genomes of cells and organisms. It is sometimes referred to as Computational and Statistical Genetics and encompasses much of Bioinformatics. The Human Genome Project is one example of computational genomics. This project looks to sequence the entire human genome into a set of data. Once fully implemented, this could allow for doctors to analyze the genome of an individual patient.  This opens the possibility of personalized medicine, prescribing treatments based on an individual's pre-existing genetic patterns. This project has created many similar programs. Researchers are looking to sequence the genomes of animals, plants, bacteria, and all other types of life.One of the main ways that genomes are compared is by sequence homology. Homology is the study of biological structures and nucleotide sequences in different organisms that come from a common ancestor. Research suggests that between 80 and 90% of genes in newly sequenced prokaryotic genomes can be identified this way.This field is still in development. An untouched project in the development of computational genomics is the analysis of intergenic regions. Studies show that roughly 97% of the human genome consists of these regions. Researchers in computational genomics are working on understanding the functions of non-coding regions of the human genome through the development of computational and statistical methods and via large consortia projects such as ENCODE (The Encyclopedia of DNA Elements) and the Roadmap Epigenomics Project.
+
+
+=== Computational neuropsychiatry ===
+Computational neuropsychiatry is the emerging field that uses mathematical and computer-assisted modeling of brain mechanisms involved in mental disorders. It was already demonstrated by several initiatives that computational modeling is an important contribution to understand neuronal circuits that could generate mental functions and dysfunctions.
+
+
+=== Computational neuroscience ===
+
+Computational neuroscience is the study of brain function in terms of the information processing properties of the structures that make up the nervous system. It is a subset of the field of neuroscience, and looks to analyze brain data to create practical applications. It looks to model the brain in order to examine specific aspects of the neurological system. Various types of models of the brain include:
+
+Realistic Brain Models: These models look to represent every aspect of the brain, including as much detail at the cellular level as possible. Realistic models provide the most information about the brain, but also have the largest margin for error. More variables in a brain model create the possibility for more error to occur. These models do not account for parts of the cellular structure that scientists do not know about. Realistic brain models are the most computationally heavy and the most expensive to implement.
+Simplifying Brain Models:  These models look to limit the scope of a model in order to assess a specific physical property of the neurological system. This allows for the intensive computational problems to be solved, and reduces the amount of potential error from a realistic brain model.It is the work of computational neuroscientists to improve the algorithms and data structures currently used to increase the speed of such calculations.
+
+
+=== Computational oncology ===
+Computational oncology, sometimes also called cancer computational biology, is a field that aims to determine the future mutations in cancer through an algorithmic approach to analyzing data. Research in this field has led to the use of high-throughput measurement. High throughput measurement allows for the gathering of millions of data points using robotics and other sensing devices. This data is collected from DNA, RNA, and other biological structures. Areas of focus include determining the characteristics of tumors, analyzing molecules that are deterministic in causing cancer, and understanding how the human genome relates to the causation of tumors and cancer.
+
+
+=== Computational pharmacology ===
+Computational pharmacology (from a computational biology perspective) is “the study of the effects of genomic data to find links between specific genotypes and diseases and then screening drug data”. The pharmaceutical industry requires a shift in methods to analyze drug data. Pharmacologists were able to use Microsoft Excel to compare chemical and genomic data related to the effectiveness of drugs. However, the industry has reached what is referred to as the Excel barricade. This arises from the limited number of cells accessible on a spreadsheet. This development led to the need for computational pharmacology. Scientists and researchers develop computational methods to analyze these massive data sets. This allows for an efficient comparison between the notable data points and allows for more accurate drugs to be developed.Analysts project that if major medications fail due to patents, that computational biology will be necessary to replace current drugs on the market. Doctoral students in computational biology are being encouraged to pursue careers in industry rather than take Post-Doctoral positions. This is a direct result of major pharmaceutical companies needing more qualified analysts of the large data sets required for producing new drugs.
+
+
+== Software and tools ==
+Computational Biologists use a wide range of software. These range from command line programs to graphical and web-based programs.
+
+
+=== Open source software ===
+Open source software provides a platform to develop computational biological methods. Specifically, open source means that every person and/or entity can access and benefit from software developed in research. PLOS cites four main reasons for the use of open source software including:
+
+Reproducibility: This allows for researchers to use the exact methods used to calculate the relations between biological data.
+Faster Development: developers and researchers do not have to reinvent existing code for minor tasks. Instead they can use pre-existing programs to save time on the development and implementation of larger projects.
+Increased quality: Having input from multiple researchers studying the same topic provides a layer of assurance that errors will not be in the code.
+Long-term availability: Open source programs are not tied to any businesses or patents. This allows for them to be posted to multiple web pages and ensure that they are available in the future.
+
+
+=== Proprietary Software ===
+Standard modeling and scientific softwares used at the industrial scale also provide an excellent bedrock for rapid development in Computational Biology. These softwares similarly provide insulation from code errors by virtue of their active development by a large number of concerted experts in that field employed specifically for algorithm development. This similarly expedites in-house computational biology development by eliminating the need to code functionality from the ground up, yet ensures compatibility and ease of learning via unified syntax guidelines and documentation practices. The libraries used therein can be cross-validated as producing the same results as open-source projects (or better). Because the software is closed-source, there is little scrutiny from the public, and the lack of verifiable scientific data anywhere in the process is less apparent, allowing researchers to uphold the facade of ever-expanding knowledge within the sociocultural framework of the scientific research aesthetic.Common proprietary scientific computing software used for mathematics, statistics, data analysis, and numerical methods include Mathematica (the Wolfram Language), Matlab, SAS, etc.
+
+
+== Conferences ==
+There are several large conferences that are concerned with computational biology. Some notable examples are Intelligent Systems for Molecular Biology (ISMB), European Conference on Computational Biology (ECCB) and Research in Computational Molecular Biology (RECOMB).
+
+
+== Journals ==
+There are numerous journals dedicated to computational biology. Some notable examples include Journal of Computational Biology and PLOS Computational Biology. The PLOS computational biology journal is a peer-reviewed open access journal that has many notable research projects in the field of computational biology. They provide reviews on software, tutorials for open source software, and display information on upcoming computational biology conferences.
+
+
+== Related fields ==
+Computational biology, bioinformatics and mathematical biology are all interdisciplinary approaches to the life sciences that draw from quantitative disciplines such as mathematics and information science. The NIH describes computational/mathematical biology as the use of computational/mathematical approaches to address theoretical and experimental questions in biology and, by contrast, bioinformatics as the application of information science to understand complex life-sciences data.Specifically, the NIH defines
+
+Computational biology: The development and application of data-analytical and theoretical methods, mathematical modeling and computational simulation techniques to the study of biological, behavioral, and social systems.
+Bioinformatics: Research, development, or application of computational tools and approaches for expanding the use of biological, medical, behavioral or health data, including those to acquire, store, organize, archive, analyze, or visualize such data.
+While each field is distinct, there may be significant overlap at their interface.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+bioinformatics.org

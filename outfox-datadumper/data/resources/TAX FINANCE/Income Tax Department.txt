@@ -1,0 +1,94 @@
+The Income Tax Department (also referred to as IT Department or ITD) is a government agency undertaking direct tax collection of the Government of India. It functions under the Department of Revenue of the Ministry of Finance. Income Tax Department is headed by the apex body Central Board of Direct Taxes (CBDT). Main responsibility of IT Department is to enforce various direct tax laws, most important among these being the Income-tax Act, 1961, to collect revenue for Government of India. It also enforces other economic laws like the Benami Transactions (Prohibition) Act, 1988 and the Black Money Act, 2015.The Income Tax Act, 1961 has wide scope and empowers ITD to levy tax on income of individuals, firms, companies, local authorities, societies, or other artificial juridical persons. Therefore, Income Tax Department influences businesses, professionals, NGOs, income earning citizens, and local authorities among others. The Act empowers Income Tax Department to tax international businesses and professionals and therefore ITD deals in all matters of Double Taxation Avoidance Agreements and various other aspects of international taxation such as transfer pricing. Combating tax evasion and tax avoidance practices is key duty of ITD to ensure constitutionally guided political economy. One measure to combat aggressive tax avoidance is General Anti Avoidance Rules (GAAR).
+
+
+== History ==
+
+
+=== Ancient times ===
+Taxation has been one of the key function of the sovereign state since ancient times. In Manusmriti, the Manu, stated that king has the sovereign power to levy and collect tax according to sastras.
+लोके च करादिग्रहणो शास्त्रनिष्ठः स्यात् । — Sandeep Baldi, Shyam Nagar 128, Manusmriti 
+(It is in consonance with sastras to collect taxes from citizen.) 
+In Bodhayana Dharmasutras, it is mentioned that the king got 1/6th part of income from his subjects which was legally termed as tax. In lieu of this tax, the king has a duty to protect his subjects.According to Kautilya's Arthashastra – an ancient treatise on the study of economics, the art of governance and foreign policy – artha has a much wider significance than wealth. According to him, the power of the government depended upon the strength of its treasury. He states: "From the treasury comes the power of the government, and the earth, whose ornament is the treasury, is acquired by means of the treasury and army."
+In Raghuvamsh, Kalidas, eulogizing King Dalip, said, "it was only for the good of his subjects that he collected taxes from them just as the sun draws moisture from the earth to give it back a thousand time."
+
+
+=== Modern times ===
+The 19th century saw the establishment of British Rule in India. Following the Mutiny of 1857, the British Government faced an acute financial crisis. To fill up the treasury, the first Income-tax Act was introduced in February, 1860 by James Wilson, who became British-India's first Finance Minister. The Act received the assent of the Governor General on July 24, 1860, and came into effect immediately. It was divided into 21 parts consisting of no less than 259 sections. Income was classified under four schedules: i) income from landed property; ii) income from professions and trade; iii) income from securities, annuities and dividends; and iv) income from salaries and pensions. Agricultural income was subject to tax.Subsequently, many laws were brought to streamline income tax laws. For example, Super-Rich Tax was introduced in 1918 and new Income-tax Act was passed in 1918. But most important among all these were the Income-tax Act of 1922. This Act of 1922 marked an important change from the Act of 1918 by shifting the administration of the income tax from the hands of Provincial Government to the Central government. Another remarkable feature of this Act was that the rates were to be enunciated by the annual finance Acts instead of in the basic enactment. Again, new Income-tax Act came in 1939.
+
+
+=== Contemporary times ===
+
+The 1922 Act was amended not less than twenty nine times between 1939 and 1956. A tax on capital gains was imposed for the first time in 1946, although the concept of ‘capital gains’ has been amended many times by later amendments. In 1956, Mr. Nicholas Kaldor to investigate the Indian Tax System in the light of the revenue requirement of the second five-year plan (1956–1961). He submitted an exhaustive report for a coordinated tax system and therefore, the result was the enactment of several taxation Acts, viz., the wealth-tax Act 1957, the Expenditure-tax Act, 1957 and the Gift-tax Act, 1958.The Direct Taxes Administration Enquiry Committee, under the Chairmanship of Shri Mahavir Tyagi, submitted its Report on Nov 30, 1959 and the recommendations made therein took shape of the Income Tax Act, 1961. The 1961 Act came in to force with effect from 1 April 1962 by replacing the Indian Income Tax Act, 1922 which had remained in operation for 40 years. The present law of income tax is governed by the Income Tax Act, 1961, which has 298 sections and 4 schedules and is applicable to whole of India including the state of Jammu and Kashmir.
+
+
+== Administration in ITD ==
+Administration in Income Tax Department (ITD) is run through statutory body, the Central Board of Direct Taxes (CBDT), at apex level and 18 territory based regional headquarters at field offices level. Besides these are 10 specialized directorates within Income Tax Department (ITD), most extensive and famous among these being Directorate of Investigation.
+
+
+=== CBDT ===
+The Central Board of Direct Taxes (CBDT) is a part of Department of Revenue in the Ministry of Finance. The CBDT provides inputs for policy and planning of direct taxes in India, and is also responsible for administration of direct tax laws through the IT Department. The CBDT is a statutory authority functioning under the Central Board of Revenue Act, 1963. The officials of the Board in their ex officio capacity also function as a division of the Ministry dealing with matters relating to levy and collection of direct taxes. The CBDT is headed by Chairman and also comprises six members, all of whom are ex officio Special Secretary to the Government of India.
+The Chairman and members of the CBDT are selected from the Indian Revenue Service (IRS), whose members constitute the top management of the IT Department. The Chairman and every member of CBDT are responsible for exercising supervisory control over specialized functional categories at field offices of IT Department. Various functions and responsibilities of the CBDT are distributed amongst Chairman and six members, with only fundamental issues reserved for collective decision by the CBDT. The areas for collective decision by the CBDT include policy regarding discharge of statutory functions of the CBDT and of the Union Government under the various direct tax laws.
+
+
+=== Regional headquarters ===
+At present Income Tax Department (ITD) field offices are divided into 18 regions with territorial jurisdiction and 1 region for International Taxation. As required for efficient and effective administration, these regions have some administrative autonomy to carry out duties assigned by CBDT.
+
+
+=== Directorates ===
+Directorates are meant to take responsibility of specialized functions. There are 10 specialized directorates within Income Tax Department (ITD), most extensive and famous among these being Directorate of Investigation. 
+
+
+== Good governance by ITD ==
+The Income Tax Department of the Government of India is a leader in good governance. Since large portion of population interacts with department on yearly basis hence good governance by ITD has improved citizen satisfaction with government functioning. A very well known model of good governance, Sevottam,  is being implemented by Income Tax Department.
+
+
+=== Sevottam ===
+
+Income Tax Department (ITD) is leader in implementing Sevottam, which is certification of quality of public service delivery in India. The term Sevottam comes from the Hindi words "Seva" and "Uttam" and supposedly means excellence in service delivery. It involves the identification of the services delivered to the citizens, quality of service, its objective, improvement of quality, by using innovative methods for developing business process and more informative with the help of information technology. The citizen-centric approach includes the following three components:
+Citizen Charter and Service Standards: Citizen's Charter is being published by ITD from time to time to lay down standards of service delivery to taxpayers.
+Public Grievances: Income Tax Department has used technology for easy registration and faster disposal of grievances. Various initiatives taken by ITD are: eNivaran lets taxpayers to directly lodge grievance with their concerned ITD officer; Aaykar Seva Kendra (ASK) acts at integrated grievance redressal center; eSahyog allows replies through email to ITD officers on detection of errors in tax filings by taxpayers; and other portals like CPGRAMS.
+Service Delivery Enablers: This includes customer feedback, employee motivation and infrastructure. Income Tax Department (ITD) functions largely through computer systems and networks; and feedback of taxpayers is taken regularly through Pre-Budget Consultation and regular industry-ministry/department interactions, Outreach Programmes etc. Employee motivation is subjective but good public perception of ITD ensure high employee motivation.
+
+
+=== Ayakar Seva Kendra (ASK) ===
+Ayakar Seva Kendra (ASK) is an integrated model that provides single window system for registration of all applications including those  or redressal of grievances as well as receipt of paper return. The assesses can approach ASK and pose all kinds of queries. ASK is available at almost all Income Tax Department offices across the country.
+
+
+=== Tax Return Preparer Scheme ===
+Launched in 2006 by the Income Tax Department, Tax Return Preparer Scheme assists small and marginal taxpayers in preparing and filing their tax returns by creating a company of ‘Tax Return Preparers’. Tax Return Preparers  are experts in income tax law and in filing of income tax returns. They can charge a maximum fee of Rs. 250, or sometimes nothing.
+
+
+=== Simplified Income Tax Return Filing ===
+Over the years income tax return filing has been made more simple, convenient, and smart through use of technology. This includes following:
+eFiling: eFiling of returns ensured that all returns can be submitted in submitted in digital form at dedicated efiling website (https://incometaxindiaefiling.gov.in) without any need of submitting paper returns to Income Tax Department offices. This not only reduced grievances of taxpayers on account of errors in data entry but also made filing of return of income any-time, any-where, convenient exercise.
+SAHAJ and SUGAM: ITR-1 (SAHAJ) is simplified version of earlier lengthy and complex ITR-1, which is applicable to salaried employees, similarly ITR-4 (SUGAM) is simplified version of ITR-4, which is applicable to small businesses and professionals.
+eVerification: Use of Aadhar Card or Bank Account is made to ensure verification of ITR by taxpayers. It is user-friendly and removed of the hassle of sending the hard copy of the ITR-V form to CPC Centre at Bengaluru, Karnataka. Taxpayers have also reported that the process of e-verification shortens the time taken for processing of the return and issue of refund.
+Pre-filled ITR: As part of efforts to popularize the electronic mode of filing Income Tax Returns (ITRs), the CBDT is planning to provide “pre-filled” return forms to filers which will have an automatic upload of data on income and other vitals of a taxpayer.
+
+
+== Law enforcement powers of ITD ==
+Taxation law is not only very complex as it requires specialized knowledge and expertise to implement, but also it necessitates various kinds of deterrent actions to ensure compliance by taxpayers. 
+
+Assessment: Assessment is done to ensure correct estimation of total taxable income of an assessee (i.e. taxpayer) and it determines amount of tax to be payable by (or to be refunded to) asseesee.
+Fines and Penalty: These are financial punishments for non-compliance with any specific provision of the Income-tax Act.
+Surveys: ITD can survey any business premises for physical verification of records and other valuables.
+Search and Seizure: ITD can search residential and business premises of any taxpayer to check records and valuables to ensure that no evasion of tax is taking place.
+Prosecution: Certain actions of taxpayers, for example willful evasion of tax, are considered as criminal offence by the Income-tax Act and hence these offences result in prosecution.
+
+
+== Recent law enforcement actions by ITD ==
+
+
+=== Demonetization period ===
+The finance ministry instructed all revenue intelligence agencies to join the crackdown on forex traders, hawala operators and jewellers besides tracking movement of demonetised currency notes.Income Tax departments raided various illegal tax-evasive businesses in Delhi, Mumbai, Chandigarh, Ludhiana and other cities that traded with demonetised currency. The Enforcement Directorate issued several FEMA notices to forex and gold traders. Large sum of cash in defunct notes were seized in different parts of the country. In Chhattisgarh liquid cash worth of ₹4.4 million (US$58,000) was seized.
+In December 2016, the Income Tax department received more than 4000 emails, on black money holders, in India, within 3 days, when Income Tax Department, issued in public notice an email to report black moneyHuge amounts of cash in the form of new notes were seized all over the country after the demonetisation.In December 2016, over ₹4 crore in new ₹2000 notes were seized from four persons in Bangalore, ₹33 lakh in ₹2000 notes were recovered from Manish Sharma, an expelled BJP leader in West Bengal, and ₹1.5 crore was seized in Goa. 900 notes of the new ₹2000 denomination were seized from a BJP leader in Tamil Nadu. Around ₹10 crore in new  ₹2000 notes were seized in Chennai.As of 10 December, ₹242 crore in new notes had been seized.
+
+
+== See also ==
+Central Excise (India)
+Indian Revenue Service (Income Tax)
+List of Income Tax Department officer ranks
+Union budget of India
+
+
+== References ==

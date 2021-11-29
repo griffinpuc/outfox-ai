@@ -1,0 +1,224 @@
+In media studies, mass communication, media psychology, communication theory, and sociology, media influence and media effects are topics relating to mass media and media culture's effects on individual or an audience's thoughts, attitudes, and behavior. Whether it is written, televised, or spoken, mass media reaches a large audience. Mass media's role and effect in shaping modern culture are central issues for study of culture.The influence of mass media has an effect on many aspects of human life, which can include voting a certain way, individual views and beliefs, or skewing a person's knowledge of a specific topic due to being provided false information. The overall influence of mass media has increased drastically over the years, and will continue to do so as the media itself improves. The influence of the media on the psychosocial development of children is profound. Thus, it is important for physicians to discuss with parents their child’s exposure to media and to provide guidance on age-appropriate use of all media, including television, radio, music, video games and the Internet.As mass media evolve, media criticism also often evolve – and grow in strength – during times of media change with new forms of journalism, new media formats, new media markets, new ways of addressing media markets and new media technologies. Media influence is the actual force exerted by a media message, resulting in either a change or reinforcement in audience or individual beliefs. Media effects are measurable effects that result from media influence or a media message. Whether a media message has an effect on any of its audience members is contingent on many factors, including audience demographics and psychological characteristics. These effects can be positive or negative, abrupt or gradual, short-term or long-lasting. Not all effects result in change; some media messages reinforce an existing belief. Researchers examine an audience after media exposure for changes in cognition, belief systems, and attitudes, as well as emotional, physiological and behavioral effects.There are several scholarly studies which addresses media and its effects. Bryant and Zillmann defined media effects as "the social, cultural, and psychological impact of communicating via the mass media". Perse stated that media effects researchers study "how to control, enhance, or mitigate the impact of the mass media on individuals and society". Lang stated media effects researchers study "what types of content, in what type of medium, affect which people, in what situations". McLuhan points out in his the media ecology theory that "The medium is the message." BY Dhanasekar. 
+
+
+== Sphere ==
+The relationship between politics and the mass media is closely related for the reason that media is a source in shaping public opinion and political beliefs. Media is at times referred to as the fourth branch of government in democratic countries. As a result, political figures and parties are particularly sensitive towards their media presence and the media coverage of their public appearances. Mass media also establish its influence among powerful institutions such as legislation. Through the proper consent in mediums to advocate, different social groups are able to influence the decision-making that involves child safety, gun control, etc.
+
+
+== History ==
+Media effects studies have undergone several phases, often corresponding to the development of mass media technologies.
+
+
+=== Power of media effects phase ===
+During the early 20th century, developing mass media technologies, such as radio and film, were credited with an almost irresistible power to mold an audience's beliefs, cognition, and behaviors according to the communicators' will. The basic assumption of strong media effects theory was that audiences were passive and homogeneous. This assumption was not based on empirical evidence but instead on assumptions of human nature. There were two main explanations for this perception of mass media effects. First, mass broadcasting technologies were acquiring a widespread audience, even among average households. People were astonished by the speed of information dissemination, which may have clouded audience perception of any media effects. Secondly, propaganda techniques were implemented during war time by several governments as a powerful tool for uniting their people. This propaganda exemplified strong-effect communication. Early media effects research often focused on the power of this propaganda (e.g., Lasswell, 1927). Combing through the technological and social environment, early media effects theories stated that the mass media were all-powerful.Representative theories:
+
+Hypodermic needle model,  or magic bullet theory: Considers the audience to be targets of an injection or bullet of information fired from the pistol of mass media. The audience are unable to avoid or resist the injection or bullets.
+
+
+=== Limited media effects phase ===
+Starting in the 1930s, the second phase of media effects studies instituted the importance of empirical research while introducing the complex nature of media effects due to the idiosyncratic nature of individuals in an audience. The Payne Fund studies, conducted in the United States during this period, focused on the effect of media on young people. Many other separate studies focused on persuasion effects studies, or the possibilities and usage of planned persuasion in film and other media. Hovland et al. (1949) conducted a series of experimental studies to evaluate the effects of using films to indoctrinate American military recruits. Paul Lazarsfeld (1944) and his colleagues' effectiveness studies of democratic election campaigns launched political campaign effect studies.Researchers uncovered mounting empirical evidence of the idiosyncratic nature of media effects on individuals and audiences, identifying numerous intervening variables such as demographic attributes, social psychological factors, and different media use behaviors. With these new variables added to research, it was difficult to isolate media influence that resulted in any media effects to an audience's cognition, attitude, and behavior. As Berelson (1959) summed up in a widely quoted conclusion: "Some kinds of communication on some kinds of issues have brought to the attention of some kinds of people under some kinds of conditions have some kinds of effect." Though the concept of an all-powerful mass media was diluted, this did not determine that the media lacked influence or effect. Instead, the pre-existing structure of social relationships and cultural contexts were believed to primarily shape or change people's opinions, attitudes, and behaviors, and media merely function within these established processes. This complexity had a dampening effect upon media effects studies.Representative theories:
+
+Two-step flow of communication: Discusses the indirect effects of media, stating that people are affected by media through the interpersonal influence of opinion leaders.
+Klapper's selective exposure theory: Joseph T. Klapper asserts in his book, The Effects Of Mass Communication, that audiences are not passive targets of any communication contents. Instead, audiences selectively choose content that is aligned with previously held convictions.
+
+
+=== Chomsky Filters ===
+Noam Chomsky has named five filters through which mass media operate:
+Ownership: At the end of the day, mass media firms are big corporations trying to make profit so most of their articles are going to be whatever makes them the most money.
+Advertising: Since mass media costs a lot more than what most consumers are willing to pay, media corporations are in a deficit. In order to fill this gap, advertisers are used. While the media is being sold to consumers, those consumers are, in effect, being "sold" to advertisers.
+The Media Elite: By its nature, journalism cannot be completely regulated, so it allows corruption by governments, corporations, and large institutions that know how to "game the system".
+Flak: It is difficult for a journalist to stray from the consensus because the journalist will get "flak". When a story does not align with the narrative of a power, the power will try discrediting sources, trashing stories, and trying to distract readers.
+The Common Enemy: Creating a common enemy for audiences to rally against unifies public opinion.
+
+
+=== Rediscovered powerful media effects phase ===
+Limited media effect theory was challenged by new evidence supporting the fact that mass media messages could indeed lead to measurable social effects. Lang and Lang (1981) argued that the widespread acceptance of limited media effect theory was unwarranted and that "the evidence available by the end of the 1950s, even when balanced against some of the negative findings, gives no justification for an overall verdict of 'media importance.'"In the 1950s and 1960s, widespread use of television indicated its unprecedented power on social lives. Meanwhile, researchers also realized that early investigations, relying heavily on psychological models, were narrowly focused on only short-term and immediate effects. The "stimuli-reaction" model introduced the possibility of profound long-term media effects. A shift from short-term to long-term effect studies marked the renewal of media effects research. More attention was paid to collective cultural patterns, definitions of social reality, ideology, and institutional behavior. Though audiences were still considered in control of the selection of media messages they consumed, "the way media select, process and shape content for their own purposes can have a strong influence on how it is received and interpreted and thus on longer-term consequences" (Mcquail, 2010).Representative theories:
+
+Agenda-setting theory: Describes how topic selection and the frequency of reporting by the mass media affected the perceived salience of specific topics within the public audience.
+Framing: Identifies the media's ability to manipulate audience interpretation of a media message through careful control of angles, facts, opinions, and amount of coverage.
+Knowledge-gap theory: States the long-term influence of mass media on people's socioeconomic status with the hypothesis that "as the infusion of mass media information into a social system increases, higher socioeconomic status segments tend to acquire this information faster than lower socioeconomic status population segments causing the gap in knowledge between the two to increase rather than decrease".
+Cultivation theory: As an audience engages in media messages, particularly on television, they infer the portrayed world upon the real world.
+
+
+=== Negotiated media effects phase ===
+In the late 1970s, researchers examined the media's role in shaping social realities, also referred to as "social constructivism" (Gamson and Modigliani, 1989). This approach evaluated the media's role in constructing meaning and corresponding social realities. First, the media formats images of society in a patterned and predictable way, both in news and entertainment. Second, audiences construct or derive their perception of actual social reality—and their role in it—by interacting with the media-constructed realities. Individuals in these audiences can control their interaction and interpretation of these media-constructed realities. However, when media messages are the only information source, the audience may implicitly accept the media-constructed reality. Alternatively, they may choose to derive their social reality from other sources, such as first-hand experience or cultural environment.
+This phase also added qualitative and ethnographic research methods to existing quantitative and behaviorist research methods. Additionally, several research projects focused on media effects surrounding media coverage of minority and fringe social movements.Representative research:
+
+Van Zoonen's research (1992): Examines the mass media contribution to the women's movement in The Netherlands.
+
+
+=== New media environment phase ===
+As early as the 1970s, research emerged on the effects of individual or group behavior in computer-mediated environments. The focus was on the effect of computer-mediated communication (CMC) in interpersonal and group interaction. Early research examined the social interactions and impressions that CMC partners formed of each other, given the restrictive characteristics of CMC such as the anonymity and lack of nonverbal (auditory or visual) cues. The first generation of CMC researches simply compared existing "text-only" internet content (e.g. emails) to face-to-face communication (Culnan & Markus,1987). For example, Daft and Lengel (1986) developed the media richness theory to assess the media's ability of reproducing information.The internet was widely adopted for personal use in the 1990s, further expanding CMC studies. Theories such as social information processing (Walther, 1992) and  social identification/deindividuation (SIDE) model (Postmes et al. 2000) studied CMC effects on users' behavior, comparing these effects to face-to-face communication effects. With the emergence of dynamic user-generated content on websites and social media platforms, research results are even more conducive to CMC studies. For instance, Valkenburg & Peter (2009) developed the internet-enhanced self-disclosure hypothesis among adolescents, stating that social media platforms are primarily used to maintain real-life friendships among young people. Therefore, this media use may enhance those friendships. New CMC technologies are evolving at a rapid pace, calling for new media effects theories.
+
+
+=== Preference-based effects model ===
+New media and web technologies, including social media, are forcing communication scholars to rethink traditional effects models (Bennett and Iyengar, 2008). With changing media environments and evolving audience behaviors, some argue that the current paradigm for media effects research is a preference-based effects model (Cacciatore, Scheufele & Iyengar, 2016). This model is called preference-based reinforcement because the increasingly fragmented online news environment matches content with audiences based on their existing beliefs and preferences.This is driven by three phenomena:
+
+Media outlets have become increasingly tailored towards narrow ideological fragmented publics in order to creative more lucrative advertising environments
+Individuals rely on self-selected information consistent with their prior beliefs aggregated into personalized feeds, called “echo chambers”
+New media interfaces, such as tailored results from search engines, lead to narrow information tailoring by both voluntary and involuntary user inputThese three factors might also lead to rethinking strong media effects in the new media environment, including the concept of “tailored persuasion”.
+
+
+== Typology ==
+The broad scope of media effects studies creates an organizational challenge. Organizing media effects by their targeted audience type, either on an individual (micro) or an audience aggregate (macro) level, is one effective method. Denis McQuail, a prominent communication theorist, organized effects into a graph.
+
+
+=== Micro-level ===
+Theories that base their observations and conclusions on individual media users rather than on groups, institutions, systems, or society at large are referred to as micro-level theories.Representative theories:
+
+Elaboration likelihood model
+Social cognitive theory of mass communication
+Framing theory
+Priming theoryOn a micro-level, individuals can be affected in six different ways.
+
+Cognitive: The most apparent and measurable effect; includes any new information, meaning or message acquired through media consumption. Cognitive effects extend past knowledge acquisition: individuals can identify patterns, combine information sources, and infer information into new behaviors.
+Beliefs: A person cannot validate every single media message, yet might choose to believe many of the messages, even about events, people, places, and ideas they have never encountered first-hand.
+Attitudes: Media messages, regardless of intention, often trigger judgments or attitudes about the presented topics.
+Effect: Refers to any emotional effect, positive or negative, on an individual from media exposure.
+Physiological: Media content may trigger an automatic physical reaction, often manifested in fight-or-flight response or dilated pupils.
+Behaviors: Researchers measure an individual's obvious response and engagement with media content, noting any change or reinforcement in behaviors.
+
+
+=== Macro-level ===
+Theories that base their observations and conclusions on large social groups, institutions, systems, or ideologies are referred to as macro-level theories. Representative theories:
+
+Knowledge gap theory
+Risk communication
+Public sphere theory in communication
+limited effects theory
+The Dominant Paradigm
+Culturalist Theory
+
+
+=== McQuail's typology ===
+
+Created by Denis McQuail, a prominent communication theorist who is considered to be one of the most influential scholars in the field of mass communication studies. McQuail organized effects into a graph according to the media effect's intentionality (planned or unplanned) and time duration (short-term or long-term). See Figure 1.
+
+
+== Key media effects theories ==
+
+
+=== Micro-level media effects ===
+The following are salient examples of media effects studies which examine media influence on individuals.
+
+
+==== Third-person ====
+Individuals often mistakenly believe that they are less susceptible to media effects than others. About fifty percent of the members in a given sample are susceptible to the third-person effect, underestimating their degree of influence. This can allow an individual to complain about media effects without taking responsibility for their own possible effects. This is largely based on attribution theory, in which "the person tends to attribute his own reactions to the object world, and those of another, when they differ from his own, to personal characteristics." Standley (1994) tested the third-person effect and attribution theory, reporting people are more likely offer situational reasons for television's effect upon themselves, while offering dispositional reasons for other members of an audience.
+
+
+==== Priming ====
+This is a concept derived from a network model of memory used in cognitive psychology. In this model, information is stored as nodes clustered with related nodes by associated pathways. If one node is activated, nearby nodes are also activated. This is known as spreading activation. Priming occurs when a node is activated, causing related nodes to stand by for possible activation. Both the intensity and amount of elapsed time from the moment of activation determine the strength and duration of the priming effect.In media effects studies, priming is how exposure to media can alter an individual's attitudes, behaviors, or beliefs. Most media violence research, a popular area of discussion in media effects studies, theorizes that exposure to violent acts may prime an individual to behave more aggressively while the activation lingers.
+
+
+==== Social learning ====
+Miller and Dollard (1941) pioneered social learning theory with their finding that individuals do not need to personally act out a behavior to learn it; they can learn from observation. Bandura (1977) expanded upon this concept, stating that audiences can learn behaviors from observing fictitious characters.
+
+
+==== Media violence ====
+The effects of media violence upon individuals have many decades of research, starting as early as the 1920s. Children and adolescents, considered vulnerable media consumers, are often the target of these studies. Most studies of media violence surround the media categories of television and video games.
+The rise of the motion picture industry, coupled with advances in social sciences, spurred the famous Payne Fund studies and others. Though the quality of the research has been called into question, one of the findings suggested a direct role between movies depicting delinquent adolescents and delinquent behaviors in adolescents. Wertham (1954) later suggested that comic books influenced children into delinquent behaviors, provided false worldviews, and lowered literacy in his book Seduction of the Innocent. This research was too informal to reach a clear verdict, and a recent study suggests information was misrepresented and even falsified, yet it led to public outcry resulting in many discontinued comic magazines.Television's ubiquity in the 1950s generated more concerns. Since then, studies have hypothesized a number of effects.
+Behavioral effects include disinhibition, imitation and desensitization.
+
+Disinhibition: Theory that exposure to violent media may legitimize the use of violence. Has found support in many carefully controlled experiments. In one study, men exposed to violent pornography were found to behave more aggressively towards women in certain circumstances.Imitation theory: States individuals may learn violence from television characters. Bandura's Bobo doll experiment, along with other research, seems to indicate correlation even when controlling for individual differences.
+Desensitization: An individual's habituation to violence through exposure to violent media content, often resulting in real-life implications. Studies have covered both television and video game violence. Desensitization: Has become an issue with Hollywood adaptations in regard to crimes. It is very easy for a movie producer to become so caught up in making their films look artistic that they begin to make their audiences indifferent to the true horror taking place on screen.Cognitive effects include an increased belief of potential violence in the real world from watching violent media content leading to anxiety about personal safety.
+
+
+=== Macro-level media effects ===
+The following are salient examples of media effects studies which examine media influence on an audience aggregate.
+
+
+==== Cultivation ====
+Not all media effects are instantaneous or short-term. Gerbner (1969) created cultivation theory, arguing that the media cultivates a "collective consciousness about elements of existence." If audiences are exposed to repetitive themes and storylines, over time, they may expect these themes and storylines to be mirrored in real life.
+
+
+==== Agenda setting in the news ====
+There are two primary areas of media agenda-setting: (i) the media tells us the news and (ii) the media tells us what to think about the news. Press coverage sends signals to audiences about the importance of mentioned issues, while framing the news induces the unsuspecting viewer into a particular response. Additionally, news that is not given press coverage often dissipates, not only because it lacks a vehicle of mass communication, but also because individuals may not express their concerns for fear of being ostracized. This further creates the spiral of silence effect.
+
+
+===== Framing =====
+News outlets can influence public opinion by controlling variables in news presentation. News gatherers curate facts to underscore a certain angle. Presentation method—such as time of broadcast, extent of coverage and choice of news medium—can also frame the message; this can create, replace, or reinforce a certain viewpoint in an audience. Entman (2007) describes framing as "the process of culling a few elements of perceived reality and assembling a narrative that highlights connections among them to promote a particular interpretation." Not only does the media identify supposed "causes of problems," it can also "encourage moral judgments" and "promote favored policies."One long-term implication of framing, if the media reports news with a consistent favorable slant, is that it can lend a helping hand to certain overarching institutions of thought and related entities. It can reinforce capitalism, patriarchy, heterosexism, individualism, consumerism, and white privilege. Some theorize this bias may reinforce the political parties that espouse these thought paradigms, although more empirical research is needed to substantiate these claims.Media outlets contend that gatekeeping, or news filtering that may result in agenda-setting and specific framing, is inevitable. With a never-ending, near-limitless amount of information, filtering will occur by default. Subcultures within news organizations determine the type of published content, while editors and other news organization individuals filter messages to curate content for their target audience.The rise of digital media, from blogs to social media, has significantly altered the media's gatekeeping role. In addition to more gates, there are also more gatekeepers. Google and Facebook both cater content to their users, filtering though thousands of search results and media postings to generate content aligned with a user's preferences. In 2015, 63 percent of Facebook and Twitter users found news on their feeds, up from 57 percent the previous year. With some many "gates" or outlets, news spreads without the aid of legacy media networks. In fact, users on social media can act as a check to the media, calling attention to bias or inaccurate facts. There is also a symbiotic relationship between social media users and the press: younger journalists use social media to track trending topics.Legacy media outlets, along with newer online-only outlets, face enormous challenges. The multiplicity of outlets combined with downsizing in the aftermath of the 2008 recession makes reportage more hectic than ever. One study found that journalists write about 4.5 articles per day. Public relations agencies have begun to play a growing role in news creation. "41 percent of press articles and 52 percent of broadcast news items contain PR materials which play an agenda-setting role or where PR material makes up the bulk of the story." Stories are often rushed to publication and edited afterwards, without "having passed through the full journalistic process." Still, audiences seek out quality content—whichever outlet can fulfill this need may acquire the limited attention span of the modern viewer.
+
+
+===== Spiral of silence =====
+Individuals are disinclined to share or amplify certain messages because of a fear of social isolation and a willingness to self-censor. As applies to media effects studies, some individuals may silence their opinions if the media does not validate their importance or their viewpoint. This spiral of silence can also apply to individuals in the media who may refrain from publishing controversial media content that may challenge the status quo.
+
+
+==== limited effects theory ====
+According to Lazarsfeld' s research in the 1940s, the mass media is not able to change strongly-held attitudes held by most people, as contrary to the popular beliefs. This theory suggests that viewers are selective media messages in accordance with their existing worldviews. The use of mass media simply reinforce these concepts without easily changing their opinion, or with negligible effects because well-informed people are heavily leaned on personal experience and prior knowledge.
+
+
+==== The Dominant Paradigm ====
+This theory suggests that the mass media is able to establish dominance by reflecting the opinion of social elites, who also own and controls it, described by sociologist Todd Gitlin as a kind of "importance, similar to the faulty concept of power". By owning, or sponsoring particular medium, the elites are capable to alter what people perceived from the use of mass media.
+
+
+==== Features of current studies ====
+After entering the 21st century, the rapid development of the Internet and Web 2.0 technology is greatly reforming media use patterns. Media effects studies also are more diverse and specified. After conducting a meta-analysis on micro-level media effects theories, Valkenburg, Peter & Walther (2016) identified five main features:
+
+
+=== Selectivity of media use ===
+There are two propositions of this selectivity paradigm: (1) among the constellation of messages potentially attracting their attention, people only go to a limited portion of messages; (2) people are only influenced by those messages they select (Klapper 1960, Rubin 2009). Researchers had noticed the selectivity of media use decades ago and considered it as a key factor limiting media effects. Later, two theoretical perspectives, uses-and-gratifications (Katz et al. 1973, Rubin 2009) and selective exposure theory (Knobloch-Westerwick 2015, Zillmann & Bryant 1985), were developed based on this assumption and aimed to pinpoint the psychological and social factors guiding and filtering an audience's media selection. Generally, these theories put the media user in the center of the media effect process, and conceptualize media use as a mediator between antecedents and consequences of media effects. In other words, users (with intention or not) develop their own media use effects.
+
+
+=== Media properties as predictors ===
+The inherent properties of media themselves are considered as predictors in media effects.
+
+Modality: Media formats have been evolving ever since the very beginning. Whether the modality is text, auditory, visual, or audiovisual is assumed to be affecting the selection and cognition of the users when they are engaging in media use. Known for his aphorism of "The medium is the message," Marshall McLuhan (1964) is one of the best-known scholars who believe it is the modality rather than the content of media that is affecting individuals and society.
+Content properties: The majority of media effects studies still focus on the impact of content (e.g. violence, fearfulness, type of character, argument strength) on an audience. For example, Bandura's (2009) social cognitive theory postulates that media depictions of rewarded behavior and attractive media characters enhance the likelihood of media effects.
+Structural properties: Besides modality and content, structural properties such as special effects, pace, and visual surprises also play important roles in affecting audiences. By triggering the orienting reflex to media, these properties may initiate selective exposure (Knobloch-Westerwick 2015).
+
+
+=== Media effects are indirect ===
+After the all-powerful assumption of mass media was disproved by empirical evidence, the indirect path of the media's effect on audiences has been widely accepted. An indirect effect indicates that an independent variable (e.g., media use) affecting the dependent variables (e.g., outcomes of media use) via one or more intervening (mediating) variables. The conceptualization of indirect media effects urges attention to be paid to those intervening variables to better explain how and why media effects occur. Additionally, examining indirect effects can lead to a less biased estimation of effects sizes in empirical research (Holbert & Stephenson 2003). In a model including mediating and moderating variables, it is the combination of direct and indirect effects that makes up the total effect of an independent variable on a dependent variable. Thus, "if an indirect effect does not receive proper attention, the relationship between two variables of concern may not be fully considered" (Raykov & Marcoulides 2012)
+
+
+=== Media effects are conditional ===
+In correspondence with the statement that media effect is the result of a combination of variables, media effects can also be enhanced or reduced by individual differences and social context diversity. Many media effects theories hypothesize conditional media effects, including uses-and-gratifications theory (Rubin 2009), reinforcing spiral model (Slater 2007), the conditional model of political communication effects (McLeod et al. 2009), the elaboration likelihood model (Petty & Cacioppo 1986).
+
+
+=== Media effects are transactional ===
+Many theories assume reciprocal causal relationships between different variables, including characteristics of media users, factors in the environment, and outcomes of media (Bandura 2009). Transactional theories further support the selectivity paradigm (Feature 1), which assumes that the audience shapes their own media effects by selectively engaging in media use; transactional theories make an effort to explain how and why this occurs. Transactional media effects theories are the most complex among the five features. There are three basic assumptions. First, communication technologies (e.g., radio, television, internet) function as reciprocal mediators between information producers and receivers, who engage in transactions through these technologies (Bauer 1964). Second, the effect of media content is reciprocal between producers and receivers of media content, meaning they influence each other. Producers can be influenced by receivers because they learn from what the audience needs and prefers (Webster 2009). Third, transactions can be distinguished as interpersonal.
+However, these features are only limited within micro-level media effects studies, which are mostly focused on short-term, immediate, individual effects.
+
+
+=== Political importance of mass media ===
+One study concluded that social media is allowing politicians to be perceived as more authentic, with a key finding showing voters feel politicians are more honest on social media compared to in interviews or on TV shows. This opens up a new voter base for politicians to appeal to directly.Though new media allows for direct voter-politician interaction and transparency in politics, this potential to subvert information on a wide scale is particularly harmful to the political landscape. According to a 2018 report from Ofcom, 64% of adults got their news from the internet and 44% from social media. Features distinct to social media, such as likes, retweets, and shares, can also build an ideological echo chamber with the same piece of real or fake news recirculating.There are three major societal functions that mass media perform to political decisions raised by the political scientist Harold Lasswell: surveillance of the world to report ongoing events, interpretation of the meaning of events, and socialization of individuals into their cultural settings. The mass media regularly present politically crucial information on huge audiences and also represent the reaction of the audience rapidly through the mass media. The government or the political decision-makers have the chance to have a better understanding of the real reaction from the public to those decisions they have made.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Facebook's role in Brexit — and the threat to democracy on YouTube published on June 10, 2019 with Carole Cadwalladr
+Peter Medlin, WNIJ, "Illinois Is the First State to Have High Schools Teach News Literacy," National Public Radio, August 12, 2021
+
+
+== Further reading ==
+Adorno, Theodor (1973), The Jargon of Authenticity
+Allan, Stuart (2004), News Culture
+Barker, Martin, & Petley, Julian, eds (2001), Ill Effects: The media/violence debate – Second edition, London: Routledge
+Carter, Cynthia, and Weaver, C. Kay, eds (2003), Violence and the Media, Maidenhead: Open University Press
+Chomsky, Noam & Herman, Edward S. (1988, 2002). Manufacturing Consent: The Political Economy of the Mass Media. New York: Pantheon
+Curran, J. & Seaton, J. (1988), Power Without Responsibility
+Curran, J. & Gurevitch, M. (eds) (1991), Mass Media and Society
+Durham, M. & Kellner, D. (2001), Media and Cultural Studies. UK: Blackwell Publishing
+Fowles, Jib (1999), The Case for Television Violence, Thousand Oaks: Sage
+Gauntlett, David (2005), Moving Experiences – Second Edition: Media Effects and Beyond, London: John Libbey
+Grossberg, L., et al. (1998). Mediamaking: Mass media in a popular culture. CA: Sage Publications
+Harris, J. L.; Bargh, J. A. (2009). "Television Viewing and Unhealthy Diet: Implications for Children and Media Interventions". Health Communication. 24 (7): 660–673. doi:10.1080/10410230903242267. PMC 2829711. PMID 20183373.
+Habermas, J. (1962), The Structural Transformation of the Public Sphere
+Horkheimer (1947), The Eclipse of Reason, Oxford University Press
+Lang K & Lang G.E. (1966), The Mass Media and Voting
+Lazarsfeld, Berelson and Gaudet (1944), The People's Choice
+Mander, Jerry, "The Tyranny of Television", in Resurgence No. 165
+McClure, S. M.; Li, J.; Tomlin, D.; Cypert, K. S.; Montague, L. M.; Montague, P. R. (2004). "Neural correlates of behavioral preference for culturally familiar drinks". Neuron. 44 (2): 379–387. doi:10.1016/j.neuron.2004.09.019. PMID 15473974. S2CID 15015392.
+McCombs, M; Shaw, D.L. (1972). "The Agenda-setting Function of the Mass Media". Public Opinion Quarterly. 36 (2): 176–187. doi:10.1086/267990.
+Nabi, Robin L., and Mary B. Oliver. The SAGE Handbook of Media Processes and Effects. SAGE, 2009.
+Potter, W. James (1999), On Media Violence, Thousand Oaks: Sage
+Powell, L. M.; Szczpka, G.; Chaloupka, F. J.; Braunschweig, C. L. (2007). "Nutritional content of television food advertisements seen by children and adolescents". Pediatrics. 120 (3): 576–583. doi:10.1542/peds.2006-3595. PMID 17766531. S2CID 9104763.
+Riesman, David (1950), The Lonely Crowd
+Robinson, T. N.; Borzekowsi, D. L.; Matheson, D. M.; Kraemer, H. C. (2007). "Effects of fast food branding on young children's taste preferences". Archives of Pediatrics and Adolescent Medicine. 161 (8): 792–797. doi:10.1001/archpedi.161.8.792. PMID 17679662.
+Thompson, J. (1995), The Media and Modernity
+Trenaman J., and McQuail, D. (1961), Television and the Political ImageMethuen

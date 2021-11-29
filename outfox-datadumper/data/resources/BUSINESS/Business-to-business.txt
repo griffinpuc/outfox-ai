@@ -1,0 +1,47 @@
+Business-to-business (B2B or, in some countries, BtoB) is a situation where one business makes a commercial transaction with another. This typically occurs when:
+
+A business is sourcing materials for their production process for output   (e.g., a food manufacturer purchasing salt), i.e. providing raw material to the other company that will produce output.
+A business needs the services of another for operational reasons (e.g., a food manufacturer employing an accountancy firm to audit their finances).
+A business re-sells goods and services produced by others (e.g., a retailer buying the end product from the food manufacturer).B2B is often contrasted with business-to-consumer (B2C). In B2B commerce, it is often the case that the parties to the relationship have comparable negotiating power, and even when they do not, each party typically involves professional staff and legal counsel in the negotiation of terms, whereas B2C is shaped to a far greater degree by economic implications of information asymmetry. However, within a B2B context, large companies may have many commercial, resource and information advantages over smaller businesses. The United Kingdom government, for example, created the post of Small Business Commissioner under the Enterprise Act 2016 to "enable small businesses to resolve disputes" and "consider complaints by small business suppliers about payment issues with larger businesses that they supply."Business-to-Business companies represent a significant part of the United States economy. This is especially true in firms of 500 employees and above, of which there were 19,464 in 2015, where it is estimated that as many as 72% are businesses that primarily serve other businesses.
+
+
+== Comparison with B2C ==
+The principal difference between B2B and B2C is that the first one refers to commerce transaction between manufacturer and retailer, and the second one it is the retailer supplying goods to the consumer.In B2B there are business people on both sides, whereas in B2C there is normally one business person and one consumer. In the first case, the decision is pursued by need (because the other business needs it), and in the second case, they are expectations rather than needs.
+B2B has many sellers and different stores, whereas B2C,  is usually just one supplier. B2B concentrates on raw data for another company, but B2C focuses on producing something for consumers. 
+A B2B transaction entails direct-sourcing contract management, which involves negotiating terms that establish prices and various other factors such as volume-based pricing, carrier and logistics preferences, etc. B2C transaction is clearer, it has spot sourcing contract management that offers a flat retail rate for each item sold. Time is also different as B2B has a slower process than B2C which is concluded in shorter periods (that could be minutes or days). 
+Business-to-business generally requires an upfront investment whereas business-to-customers do not need a business to spend money on infrastructure. 
+The last difference mentioned here is that in B2B they have to deal with back-office connectivity and invoicing a number of different partners and suppliers, while B2C results in more seamless transactions as options, such as cyber-cash, allows the business to accept a wider variety of payment options. 
+B2B, as there are normally bigger amounts involved over longer periods of time, usually have higher costs than B2C, which consists of quick, daily transactions.
+In B2B, the brand reputation depends on is the personal relationship between the businesses. On the other hand, in B2C, the business's reputation is often fuelled through publicity and the media.
+In many cases, the overall volume of B2B (business-to-business) transactions is much higher than the volume of B2C transactions. The primary reason for this is that in a typical supply chain there will be many B2B transactions involving subcomponents or raw materials, and only one B2C transaction, specifically the sale of the finished product to the end customer. For example, an automobile manufacturer makes several B2B transactions such as buying tires, glass for windows, and rubber hoses for its vehicles. The final transaction, a finished vehicle sold to the consumer, is a single (B2C) transaction.
+
+
+== Organization ==
+B2B involves specific challenges at different stages. At their formation, organizations should be careful to rely on an appropriate combination of contractual and relational mechanisms. Scholars in strategic management and supply chain management have also noted the role of these governance mechanisms in case of B2B conflicts. Specific combinations of contracts and relational norms may influence the nature and dynamics of the negotiations between firms.
+
+
+== Business to business model ==
+
+
+=== Vertical B2B model ===
+Vertical B2B is generally oriented to manufacturing or business. It can be divided into two directions -- upstream and downstream. Producers or commercial retailers can have a supply relationship with upstream suppliers, including manufacturers, and form a sales relationship. As an example, Dell company is working with upstream suppliers of integrated circuit microchips and computer printed circuit boards (PCBs). 
+A vertical B2B website can be similar to the enterprise's online store. Through the website, the company can promote its products vigorously, more efficiently and more comprehensively which enriches transactions as they help their customers understand their products well. Or, the website can be created for business, where the seller advertises their products to promote and expand transactions in an intuitive and convenient way.
+
+
+=== Horizontal B2B model ===
+Horizontal B2B is the transaction pattern for the intermediate trading market. It concentrates similar transactions of various industries into one place, as it provides a trading opportunity for the purchaser and supplier, typically involving companies that do not own the products and do not sell the products. It is merely a platform to bring sellers and purchasers together online. The better platforms help buyers easily find information about the sellers and the relevant information about the products via the website.
+
+
+== B2B2C ==
+B2B2C means "business-to-business-to-consumer" and according to the TechTarget website, the purpose of the terminology is to "extend the business-to-business model to include e-commerce for consumers". B2B2C aims to "create a mutually beneficial relationship between suppliers of goods and services and online retailers". According to Lomate and Ramachandran, it enables manufacturers (the first "B" in B2B2C) to connect with, understand and serve their end customers ("C") without undermining their sales and distribution networks, including online sellers (the second "B") or excluding them from continuing customer engagement.
+
+
+== See also ==
+Account manager
+B2B e-commerce
+Business-to-consumer
+Business-to-government
+Customer to customer
+
+
+== References ==

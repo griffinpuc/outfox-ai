@@ -1,0 +1,15 @@
+A capping inversion is an elevated inversion layer that caps a convective planetary boundary layer.  
+The boundary layer is the part of the atmosphere which is closest to the ground.  Normally, the sun heats the ground, which in turn heats the air just above it.  Thermals form when this warm air rises into the cold air (warm air is less dense than cold air), a process called convection. A convective layer such as this has the potential for cloud formation, since condensation occurs as the warm air rises and cools.
+An inversion occurs when the normal temperature (warm air below, cold air above) profile is reversed, creating a stable configuration of dense, cold air sitting below lighter, warm air. An elevated inversion layer is thus a region of warm air above a region of cold air, but higher in the atmosphere (generally not touching the surface).
+A capping inversion occurs when there is a boundary layer with a normal temperature profile (warm air rising into cooler air) and the layer above that is an inversion layer (cooler air below warm air).  Cloud formation from the lower layer is "capped" by the inversion layer.  If the capping inversion layer or "cap" is too strong (too close to the surface), it will prevent thunderstorms from developing.  A strong cap can result in foggy conditions.  
+However, if the air at the surface is unstable enough, strong updrafts can be forced through the capping inversion.  This selective process of only allowing the strongest updrafts to form thunderstorms often results in outbreaks of severe weather.
+
+
+== See also ==
+Convective available potential energy
+Convective inhibition
+
+
+== External links ==
+Capping Inversion - AMS Glossary of Meteorology
+Capping Inversion - National Science Digital Library

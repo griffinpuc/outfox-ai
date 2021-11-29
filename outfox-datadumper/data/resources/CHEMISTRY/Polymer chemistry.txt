@@ -1,0 +1,180 @@
+Polymer chemistry is a sub-discipline of chemistry that focuses on the chemical synthesis, structure, and chemical and physical properties of polymers and macromolecules. The principles and methods used within polymer chemistry are also applicable through a wide range of other chemistry sub-disciplines like organic chemistry, analytical chemistry, and physical chemistry. Many materials have polymeric structures, from fully inorganic metals and ceramics to DNA and other biological molecules, however, polymer chemistry is typically referred to in the context of synthetic, organic compositions. Synthetic polymers are ubiquitous in commercial materials and products in everyday use, commonly referred to as plastics, and rubbers, and are major components of composite materials. Polymer chemistry can also be included in the broader fields of polymer science or even nanotechnology, both of which can be described as encompassing polymer physics and polymer engineering.
+
+
+== History ==
+The work of Henri Braconnot in 1777 and the work of Christian Schönbein in 1846 led to the discovery of nitrocellulose, which, when treated with camphor, produced celluloid. Dissolved in ether or acetone, it becomes collodion, which has been used as a wound dressing since the U.S. Civil War. Cellulose acetate was first prepared in 1865. In years 1834-1844 the properties of rubber (polyisoprene) were found to be greatly improved by heating with sulfur, thus founding the vulcanization process.
+In 1884 Hilaire de Chardonnet started the first artificial fiber plant based on regenerated cellulose, or viscose rayon, as a substitute for silk, but it was very flammable. In 1907 Leo Baekeland invented the first polymer made independent of the products of organisms, a thermosetting phenol-formaldehyde resin called Bakelite. Around the same time, Hermann Leuchs reported the synthesis of amino acid N-carboxyanhydrides and their high molecular weight products upon reaction with nucleophiles, but stopped short of referring to these as polymers, possibly due to the strong views espoused by Emil Fischer, his direct supervisor, denying the possibility of any covalent molecule exceeding 6,000 daltons. Cellophane was invented in 1908 by Jocques Brandenberger who treated sheets of viscose rayon with acid.
+Leading figures in polymer chemistry
+		
+		
+		
+The chemist Hermann Staudinger first proposed that polymers  consisted of long chains of atoms held together by covalent bonds, which he called macromolecules. His work expanded the chemical understanding of polymers and was followed by an expansion of the field of polymer chemistry during which such polymeric materials as neoprene, nylon and polyester were invented. Before Staudinger, polymers were thought to be clusters of small molecules (colloids), without definite molecular weights, held together by an unknown force. Staudinger received the Nobel Prize in Chemistry in 1953. Wallace Carothers invented the first synthetic rubber called neoprene in 1931, the first polyester, and went on to invent nylon, a true silk replacement, in 1935. Paul Flory was awarded the Nobel Prize in Chemistry in 1974 for his work on polymer random coil configurations in solution in the 1950s. Stephanie Kwolek developed an aramid, or aromatic nylon named Kevlar, patented in 1966.  Karl Ziegler and Giulio Natta received a Nobel Prize for their discovery of catalysts for the polymerization of alkenes.  Alan J. Heeger, Alan MacDiarmid, and Hideki Shirakawa were awarded the 2000 Nobel Prize in Chemistry for the development of polyacetylene and related conductive polymers. Polyacetylene itself did not find practical applications, but organic light-emitting diodes (OLEDs) emerged as one application of conducting polymers.Teaching and research programs in polymer chemistry were introduced in the 1940s.  An Institut fur Makromolekulare Chemie was founded in 1940 in Freiburg, Germany under the direction of Staudinger. In America a Polymer Research Institute (PRI) was established in 1941 by Herman Mark at the Polytechnic Institute of Brooklyn (now Polytechnic Institute of NYU).
+
+
+== Polymers and their properties ==
+
+Polymers are high molecular mass compounds formed by polymerization of monomers. The simple reactive molecule from which the repeating structural units of a polymer are derived is called a monomer. A polymer can be described in many ways: its degree of polymerisation, molar mass distribution, tacticity, copolymer distribution, the degree of branching, by its end-groups, crosslinks, crystallinity and thermal properties such as its glass transition temperature and melting temperature. Polymers in solution have special characteristics with respect to solubility, viscosity, and gelation.  Illustrative of the quantitative aspects of polymer chemistry, particular attention is paid to the number-average and weight-average molecular weights 
+  
+    
+      
+        
+          M
+          
+            n
+          
+        
+      
+    
+    {\displaystyle M_{n}}
+   and 
+  
+    
+      
+        
+          M
+          
+            w
+          
+        
+      
+    
+    {\displaystyle M_{w}}
+  , respectively.
+
+  
+    
+      
+        
+          M
+          
+            n
+          
+        
+        =
+        
+          
+            
+              ∑
+              
+                M
+                
+                  i
+                
+              
+              
+                N
+                
+                  i
+                
+              
+            
+            
+              ∑
+              
+                N
+                
+                  i
+                
+              
+            
+          
+        
+        ,
+        
+        
+          M
+          
+            w
+          
+        
+        =
+        
+          
+            
+              ∑
+              
+                M
+                
+                  i
+                
+                
+                  2
+                
+              
+              
+                N
+                
+                  i
+                
+              
+            
+            
+              ∑
+              
+                M
+                
+                  i
+                
+              
+              
+                N
+                
+                  i
+                
+              
+            
+          
+        
+        ,
+        
+      
+    
+    {\displaystyle M_{n}={\frac {\sum M_{i}N_{i}}{\sum N_{i}}},\quad M_{w}={\frac {\sum M_{i}^{2}N_{i}}{\sum M_{i}N_{i}}},\quad }
+  
+The formation and properties of polymers have been rationalized by many theories including Scheutjens–Fleer theory, Flory–Huggins solution theory, Cossee-Arlman mechanism, Polymer field theory, Hoffman Nucleation Theory, Flory-Stockmayer Theory, and many others.
+
+
+== Classification ==
+
+
+=== Origin ===
+Polymers can be subdivided into biopolymers and synthetic polymers according to their origin. Each one of these classes of compounds can be subdivided into more specific categories in relationship to their use and properties
+
+Biopolymers are the structural and functional materials that comprise most of the organic matter in organisms.  One major class of biopolymers are proteins, which are derived from amino acids. Polysaccharides, such as cellulose, chitin, and starch, are biopolymers derived from sugars. The polynucleic acids DNA and RNA are derived from phosphorylated sugars with pendant nucleotides that carry genetic information.
+Synthetic polymers are the structural materials manifested in plastics, synthetic fibers, paints, building materials, furniture, mechanical parts, and adhesives. Synthetic polymers may be divided into thermoplastic polymers and thermoset plastics.  Thermoplastic polymers include polyethylene, teflon, polystyrene, polypropylene, polyester, polyurethane, Poly(methyl methacrylate), polyvinyl chloride, nylons, and rayon. Thermoset plastics include vulcanized rubber, bakelite, Kevlar, and polyepoxide.  Almost all synthetic polymers are derived from petrochemicals.
+
+
+=== Viscosity ===
+As polymers get longer and their molecular weight increases, the viscosity of polymers in their dissolved and liquid states also tend to increase. Thus, the measured viscosity of synthesized polymers can provide valuable information about the average length of the polymer, the progress of reactions and in what ways the polymer branches.
+
+
+== Techniques ==
+A wide variety of techniques for synthesizing polymers have been discovered.
+
+
+=== List of common techniques ===
+
+
+==== Inorganic Polymer Synthesis ====
+Free-radical polymerization
+Ionic polymerization
+Polycondensation
+Polyaddition
+Coordination Polymerization
+
+
+==== Biopolymer Synthesis ====
+Protein Biosynthesis
+Cell-Free Protein Synthesis
+DNA synthesis
+
+
+== See also ==
+Polymer
+Polymer science
+Polymer physics
+Chemistry
+Polymer topology
+
+
+== References ==

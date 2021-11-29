@@ -1,0 +1,111 @@
+In biology, a kingdom (Latin: regnum, plural regna) is the second highest taxonomic rank, just below domain. Kingdoms are divided into smaller groups called phyla. Traditionally, some textbooks from the United States and Canada used a system of six kingdoms (Animalia, Plantae, Fungi, Protista, Archaea/Archaebacteria, and Bacteria/Eubacteria) while textbooks in Great Britain, India, Greece, Brazil and other countries use five kingdoms only (Animalia, Plantae, Fungi, Protista and Monera). Some recent classifications based on modern cladistics have explicitly abandoned the term kingdom, noting that the traditional kingdoms are not monophyletic, meaning that they do not consist of all the descendants of a common ancestor. The informal terms flora (plants), fauna (animals), and, in the 21st century, funga are also used.
+
+
+== Definition and associated terms ==
+When Carl Linnaeus introduced the rank-based system of nomenclature into biology in 1735, the highest rank was given the name "kingdom" and was followed by four other main or principal ranks: class, order, genus and species. Later two further main ranks were introduced, making the sequence kingdom, phylum or division, class, order, family, genus and species.  In 1990, the rank of domain was introduced above kingdom.Prefixes can be added so  subkingdom (subregnum) and infrakingdom (also known as infraregnum) are the two ranks immediately below kingdom. Superkingdom may be considered as an equivalent of domain or empire or as an independent rank between kingdom and domain or subdomain. In some classification systems the additional rank branch (Latin: ramus) can be inserted between subkingdom and infrakingdom, e.g., Protostomia and Deuterostomia in the classification of Cavalier-Smith.
+
+
+== History ==
+
+
+=== Two kingdoms of life ===
+
+The classification of living things into animals and plants is an ancient one. Aristotle (384–322 BC) classified animal species in his History of Animals, while his pupil Theophrastus (c. 371–c. 287 BC) wrote a parallel work, the Historia Plantarum, on plants.Carl Linnaeus (1707–1778) laid the foundations for modern biological nomenclature, now regulated by the Nomenclature Codes, in 1735. He distinguished two kingdoms of living things: Regnum Animale ('animal kingdom') and Regnum Vegetabile ('vegetable kingdom', for plants). Linnaeus also included minerals in his classification system, placing them in a third kingdom, Regnum Lapideum.
+
+
+=== Three kingdoms of life ===
+
+In 1674, Antonie van Leeuwenhoek, often called the "father of microscopy", sent the Royal Society of London a copy of his first observations of microscopic single-celled organisms. Until then, the existence of such microscopic organisms was entirely unknown. Despite this, Linnaeus did not include any microscopic creatures in his original taxonomy.
+At first, microscopic organisms were classified within the animal and plant kingdoms. However, by the mid–19th century, it had become clear to many that "the existing dichotomy of the plant and animal kingdoms [had become] rapidly blurred at its boundaries and outmoded".In 1860 John Hogg proposed the Protoctista, a third kingdom of life composed of “all the lower creatures, or the primary organic beings"; he retained Regnum Lapideum as a fourth kingdom of minerals. In 1866, Ernst Haeckel also proposed a third kingdom of life, the Protista, for "neutral organisms" or "the kingdom of primitive forms", which were neither animal nor plant; he did not include the Regnum Lapideum in his scheme. Haeckel revised the content of this kingdom a number of times before settling on a division based on whether organisms were unicellular (Protista) or multicellular (animals and plants).
+
+
+=== Four kingdoms ===
+The development of microscopy revealed important distinctions between those organisms whose cells do not have a distinct nucleus (prokaryotes) and organisms whose cells do have a distinct nucleus (eukaryotes). In 1937 Édouard Chatton introduced the terms "prokaryote" and "eukaryote" to differentiate these organisms.In 1938, Herbert F. Copeland proposed a four-kingdom classification by creating the novel Kingdom Monera of prokaryotic organisms; as a revised phylum Monera of the Protista, it included organisms now classified as Bacteria and Archaea. Ernst Haeckel, in his 1904 book The Wonders of Life, had placed the blue-green algae (or Phycochromacea) in Monera; this would gradually gain acceptance, and the blue-green algae would become classified as bacteria in the phylum Cyanobacteria.In the 1960s, Roger Stanier and C. B. van Niel promoted and popularized Édouard Chatton's earlier work, particularly in their paper of 1962, "The Concept of a Bacterium"; this created, for the first time, a rank above kingdom—a superkingdom or empire—with the two-empire system of prokaryotes and eukaryotes. The two-empire system would later be expanded to the three-domain system of Archaea, Bacteria, and Eukaryota.
+
+
+=== Five kingdoms ===
+
+The differences between fungi and other organisms regarded as plants had long been recognised by some; Haeckel had moved the fungi out of Plantae into Protista after his original classification, but was largely ignored in this separation by scientists of his time. Robert Whittaker recognized an additional kingdom for the Fungi. The resulting five-kingdom system, proposed in 1969 by Whittaker, has become a popular standard and with some refinement is still used in many works and forms the basis for new multi-kingdom systems. It is based mainly upon differences in nutrition; his Plantae were mostly multicellular autotrophs, his Animalia multicellular heterotrophs, and his Fungi multicellular saprotrophs.
+The remaining two kingdoms, Protista and Monera, included unicellular and simple cellular colonies. The five kingdom system may be combined with the two empire system. In the Whittaker system, Plantae included some algae. In other systems, such as Lynn Margulis's system of five kingdoms, the plants included just the land plants (Embryophyta), and Protoctista has a broader definition.Following publication of Whittaker's system, the five-kingdom model began to be commonly used in high school biology textbooks. But despite the development from two kingdoms to five among most scientists, some authors as late as 1975 continued to employ a traditional two-kingdom system of animals and plants, dividing the plant kingdom into subkingdoms Prokaryota (bacteria and cyanobacteria), Mycota (fungi and supposed relatives), and Chlorota (algae and land plants).
+
+
+=== Six kingdoms ===
+In 1977, Carl Woese and colleagues proposed the fundamental subdivision of the prokaryotes into the Eubacteria (later called the Bacteria) and Archaebacteria (later called the Archaea), based on ribosomal RNA structure; this would later lead to the proposal of three "domains" of life, of Bacteria, Archaea, and Eukaryota. Combined with the five-kingdom model, this created a six-kingdom model, where the kingdom Monera is replaced by the kingdoms Bacteria and Archaea. This six-kingdom model is commonly used in recent US high school biology textbooks, but has received criticism for compromising the current scientific consensus. But the division of prokaryotes into two kingdoms remains in use with the recent seven kingdoms scheme of Thomas Cavalier-Smith, although it primarily differs in that Protista is replaced by Protozoa and Chromista.
+
+
+=== Eight kingdoms ===
+Thomas Cavalier-Smith supported the consensus at that time, that the difference between Eubacteria and Archaebacteria was so great (particularly considering the genetic distance of ribosomal genes) that the prokaryotes needed to be separated into two different kingdoms. He then divided Eubacteria into two subkingdoms: Negibacteria (Gram negative bacteria) and Posibacteria (Gram positive bacteria). Technological advances in electron microscopy allowed the separation of the Chromista from the Plantae kingdom. Indeed, the chloroplast of the chromists is located in the lumen of the endoplasmic reticulum instead of in the cytosol. Moreover, only chromists contain chlorophyll c. Since then, many non-photosynthetic phyla of protists, thought to have secondarily lost their chloroplasts, were integrated into the kingdom Chromista.
+Finally, some protists lacking mitochondria were discovered. As mitochondria were known to be the result of the endosymbiosis of a proteobacterium, it was thought that these amitochondriate eukaryotes were primitively so, marking an important step in eukaryogenesis. As a result, these amitochondriate protists were separated from the protist kingdom, giving rise to the, at the same time, superkingdom and kingdom Archezoa. This superkingdom was opposed to the Metakaryota superkingdom, grouping together the five other eukaryotic kingdoms (Animalia, Protozoa, Fungi, Plantae and Chromista). This was known as the Archezoa hypothesis, which has since been abandoned; later schemes did not include the Archezoa–Metakaryota divide.
+† No longer recognized by taxonomists.
+
+
+=== Six kingdoms (1998) ===
+In 1998, Cavalier-Smith published a six-kingdom model, which has been revised in subsequent papers. The version published in 2009 is shown below. Cavalier-Smith no longer accepted the importance of the fundamental Eubacteria–Archaebacteria divide put forward by Woese and others and supported by recent research. The kingdom Bacteria (sole kingdom of empire Prokaryota) was subdivided into two sub-kingdoms according to their membrane topologies: Unibacteria and Negibacteria. Unibacteria was divided into phyla Archaebacteria and Posibacteria; the bimembranous-unimembranous transition was thought to be far more fundamental than the long branch of genetic distance of Archaebacteria, viewed as having no particular biological significance.
+Cavalier-Smith does not accept the requirement for taxa to be monophyletic ("holophyletic" in his terminology) to be valid. He defines Prokaryota, Bacteria, Negibacteria, Unibacteria, and Posibacteria as valid paraphyla (therefore "monophyletic" in the sense he uses this term) taxa, marking important innovations of biological significance (in regard of the concept of biological niche).
+In the same way, his paraphyletic kingdom Protozoa includes the ancestors of Animalia, Fungi, Plantae, and Chromista. The advances of phylogenetic studies allowed Cavalier-Smith to realize that all the phyla thought to be archezoans (i.e. primitively amitochondriate eukaryotes) had in fact secondarily lost their mitochondria, typically by transforming them into new organelles: Hydrogenosomes. This means that all living eukaryotes are in fact metakaryotes, according to the significance of the term given by Cavalier-Smith. Some of the members of the defunct kingdom Archezoa, like the phylum Microsporidia, were reclassified into kingdom Fungi. Others were reclassified in kingdom Protozoa, like Metamonada which is now part of infrakingdom Excavata.
+Because Cavalier-Smith allows paraphyly, the diagram below is an ‘organization chart’, not an ‘ancestor chart’, and does not represent an evolutionary tree.
+
+
+=== Seven kingdoms ===
+Cavalier-Smith and his collaborators revised their classification in 2015. In this scheme they reintroduced the division of prokaryotes into two kingdoms, Bacteria (=Eubacteria) and Archaea (=Archaebacteria). This is based on the consensus in the Taxonomic Outline of Bacteria and Archaea (TOBA) and the Catalogue of Life.
+
+
+=== Summary ===
+
+The kingdom-level classification of life is still widely employed as a useful way of grouping organisms, notwithstanding some problems with this approach:
+
+Kingdoms such as Protozoa represent grades rather than clades, and so are rejected by phylogenetic classification systems.
+The most recent research does not support the classification of the eukaryotes into any of the standard systems. As of April 2010, no set of kingdoms is sufficiently supported by research to attain widespread acceptance. In 2009, Andrew Roger and Alastair Simpson emphasized the need for diligence in analyzing new discoveries: "With the current pace of change in our understanding of the eukaryote tree of life, we should proceed with caution."
+
+
+== Beyond traditional kingdoms ==
+
+While the concept of kingdoms continues to be used by some taxonomists, there has been a movement away from traditional kingdoms, as they are no longer seen as providing a cladistic classification, where there is emphasis in arranging organisms into natural groups.
+
+
+=== Three domains of life ===
+
+From around the mid-1970s onwards, there was an increasing emphasis on comparisons of genes at the molecular level (initially ribosomal RNA genes) as the primary factor in classification; genetic similarity was stressed over outward appearances and behavior. Taxonomic ranks, including kingdoms, were to be groups of organisms with a common ancestor, whether monophyletic (all descendants of a common ancestor) or paraphyletic (only some descendants of a common ancestor).Based on such RNA studies, Carl Woese thought life could be divided into three large divisions and referred to them as the "three primary kingdom" model or "urkingdom" model. In 1990, the name "domain" was proposed for the highest rank. This term represents a synonym for the category of dominion (lat. dominium), introduced by Moore in 1974. Unlike Moore, Woese et al. (1990) did not suggest a Latin term for this category, which represents a further argument supporting the accurately introduced term dominion.
+Woese divided the prokaryotes (previously classified as the Kingdom Monera) into two groups, called Eubacteria and Archaebacteria, stressing that there was as much genetic difference between these two groups as between either of them and all eukaryotes.
+
+According to genetic data, although eukaryote groups such as plants, fungi, and animals may look different, they are more closely related to each other than they are to either the Eubacteria or Archaea. It was also found that the eukaryotes are more closely related to the Archaea than they are to the Eubacteria. Although the primacy of the Eubacteria-Archaea divide has been questioned, it has been upheld by subsequent research. There is no consensus on how many kingdoms exist in the classification scheme proposed by Woese.
+
+
+=== Eukaryotic supergroups ===
+
+In 2004, a review article by Simpson and Roger noted that the Protista were "a grab-bag for all eukaryotes that are not animals, plants or fungi". They held that only monophyletic groups should be accepted as formal ranks in a classification and that – while this approach had been impractical previously (necessitating "literally dozens of eukaryotic 'kingdoms'") – it had now become possible to divide the eukaryotes into "just a few major groups that are probably all monophyletic".On this basis, the diagram opposite (redrawn from their article) showed the real "kingdoms" (their quotation marks) of the eukaryotes. A classification which followed this approach was produced in 2005 for the International Society of Protistologists, by a committee which "worked in collaboration with specialists from many societies". It divided the eukaryotes into the same six "supergroups". The published classification deliberately did not use formal taxonomic ranks, including that of "kingdom".
+
+In this system the multicellular animals (Metazoa) are descended from the same ancestor as both the unicellular choanoflagellates and the fungi which form the Opisthokonta. Plants are thought to be more distantly related to animals and fungi.
+However, in the same year as the International Society of Protistologists' classification was published (2005), doubts were being expressed as to whether some of these supergroups were monophyletic, particularly the Chromalveolata, and a review in 2006 noted the lack of evidence for several of the six proposed supergroups.As of 2010, there is widespread agreement that the Rhizaria belong with the Stramenopiles and the Alveolata, in a clade dubbed the SAR supergroup, so that Rhizaria is not one of the main eukaryote groups. Beyond this, there does not appear to be a consensus. Rogozin et al. in 2009 noted that "The deep phylogeny of eukaryotes is an extremely difficult and controversial problem." As of December 2010, there appears to be a consensus that the six supergroup model proposed in 2005 does not reflect the true phylogeny of the eukaryotes and hence how they should be classified, although there is no agreement as to the model which should replace it.
+
+
+== Viruses ==
+The International Committee on Taxonomy of Viruses uses the taxonomic rank "kingdom" for the classification of viruses (with the suffix -virae); but this is beneath the top level classifications of realm and subrealm.There is ongoing debate as to whether viruses can be included in the tree of life. The ten arguments against include the fact that they are obligate intracellular parasites that lack metabolism and are not capable of replication outside of a host cell. Another argument is that their placement in the tree would be problematic, since it is suspected that viruses have arisen multiple times, and they have a penchant for harvesting nucleotide sequences from their hosts.
+On the other hand, arguments favor their inclusion.
+One comes from the discovery of unusually large and complex viruses, such as Mimivirus, that possess typical cellular genes.
+See also: Virus classification
+
+
+== See also ==
+
+Cladistics
+Phylogenetics
+Systematics
+Taxonomy
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Pelentier, B. (2007-2015). Empire Biota: a comprehensive taxonomy, [1]. [Historical overview.]
+Peter H. Raven and Helena Curtis (1970), Biology of Plants, New York:  Worth Publishers. [Early presentation of five-kingdom system.]
+
+
+== External links ==
+A Brief History of the Kingdoms of Life at Earthling Nature
+The five kingdom concept
+Whittaker's classification

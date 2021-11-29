@@ -1,0 +1,204 @@
+The Defense Advanced Research Projects Agency (DARPA) is a research and development agency of the United States Department of Defense responsible for the development of emerging technologies for use by the military.Originally known as the Advanced Research Projects Agency (ARPA), the agency was created on February 7, 1958 by President Dwight D. Eisenhower in response to the Soviet launching of Sputnik 1 in 1957. By collaborating with academia, industry, and government partners, DARPA formulates and executes research and development projects to expand the frontiers of technology and science, often beyond immediate U.S. military requirements.The Economist has called DARPA the agency "that shaped the modern world," and pointed out that "Moderna’s covid-19 vaccine sits alongside weather satellites, GPS, drones, stealth technology, voice interfaces, the personal computer and the internet on the list of innovations for which DARPA can claim at least partial credit."   Its track record of success has inspired governments around the world to launch similar research and development agencies.DARPA is independent of other military research and development and reports directly to senior Department of Defense management. DARPA comprises approximately 220 government employees in six technical offices, including nearly 100 program managers, who together oversee about 250 research and development programs.The name of the organization first changed from its founding name, ARPA, to DARPA, in March 1972, changing back to ARPA in February 1993, then reverted to DARPA in March 1996.The agency's current director, appointed in March 2021, is Stefanie Tompkins.
+
+
+== Mission ==
+As of 2021, their mission statement is "to make pivotal investments in breakthrough technologies for national security".
+
+
+== History ==
+
+
+=== Early history (1958–1969) ===
+The creation of the Advanced Research Projects Agency (ARPA) was authorized by President Dwight D. Eisenhower in 1958 for the purpose of forming and executing research and development projects to expand the frontiers of technology and science, and able to reach far beyond immediate military requirements, the two relevant acts being the Supplemental Military Construction Authorization (Air Force) (Public Law 85-325) and Department of Defense Directive 5105.15, in February 1958. Its creation was directly attributed to the launching of Sputnik and to U.S. realization that the Soviet Union had developed the capacity to rapidly exploit military technology. Initial funding of ARPA was $520 million. ARPA's first director, Roy Johnson, left a $160,000 management job at General Electric for an $18,000 job at ARPA. Herbert York from Lawrence Livermore National Laboratory was hired as his scientific assistant.Johnson and York were both keen on space projects, but when NASA was established later in 1958 all space projects and most of ARPA's funding were transferred to it. Johnson resigned and ARPA was repurposed to do "high-risk", "high-gain", "far out" basic research, a posture that was enthusiastically embraced by the nation's scientists and research universities. ARPA's second director was Brigadier General Austin W. Betts, who resigned in early 1961. He was succeeded by Jack Ruina who served until 1963. Ruina, the first scientist to administer ARPA, managed to raise its budget to $250 million. It was Ruina who hired J. C. R. Licklider as the first administrator of the Information Processing Techniques Office, which played a vital role in creation of ARPANET, the basis for the future Internet.Additionally, the political and defense communities recognized the need for a high-level Department of Defense organization to formulate and execute R&D projects that would expand the frontiers of technology beyond the immediate and specific requirements of the Military Services and their laboratories. In pursuit of this mission, DARPA has developed and transferred technology programs encompassing a wide range of scientific disciplines that address the full spectrum of national security needs.
+From 1958 to 1965, ARPA's emphasis centered on major national issues, including space, ballistic missile defense, and nuclear test detection.  During 1960, all of its civilian space programs were transferred to the National Aeronautics and Space Administration (NASA) and the military space programs to the individual services.This allowed ARPA to concentrate its efforts on the Project Defender (defense against ballistic missiles), Project Vela (nuclear test detection), and Project AGILE (counterinsurgency R&D) programs, and to begin work on computer processing, behavioral sciences, and materials sciences. The DEFENDER and AGILE programs formed the foundation of DARPA sensor, surveillance, and directed energy R&D, particularly in the study of radar, infrared sensing, and x-ray/gamma ray detection.
+ARPA at this point (1959) played an early role in Transit (also called NavSat) a predecessor to the Global Positioning System (GPS).  "Fast-forward to 1959 when a joint effort between DARPA and the Johns Hopkins Applied Physics Laboratory began to fine-tune the early explorers' discoveries. TRANSIT, sponsored by the Navy and developed under the leadership of Dr. Richard Kirschner at Johns Hopkins, was the first satellite positioning system."During the late 1960s, with the transfer of these mature programs to the Services, ARPA redefined its role and concentrated on a diverse set of relatively small, essentially exploratory research programs. The agency was renamed the Defense Advanced Research Projects Agency (DARPA) in 1972, and during the early 1970s, it emphasized direct energy programs, information processing, and tactical technologies.Concerning information processing, DARPA made great progress, initially through its support of the development of time-sharing (all modern operating systems rely on concepts invented for the Multics system, developed by a cooperation among Bell Labs, General Electric and MIT, which DARPA supported by funding Project MAC at MIT with an initial two-million-dollar grant).DARPA supported the evolution of the ARPANET (the first wide-area packet switching network), Packet Radio Network, Packet Satellite Network and ultimately, the Internet and research in the artificial intelligence fields of speech recognition and signal processing, including parts of Shakey the robot. DARPA also supported the early development of both hypertext and hypermedia. DARPA funded one of the first two hypertext systems, Douglas Engelbart's NLS computer system, as well as The Mother of All Demos.  DARPA later funded the development of the Aspen Movie Map, which is generally seen as the first hypermedia system and an important precursor of virtual reality.
+
+
+=== Later history (1970–1980) ===
+The Mansfield Amendment of 1973 expressly limited appropriations for defense research (through ARPA/DARPA) only to projects with direct military application.
+The resulting "brain drain" is also credited with boosting the development of the fledgling personal computer industry. Some young computer scientists left the universities to startups and private research laboratories such as Xerox PARC.
+Between 1976 and 1981, DARPA's major projects were dominated by air, land, sea, and space technology, tactical armor and anti-armor programs, infrared sensing for space-based surveillance, high-energy laser technology for space-based missile defense, antisubmarine warfare, advanced cruise missiles, advanced aircraft, and defense applications of advanced computing. These large-scale technological program demonstrations were joined by integrated circuit research, which resulted in submicrometer electronic technology and electron devices that evolved into the Very-Large-Scale Integration (VLSI) Program and the Congressionally-mandated charged particle beam program.Many of the successful programs were transitioned to the Services, such as the foundation technologies in automatic target recognition, space based sensing, propulsion, and materials that were transferred to the Strategic Defense Initiative Organization (SDIO), later known as the Ballistic Missile Defense Organization (BMDO), now titled the Missile Defense Agency (MDA).
+
+
+=== Recent history (1981–present) ===
+During the 1980s, the attention of the Agency was centered on information processing and aircraft-related programs, including the National Aerospace Plane (NASP) or Hypersonic Research Program. The Strategic Computing Program enabled DARPA to exploit advanced processing and networking technologies and to rebuild and strengthen relationships with universities after the Vietnam War. In addition, DARPA began to pursue new concepts for small, lightweight satellites (LIGHTSAT) and directed new programs regarding defense manufacturing, submarine technology, and armor/anti-armor.
+In 1981, two engineers, Robert McGhee and Kenneth Waldron, started to develop the Adaptive Suspension Vehicle (ASV) nicknamed the "Walker" at the Ohio State University, under a research contract from DARPA. The vehicle was 17 feet long, 8 feet wide, and 10.5 feet high, and had six legs to support its three-ton aluminum body, in which it was designed to carry cargo over difficult terrains. However, DARPA lost interest in the ASV, after problems with cold-weather tests.On February 4, 2004 the agency shut down its so called "LifeLog Project". The project's aim would have been, "to gather in a single place just about everything an individual says, sees or does".On October 28, 2009 the agency broke ground on a new facility in Arlington, Virginia a few miles from the Pentagon.In fall 2011, DARPA hosted the 100-Year Starship Symposium with the aim of getting the public to start thinking seriously about interstellar travel.On June 5, 2016, NASA and DARPA announced that it planned to build new X-planes with NASA's plan setting to create a whole series of X planes over the next 10 years.Between 2014 and 2016, DARPA shepherded the first machine-to-machine computer security competition, the Cyber Grand Challenge (CGC),
+bringing a group of top-notch computer security experts to search for security vulnerabilities, exploit them, and create fixes that patch those vulnerabilities in a fully-automated fashion.In June 2018, DARPA leaders demonstrated a number of new technologies that were developed within the framework of the GXV-T program. The goal of this program is to create a lightly armored combat vehicle of not very large dimensions, which, due to maneuverability and other tricks, can successfully resist modern anti-tank weapon systems.In September 2020, DARPA and the US Air Force announced that the Hypersonic Air-breathing Weapon Concept (HAWC) are ready for free-flight tests within the next year.Victoria Coleman became the director of DARPA in November 2020.In recent years, DARPA officials have contracted out core functions to corporations. For example, during fiscal year 2020, Chenega ran physical security on DARPA's premises, System High Corp. carried out program security, and Agile Defense ran unclassified IT services. General Dynamics runs classified IT services. Strategic Analysis Inc. provided support services regarding engineering, science, mathematics, and front office and administrative work.
+DARPA history
+		
+		
+		
+
+
+== Organization ==
+
+
+=== Current program offices ===
+DARPA has six technical offices that manage the agency's research portfolio, and two additional support offices that manage special projects and transition efforts. All offices report to the DARPA director, including:
+
+The Adaptive Execution Office (AEO) is one of two new DARPA offices created in 2009 by the DARPA Director, Regina Dugan. The office's four project areas include technology transition, assessment, rapid productivity and adaptive systems. AEO provides the agency with robust connections to the warfighter community and assists the agency with the planning and execution of technology demonstrations and field trials to promote adoption by the warfighter, accelerating the transition of new technologies into DoD capabilities.
+The Defense Sciences Office (DSO) vigorously pursues the most promising technologies within a broad spectrum of the science and engineering research communities and develops those technologies into important, radically new military capabilities. DSO identifies and pursues high-risk, high-payoff fundamental research initiatives across a broad spectrum of science and engineering disciplines – sometimes reshaping existing fields or creating entirely new disciplines – and transforms these initiatives into radically new, game-changing technologies for U.S. national security.
+The Information Innovation Office (I2O) aims to ensure U.S. technological superiority in all areas where information can provide a decisive military advantage. Some of the program managers in I2O are Stuart Wagner (as of September 2014), Steve Jameson (as of August 2014), Angelos Keromytis (as of July 2014), David Doermann (as of April 2014), and Brian Pierce (prior to September, 2018). As of August 2021, William Scherlis is currently the office director.
+The Microsystems Technology Office (MTO) mission focuses on the heterogeneous microchip-scale integration of electronics, photonics, and microelectromechanical systems (MEMS). Their high risk/high payoff technology is aimed at solving the national level problems of protection from biological, chemical and information attack and to provide operational dominance for mobile distributed command and control, combined manned and unmanned warfare, and dynamic, adaptive military planning and execution.
+The Strategic Technology Office (STO) mission is to focus on technologies that have a global theater-wide impact and that involve multiple Services.
+The Tactical Technology Office (TTO) engages in high-risk, high-payoff advanced military research, emphasizing the "system" and "subsystem" approach to the development of aeronautic, space, and land systems as well as embedded processors and control systems
+The Biological Technologies Office (BTO) fosters, demonstrates, and transitions  breakthrough fundamental research, discoveries, and applications that integrate biology, engineering, and computer science for national security. Created in April 2014 by then director Arati Prabhakar, taking programs from the MTO and DSO divisions.
+
+
+=== Former offices ===
+Information Awareness Office: 2002–2003
+The Advanced Technology Office (ATO) researched, demonstrated, and developed high payoff projects in maritime, communications, special operations, command and control, and information assurance and survivability mission areas.
+The Special Projects Office (SPO) researched, developed, demonstrated, and transitioned technologies focused on addressing present and emerging national challenges. SPO investments ranged from the development of enabling technologies to the demonstration of large prototype systems. SPO developed technologies to counter the emerging threat of underground facilities used for purposes ranging from command-and-control, to weapons storage and staging, to the manufacture of weapons of mass destruction. SPO developed significantly more cost-effective ways to counter proliferated, inexpensive cruise missiles, UAVs, and other platforms used for weapon delivery, jamming, and surveillance. SPO invested in novel space technologies across the spectrum of space control applications including rapid access, space situational awareness, counterspace, and persistent tactical grade sensing approaches including extremely large space apertures and structures.
+The Office of Special Development (OSD) in the 1960s developed a real-time remote sensing, monitoring, and predictive activity system on trails used by insurgents in Laos, Cambodia, and the Republic of Vietnam.  This was done from an office in Bangkok, Thailand, that was ostensibly established to catalog and support the Thai fishing fleet, of which two volumes were published.  This is a personal recollection without a published citation.  A report on the ARPA group under which OSD operated is found here.
+The  Information Systems Office (ISO) in the 1990s developed system applications of advanced information technologies.  It was a predecessor to the Information Exploitation Office.A 1991 reorganization created several offices which existed throughout the early 1990s:
+The Electronic Systems Technology Office combined areas of the Defense Sciences Office and the Defense Manufacturing Office. This new office will focus on the boundary between general-purpose computers and the physical world, such as sensors, displays and the first few layers of specialized signal-processing that couple these modules to standard computer interfaces.
+The Computing Systems Technology Office combined functions of the old Information Sciences and Tactical Technology office. The office "will work scalable parallel and distributed heterogeneous computing systems technologies", DoD said.
+The Software and Intelligent Systems Technology Office and the Computing Systems office will have responsibility associated with the Presidential High-Performance Computing Initiative. The Software office will also be responsible for "software systems technology, machine intelligence and software engineering."
+The Land Systems Office was created to develop advanced land vehicle and anti-armor systems, once the domain of the Tactical Technology Office.
+The Undersea Warfare Office combined areas of the Advanced Vehicle Systems and Tactical Technology offices to develop and demonstrate submarine stealth and counter-stealth and automation.A 2010 reorganization merged two offices:
+
+The Transformational Convergence Technology Office (TCTO) mission was to advance new crosscutting capabilities derived from a broad range of emerging technological and social trends, particularly in areas related to computing and computing-reliant subareas of the life sciences, social sciences, manufacturing, and commerce. The TCTO was folded into the I2O in 2010.
+The Information Processing Techniques Office (IPTO) focused on inventing the networking, computing, and software technologies vital to ensuring DOD military superiority. The IPTO was combined with TCTO in 2010 to form the I2O.
+
+
+== Projects ==
+A list of DARPA's active and archived projects is available on the agency's website. Because of the agency's fast pace, programs constantly start and stop based on the needs of the U.S. government. Structured information about some of the DARPA's contracts and projects is publicly available.
+
+
+=== Active projects ===
+ACTUV: A project to build an unmanned anti-submarine warfare vessel.
+Air Dominance Initiative: a 2015 program to develop technologies to be used in sixth-generation jet fighters.
+Air Space Total Awareness for Rapid Tactical Execution (ASTARTE): sensors, artificial intelligence algorithms, and virtual testing environments in order to create an understandable common operating picture when troops are spread out across battlefields
+Atmospheric Water Extraction (AWE) program
+Big Mechanism: Cancer research. (2015)
+binary structure inference system: extract software properties from binary code to support repository-based reverse engineering for micro-patching that minimizes lifecycle maintenance and costs (2020)
+Blackjack: a 2018+ program to develop and test military satellite constellation technologies with a variety of "military-unique sensors and payloads [attached to] commercial satellite buses. ...as an 'architecture demonstration intending to show the high military utility of global LEO constellations and mesh networks of lower size, weight, and cost spacecraft nodes.'  ... The idea is to demonstrate that 'good enough' payloads in LEO can perform military missions, augment existing programs, and potentially perform 'on par or better than currently deployed exquisite space systems.'" Blue Canyon Technologies, Raytheon, and SA Photonics Inc. were working on phases 2 and 3 as of fiscal year 2020.
+broadband, electro-magnetic spectrum receiver system: prototype and demonstration
+BlockADE: Rapidly constructed barrier. (2014)
+Boeing X-37
+Captive Air Amphibious Transporter
+Causal Exploration of Complex Operational Environments ("Causal Exploration") – computerized aid to military planning. (2018)
+Clean-Slate Design of Resilient, Adaptive, Secure Hosts (CRASH), a TCTO initiative
+Cognitive Technology Threat Warning System
+Collaborative Operations in Denied Environment (CODE): Modular software architecture for UAVs to pass information to each other in contested environments to identify and engage targets with limited operator direction. (2015)
+Combat Zones That See: "track everything that moves" in a city by linking up a massive network of surveillance cameras
+Control of Revolutionary Aircraft with Novel Effectors (CRANE) program: demonstrate an experimental aircraft design based on active flow control (AFC), which is defined as on-demand addition of energy into a boundary layer in order to maintain, recover, or improve aerodynamic performance. The aim is for CRANE to generally improve aircraft performance and reliability while reducing cost. (2020)
+Computational Weapon Optic (CWO): Computer rifle scope that combines various features into one optic.
+DARPA XG: technology for Dynamic Spectrum Access for assured military communications.
+detection system consisting of Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-based assays paired with reconfigurable point-of-need and massively multi-plexed devices for diagnostics and surveillance
+Experimental Spaceplane 1 (formerly XS-1): phase 2 and 3 of a reusable unmanned space transport
+Fast Lightweight Autonomy: Software algorithms that enable small UAVs to fly fast in cluttered environments without GPS or external communications. (2014)
+Fast Network Interface Cards (FastNICs): develop and integrate new, clean-slate network subsystems in order to speed up applications, such as the distributed training of machine learning classifiers by 100x. Perspecta Labs and Raytheon BBN were working on FastNICs as of fiscal year 2020.
+Force Application and Launch from Continental United States (FALCON): a research effort within TTO to develop a small satellite launch vehicle. (2008) This vehicle is under development by AirLaunch LLC.
+Gamma Ray Inspection Technology (GRIT) program: research and develop high-intensity, tunable, and narrow-bandwidth gamma ray production in compact, transportable form. This technology can be utilized for discovering smuggled nuclear material in cargo via new inspection techniques, and enabling new medical diagnostics and therapies. RadiaBeam Technologies LLC was working on a phase 1 of the program, Laser-Compton approach, in fiscal year 2020.
+Glide Breaker program: technology for an advanced interceptor capable of engaging maneuvering hypersonic vehicles or missiles in the upper atmosphere. Northrop Grumman and Aerojet Rocketdyne were working on this program as of fiscal year 2020.
+Gremlins: Air-launched and recoverable UAVs with distributed capabilities to provide low-cost flexibility over expensive multirole platforms.
+Ground X-Vehicle Technology
+High Energy Liquid Laser Area Defense System
+High Productivity Computing Systems
+HIVE (Hierarchical Identify Verify Exploit) CPU architecture. (2017)
+Hydra: Undersea network of mobile unmanned sensors. (2013)
+hypersonic boost glide systems research
+Insect Allies (2017–2021)
+Integrated Sensor is Structure
+Intelligent Integration of Information (I3) in SISTO, 1994–2000 – supported database research and with ARPA CISTO and NASA funded the NSF Digital Library program, that led. a.o. to Google.
+Joint All-Domain Warfighting Software (JAWS): software suite featuring automation and predictive analytics for battle management and command & control with tactical coordination for capture (“target custody”) and kill missions. Systems & Technology Research of Woburn, Massachusetts, is working on this project, with an expected completion date of March 2022. Raytheon is also working on this project, with an expected completion date of April 2022.
+Lasers for Universal Microscale Optical Systems (LUMOS): integrate heterogeneous materials to bring high performance lasers and amplifiers to manufacturable photonics platforms. As of fiscal year 2020, the Research Foundation for the State University of New York (SUNY) was working to enable “on-chip optical gain” to integrated photonics platforms, and enable complete photonics functionality “on a single substrate for disruptive optical microsystems.”
+Manta Ray extra-large unmanned underwater vehicle. (2020)
+Media Forensics (MediFor): A project aimed at automatically spotting digital manipulation in images and videos, including Deepfakes. (2018)
+MEMS Exchange: Microelectromechanical systems (MEMS) Implementation Environment
+Millimeter-wave GaN Maturation (MGM) program: develop new GaN transistor technology to attain high-speed and large voltage swing at the same time. HRL Laboratories LLC, a joint venture between Boeing and General Motors, is working on phase 2 as of fiscal year 2020.
+Modular Optical Aperture Building Blocks (MOABB) program: design optical satellite components (e.g. telescope, bulk lasers with mechanical beam-steering, detectors, electronics) in a single device. Create a wafer-scale system that is one hundred times smaller and lighter than existing systems and can steer the optical beam far faster than mechanical components. Research and design electronic-photonic unit cells that can be tiled together to form large-scale planar apertures (up to 10 centimeters in diameter) that can run at 100 watts of optical power. The overall goals of such technology are (1) rapid 3D scanning using devices smaller than a cell-phone camera; (2) high-speed laser communications without mechanical steering; (3) and foliage-penetrating perimeter sensing, remote wind sensing, and long-range 3-D mapping. As of fiscal year 2020, Analog Photonics LLC of Boston, Massachusetts, was working on phase 3 of the program and is expected to finish by May 2022.
+Multi- Azimuth Defense Fast Intercept Round Engagement System (MAD-FIRES) program: develop technologies that combine advantages of a missile (guidance, precision, accuracy) with advantages of a bullet (speed, rapid-fire, large ammunition capacity) to be used on a medium-caliber guided projectile in defending ships. Raytheon is currently working on MAD-FIRES phase 3 (enhance seeker performance, and develop a functional demonstration illuminator and engagement manager to engage and defeat a representative surrogate target) and is expected to be finished by November 2022.
+Near Zero Power RF and Sensor Operations (N-ZERO): Reducing or eliminating the standby power unattended ground sensors consume. (2015)
+Neural implants for soldiers. (2014)
+Novel, nonsurgical, bi-directional brain-computer interface with high spacio-temporal resolution and low latency for potential human use.
+Operational Fires (OpFires): developing a new mobile ground-launched booster that helps hypersonic boost glide weapons penetrate enemy air defenses. As of 17 July 2020, Lockheed Martin was working on phase 3 of the program (develop propulsion components for the missile's Stage 2 section) to be completed by January 2022.
+Persistent Close Air Support
+PREventing EMerging Pathogenic Threats (PREEMPT)
+Protein Design: Processes
+QuASAR: Quantum Assisted Sensing and Readout
+QuBE: Quantum Effects in Biological Environments
+QUEST: Quantum Entanglement Science and Technology
+Quiness: Macroscopic Quantum Communications
+QUIST: Quantum Information Science and Technology
+RADICS: Rapid Attack Detection, Isolation and Characterization Systems
+Rational Integrated Design of Energetics (RIDE): developing tools that speed up and facilitate energetics research.
+Robotic Servicing of Geosynchronous Satellites program: a telerobotic and autonomous robotic satellite-servicing project, conceived in 2017, and planned for launch no earlier than the 2020s.
+Remote-controlled insects
+SafeGenes: a synthetic biology project to program "undo" sequences into gene editing programs (2016)
+Sea Train develop and demonstrate ways to overcome range limitations in medium unmanned surface vessels by exploiting wave-making resistance reductions. Applied Physical Sciences Corp. of Groton, Connecticut, is undertaking Phase 1 of the Sea Train program, with an expected completion date of March 2022.
+Secure Advanced Framework for Simulation & Modeling (SAFE-SiM) program: build a rapid modeling and simulation environment to enable quick analysis in support of senior-level decision-making. As of fiscal year 2020, Radiance Technologies and L3Harris were working on portions of the program, with expected completion in August and September 2021, respectively.
+Securing Information for Encrypted Verification and Evaluation (SIEVE) program: use zero knowledge proofs to enable the verification of capabilities for the US military “without revealing the sensitive details associated with those capabilities." Galois Inc. of Portland, Oregon, and Stealth Software Technologies of Los Angeles, California, are currently working on the SIEVE program, with a projected completion date of May 2024.
+Satellite Remote Listening System: a satellite mounted system that can eavesdrop on a targeted area on the surface of the planet in coordination with satellite cameras. This project is in its infant stage.
+Semantic Forensics (SemaFor) program: develop technologies to automatically detect, attribute, and characterize falsified media (e.g., text, audio, image, video) to defend against automated disinformation. SRI International of Menlo Park, California, and Kitware Inc. of Clifton, New York, are working on the SemaFor program, with an expected completion date of July 2024.
+Sensor plants: DARPA "is working on a plan to use plants to gather intelligence information" through DARPA's Advanced Plant Technologies (APT) program, which aims to control the physiology of plants in order to detect chemical, biological, radiological and nuclear threats. (2017)
+SIGMA: A network of radiological detection devices the size of smart phones that can detect small amounts of radioactive materials. The devices are paired with larger detector devices along major roads and bridges. (2016)
+SIGMA+ program: by building on concepts theorized in the SIGMA program, develop new sensors and analytics to detect small traces of explosives and chemical and biological weaponry throughout any given large metropolitan area.
+SoSITE: System of Systems Integration Technology and Experimentation: Combinations of aircraft, weapons, sensors, and mission systems that distribute air warfare capabilities across a large number of interoperable manned and unmanned platforms. (2015)
+SSITH: System Security Integrated Through Hardware and Firmware - secure hardware platform (2017); basis for open-source, hack-proof voting system project and 2019 system prototype contract
+SXCT: Squad X Core Technologies: Digitized, integrated technologies that improve infantry squads' awareness, precision, and influence. (2015)
+SyNAPSE: Systems of Neuromorphic Adaptive Plastic Scalable Electronics
+Tactical Boost Glide (TBG): Air-launched hypersonic boost glide missile. (2016)
+Tactically Exploited Reconnaissance Node: Ship-based long-range ISR UAV. (2014)
+TransApps (Transformative Applications), rapid development and fielding of secure mobile apps in the battlefield
+UAVForge (2011)
+ULTRA-Vis (Urban Leader Tactical Response, Awareness and Visualization): Heads-up display for individual soldiers. (2014)
+underwater network, heterogeneous: develop concepts and reconfigurable architecture, leveraging advancement in undersea communications and autonomous ocean systems, to demonstrate utility at sea. Raytheon BBN is currently working on this program, with work expected through 4 May 2021, though if the government exercises all options on the contract then work will continue through 4 February 2024.
+Upward Falling Payloads: Payloads stored on the ocean floor that can be activated and retrieved when needed. (2014)
+Urban Reconnaissance through Supervised Autonomy (URSA) program: develop technology for use in cities to enable autonomous systems that U.S. infantry and ground forces operate to detect and identify enemies before U.S. troops come across them. Program will factor in algorithms, multiple sensors, and scientific knowledge about human behavior to determine subtle differences between hostiles and innocent civilians. Soar Technology Inc. of Ann Arbor, Michigan, is currently working on pertinent vehicle autonomy technology, with work expected completed by March 2022.
+VTOL X-Plane (2013)
+Warrior Web: Soft exosuit to alleviate musculoskeletal stress on soldiers when carrying heavy loads. (2014)
+XDATA: Processing and analyzing vast amounts of information. (2012)
+
+
+=== Past or transitioned projects ===
+
+
+== Notable fiction ==
+DARPA is well known as a high-tech government agency, and as such has many appearances in popular fiction.  Some realistic references to DARPA in fiction are as "ARPA" in Tom Swift and the Visitor from Planet X (DARPA consults on a technical threat), in episodes of television program The West Wing (the ARPA-DARPA distinction), the television program Numb3rs, and the Netflix film Spectral.
+
+
+== See also ==
+
+Air Force Nuclear Weapons Center (NWC)
+Air Force Research Laboratory (AFRL)
+Advanced Research Projects Agency–Energy (ARPA-E)
+Engineer Research and Development Center (ERDC)
+Homeland Security Advanced Research Projects Agency (HSARPA)
+Intelligence Advanced Research Projects Activity (IARPA)
+Joint European Disruptive Initiative (JEDI)
+Lawrence Berkeley National Laboratory (LBNL or LBL)
+Lawrence Livermore National Laboratory (LLNL)
+Los Alamos National Laboratory (LANL)
+Marine Corps Combat Development Command (MCCDC)
+Naval Air Weapons Station China Lake (NAWS)
+Naval Research Laboratory (NRL)
+Office of Naval Research (ONR)
+Pacific Northwest National Laboratory (PNNL)
+Sandia National Laboratories (SNL)
+United States Army Armament Research, Development and Engineering Center (ARDEC)
+United States Army Research, Development and Engineering Command (RDECOM)
+United States Army Research Laboratory (ARL)
+United States Marine Corps Warfighting Laboratory (MCWL)
+
+
+== References ==
+
+
+== Further reading ==
+The Advanced Research Projects Agency, 1958-1974, Barber Associates, December 1975.
+DARPA Technical Accomplishments: 1958-1990, Volumes 1–3, Richard H. Van Atta, Sidney G. Reed, Seymour J. Deitchman, et al., Institute for Defense Analyses, January 1990 - March 1991.
+Belfiore, Michael (2009). The Department of Mad Scientists: How DARPA Is Remaking Our World, from the Internet to Artificial Limbs. Harper. ISBN 9780061577932. OCLC 310399265. William Saletan writes of Belfiore's book that "His tone is reverential and at times breathless, but he captures the agency's essential virtues: boldness, creativity, agility, practicality and speed." (Saletan, William (December 24, 2009). "The Body Electric". The New York Times.)
+Castell, Manuel, The Network Society: A Cross-cultural Perspective, Edward Elgar Publishing Limited, Cheltenham, UK, 2004.
+Jacobsen, Annie, The Pentagon's Brain: An Uncensored History of DARPA, America's Top-Secret Military Research Agency. Little, Brown and Company. 2015. ISBN 978-0316371766. OCLC 900012161.
+Sargent, John F., Jr. (February 21, 2018). Defense Science and Technology Funding (PDF). Washington, DC: Congressional Research Service. Retrieved 26 March 2018.
+Sedgwick, John (August 1991). "The Men from DARPA". Playboy. Vol. 3 no. 8. pp. 108–109, 122, 154–156.
+Weinberger, Sharon, The Imagineers of War:  The Untold Story of DARPA, the Pentagon Agency that Changed the World, New York, Alfred A. Knopf, 2017, ISBN 9780385351799.
+
+
+== External links ==
+DARPA Home Page
+Ongoing Research Programs
+Declassified DARPA documents, OSD & Joint Staff FOIA Service
+DARPA FY2015 Research ProgramBreakthrough Technologies for National Security DARPA March 2015 (approved for public release, distribution unlimited)

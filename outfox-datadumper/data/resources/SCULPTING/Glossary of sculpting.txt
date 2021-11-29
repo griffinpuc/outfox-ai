@@ -1,0 +1,169 @@
+This page describe terms and jargon related to sculpture and sculpting.
+
+
+== A ==
+
+
+=== armature ===
+
+An armature is an internal frame or skeleton which supports a modelled sculpture. A typical armature for a small sculpture is made of heavy gauge wire, bent and twisted to form the basic shape. Often the armature is designed to leave one or more pins protruding from the base of the finished sculpture to facilitate attaching it to the plinth
+
+
+=== additive ===
+Is the process by which material is shaped and built up, frequently on an armature, to create the desired image.  Traditionally the material used in modeling clay, but plaster is considered a less desirable but also less expensive substitute.  Frequently the sculpture created by the additive method is a temporary one, used to create a more permanent version in stone or bronze.
+
+
+=== assemblage ===
+An assemblage is a sculpture constructed from found objects. Typically an assemblage does not disguise the original objects used, rather it either tries to show them in a new light, or forms a figurative sculpture from the collection of shapes.
+
+
+== B ==
+
+
+=== bozzetto ===
+(Italian) A small terracotta sketch of a sculpture: see maquette.
+
+
+== C ==
+
+
+=== carving ===
+Carving is one of the oldest sculptural techniques. It is a subtractive process; starting with a solid block, the sculptor removes material using chisels and other tools to 'reveal' the finished form. Traditional carving materials include stone, especially marble, and fine grained woods.
+
+
+=== casting ===
+
+Casting is a method of producing one or more copies of a sculpture. Typically, the original sculpture is  modeled as usual and covered with a  molding material that sets hard when dry. The mold is then separated to release the original sculpture. Once the mold is reassembled, at its most simple the casting material is poured into the void and left to set. Traditionally, molten bronze is used as the casting material, but modern alternatives include resin. When the cast sculpture has cooled or cured, the mold is again separated to release it and reassembled ready to cast the next copy. When molten bronze is used, it is more typical to use a lost wax or similar process so that the finished piece is hollow rather than solid.
+The cast sculpture may then require some finishing work to remove mold lines and other imperfections.  The sculptor may also wish to patinate the work to produce the final piece...
+
+
+=== Ciment Fondu ===
+Ciment Fondu is a proprietary product made by Kerneos (previously Lafarge Aluminates) for industrial use but widely adopted by sculptors.  It is a type of calcium aluminate cement used for constructing moulds or outdoor works. Typically Ciment Fondu needs to be used as a composite material reinforced with fibre glass, building up the mould in series of layers. Fast setting, it achieves its full strength in 24 hours.
+
+
+=== cold cast bronze ===
+A modern method of casting sculptures in which the casting material is a resin mixed with powdered  bronze. The finished sculpture has a surface which looks very similar to a traditionally cast bronze although it tends to be much lighter.
+
+
+== D ==
+
+
+=== direct carving ===
+Also referred to as taille directe. A less planned approach to carving in which the sculptor carves the finished sculpture without using intermediate models or maquettes. The sculptor typically works from memory, though some such as Cornelia Van Auken Chapin would carve with a model in front of them.  The practice gained prominence in the early 20th century and, in some respects, was seen as a return to the direct approach used in primitive art.
+
+
+== H ==
+
+
+=== Hydrocal ===
+Hydrocal is a US Gypsum product composed mainly of plaster of Paris and a small amount of Portland cement. Hydrocal, like its similar formulas Hydrostone, Ultracal, Duracal and others are all used for casting sculptures and other art objects as well as molds. Considerably harder and stronger than straight plaster of Paris, these products are for indoor use only as they rapidly degrade in the rain.
+
+
+== I ==
+
+
+=== indirect ===
+Indirect carving "involves the use of previously prepared three dimensional models . . . .  usually assigned to a professional carver who, with the assistance of a pointing machine, proceeds to duplicate the model in stone.  During the latter half of the nineteenth century and extending into the first part of the twentieth virtually all stone sculpture was produced by the indirect method of carving."
+
+
+== K ==
+
+
+=== kinetic sculpture ===
+Kinetic sculpture is sculpture which is designed to move. The movement can be driven by interaction with the viewer, or automatically using motors or air currents, as in the case of a mobile.
+
+
+== M ==
+
+
+=== maquette ===
+
+A maquette is a small-scale model for a finished sculpture. It is used to visualize and test shapes and ideas without incurring the cost and effort of producing a full-scale sculpture. It is the analogue of the painter's cartoon or sketch.
+For commissioned sculptures, especially monumental public sculptures, a maquette may be used to show the client how the finished work will fit in the proposed site.
+
+
+=== modeling ===
+Modeling is one of the most common techniques for sculpting. It is an additive process in which material is steadily built up to produce the finished figure. Unlike carving, the sculptor often also has the option of correcting mistakes by removing or reshaping the material. Modeling requires a malleable or plastic material which is later cured or fired to set it hard. Typical modeling materials include clay, wax, plaster, and papier-mâché.
+Frequently the modeling material has limited structural strength and will need the support of an armature.
+
+
+=== mould ===
+A mould is a reversed impression of a sculpture which is used to cast replica sculptures. The material used to construct the mould needs to accurately reproduce the surface detail of the original sculpture, while also being strong enough to keep its shape during casting and resilient enough to retain detail after multiple castings.
+Typical moulding materials include rubber, especially latex rubber, plaster and composites such as ciment fondu.
+
+
+== P ==
+
+
+=== papier-mâché ===
+  
+(often misspelled as paper-maché)
+Papier-mâché is a construction material that consists of pieces of paper, sometimes reinforced with textiles, stuck together using a wet paste (e.g. glue, starch, or wallpaper adhesive). The crafted object becomes solid when the paste dries.
+
+
+=== patina ===
+ (also patinate, patination)
+A patina is a natural or applied surface finish to a sculpture piece.  Natural patinas may occur by oxidation due to long exposure to air or earth — the most common of which is verdigris on copper or bronze.  Artificial patinas can be created by application of chemical pastes or (below melting point) firing in a chemical atmosphere.
+
+
+=== plasticene ===
+
+Plasticene is an oil-based clay used for modelling sculptures; its chief advantages over water clay is it does not shrink, crack or dry out and can be worked on over a long period of time.
+
+
+=== plaster cast ===
+
+A plaster cast is a copy of a sculpture, which is cast in plaster. A plaster cast can accurately reproduce the details of the original sculpture, but is usually much less durable.  It is often used as a stage in the casting process.
+
+
+=== pointing machine ===
+
+A pointing machine is used to accurately transfer measuring points from a model or maquette into stone or wood, in order to carve an accurate copy. This is called the indirect method of carving.
+
+
+== R ==
+
+
+=== roughing out ===
+The process of carving out the basic shapes of a work before any detail is created.
+
+
+== S ==
+
+
+=== sand casting ===
+A method of casting typically used for casting iron, in which the mould is constructed from compacted sand. By its nature, the mould can only be used once and needs to be reformed for each casting
+
+
+== T ==
+
+
+=== Taille directe ===
+See Direct carving
+
+
+=== truth to materials ===
+A process or mode in direct carving in which the sculptor responds to the nature of the block being carved as much as the subject. Changes in colouration and imperfections revealed while carving the block are incorporated as features in the finished sculpture. Since the sculptor doesn't know in advance what imperfections will be revealed during the course of carving, a more flexible and fluid approach is required.
+
+
+== See also ==
+Glossary of painting terms
+List of sculptors
+
+
+== References ==
+Glass, F.J., Modelling and Sculpture: A Practical Treatise for Students, With a Brief History of the Art, B.T. Batsford LTD., London 1929
+Gross, Chaim, The Technique of Wood Sculpture, Vista House Publishers, New York 1957
+Hoffman, Malvina, Sculpture, Insida and Out, Bonanza Books, New York 1939
+Jagger, Sargeant, Modelling and Sculpture in the Making, The Studio Limited, London 1933
+Miller, Richard McDermott, Figure Sculpture in Wax and Plaster, Dover Press, New York 1971
+Putnam, Brenda,  The Sculptor's Way: A Guide to Modelling and Sculpture, Farrar & Rinehart, Inc., New York 1939
+Rich, Jack C., The Materials and Methods of Sculpture, Oxford University Press, New York 1967
+Silvercruys, Suzanne, A Primer of Sculpture,  G.P. Putnam's Sons, New York 1942
+Slobodkin, Louis, Sculpture; Principles and Practice, Dover Publications, New York 1973, reprint of 1949 edition
+Topal, Carol Weisman, Children, Clay and Sculpture, Davis Publications, Worceser, Massachutts 1983
+Zorach, William, Zorach Explains Sculpture: What It Means and How It Is Made, Tudor Publishing Company, New York 1960Notes
+
+
+== External links ==
+Comprehensive glossary of art terms

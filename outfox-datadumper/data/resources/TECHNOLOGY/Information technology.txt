@@ -1,0 +1,95 @@
+Information technology (IT) is the use of computers to create, process, store, retrieve, and exchange all kinds of electronic data and information. IT is typically used within the context of business operations as opposed to personal or entertainment technologies. IT is considered to be a subset of information and communications technology (ICT). An information technology system (IT system) is generally an information system, a communications system, or, more specifically speaking, a computer system – including all hardware, software, and peripheral equipment – operated by a limited group of IT users.
+Humans have been storing, retrieving, manipulating, and communicating information since the Sumerians in Mesopotamia developed writing in about 3000 BC. However, the term information technology in its modern sense first appeared in a 1958 article published in the Harvard Business Review; authors Harold J. Leavitt and Thomas L. Whisler commented that "the new technology does not yet have a single established name. We shall call it information technology (IT)." Their definition consists of three categories: techniques for processing, the application of statistical and mathematical methods to decision-making, and the simulation of higher-order thinking through computer programs.The term is commonly used as a synonym for computers and computer networks, but it also encompasses other information distribution technologies such as television and telephones. Several products or services within an economy are associated with information technology, including computer hardware, software, electronics, semiconductors, internet, telecom equipment, and e-commerce.Based on the storage and processing technologies employed, it is possible to distinguish four distinct phases of IT development: pre-mechanical (3000 BC – 1450 AD), mechanical (1450–1840), electromechanical (1840–1940), and electronic (1940 to present). This article focuses on the most recent period (electronic).
+
+
+== History of computer technology ==
+
+Devices have been used to aid computation for thousands of years, probably initially in the form of a tally stick. The Antikythera mechanism, dating from about the beginning of the first century BC, is generally considered to be the earliest known mechanical analog computer, and the earliest known geared mechanism. Comparable geared devices did not emerge in Europe until the 16th century, and it was not until 1645 that the first mechanical calculator capable of performing the four basic arithmetical operations was developed.Electronic computers, using either relays or valves, began to appear in the early 1940s. The electromechanical Zuse Z3, completed in 1941, was the world's first programmable computer, and by modern standards one of the first machines that could be considered a complete computing machine. During the Second World War, Colossus developed the first electronic digital computer to decrypt German messages. Although it was programmable, it was not general-purpose, being designed to perform only a single task. It also lacked the ability to store its program in memory; programming was carried out using plugs and switches to alter the internal wiring. The first recognizably modern electronic digital stored-program computer was the Manchester Baby, which ran its first program on 21 June 1948.The development of transistors in the late 1940s at Bell Laboratories allowed a new generation of computers to be designed with greatly reduced power consumption. The first commercially available stored-program computer, the Ferranti Mark I, contained 4050 valves and had a power consumption of 25 kilowatts. By comparison, the first transistorized computer developed at the University of Manchester and operational by November 1953, consumed only 150 watts in its final version.Several other breakthroughs in semiconductor technology include the integrated circuit (IC) invented by Jack Kilby at Texas Instruments and Robert Noyce at Fairchild Semiconductor in 1959, the metal-oxide-semiconductor field-effect transistor (MOSFET) invented by Mohamed Atalla and Dawon Kahng at Bell Laboratories in 1959, and the microprocessor invented by Ted Hoff, Federico Faggin, Masatoshi Shima and Stanley Mazor at Intel in 1971. These important inventions led to the development of the personal computer (PC) in the 1970s, and the emergence of information and communications technology (ICT).
+
+
+== Electronic data processing ==
+
+
+=== Data storage ===
+
+Early electronic computers such as Colossus made use of punched tape, a long strip of paper on which data was represented by a series of holes, a technology now obsolete. Electronic data storage, which is used in modern computers, dates from World War II, when a form of delay-line memory was developed to remove the clutter from radar signals, the first practical application of which was the mercury delay line. The first random-access digital storage device was the Williams tube, based on a standard cathode ray tube, but the information stored in it and delay-line memory was volatile in that it had to be continuously refreshed, and thus was lost once power was removed. The earliest form of non-volatile computer storage was the magnetic drum, invented in 1932 and used in the Ferranti Mark 1, the world's first commercially available general-purpose electronic computer.IBM introduced the first hard disk drive in 1956, as a component of their 305 RAMAC computer system.: 6  Most digital data today is still stored magnetically on hard disks, or optically on media such as CD-ROMs.: 4–5  Until 2002 most information was stored on analog devices, but that year digital storage capacity exceeded analog for the first time. As of 2007, almost 94% of the data stored worldwide was held digitally: 52% on hard disks, 28% on optical devices, and 11% on digital magnetic tape. It has been estimated that the worldwide capacity to store information on electronic devices grew from less than 3 exabytes in 1986 to 295 exabytes in 2007, doubling roughly every 3 years.
+
+
+==== Databases ====
+
+Database Management Systems (DMS) emerged in the 1960s to address the problem of storing and retrieving large amounts of data accurately and quickly. An early such system was IBM's Information Management System (IMS), which is still widely deployed more than 50 years later. IMS stores data hierarchically, but in the 1970s Ted Codd proposed an alternative relational storage model based on set theory and predicate logic and the familiar concepts of tables, rows ,and columns. In 1981, the first commercially available relational database management system (RDBMS) was released by Oracle.All DMS consist of components, they allow the data they store to be accessed simultaneously by many users while maintaining its integrity. All databases are common in one point that the structure of the data they contain is defined and stored separately from the data itself, in a database schema.In recent years, the extensible markup language (XML) has become a popular format for data representation. Although XML data can be stored in normal file systems, it is commonly held in relational databases to take advantage of their "robust implementation verified by years of both theoretical and practical effort". As an evolution of the Standard Generalized Markup Language (SGML), XML's text-based structure offers the advantage of being both machine and human-readable.
+
+
+=== Data retrieval ===
+The relational database model introduced a programming-language independent Structured Query Language (SQL), based on relational algebra.
+The terms "data" and "information" are not synonymous. Anything stored is data, but it only becomes information when it is organized and presented meaningfully.: 1–9  Most of the world's digital data is unstructured, and stored in a variety of different physical formats even within a single organization. Data warehouses began to be developed in the 1980s to integrate these disparate stores. They typically contain data extracted from various sources, including external sources such as the Internet, organized in such a way as to facilitate decision support systems (DSS).: 4–6 
+
+
+=== Data transmission ===
+
+Data transmission has three aspects: transmission, propagation, and reception. It can be broadly categorized as broadcasting, in which information is transmitted unidirectionally downstream, or telecommunications, with bidirectional upstream and downstream channels.XML has been increasingly employed as a means of data interchange since the early 2000s, particularly for machine-oriented interactions such as those involved in web-oriented protocols such as SOAP, describing "data-in-transit rather than... data-at-rest".
+
+
+=== Data manipulation ===
+Hilbert and Lopez identify the exponential pace of technological change (a kind of Moore's law): machines' application-specific capacity to compute information per capita roughly doubled every 14 months between 1986 and 2007; the per capita capacity of the world's general-purpose computers doubled every 18 months during the same two decades; the global telecommunication capacity per capita doubled every 34 months; the world's storage capacity per capita required roughly 40 months to double (every 3 years); and per capita broadcast information has doubled every 12.3 years.Massive amounts of data are stored worldwide every day, but unless it can be analyzed and presented effectively it essentially resides in what have been called data tombs: "data archives that are seldom visited". To address that issue, the field of data mining – "the process of discovering interesting patterns and knowledge from large amounts of data" – emerged in the late 1980s.
+
+
+== Perspectives ==
+
+
+=== Academic perspective ===
+In an academic context, the Association for Computing Machinery defines IT as "undergraduate degree programs that prepare students to meet the computer technology needs of business, government, healthcare, schools, and other kinds of organizations .... IT specialists assume responsibility for selecting hardware and software products appropriate for an organization, integrating those products with organizational needs and infrastructure, and installing, customizing, and maintaining those applications for the organization’s computer users."Undergraduate degrees in IT (B.S., A.S.) are similar to other computer science degrees.  In fact, they often times have the same foundational level courses. Computer science (CS) programs tend to focus more on theory and design, whereas Information Technology programs are structured to equip the graduate with expertise in the practical application of technology solutions to support modern business and user needs.
+
+
+=== Commercial and employment perspective ===
+Companies in the information technology field are often discussed as a group as the "tech sector" or the "tech industry".  These titles can be misleading at times and should not be mistaken for “tech companies”; which are generally large scale, for-profit corporations that sell consumer technology and software.  It is also worth noting that from a business perspective, Information Technology departments are a “cost center” the majority of the time.  A cost center is a department or staff which incurs expenses, or “costs”, within a company rather than generating profits or revenue streams. Modern businesses rely heavily on technology for their day-to-day operations, so the expenses delegated to cover technology that facilitates business in a more efficient manner are usually seen as “just the cost of doing business”.  IT departments are allocated funds by senior leadership and must attempt to achieve the desired deliverables while staying within that budget. Government and the private sector might have different funding mechanisms, but the principles are more-or-less the same.  This is an often overlooked reason for the rapid interest in automation and Artificial Intelligence, but the constant pressure to do more with less is opening the door for automation to take control of at least some minor operations in large companies.
+Many companies now have IT departments for managing the computers, networks, and other technical areas of their businesses. Companies have also sought to integrate IT with business outcomes and decision-making through a BizOps or business operations department.In a business context, the Information Technology Association of America has defined information technology as "the study, design, development, application, implementation, support or management of computer-based information systems". The responsibilities of those working in the field include network administration, software development and installation, and the planning and management of an organization's technology life cycle, by which hardware and software are maintained, upgraded, and replaced.
+
+
+==== Information services ====
+Information services is a term somewhat loosely applied to a variety of IT-related services offered by commercial companies, as well as data brokers.
+
+		
+		
+		
+		
+
+
+=== Ethical perspectives ===
+
+The field of information ethics was established by mathematician Norbert Wiener in the 1940s.: 9  Some of the ethical issues associated with the use of information technology include:: 20–21 
+Breaches of copyright by those downloading files stored without the permission of the copyright holders
+Employers monitoring their employees' emails and other Internet usage
+Unsolicited emails
+Hackers accessing online databases
+Web sites installing cookies or spyware to monitor a user's online activities, which may be used by data brokers
+
+
+== See also ==
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Citations ===
+
+
+=== Bibliography ===
+
+
+== Further reading ==
+Allen, T.; Morton, M. S. Morton, eds. (1994), Information Technology and the Corporation of the 1990s, Oxford University Press.
+Gitta, Cosmas and South, David (2011). Southern Innovator Magazine Issue 1: Mobile Phones and Information Technology: United Nations Office for South-South Cooperation. ISSN 2222-9280.
+Gleick, James (2011).The Information: A History, a Theory, a Flood. New York: Pantheon Books.
+Price, Wilson T. (1981), Introduction to Computer Data Processing, Holt-Saunders International Editions, ISBN 978-4-8337-0012-2.
+Shelly, Gary, Cashman, Thomas, Vermaat, Misty, and Walker, Tim. (1999). Discovering Computers 2000: Concepts for a Connected World. Cambridge, Massachusetts: Course Technology.
+Webster, Frank, and Robins, Kevin. (1986). Information Technology – A Luddite Analysis. Norwood, NJ: Ablex.
+
+
+== External links ==
+ Learning materials related to Information technology at Wikiversity
+ Media related to Information technology at Wikimedia Commons
+ Quotations related to Information technology at Wikiquote

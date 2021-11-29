@@ -1,0 +1,96 @@
+Intermediate filaments (IFs) are cytoskeletal structural components found in the cells of vertebrates, and many invertebrates. Homologues of the IF protein have been noted in an invertebrate, the cephalochordate Branchiostoma.Intermediate filaments are composed of a family of related proteins sharing common structural and sequence features.  Initially designated 'intermediate' because their average diameter (10 nm) is between those of narrower microfilaments (actin) and wider myosin filaments found in muscle cells, the diameter of intermediate filaments is now commonly compared to actin microfilaments (7 nm) and microtubules (25 nm). Animal intermediate filaments are subcategorized into six types based on similarities in amino acid sequence and protein structure. Most types are cytoplasmic, but one type, Type V is a nuclear lamin. Unlike microtubules, IF distribution in cells show no good correlation with the distribution of either mitochondria or endoplasmic reticulum.
+
+
+== Structure ==
+
+The structure of proteins that form intermediate filaments (IF) was first predicted by computerized analysis of the amino acid sequence of a human epidermal keratin derived from cloned cDNAs. Analysis of a second keratin sequence revealed that the two types of keratins share only about 30% amino acid sequence homology but share similar patterns of secondary structure domains. As suggested by the first model, all IF proteins appear to have a central alpha-helical rod domain that is composed of four alpha-helical segments (named as 1A, 1B, 2A and 2B) separated by three linker regions.The central building block of an intermediate filament is a pair of two intertwined proteins that is called a coiled-coil structure. This name reflects the fact that the structure of each protein is helical, and the intertwined pair is also a helical structure. Structural analysis of a pair of keratins shows that the two proteins that form the coiled-coil bind by hydrophobic. The charged residues in the central domain do not have a major role in the binding of the pair in the central domain.Cytoplasmic IFs assemble into non-polar unit-length filaments (ULFs). Identical ULFs associate laterally into staggered, antiparallel, soluble tetramers, which associate head-to-tail into protofilaments that pair up laterally into protofibrils, four of which wind together into an intermediate filament.
+Part of the assembly process includes a compaction step, in which ULF tighten and assume a smaller diameter.  The reasons for this compaction are not well understood, and IF are routinely observed to have diameters ranging between 6 and 12 nm.
+The N-terminus and the C-terminus of IF proteins are non-alpha-helical regions and show wide variation in their lengths and sequences across IF families. 
+The N-terminal "head domain" binds DNA. Vimentin heads are able to alter nuclear architecture and chromatin distribution, and the liberation of heads by HIV-1 protease may play an important role in HIV-1 associated cytopathogenesis and carcinogenesis. Phosphorylation of the head region can affect filament stability. The head has been shown to interact with the rod domain of the same protein.C-terminal "tail domain" shows extreme length variation between different IF proteins.The anti-parallel orientation of tetramers means that, unlike microtubules and microfilaments, which have a plus end and a minus end, IFs lack polarity and cannot serve as basis for cell motility and intracellular transport.
+Also, unlike actin or tubulin, intermediate filaments do not contain a binding site for a nucleoside triphosphate.
+Cytoplasmic IFs do not undergo treadmilling like microtubules and actin fibers, but are dynamic.
+
+
+== Biomechanical properties ==
+IFs are rather deformable proteins that can be stretched several times their initial length. The key to facilitate this large deformation is due to their hierarchical structure, which facilitates a cascaded activation of deformation mechanisms at different levels of strain. Initially the coupled alpha-helices of unit-length filaments uncoil as they're strained, then as the strain increases they transition into beta-sheets, and finally at increased strain the hydrogen bonds between beta-sheets slip and the ULF monomers slide along each other.
+
+
+== Types ==
+There are about 70 different human genes coding for various intermediate filament proteins. However, different kinds of IFs share basic characteristics: In general, they are all polymers that measure between 9-11 nm in diameter when fully assembled.
+Animal IFs are subcategorized into six types based on similarities in amino acid sequence and protein structure:
+
+
+=== Types I and II – acidic and basic keratins ===
+
+These proteins are the most diverse among IFs and constitute type I (acidic) and type II (basic) IF proteins. The many isoforms are divided in two groups: 
+
+epithelial keratins (about 20) in epithelial cells (image to right)
+trichocytic keratins (about 13) (hair keratins), which make up hair, nails, horns and reptilian scales.Regardless of the group, keratins are either acidic or basic. Acidic and basic keratins bind each other to form acidic-basic heterodimers and these heterodimers then associate to make a keratin filament.Cytokeratin filaments laterally associate with each other to create a thick bundle of ~50nm radius. The optimal radius of such bundles is determined by the interplay between the long range electrostatic repulsion and short range hydrophobic attraction. Subsequently, these bundles would intersect through junctions to form a dynamic network, spanning the cytoplasm of epithelial cells.  
+
+
+=== Type III ===
+
+There are four proteins classed as type III IF proteins, which may form homo- or heteropolymeric proteins.
+
+Desmin IFs are structural components of the sarcomeres in muscle cells and connect different cell organells like the desmosomes with the cytoskeleton.
+GFAP (glial fibrillary acidic protein) is found in astrocytes and other glia.
+Peripherin found in peripheral neurons.
+Vimentin, the most widely distributed of all IF proteins, can be found in fibroblasts, leukocytes, and blood vessel endothelial cells. They support the cellular membranes, keep some organelles in a fixed place within the cytoplasm, and transmit membrane receptor signals to the nucleus.
+
+
+=== Type IV ===
+Alpha-internexin
+Neurofilaments - the type IV family of intermediate filaments that is found in high concentrations along the axons of vertebrate neurons.
+Synemin
+Syncoilin
+
+
+=== Type V – nuclear lamins ===
+LaminsLamins are fibrous proteins having structural function in the cell nucleus.
+In metazoan cells, there are A and B type lamins, which differ in their length and pI. Human cells have three differentially regulated genes.
+B-type lamins are present in every cell. B type lamins, lamin B1 and B2, are expressed from the LMNB1 and LMNB2 genes on 5q23 and 19q13, respectively.
+A-type lamins are only expressed following gastrulation. Lamin A and C are the most common A-type lamins and are splice variants of the LMNA gene found at 1q21.
+These proteins localize to two regions of the nuclear compartment, the nuclear lamina—a proteinaceous structure layer subjacent to the inner surface of the nuclear envelope and throughout the nucleoplasm in the nucleoplasmic veil.
+Comparison of the lamins to vertebrate cytoskeletal IFs shows that lamins have an extra 42 residues (six heptads) within coil 1b. The c-terminal tail domain contains a nuclear localization signal (NLS), an Ig-fold-like domain, and in most cases a carboxy-terminal CaaX box that is isoprenylated and carboxymethylated (lamin C does not have a CAAX box). Lamin A is further processed to remove the last 15 amino acids and its farnesylated cysteine.
+During mitosis, lamins are phosphorylated by MPF, which drives the disassembly of the lamina and the nuclear envelope.
+
+
+=== Type VI ===
+Beaded filaments: Filensin, Phakinin.
+Nestin (was once proposed for reclassification but due to differences, remains as a type VI IF protein)Vertebrate-only. Related to type I-IV. Used to contain other newly-discovered IF proteins not yet assigned to a type.
+
+
+== Function ==
+
+
+=== Cell adhesion ===
+At the plasma membrane, some keratins or desmin interact with desmosomes (cell-cell adhesion) and hemidesmosomes (cell-matrix adhesion) via adapter proteins.
+
+
+=== Associated proteins ===
+Filaggrin binds to keratin fibers in epidermal cells.  Plectin links vimentin to other vimentin fibers, as well as to microfilaments, microtubules, and myosin II.  Kinesin is being researched and is suggested to connect vimentin to tubulin via motor proteins.
+Keratin filaments in epithelial cells link to desmosomes (desmosomes connect the cytoskeleton together) through plakoglobin, desmoplakin, desmogleins, and desmocollins; desmin filaments are connected in a similar way in heart muscle cells.
+
+
+== Diseases arising from mutations in IF genes ==
+Dilated cardiomyoathy (DCM), mutations in the DES gene
+Arrhythmogenic cardiomyopathy (ACM), mutations in the DES gene
+Restrictive cardiomyopathy (RCM), mutations in the DES gene
+Non-compaction cardiomyopathy, mutations in the DES genes
+Cardiomyopathy in combination with skeletal myopathy (DES)
+Epidermolysis bullosa simplex; keratin 5 or keratin 14 mutation
+Laminopathies are a family of diseases caused by mutations in nuclear lamins and include Hutchinson Gilford progeria syndrome and various lipodystrophies and cardiomyopathies among others.
+
+
+== In other organisms ==
+IF proteins are universal among animals in the form of a nuclear lamin. The Hydra has an additional "nematocilin" derived from the lamin. Cytoplasmic IFs (type I-IV) found in humans are widespread in Bilateria; they also arose from a gene duplication event involving "type V" nuclear lamin. In addition, a few other diverse types of Eukaryotes have lamins, suggesting an early origin of the protein.There was not really a concrete definition of an "intermediate filament protein", in the sense that the size or shape-based definition does not cover a monophyletic group. With the inclusion of unusual proteins like the network-forming beaded lamins (type VI), the current classification is moving to a clade containing nuclear lamin and its many descendents, characterized by sequence similarity as well as the exon structure. Functionally-similar proteins out of this clade, like crescentins, alveolins, tetrins, and epiplasmins, are therefore only "IF-like". They likely arose through convergent evolution.
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+Intermediate+Filament+Proteins at the US National Library of Medicine Medical Subject Headings (MeSH)

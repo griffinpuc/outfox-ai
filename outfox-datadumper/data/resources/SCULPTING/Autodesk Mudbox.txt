@@ -1,0 +1,57 @@
+Mudbox is a proprietary computer-based 3D sculpting and painting tool. Currently developed by Autodesk, Mudbox was created by Skymatter, founded by Tibor Madjar, David Cardwell and Andrew Camenisch, former artists of Weta Digital, where it was first used to produce the 2005 Peter Jackson remake of King Kong. Mudbox's primary application is high-resolution digital sculpting, texture painting, and displacement and normal map creation, although it is also used as a design tool.
+
+
+== History ==
+Mudbox was developed by Skymatter in New Zealand as the founders David Cardwell, Tibor Madjar and Andrew Camenisch were working on The Lord of the Rings at Weta Digital circa 2001. They created the software to expand their own toolsets, and Mudbox was first used as a complete product on the 2005 film King Kong. The beta was released in May 2006, followed by version 1.0 in mid-February 2007. On August 6, 2007, Autodesk announced the acquisition of Skymatter.
+
+
+== Features ==
+Mudbox's user interface is a 3D environment that allows the creation of movable cameras that can be bookmarked. Models created within the program typically start as a polygon mesh that can be manipulated with a variety of different tools. A model can be subdivided to increase its resolution and the number of polygons available to sculpt with. 3D layers allow the user to store different detail passes, blending them with multiplier sliders and layer masks. Using layers the user is able to sculpt and mould their 3D model without making permanent changes.
+As a detailing app, Mudbox can import and export .obj, .fbx, and .bio files, as well as its own .mud format. A typical workflow is to create a relatively simple (low polygon count) model in a 3D modeling application and then import it to Mudbox for sculpting. Subdivision of models occurs using the Catmull-Clark subdivision algorithm.
+The sculpting tool set contains an assortment of brushes with adjustable falloffs.
+The use of 3D layers allows for design visualization, non-destructive sculpting, and high polygon counts. Since the layers combine additively, their ordering is unimportant for the final model and may be created arbitrarily. Curves can be created and projected on a mesh for use as precise masking. All of the standard transform and selection tools are here as well. Paint layers were added in Mudbox 2009.
+Design visualization plays an important role in Mudbox's production value. Simple poly primitives can be created from within Mudbox, facilitating the creation of busts, props, terrain, etc.
+Mudbox also includes stamps and stencils. Stencils work by overlaying a grayscale, or "alpha channel" image, such as a bump map, over the mesh. The artist can then project part or all of the image's detail onto the mesh through brush strokes, providing a method to quickly sculpt surface detail.
+The underlying architecture of Mudbox was updated in Mudbox 2009 to allow the sculpting of models with larger polygon counts compared to earlier versions. In Mudbox 2009 3D painting and texturing features were introduced to allow artists to paint directly on their models in 3D. In addition, features to display the model with depth of field and ambient occlusion were added for the release.
+In Mudbox 2010, an application programming interface (API) was introduced via a software development kit (SDK). In addition, functionality to improve file interoperability with other 3D applications (Autodesk Maya, 3ds Max etc.) was added via the FBX file format.
+
+
+== Interface ==
+Mudbox's interface includes menus, tabbed windows, and tool trays, and can be customized to a limited extent. It also provides keyboard shortcuts. The navigation in the 3D view is similar to that of Autodesk Maya.
+
+
+== Platforms ==
+Earlier versions of Mudbox operate on Windows XP (32 and 64 bit), Windows Vista (32 and 64 bit), Windows 7 Professional (32 and 64 bit), Linux 64-bit and Mac OS X. The current version (Mudbox 2014) is 64 bit only, and has dropped support for Windows XP.
+
+
+== Awards ==
+On February 15, 2014, Canadians Andrew Camenisch, David Cardwell and Canadian-Hungarian Tibor Madjar were honored by the Academy of Motion Picture Arts and Sciences with an Academy Award for Technical Achievement for scientific and technical achievement for the concept and design, along with Csaba Kőhegyi and Imre Major, two Hungarians educated at Debrecen University, for the implementation of the Mudbox software.
+
+
+== Releases ==
+October 2007, Autodesk released version 1.07 of Mudbox.
+October 2008, Autodesk released Mudbox 2009 (v2) of Mudbox.
+August 2009, Autodesk released Mudbox 2010 (v3) of Mudbox.
+March 2010, Autodesk released Mudbox 2011 (v4) of Mudbox.
+September 2010, Autodesk released Mudbox 2011 SAP (v4.5) of Mudbox.
+April 2011, Autodesk released Mudbox 2012 (v5) of Mudbox.
+April 2012, Autodesk released Mudbox 2013 (v6) of Mudbox.
+April 2013, Autodesk released Mudbox 2014 (v7) of Mudbox.
+April 2014, Autodesk released Mudbox 2015 (v8) of Mudbox.
+April 2015, Autodesk released Mudbox 2016 (v9) of Mudbox.
+
+
+== See also ==
+Blender
+ZBrush
+
+
+== References ==
+
+
+== External links ==
+Autodesk Mudbox Homepage
+Mudbox Forums
+MudboxCentral Tutorials, News and Jobs
+Mudbox Russian Community
+Mudbox video tutorials

@@ -1,0 +1,122 @@
+The following outline is provided as an overview of and topical guide to biochemistry:
+Biochemistry – study of chemical processes in living organisms, including living matter. Biochemistry governs all living organisms and living processes.
+
+
+== Applications of biochemistry ==
+Testing
+Ames test – salmonella bacteria is exposed to a chemical under question (a food additive, for example), and changes in the way the bacteria grows are measured. This test is useful for screening chemicals to see if they mutate the structure of DNA and by extension identifying their potential to cause cancer in humans.
+Pregnancy test – one uses a urine sample and the other a blood sample. Both detect the presence of the hormone human chorionic gonadotropin (hCG). This hormone is produced by the placenta shortly after implantation of the embryo into the uterine walls and accumulates.
+Breast cancer screening – identification of risk by testing for mutations in two genes—Breast Cancer-1 gene (BRCA1) and the Breast Cancer-2 gene (BRCA2)—allow a woman to schedule increased screening tests at a more frequent rate than the general population.
+Prenatal genetic testing – testing the fetus for potential genetic defects, to detect chromosomal abnormalities such as Down syndrome or birth defects such as spina bifida.
+PKU test – Phenylketonuria (PKU) is a metabolic disorder in which the individual is missing an enzyme called phenylalanine hydroxylase. Absence of this enzyme allows the buildup of phenylalanine, which can lead to mental retardation.
+Genetic engineering – taking a gene from one organism and placing it into another. Biochemists inserted the gene for human insulin into bacteria.  The bacteria, through the process of translation, create human insulin.
+Cloning – Dolly the sheep was the first mammal ever cloned from adult animal cells. The cloned sheep was, of course, genetically identical to the original adult sheep.  This clone was created by taking cells from the udder of a six-year-old ewe and growing them in the lab.
+Gene therapy – a modified or healthy gene is inserted into the organism to replace a disease-causing gene. Commonly a virus that has been altered to carry human DNA is used to deliver the healthy gene to the targeted cells of the patient. This process was first used successfully in 1990 on a four-year-old patient who lacked an immune system due to a rare genetic disease called severe combined immunodeficiency (SCID).
+
+
+== Branches of biochemistry ==
+
+
+=== Main branches ===
+Animal biochemistry
+Plant biochemistry
+Metabolism
+Enzymology
+
+
+=== Other branches ===
+Biotechnology,
+Bioluminescence,
+Molecular chemistry,
+Enzymatic chemistry,
+Genetic engineering,
+Pharmaceuticals,
+Endocrinology,
+Neurochemistry
+Hematology,
+Nutrition,
+Photosynthesis,
+Environmental,
+Toxicology
+
+
+== History of biochemistry ==
+
+
+== General biochemistry concepts ==
+Major categories of bio-compounds:
+Carbohydrates : sugar – disaccharide – polysaccharide – starch – glycogen
+Lipids : fatty acid – fats – essential oils – oils – waxes – cholesterol
+Nucleic acids : DNA – RNA – mRNA – tRNA – rRNA – codon – adenosine – cytosine – guanine – thymine – uracil
+Proteins :
+amino acid – glycine – arginine – lysine
+peptide – primary structure – secondary structure – tertiary structure – conformation – protein folding
+Chemical properties:
+molecular bond – covalent bond – ionic bond – hydrogen bond – ester – ethyl
+molecular charge – hydrophilic – hydrophobic – polar
+pH – acid – alkaline – base
+oxidation – reduction – hydrolysis
+Structural compounds:
+In cells: flagellin – peptidoglycan – myelin – actin – myosin
+In animals: chitin – keratin – collagen – silk
+In plants: cellulose – lignin – cell wall
+Enzymes and enzyme activity:
+enzyme kinetics – enzyme inhibition
+proteolysis – ubiquitin – proteasome
+kinase – dehydrogenase
+Membranes : fluid mosaic model – diffusion – osmosis
+phospholipids – glycolipid – glycocalyx – antigen – isoprene
+ion channel – proton pump – electron transport – ion gradient – antiporter – symporter – quinone – riboflavin
+Energy pathways :
+pigments : chlorophyll – carotenoids – xanthophyll – cytochrome – phycobilin – bacteriorhodopsin – hemoglobin – myoglobin – absorption spectrum – action spectrum – fluorescence
+Photosynthesis : light reaction – dark reaction
+Fermentation : Acetyl-CoA – lactic acid
+Cellular respiration : Adenosine triphosphate (ATP) – NADH – pyruvate – oxalate – citrate
+Chemosynthesis
+Regulation
+hormones : auxin
+signal transduction – growth factor – transcription factor – protein kinase – SH3 domain
+Malfunctions : tumor – oncogene – tumor suppressor gene
+Receptors : Integrin – transmembrane receptor – ion channel
+Techniques : electrophoresis – chromatography – mass spectrometry – x-ray diffraction – Southern blot – fractionation – Gram stain – Surface Plasmon Resonance  – Microscale Thermophoresis
+
+
+== Biochemical techniques ==
+
+
+=== Molecular genetics ===
+DNA sequencing
+Polymerase chain reaction
+Northern blotting
+Southern blotting
+Fusion proteins
+DNA microarray
+Bioinformatics
+Flow cytometry
+
+
+=== Protein purification ===
+Western blotting
+Chromatography
+ELISA
+
+
+=== Structural determination ===
+X-ray crystallography
+NMR
+Electron microscopy
+Molecular dynamics
+Mass spectrometry
+Isotopic labeling
+
+
+=== Interactions between biomolecules ===
+Coimmunoprecipitation
+Electrophoretic mobility shift assay
+Southwestern blotting
+
+
+== External links ==
+
+Biochemistry, 5th ed. Full text of Berg, Tymoczko, and Stryer, courtesy of NCBI.
+Biochemistry, 2nd ed. Full text of Garrett and Grisham.

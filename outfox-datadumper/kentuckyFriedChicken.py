@@ -44,8 +44,9 @@ def kfcMagicRecipe(tag):
             name = page.title
             content = page.content
             tag = tag
-        finally:
             saveChickenBucket(name, content, tag)
+        except:
+            pass   
 
 #SAVE THE FILE
 def saveChickenBucket(fileName, txtBody, tag):

@@ -24,7 +24,8 @@ def returnDf(csvLink):
 # GENERATE BOOLS:
 # generates a boolean tables based on categorys
 def generateBools(csvLink, outputName):
-    df = pd.read_csv(csvLink)
+    #df = pd.read_csv(csvLink)
+    df = pd.read_sql_table()
 
     # create empty list
     tag_lists = []

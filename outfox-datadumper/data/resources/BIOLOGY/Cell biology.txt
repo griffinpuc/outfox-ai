@@ -1,0 +1,149 @@
+Cell biology (also cellular biology or cytology) is a branch of biology that studies the structure, function and behavior of cells. Cell biology encompasses both prokaryotic and eukaryotic cells and has many subtopics which may include the study of cell metabolism, cell communication, cell cycle, biochemistry, and cell composition. The study of cells is performed using several microscopy techniques, cell culture, and cell fractionation. These have allowed for and are currently being used for discoveries and research pertaining to how cells function, ultimately giving insight into understanding larger organisms. Knowing the components of cells and how cells work is fundamental to all biological sciences while also being essential for research in biomedical fields such as cancer, and other diseases. Research in cell biology is interconnected to other fields such as genetics, molecular genetics, biochemistry, molecular biology, medical microbiology, immunology, and cytochemistry.
+
+
+== History ==
+Cells were first seen in 17th century Europe with the invention of the compound microscope. In 1665, Robert Hooke termed the building block of all living organisms as "cells" (published in Micrographia) after looking at a piece of cork and observing a cell-like structure, however, the cells were dead and gave no indication to the actual overall components of a cell. A few years later, in 1674, Anton Van Leeuwenhoek was the first to analyze live cells in his examination of algae. All of this preceded the cell theory which states that all living things are made up of cells and that cells are the functional and structural unit of organisms. This was ultimately concluded by plant scientist, Matthias Schleiden and animal scientist Theodor Schwann in 1838, who viewed live cells in plant and animal tissue, respectively. 19 years later, Rudolf Virchow further contributed to the cell theory, adding that all cells come from the division of pre-existing cells. Viruses are not considered in cell biology – they lack the characteristics of a living cell, and instead are studied in the microbiology subclass of virology.
+
+
+== Techniques ==
+Cell biology research looks at different ways to culture and manipulate cells outside of a living body to further research in human anatomy and physiology, and to derive medications. The techniques by which cells are studied have evolved. Due to advancements in microscopy, techniques and technology have allowed for scientists to hold a better understanding of the structure and function of cells. Many techniques commonly used to study cell biology are listed below:
+Cell culture: Utilizes rapidly growing cells on media which allows for a large amount of a specific cell type and an efficient way to study cells.
+Fluorescence microscopy: Fluorescent markers such as GFP, are used to label a specific component of the cell. Afterwards, a certain light wavelength is used to excite the fluorescent marker which can then be visualized.
+Phase-contrast microscopy: Uses the optical aspect of light to represent the solid, liquid, and gas phase changes as brightness differences.
+Confocal microscopy: Combines fluorescence microscopy with imaging by focusing light and snap shooting instances to form a 3-D image.
+Transmission electron microscopy: Involves metal staining and the passing of electrons through the cells, which will be deflected upon interaction with metal. This ultimately forms an image of the components being studied.
+Cytometry: The cells are placed in the machine which uses a beam to scatter the cells based on different aspects and can therefore separate them based on size and content. Cells may also be tagged with GFP-fluorescence and can be separated that way as well.
+Cell fractionation: This process requires breaking up the cell using high temperature or sonification followed by centrifugation to separate the parts of the cell allowing for them to be studied separately.
+
+
+== Cell types ==
+
+There are two fundamental classifications of cells: prokaryotic and eukaryotic. Prokaryotic cells are distinguished from eukaryotic cells by the absence of a cell nucleus or other membrane-bound organelle. Prokaryotic cells are much smaller than eukaryotic cells, making them the smallest form of life. Prokaryotic cells include Bacteria and Archaea, and lack an enclosed cell nucleus. They both reproduce through binary fission. Bacteria, the most prominent type, have several different shapes which include mainly spherical, and rod-shaped. Bacteria can be classed as either gram-positive or gram-negative depending on the cell wall composition. Gram-positive bacteria have a thicker peptidoglycan layer than gram-negative bacteria. Bacterial structural features include a flagellum that helps the cell to move, ribosomes for the translation of RNA to protein, and a nucleoid that holds all the genetic material in a circular structure. There are many process that occur in prokaryotic cells that allow them to survive. For instance, in a process termed conjugation, fertility factor allows the bacteria to possess a pilus which allows it to transmit DNA to another bacteria which lacks the F factor, permitting the transmittance of resistance allowing it to survive in certain environments.
+
+
+== Structure and function ==
+
+
+=== Structure of eukaryotic cells ===
+
+Eukaryotic cells are composed of the following organelles:
+
+Nucleus: The nucleus of the cell  functions as the genome and genetic information storage for the cell, containing all the DNA organized in the form of chromosomes. It is surrounded by a nuclear envelope, which includes nuclear pores allowing for transportation of proteins between the inside and outside of the nucleus. This is also the site for replication of DNA as well as transcription of DNA to RNA. Afterwards, the RNA is modified and transported out to the cytosol to be translated to protein.
+Nucleolus: This structure is within the nucleus, usually dense and spherical in shape. It is the site of ribosomal RNA (rRNA) synthesis, which is needed for ribosomal assembly.
+Endoplasmic reticulum (ER): This functions to synthesize, store, and secrete proteins to the Golgi apparatus. Structurally, the endoplasmic reticulum is a network of membranes found throughout the cell and connected to the nucleus. The membranes are slightly different from cell to cell and a cell’s function determines the size and structure of the ER.
+Mitochondria: Commonly known as powerhouse of the cell. This functions for the production of energy or ATP within the cell. Specifically, this is the place where the Krebs cycle or TCA cycle for the production of NADH and FADH occurs. Afterwards, these products are used within the electron transport chain (ETC) and oxidative phosphorylation for the final production of ATP.
+Golgi apparatus: This functions to further process, package, and secrete the proteins to their destination. The proteins contain a signal sequence which allows the golgi apparatus to recognize and direct it to the correct place.
+Lysosome: The lysosome functions to degrade material brought in from the outside of the cell or old organelles. This contains many acid hydrolases, proteases, nucleases, and lipases, which break down the various molecules. Autophagy is the process of degradation through lysosomes which occurs when a vesicle buds off from the ER and engulfs the material, then, attaches and fuses with the lysosome to allow the material to be degraded.
+Ribosomes: Functions to translate RNA to protein. it serves as a site of protein synthesis.
+Cytoskeleton: Cytoskeleton is a structure that helps maintain their shape and general organization of cytoplasm.  functions to anchor organelles within the cells and make up the structure and stability of the cell. The cytoskeleton is composed of three principal types of protein filaments: actin filaments, intermediate filaments, and microtubules, which are held together and linked to subcellular organelles and the plasma membrane by a variety of accessory proteins.
+Cell membrane: The cell membrane can be described as a phospholipid bilayer and is also consisted of lipids and proteins. Because the inside of the bilayer is hydrophobic and in order for molecules to participate in reactions within the cell, they need to be able to cross this membrane layer to get into cell via osmotic pressure, diffusion, concentration gradients, and membrane channels.
+Centrioles: Function to produce spindle fibers which are used to separate chromosomes during cell division.Eukaryotic cells may also be composed of the following molecular components:
+
+Chromatin: This makes up chromosomes and is a mixture of DNA with various proteins.
+Cilia: They help to propel substances and can also be used for sensory purposes.
+
+
+=== Cell metabolism ===
+Cell metabolism is necessary for the production of energy for the cell and therefore its survival and includes many pathways. For cellular respiration, once glucose is available, glycolysis occurs within the cytosol of the cell to produce pyruvate. Pyruvate undergoes decarboxylation using the multi-enzyme complex to form acetyl coA which can readily be used in the TCA cycle to produce NADH and FADH2. These products are involved in the electron transport chain to ultimately form a proton gradient across the inner mitochondrial membrane. This gradient can then drive the production of ATP and H2O during oxidative phosphorylation. Metabolism in plant cells includes photosynthesis which is simply the exact opposite of respiration as it ultimately produces molecules of glucose.
+
+
+=== Cell signaling ===
+
+Cell signaling or cell communication is important for cell regulation and for cells to process information from the environment and respond accordingly. Signaling can occur through direct cell contact or endocrine, paracrine, and autocrine signaling. Direct cell-cell contact is when a receptor on a cell binds a molecule that is attached to the membrane of another cell. Endocrine signaling occurs through molecules secreted into the bloodstream. Paracrine signaling uses molecules diffusing between two cells to communicate. Autocrine is a cell sending a signal to itself by secreting a molecule that binds to a receptor on its surface. Forms of communication can be through:
+
+Ion channels: Can be of different types such as voltage or ligand gated ion channels. They allow for the outflow and inflow of molecules and ions.
+G-protein coupled receptor (GPCR): Is widely recognized to contain 7 transmembrane domains. The ligand binds on the extracellular domain and once the ligand binds, this signals a guanine exchange factor to convert GDP to GTP and activate the G-α subunit. G-α can target other proteins such as adenyl cyclase or phospholipase C, which ultimately produce secondary messengers such as cAMP, Ip3, DAG, and calcium. These secondary messengers function to amplify signals and can target ion channels or other enzymes. One example for amplification of a signal is cAMP binding to and activating PKA by removing the regulatory subunits and releasing the catalytic subunit. The catalytic subunit has a nuclear localization sequence which prompts it to go into the nucleus and phosphorylate other proteins to either repress or activate gene activity.
+Receptor tyrosine kinases: Bind growth factors, further promoting the tyrosine on the intracellular portion of the protein to cross phosphorylate. The phosphorylated tyrosine becomes a landing pad for proteins containing an SH2 domain allowing for the activation of Ras and the involvement of the MAP kinase pathway.
+
+
+== Growth and development ==
+
+
+=== Eukaryotic cell cycle ===
+
+ 
+Cells are the foundation of all organisms and are the fundamental units of life. The growth and development of cells are essential for the maintenance of the host and survival of the organism. For this process, the cell goes through the steps of the cell cycle and development which involves cell growth, DNA replication, cell division, regeneration, and cell death. 
+The cell cycle is divided into four distinct phases: G1, S, G2, and M. The G phase – which is the cell growth phase – makes up approximately 95% of the cycle. The proliferation of cells is instigated by progenitors. All cells start out in an identical form and can essentially become any type of cells. Cell signaling such as induction can influence nearby cells to determinate the type of cell it will become. Moreover, this allows cells of the same type to aggregate and form tissues, then organs, and ultimately systems. The G1, G2, and S phase (DNA replication, damage and repair) are considered to be the interphase portion of the cycle, while the M phase (mitosis) is the cell division portion of the cycle. Mitosis is composed of many stages which include, prophase, metaphase, anaphase, telophase, and cytokinesis, respectively. The ultimate result of mitosis is the formation of two identical daughter cells.
+The cell cycle is regulated in cell cycle checkpoints, by a series of signaling factors and complexes such as cyclins, cyclin-dependent kinase, and p53. When the cell has completed its growth process and if it is found to be damaged or altered, it undergoes cell death, either by apoptosis or necrosis, to eliminate the threat it can cause to the organism's survival.
+
+
+=== Cell mortality, cell lineage immortality ===
+The ancestry of each present day cell presumably traces back, in an unbroken lineage for over 3 billion years to the origin of life. It is not actually cells that are immortal but multi-generational cell lineages.  The immortality of a cell lineage depends on the maintenance of cell division potential.  This potential may be lost in any particular lineage because of cell damage, terminal differentiation as occurs in nerve cells, or programmed cell death (apoptosis) during development.  Maintenance of cell division potential over successive generations depends on the avoidance and the accurate repair of cellular damage, particularly DNA damage.  In sexual organisms, continuity of the germline depends on the effectiveness of processes for avoiding DNA damage and repairing those DNA damages that do occur.  Sexual processes in eukaryotes, as well as in prokaryotes, provide an opportunity for effective repair of DNA damages in the germ line by homologous recombination.
+
+
+=== Cell cycle phases ===
+The cell cycle is a four-stage process that a cell goes through as it develops and divides. It includes Gap 1 (G1), synthesis (S), Gap 2 (G2), and mitosis (M).The cell either restarts the cycle from G1 or leaves the cycle through G0 after completing the cycle. The cell can progress from G0 through terminal differentiation.
+The interphase refers to the phases of the cell cycle that occur between one mitosis and the next, and includes G1, S, and G2.
+
+
+==== G1 phase ====
+The size of the cell grows.
+The contents of cells are replicated.
+
+
+==== S phase ====
+Replication of DNA
+The cell replicates each of the 46 chromosomes (23 pairs).
+
+
+==== G2 phase ====
+The cell multiplies.
+In preparation for cell division, organelles and proteins form.
+
+
+==== M phase ====
+After mitosis, cytokinesis occurs (cell separation)
+Formation of two daughter cells that are identical
+
+
+==== G0 phase ====
+These cells leave G1 and enter G0, a resting stage. A cell in G0 is doing its job without actively preparing to divide.
+
+
+== Pathology ==
+
+The scientific branch that studies and diagnoses diseases on the cellular level is called cytopathology. Cytopathology is generally used on samples of free cells or tissue fragments, in contrast to the pathology branch of histopathology, which studies whole tissues. Cytopathology is commonly used to investigate diseases involving a wide range of body sites, often to aid in the diagnosis of cancer but also in the diagnosis of some infectious diseases and other inflammatory conditions. For example, a common application of cytopathology is the Pap smear, a screening test used to detect cervical cancer, and precancerous cervical lesions that may lead to cervical cancer.
+
+
+== Cell cycle checkpoints and DNA damage repair system ==
+The cell cycle is composed of a number of well-ordered, consecutive stages that result in cellular division. The fact that cells do not begin the next stage until the last one is finished, is a significant element of cell cycle regulation. Cell cycle checkpoints are characteristics that constitute an excellent monitoring strategy for accurate cell cycle and divisions. Cdks, associated cyclin counterparts, protein kinases, and phosphatases regulate cell growth and division from one stage to another. The cell cycle is controlled by the temporal activation of Cdks, which is governed by cyclin partner interaction, phosphorylation by particular protein kinases, and de-phosphorylation by Cdc25 family phosphatases. In response to DNA damage, a cell's DNA repair reaction is a cascade of signaling pathways that leads to checkpoint engagement, regulates, the repairing mechanism in DNA, cell cycle alterations, and apoptosis . Numerous biochemical structures, as well as processes that detect damage in DNA, are ATM and ATR, which induce the DNA repair checkpointsThe cell cycle is a sequence of activities in which cell organelles are duplicated and subsequently separated into daughter cells with precision. There are major events that happen during a cell cycle. The processes that happen in the cell cycle include cell development, replication and segregation of chromosomes.  The cell cycle checkpoints are surveillance systems that keep track of the cell cycle's integrity, accuracy, and chronology. Each checkpoint serves as an alternative cell cycle endpoint, wherein the cell's parameters are examined and only when desirable characteristics are fulfilled does the cell cycle advance through the distinct steps.The cell cycle's goal is to precisely copy each organism's DNA and afterwards equally split the cell and its components between the two new cells. Four main stages occur in the eukaryotes. In G1, the cell is usually active and continues to grow rapidly, while in G2, the cell growth continues while protein molecules become ready for separation. These are not dormant times; they are when cells gain mass, integrate growth factor receptors, establish a replicated genome, and prepare for chromosome segregation. DNA replication is restricted to a separate Synthesis in eukaryotes, which is also known as the S-phase. During mitosis, which is also known as the M-phase, the segregation of the chromosomes occur.  DNA, like every other molecule, is capable of undergoing a wide range of chemical reactions. Modifications in DNA's sequence, on the other hand, have a considerably bigger impact than modifications in other cellular constituents like RNAs or proteins because DNA acts as a permanent copy of the cell genome. When erroneous nucleotides are incorporated during DNA replication, mutations can occur. The majority of DNA damage is fixed by removing the defective bases and then re-synthesizing the excised area. On the other hand, some DNA lesions can be mended by reversing the damage, which may be a more effective method of coping with common types of DNA damage. Only a few forms of DNA damage are mended in this fashion, including pyrimidine dimers caused by ultraviolet (UV) light changed by the insertion of methyl or ethyl groups at the purine ring's O6 position.
+
+
+== Mitochondrial membrane dynamics: a cell biology perspective ==
+Mitochondria are commonly referred to as the cell's "powerhouses" because of their capacity to effectively produce ATP which is essential to maintain cellular homeostasis and metabolism. Moreover, researchers have gained a better knowledge of mitochondria's significance in cell biology because of the discovery of cell signaling pathways by mitochondria which are crucial platforms for cell function regulation such as apoptosis. Its physiological adaptability is strongly linked to the cell mitochondrial channel's ongoing reconfiguration through a range of mechanisms known as mitochondrial membrane dynamics, which include endomembrane fusion and fragmentation (separation) as well as ultrastructural membrane remodeling. As a result, mitochondrial dynamics regulate and frequently choreograph not only metabolic but also complicated cell signaling processes such as cell pluripotent stem cells, proliferation, maturation, aging, and mortality. Mutually, post-translational alterations of mitochondrial apparatus and the development of transmembrane contact sites among mitochondria and other structures, which both have the potential to link signals from diverse routes that affect mitochondrial membrane dynamics substantially,  Mitochondria are wrapped by two membranes: an inner mitochondrial membrane (IMM) and an outer mitochondrial membrane (OMM), each with a distinctive function and structure, which parallels their dual role as cellular powerhouses and signaling organelles. The inner mitochondrial membrane divides the mitochondrial lumen into two parts: the inner border membrane, which runs parallel to the OMM, and the cristae, which are deeply twisted, multinucleated invaginations that give room for surface area enlargement and house the mitochondrial respiration apparatus. The outer mitochondrial membrane, on the other hand, is soft and permeable. It, therefore, acts as a foundation for cell signaling pathways to congregate, be deciphered, and be transported into mitochondria. Furthermore, the OMM connects to other cellular organelles, such as the endoplasmic reticulum (ER), lysosomes, endosomes, and the plasma membrane. Mitochondria play a wide range of roles in cell biology, which is reflected in their morphological diversity. Ever since the beginning of the mitochondrial study, it has been well documented that mitochondria can have a variety of forms, with both their general and ultra-structural morphology varying greatly among cells, during the cell cycle, and in response to metabolic or cellular cues. Mitochondria can exist as independent organelles or as part of larger systems; they can also be unequally distributed in the cytosol through regulated mitochondrial transport and placement to meet the cell's localized energy requirements. Mitochondrial dynamics refers to the adaptive and variable aspect of mitochondria, including their shape and subcellular distribution.
+
+
+== Autophagy- A Cell Eating Process ==
+Autophagy is a self-degradative mechanism that regulates energy sources during growth and reaction to dietary stress. Autophagy also cleans up after itself, clearing aggregated proteins, cleaning damaged structures including mitochondria and endoplasmic reticulum and eradicating intracellular infections. Additionally, autophagy has antiviral and antibacterial roles within the cell, and it is involved at the beginning of distinctive and adaptive immune responses to viral and bacterial contaminations. Some viruses include virulence proteins that prevent autophagy, while others utilize autophagy elements for intracellular development or cellular splitting.  Macro autophagy, micro autophagy, and chaperon-mediated autophagy are the three basic types of autophagy. When macro autophagy is triggered, an exclusion membrane incorporates a section of the cytoplasm, generating the autophagosome, a distinctive double-membraned organelle. The autophagosome then joins the lysosome to create an autolysosome, with lysosomal enzymes degrading the components. In micro autophagy, the lysosome or vacuole engulfs a piece of the cytoplasm by invaginating or protruding the lysosomal membrane to enclose the cytosol or organelles. The chaperone-mediated autophagy (CMA) protein quality assurance by digesting oxidized and altered proteins under stressful circumstances and supplying amino acids through protein denaturation. Autophagy is the primary intrinsic degradative system for peptides, fats, carbohydrates, and other cellular structures. In both physiologic and stressful situations, this cellular progression is vital for upholding the correct cellular balance. Autophagy instability leads to a variety of illness symptoms, including inflammation, biochemical disturbances, aging, and neurodegenerative, due to its involvement in controlling cell integrity. The modification of the autophagy-lysosomal networks is a typical hallmark of many neurological and muscular illnesses. As a result, autophagy has been identified as a potential strategy for the prevention and treatment of various disorders. Many of these disorders are prevented or improved by consuming polyphenol in the meal. As a result, natural compounds with the ability to modify the autophagy mechanism are seen as a potential therapeutic option. The creation of the double membrane (phagophore), which would be known as nucleation, is the first step in macro-autophagy. The phagophore approach indicates dysregulated polypeptides or defective organelles that come from the cell membrane, Golgi apparatus, endoplasmic reticulum, and mitochondria. With the conclusion of the auto phagocyte, the phagophore's enlargement comes to an end. The auto-phagosome combines with the lysosomal vesicles to formulate an auto-lysosome that degrades the encapsulated substances, referred to as phagocytosis.
+
+
+== Notable cell biologists ==
+
+
+== See also ==
+
+The American Society for Cell Biology
+Cell biophysics
+Cell disruption
+Cell physiology
+Cellular adaptation
+Cellular microbiology
+Institute of Molecular and Cell Biology (disambiguation)
+Organoid
+Outline of cell biology
+
+
+== Notes ==
+
+
+== References ==
+Penner-Hahn, James E. (2013). "Chapter 2. Technologies for Detecting Metals in Single Cells. Section 4. Intrinsic X-Ray Fluorescence".  In Bani, Lucia (ed.). Metallomics and the Cell. Metal Ions in Life Sciences. 12. Springer. pp. 15–40. doi:10.1007/978-94-007-5561-1_2. ISBN 978-94-007-5560-4. PMID 23595669.electronic-book ISBN 978-94-007-5561-1 ISSN 1559-0836electronic-ISSN 1868-0402
+Cell and Molecular Biology by Karp 5th Ed., ISBN 0-471-46580-1
+ This article incorporates public domain material from the NCBI document: "Science Primer".
+
+
+== External links ==
+Cell Biology at Curlie
+Aging Cell
+"Francis Harry Compton Crick (1916-2004)" by A. Andrei at the Embryo Project Encyclopedia
+"Biology Resource By Professor Lin."

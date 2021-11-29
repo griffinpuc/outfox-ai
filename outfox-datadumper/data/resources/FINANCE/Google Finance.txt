@@ -1,0 +1,14 @@
+Google Finance is a website focusing on business news and financial information hosted by Google.
+
+
+== History ==
+Google Finance was first launched by Google on March 21, 2006. The service featured business and enterprise headlines for many corporations including their financial decisions and major news events. Stock information was available, as were Adobe Flash-based stock price charts which contained marks for major news events and corporate actions. The site also aggregated Google News and Google Blog Search articles about each corporation, though links were not screened and often deemed untrustworthy.Google launched a revamped version of their finance site on December 12, 2006, featuring a new homepage design which lets users see currency information, sector performance for the United States market and a listing of top market movers along with the relevant and important news of the day.  A top movers section was also added, based on popularity determined by Google Trends.  The upgrade also featured charts containing up to 40 years of data for U.S. stocks, and richer portfolio options. Another update brought real-time ticker updates for stocks to the site, as both NASDAQ and the New York Stock Exchange partnered with Google in June 2008. Google added advertising to its finance page on November 18, 2008. However, since 2008, it has not undergone any major upgrades and the Google Finance Blog was closed in August 2012.
+On September 22, 2017, Google confirmed that the website was under renovation and that portfolio features would not be available after mid-November 2017.In early 2018, a notice on the website announced that the website had been renovated. The notice said that the portfolio feature was to be removed, and advised that stocks from the old portfolio feature would be migrated to the new website, and also giving the option for users to download the portfolio as a CSV file.A Google Finance mobile app was removed from the Google Play Store in 2015.Google Finance was relaunched in 2020 with tools to help users get started investing.
+
+
+== See also ==
+Yahoo! Finance
+MSN Money
+
+
+== References ==

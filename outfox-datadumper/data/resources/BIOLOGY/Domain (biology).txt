@@ -1,0 +1,55 @@
+In biological taxonomy, a domain ( or ) (Latin: regio), also dominion, superkingdom, realm, or empire, is the highest taxonomic rank of organisms in the three-domain system of taxonomy devised by Carl Woese et al. in 1990.According to this system, the tree of life consists of three domains: Archaea, Bacteria, and Eukarya. The first two are all prokaryotic microorganisms, or mostly single-celled organisms whose cells have a distorted or non-membrane bound nucleus. All life that has a cell nucleus and eukaryotic membrane-bound organelles is included in Eukarya.
+Non-cellular life is not included in this system. Alternatives to the three-domain system include the earlier two-empire system (with the empires Prokaryota and Eukaryota), and the eocyte hypothesis (with two domains of Bacteria and Archaea, and Eukarya included within Archaea).
+
+
+== Terminology ==
+The term "domain" was proposed by Carl Woese, Otto Kandler and Mark Wheelis (1990) in a three-domain system. This term represents a synonym for the category of dominion (Lat. dominium), introduced by Moore in 1974.
+
+
+== Characteristics of the three domains ==
+
+Each of these three domains contains unique rRNA. This forms the basis of the three-domain system. While the presence of a nuclear membrane differentiates the Eukarya from the Archaea and Bacteria, both of which lack a nuclear membrane, distinct biochemical and RNA markers differentiate the Archaea and Bacteria from each other.
+
+
+=== Archaea ===
+
+Archaea are  prokaryota cells, typically characterized by membrane lipids that are branched hydrocarbon chains attached to glycerol by ether linkages. The presence of these ether linkages in Archaea adds to their ability to withstand extreme temperatures and highly acidic conditions, but many archaea live in mild environments. Halophiles, organisms that thrive in highly salty environments, and hyperthermophiles, organisms that thrive in extremely hot environments, are examples of Archaea.Archaea evolved many cell sizes, but all are relatively small. Their size ranges from 0.1 μm to 15 μm diameter and up to 200 μm long. They are about the size of bacteria, or similar in size to the mitochondria found in eukaryotic cells. Members of the genus Thermoplasma are the smallest of the Archaea.
+
+
+=== Bacteria ===
+
+Even though bacteria are prokaryotic cells just like Archaea, their membranes are made of phospholipid bilayers. Cyanobacteria and mycoplasmas are two examples of bacteria. They characteristically do not have ether linkages like Archaea, and they are grouped into a different category—and hence a different domain. There is a great deal of diversity in this domain. Confounded by that diversity and horizontal gene transfer, it is next to impossible to determine how many species of bacteria exist on the planet, or to organize them in a tree-structure, without cross-connections between branches.
+
+
+=== Eukarya ===
+
+Members of the domain Eukarya—called eukaryotes—have membrane-bound organelles (including a nucleus containing genetic material) and are represented by five kingdoms: Plantae, Protozoa, Animalia, Chromista, and Fungi.
+
+
+== Exclusion of viruses and prions ==
+
+The three-domain system does not include any form of non-cellular life. Stefan Luketa proposed a five-domain system in 2012, adding Prionobiota (acellular and without nucleic acid) and Virusobiota (acellular but with nucleic acid) to the traditional three domains.
+
+
+== Alternative classifications ==
+See also: Virus classification
+Alternative classifications of life include:
+
+The two-empire system or superdomain system, with top-level groupings of Prokaryota (or Monera) and Eukaryota.
+The eocyte hypothesis, first proposed by James A. Lake et al. in 1984, which posits two domains (Bacteria and Archaea, with Eukaryota included in Archaea).
+
+
+== See also ==
+Biological dark matter
+Neomura, which is the two domains of life of Archaea and Eukaryota
+Phylogenetics
+Protein structure
+Realm (virology), an equivalent rank for non-cellular life
+Systematics
+
+
+== References ==
+
+
+== External links ==
+Learn Biology: Classification-Domains on YouTube

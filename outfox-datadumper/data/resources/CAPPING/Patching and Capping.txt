@@ -1,0 +1,16 @@
+The aggregation of fluorescently tagged antibodies that are associated with proteins on membranes of living cells. The aggregation appears as a cap or a patch in the fluorescence microscope and is due to the bivalent nature of antibodies. Patching and capping were critical in demonstrating the fluid nature of plasma membranes.
+Variations in density within the specimen are amplified to enhance contrast in unstained cells which is especially useful for examining living unpigmented cells. In other words, phase contrast is a contrast-enhancing optical technique that can be used to produce high contrast images such as living cells and subcellular including nuclei and other organelles. One of the major advantages of using phase contrast microscopy is that living cells can be examined in their natural state without being killed, fixed, or especially stained. As a result, biological processes in the cell can be observed and recorded in high contrast with sharp clarity of minute specimen details.
+When the ligand binds to its specific receptor, the ligand-receptor complex accumulates in the coated pits. In many cells these pits and complexes begin to concentrate in one area of a cell. Cytochemically, this appears as patches of label on the cell surface (patching). Eventually, the patches coalesce to form a cap at one pole of the cell (capping). Not all cells form caps, but most do form patches. The pre-concentration process minimizes the amount of fluid that is taken up in the vesicle.
+
+
+== See also ==
+Immunofluorescence
+
+
+== References ==
+Patching and Capping: Plasma Membrane Protein Redistribution
+Patching and Capping: Plasma Membrane Protein Redistribution
+
+
+== External links ==
+Patching and Capping at "How to make humans"

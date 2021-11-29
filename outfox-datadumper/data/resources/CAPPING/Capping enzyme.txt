@@ -1,0 +1,37 @@
+A capping enzyme (CE) is an enzyme that catalyzes the attachment of the 5' cap to messenger RNA molecules that are in the process of being synthesized in the cell nucleus during the first stages of gene expression. The addition of the cap occurs co-transcriptionally, after the growing RNA molecule contains as little as 25 nucleotides. The enzymatic reaction is catalyzed specifically by the phosphorylated carboxyl-terminal domain (CTD) of RNA polymerase II. The 5' cap is therefore specific to RNAs synthesized by this polymerase rather than those synthesized by RNA polymerase I or RNA polymerase III.  Pre-mRNA undergoes a series of modifications - 5' capping, splicing and 3' polyadenylation before becoming mature mRNA that exits the nucleus to be translated into functional proteins and capping of the 5' end is the first of these modifications. Three enzymes, RNA triphosphatase, guanylyltransferase (or CE), and methyltransferase  are involved in the addition of the methylated 5' cap to the mRNA.
+
+
+== Formation of the cap ==
+
+Capping is a three-step process that utilizes the enzymes RNA triphosphatase, guanylyltransferase, and methyltransferase.  Through a series of three steps, the cap is added to the first nucleotide's 5' hydroxyl group of the growing mRNA strand while transcription is still occurring.  First, RNA 5' triphosphatase hydrolyzes the 5' triphosphate group to make diphospate-RNA. Then, the addition of GMP by guanylyltransferase produces the guanosine cap. Last, RNA methyltransferase transfers a methyl group to the guanosine cap to yield 7-methylguanosine cap that is attached to the 5' end of the transcript. These three enzymes, collectively called the capping enzymes, are only able to catalyze their respective reactions when attached to RNA polymerase II, an enzyme necessary for the transcription of DNA into pre-mRNA.  When this complex of RNA polymerase II and the capping enzymes is achieved, the capping enzymes are able to add the cap to the mRNA while it is produced by RNA polymerase II.
+
+
+== Function ==
+
+Eukaryotic RNA must undergo a series of modifications in order to be exported from the nucleus and successfully translated into function proteins, many of which are dependent on mRNA capping, the first mRNA modification to take place.  5' capping is essential for mRNA stability, enhancing mRNA processing, mRNA export and translation. After successful capping, an additional phosphorylation event initiates the recruitment of machinery necessary for RNA splicing, a process by which introns are removed to produce a mature mRNA.  The addition of the cap onto mRNA confers protection to the transcript from exonucleases that degrade unprotected RNA and assist in the nuclear export transport process so that the mRNA can be translated to form proteins. The function of the 5' cap is essential to the ultimate expression of the RNA.
+
+
+== Structure ==
+The capping enzyme is part of the covalent nucleotidyl transferases superfamily, which also includes DNA ligases and RNA ligases.  The enzymes of this superfamily share the following similarities:
+
+Conserved regions known as motifs I, II, III, IIIa, IV, V and VI, which are arranged in the same order and similar spacing
+A lysine containing motif KxDG (motif I)
+A covalent lysyl-NMP intermediateThe capping enzyme is composed of two domains, a nucleotidyl transferase (NTase) domain and a C-terminal oligonucleotide binding (OB) domain. The NTase domain, conserved in capping enzymes, DNA and RNA ligases, is made up 5 motifs, I, III, IIIa, IV and V.  Motif I or KxDG is the active site where the covalent (lysyl)-N-GMP intermediate is formed.     Both the NTase and OB domains undergo conformational changes that assist in the capping reaction.Capping enzymes are found in the nucleus of eukaryotic cells.  Depending on the organism, the capping enzyme is either a monofunctional or bifunctional polypeptide.   The guanylyltransferases (Ceg1) of Saccharomyces cerevisiae is encoded by the CEG1 gene and is composed of 459 amino acids (53-kD). The RNA triphosphatase (Cet1) is a separate 549 amino acid polypeptide (80-kD), encoded by the CET1 gene.  The human capping enzyme is an example of a bifunctional polypeptide, which has both triphosphatase (N-terminal) and guanylyltransferase (C-teriminal) domains. The human mRNA guanylyltransferase domain of the capping enzyme is composed of seven helices and fifteen β strands that are grouped into three, five and seven strands, arranged as antiparallel β sheets. The enzyme structure has three sub-domains referred to hinge, base and lid. The GTP binding site is located between the hinge and base domain.  The lid domain determines the conformation of the active site cleft, which consists of the GTP binding site, phosphoamide linking lysine and surrounding residues.  The guanylyltransferase domain is linked to the triphosphatase domain via a 25 amino acid flexible loop structure.
+
+
+== Impact of the enzyme's activity ==
+Splicing is dependent on the presence of the 7-methylguanosine cap.  A defect in splicing can occur as a result of mutation(s) in the guanylytransferase, which can inhibit enzyme activity, preventing the formation of the cap. However the severity of the effect is dependent on the guanlyltransferase mutation.  Furthermore, the guanylyltransferase relieves transcriptional repression mediated by NELF.  NELF together with DSIF prevents transcription elongation.   Thus, mutations in the enzyme can affect transcription elongation.
+
+
+== See also ==
+RNA splicing
+mRNA (guanine-N7-)-methyltransferase
+Post-transcriptional modification
+Translation (biology)
+Ribosome
+Transcription
+RNA Polymerase II
+Eukaryotic transcription
+
+
+== References ==

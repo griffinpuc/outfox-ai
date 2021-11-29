@@ -1,0 +1,109 @@
+Content marketing is a form of marketing focused on creating, publishing, and distributing content for a targeted audience online. It is often used by businesses in order to achieve the following goals: attract attention and generate leads, expand their customer base, generate or increase online sales, increase brand awareness or credibility, and engage an online community of users. Content marketing attracts new customers by creating and sharing valuable free content. It helps companies create sustainable brand loyalty, provides valuable information to consumers, and creates a willingness to purchase products from the company in the future.Content marketing starts with identifying the customer's needs. After that the  information can be presented in a variety of formats, including news, video, white papers, e-books, infographics, email newsletters, case studies, podcasts, how-to guides, question and answer articles, photos, blogs, etc.Content marketing requires continuous delivery of large amounts of content, preferably within a content marketing strategy.
+
+
+== History ==
+Traditional marketers have long used content to disseminate information about a brand and build a brand's reputation. Taking advantage of technological advances in transportation and communication, business owners started to apply content marketing techniques in the late 19th century. They also attempted to build connections with their customers. 
+
+During the golden age of TV, between the 1940s and 1950s, advertising took over the media. Companies focused on sales rather than connecting with the public. There were few ventures into content marketing and not many prominent campaigns.
+During the baby boom era, Kellogg's began selling sugary cereal to children. With this change in business model came sociable animal mascots, lively animated commercials and the back of the cereal box as a form of targeted content marketing. Infographics were born in this era. This represented a new approach to make a brand memorable with the audience.
+In the 1990s, everything changed for marketers. The arrival of computers and the Internet made websites and blogs flourish, and corporations found content marketing opportunities through email.
+E-commerce adaptations and digital distribution became the foundation of marketing strategy.
+Internet also helped content marketing become a mainstream form of marketing. Traditional media such as newspapers, magazines, radio and TV started to lose their power in the marketplace. Companies started to promote and sell their products digitally.The phrase "content marketing" was used as early as 1996, when John F. Oppedahl led a roundtable for journalists at the American Society for Newspaper Editors.
+
+In 1998, Jerrell Jimerson held the title of "director of online and content marketing" at Netscape.
+In 1999, author Jeff Cannon wrote, “In content marketing, content is created to provide consumers with the information they seek.”By the late 2000s, when social networks such as Facebook, Twitter, YouTube were born, online content marketing was accessible, shareable and on-demand anytime worldwide.
+By 2014, Forbes Magazine's website had written about the seven most popular ways companies use content marketing. In it, the columnist points out that by 2013, use of content marketing had jumped across corporations from 60% a year or so before, to 93% as part of their overall marketing strategy. Despite the fact that 70% of organizations are creating more content, only 21% of marketers think they are successful at tracking return on investment.
+Today, content marketing has become a powerful model for marketers. Storytelling  is part of it, and they must convey the companies’ messages or goal to their desired audience without pushing them to just buy the product or service.
+
+
+== Implications ==
+The rise of content marketing has turned many traditional businesses into media publishing companies.For example:
+
+Red Bull, which sells a high-energy beverage, has published YouTube videos, hosted experiences, and sponsored events around extreme sports and activities like mountain biking, BMX, motocross, snowboarding, skateboarding, cliff-diving, freestyle motocross, and Formula 1 racing. Red Bull Media House is a unit of Red Bull that "produces full-length feature films for cinema and downstream channels (DVD, VOD, TV)." The Red Bulletin is an international monthly magazine Red Bull publishes with a focus on men's sports, culture, and lifestyle.
+The personal finance site Mint.com used content marketing, specifically their personal finance blog MintLife, to build an audience for a product they planned to sell. According to entrepreneur Sachin Rekhi, Mint.com concentrated on building the audience for MintLife "independent of the eventual Mint.com product." Content on the blog included how-to guides on paying for college, saving for a house, and getting out of debt. Other popular content included in-depth interviews and a series of financial disasters called "Trainwreck Tuesdays." The popularity of the site surged as did demand for the product. "Mint grew quickly enough to sell to Intuit for $170 million after three years in business. By 2013, the tool reached 10 million users, many of whom trusted Mint to handle their sensitive banking information because of the blog’s smart, helpful content."The rise of content marketing has also accelerated the growth of online platforms, such as YouTube, Yelp, LinkedIn, Tumblr, Pinterest, and more.
+For example:
+
+YouTube, a subsidiary of Google, is an online video platform driving (and benefiting from) the surge to content marketing. As of 2016, YouTube had over 1 billion users, representing 1/3 of all internet users and reaching more people 18–34 years of age than any cable provider in the U.S.
+Yelp, an online business directory, has seen 30% year over growth in the number of reviews, ending the second quarter of 2016 with 108 million reviews for over 3 million businesses.Businesses actively curate their content on these platforms with hopes to expand their reach to new audiences.
+Part of transitioning to a media publishing mindset requires a change in structure and process to create content at "the speed of culture." Marketing content production is transforming from an advertising agency model to a newsroom model, according to one consultant.
+
+
+== Common metrics ==
+Metrics to determine the success of content marketing are often tied to the original goals of the campaign.
+For example, for each of these goals, a content marketer may measure the different engagement and conversion metrics:
+
+
+=== Brand awareness and visibility ===
+Businesses focused on expanding their reach to more customers will want to pay attention to the increase in the volume of visitors, as well as the quality of those interactions. Traditional measures of volume include the number of visitors to a page and number of emails collected, while time spent on page and click-through to other pages/ photos are good indicators for engagement.
+
+Number of visitors to a page
+Time spent on the page
+Click-through across pages/ photos
+Number of emails collected
+
+
+=== Brand health metrics ===
+Businesses want to measure the impact that their messages have on consumers. Brand health refers to the positive or negative feedback that a company gets. It also measures how important a brand is for consumers. With this companies want to find out if brand reputation influences their customers to make a purchase.Measures in this part comprise
+
+Share of voice (SOV) is the number of times a brand has been talked versus its competitors (conversations). Outside the digital world, SOV stands for the space and frequency a brand advertisement is placed on traditional media.
+Sentiment is when the brand has positive, negative or neutral feedback.
+Brand Influence refers to the number of times a post, comment or tweet is shared on different platforms.
+
+
+=== Diversified user base ===
+For businesses hoping to reach not only more - but also new - types of customers online, they should pay attention to the demographics of new visitors, as evidenced by cookies that can be installed, different sources of traffic, different online behaviors, and/or different buying habits of online visitors. 
+
+Demographics of visitors
+Sources of traffic (i.e., SEO, social media, referral, direct)
+Differences in buying patterns and user-behavior of visitors
+
+
+=== Sales ===
+Businesses focused on increasing sales through content marketing should look at traditional e-commerce metrics including click-through-rate from a product-page to check-out and completion rates at the check-out. Altogether, these form a conversion funnel. Moreover, to better understand customers' buying habits, they should look at other engagement metrics like time spent per page, number of product-page visits per user, and re-engagement.
+
+Conversion through the sales process (the process from sign-up to check-out), including click-through-rates at each stage of the conversion funnel
+Time spent on the page
+Re-engagement (i.e., % of returning visitors)
+Click-through across product pages
+
+
+=== Innovation metrics ===
+Refers to companies that want to analyze whether their social media campaigns are generating commentary among consumers. This helps them to come up with ways to improve their product and service. This involves "high level of brand engagement and builds brand loyalty".Examples: 
+
+When a company makes a post through their social media platforms and shares their ideas, consumers can be influenced or motivated to share their opinions.
+Trend spotting refers to the latest consumers' comments about a brand, product or service that must be targeted. Some tools can be provided by Google Trends, Trendsmap (Twitter) and other sites that report what is in everybody's mouths worldwide.
+
+
+== Digital use ==
+
+
+=== Digital content marketing ===
+Digital content marketing, which is a management process, uses digital products through different electronic channels to identify, forecast and satisfy the necessity of the customers.Examples:
+
+On March 6, 2012, Dollar Shave Club launched their online video campaign. In the first 48 hours of their video debuting on YouTube they had over 12,000 people signing up for the service. The video cost just $4500 to make and as of November 2015 has had more than 21 million views. The video was considered one of the best viral marketing campaigns of 2012 and won "Best Out-of-Nowhere Video Campaign" at the 2012 AdAge Viral Video Awards.
+The Big Word Project, launched in 2008, aimed to redefine the Oxford English Dictionary by allowing people to submit their website as the definition of their chosen word.  The project, created to fund two Masters students' educations, attracted the attention of bloggers worldwide, and was featured on Daring Fireball and Wired Magazine.
+In mid 2016, an Indian tea company (TE-A-ME) has delivered 6,000 tea bags to Donald Trump and launched a video content on YouTube and Facebook. The video campaign received various awards including most creative PR stunt in Southeast Asia after receiving 52000+ video shares, 3.1M video view in first 72-hour and hundreds of publication mentions (including Mashable, Quartz,  Indian Express, Buzzfeed) across 80+ countries.
+
+
+=== Way of digital content marketing ===
+
+
+==== Combination of the supply chain and the users' experience ====
+The supply chain of digital content marketing mainly consists of commercial stakeholders and end-user stakeholders which represent content providers and distributors and customers separately. In this process, distributors manage the interface between the publisher and the consumer, then distributors could identify the content that consumers need through external channels and implement marketing strategies. For instance, Library and document supply agencies as intermediaries can deliver the digital content of e-books, and e-journal articles to the users according to their search results through the electronic channels. Another example is when consumers pay for the acquisition of some MP3 downloads, search engines can be used to identify different music providers and smart agents can be used by consumers to search for multiple music provider sites. In a word, the digital content marketing process needs to be conducted at the business level and service experience level because when consumers are accessing digital content, their own experience depends on the complex network of relationships in the content marketing channels such as websites and videos. The consumers interact directly with distributors in the big supply chain through various digital products which have an important role in meeting the requirements of the consumers. The design and user experience of these channels directly decides the success of digital content marketing.
+
+
+==== Interaction with the consumer through electronic service ====
+Electronic services refer to interactive network services. In the electronic service, the interaction between the customer and the organizations mainly through the network technology, such as using E-mail, telephone, online chat windows for communication. Electronic services are different from traditional services and they are not affected by distance restrictions and opening hours. Digital content marketing through electronic service is usually served together with other channels to achieve marketing purposes including face-to-face, postal, and other remote services. Information companies provide different messages and documents to customers who use multiple search engines on different sites and set up access rights for business groups. These are some channels of digital content marketing.
+
+
+== See also ==
+Brand language
+Content strategy
+Custom media
+Earned media
+Interactive marketing
+Permission marketing
+SEO
+
+
+== References ==

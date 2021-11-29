@@ -1,0 +1,320 @@
+Portable Network Graphics (PNG, officially pronounced  PING, sometimes pronounced  PEE-en-JEE) is a raster-graphics file format that supports lossless data compression. PNG was developed as an improved, non-patented replacement for Graphics Interchange Format (GIF).
+PNG supports palette-based images (with palettes of 24-bit RGB or 32-bit RGBA colors), grayscale images (with or without an alpha channel for transparency), and full-color non-palette-based RGB or RGBA images. The PNG working group designed the format for transferring images on the Internet, not for professional-quality print graphics; therefore non-RGB color spaces such as CMYK are not supported. A PNG file contains a single image in an extensible structure of chunks, encoding the basic pixels and other information such as textual comments and integrity checks documented in RFC 2083.PNG files use the file extension PNG or png and are assigned MIME media type image/png.
+PNG was published as informational RFC 2083 in March 1997 and as an ISO/IEC 15948 standard in 2004.
+
+
+== History and development ==
+
+The motivation for creating the PNG format was the realization that, on 28 December 1994, the Lempel–Ziv–Welch (LZW) data compression algorithm used in the Graphics Interchange Format (GIF) format was patented by Unisys. The patent required that all software supporting GIF pay royalties, leading to a flurry of criticism from Usenet users. One of them was Thomas Boutell, who on 4 January 1995 posted a precursory discussion thread on the Usenet newsgroup "comp.graphics" in which he devised a plan for a free alternative to GIF. Other users in that thread put forth many propositions that would later be part of the final file format. Oliver Fromme, author of the popular JPEG viewer QPEG, proposed the PING name, eventually becoming PNG, a recursive acronym meaning PING is not GIF, and also the .png extension. Other suggestions later implemented included the Deflate compression algorithm and 24-bit color support, the lack of the latter in GIF also motivating the team to create their file format. The group would become known as the PNG Development Group, and as the discussion rapidly expanded, it later used a mailing list associated with a CompuServe forum.The full specification of PNG was released under the approval of W3C on 1 October 1996, and later as RFC 2083 on 15 January 1997. The specification was revised on 31 December 1998 as version 1.1, which addressed technical problems for gamma and color correction.
+Version 1.2, released on 11 August 1999, added the iTXt chunk as the specification's only change, and a reformatted version of 1.2 was released as a second edition of the W3C standard on 10 November 2003, and as an International Standard (ISO/IEC 15948:2004) on 3 March 2004.Although GIF allows for animation, it was decided that PNG should be a single-image format. In 2001, the developers of PNG published the Multiple-image Network Graphics (MNG) format, with support for animation. MNG achieved moderate application support, but not enough among mainstream web browsers and no usage among web site designers or publishers. In 2008, certain Mozilla developers published the Animated Portable Network Graphics (APNG) format with similar goals. APNG is a format that is natively supported by Gecko- and Presto-based web browsers and is also commonly used for thumbnails on Sony's PlayStation Portable system (using the normal PNG file extension). In 2017 Chromium based browsers adopted APNG support. In January 2020 Microsoft Edge became Chromium based, thus inheriting support for APNG. With this all major browsers now support APNG.
+
+
+== PNG Working Group ==
+The original PNG specification was authored by an ad hoc group of computer graphics experts and enthusiasts. Discussions and decisions about the format were conducted by email. The original authors listed on RFC 2083 are:
+Editor: Thomas Boutell
+Contributing Editor: Tom Lane
+Authors (in alphabetical order by last name): Mark Adler, Thomas Boutell, Christian Brunschen, Adam M. Costello, Lee Daniel Crocker, Andreas Dilger, Oliver Fromme, Jean-loup Gailly, Chris Herborth, Aleks Jakulin, Neal Kettler, Tom Lane, Alexander Lehmann, Chris Lilley, Dave Martindale, Owen Mortensen, Keith S. Pickens, Robert P. Poole, Glenn Randers-Pehrson, Greg Roelofs, Willem van Schaik, Guy Schalnat, Paul Schmidt, Tim Wegner, Jeremy Wohl
+
+
+== File format ==
+
+
+=== File header ===
+A PNG file starts with an 8-byte signature (refer to hex editor image on the right):
+
+
+=== "Chunks" within the file ===
+After the header, comes a series of chunks, each of which conveys certain information about the image. Chunks declare themselves as critical or ancillary, and a program encountering an ancillary chunk that it does not understand can safely ignore it. This chunk-based storage layer structure, similar in concept to a container format or to Amiga's IFF, is designed to allow the PNG format to be extended while maintaining compatibility with older versions—it provides forward compatibility, and this same file structure (with different signature and chunks) is used in the associated MNG, JNG, and APNG formats.
+A chunk consists of four parts: length (4 bytes, big-endian), chunk type/name (4 bytes), chunk data (length bytes) and CRC (cyclic redundancy code/checksum; 4 bytes). The CRC is a network-byte-order CRC-32 computed over the chunk type and chunk data, but not the length.
+
+Chunk types are given a four-letter case sensitive ASCII type/name; compare FourCC. The case of the different letters in the name (bit 5 of the numeric value of the character) is a bit field that provides the decoder with some information on the nature of chunks it does not recognize.
+The case of the first letter indicates whether the chunk is critical or not. If the first letter is uppercase, the chunk is critical; if not, the chunk is ancillary. Critical chunks contain information that is necessary to read the file. If a decoder encounters a critical chunk it does not recognize, it must abort reading the file or supply the user with an appropriate warning.
+The case of the second letter indicates whether the chunk is "public" (either in the specification or the registry of special-purpose public chunks) or "private" (not standardised). Uppercase is public and lowercase is private. This ensures that public and private chunk names can never conflict with each other (although two private chunk names could conflict).
+The third letter must be uppercase to conform to the PNG specification. It is reserved for future expansion. Decoders should treat a chunk with a lower case third letter the same as any other unrecognised chunk.
+The case of the fourth letter indicates whether the chunk is safe to copy by editors that do not recognize it. If lowercase, the chunk may be safely copied regardless of the extent of modifications to the file. If uppercase, it may only be copied if the modifications have not touched any critical chunks.
+
+
+==== Critical chunks ====
+A decoder must be able to interpret critical chunks to read and render a PNG file.
+
+IHDR must be the first chunk; it contains (in this order) the image's width (4 bytes); height (4 bytes); bit depth (1 byte, values 1, 2, 4, 8, or 16); color type (1 byte, values 0, 2, 3, 4, or 6); compression method (1 byte, value 0); filter method (1 byte, value 0); and interlace method (1 byte, values 0 "no interlace" or 1 "Adam7 interlace") (13 data bytes total). As stated in the World Wide Web Consortium, bit depth is defined as "the number of bits per sample or per palette index (not per pixel)".
+PLTE contains the palette: a list of colors.
+IDAT contains the image, which may be split among multiple IDAT chunks. Such splitting increases filesize slightly, but makes it possible to generate a PNG in a streaming manner. The IDAT chunk contains the actual image data, which is the output stream of the compression algorithm.
+IEND marks the image end; the data field of the IEND chunk has 0 bytes/is empty.The PLTE chunk is essential for color type 3 (indexed color). It is optional for color types 2 and 6 (truecolor and truecolor with alpha) and it must not appear for color types 0 and 4 (grayscale and grayscale with alpha).
+
+
+==== Ancillary chunks ====
+Other image attributes that can be stored in PNG files include gamma values, background color, and textual metadata information. PNG also supports color management through the inclusion of ICC color space profiles.
+bKGD gives the default background color. It is intended for use when there is no better choice available, such as in standalone image viewers (but not web browsers; see below for more details).
+cHRM gives the chromaticity coordinates of the display primaries and white point.
+dSIG is for storing digital signatures.
+eXIf stores Exif metadata.
+gAMA specifies gamma. The gAMA chunk contains only 4 bytes, and its value represents the gamma value multiplied by 100,000; for example, the gamma value 1/3.4 calculates to 29411.7647059 ((1/3.4)*(100,000)) and is converted to an integer (29412) for storage.
+hIST can store the histogram, or total amount of each color in the image.
+iCCP is an ICC color profile.
+iTXt contains a keyword and UTF-8 text, with encodings for possible compression and translations marked with language tag. The Extensible Metadata Platform (XMP) uses this chunk with a keyword 'XML:com.adobe.xmp'
+pHYs holds the intended pixel size (or pixel aspect ratio); the pHYs contains "Pixels per unit, X axis" (4 bytes), "Pixels per unit, Y axis" (4 bytes), and "Unit specifier" (1 byte) for a total of 9 bytes.
+sBIT (significant bits) indicates the color-accuracy of the source data; this chunk contains a total of between 1 and 13 bytes.
+sPLT suggests a palette to use if the full range of colors is unavailable.
+sRGB indicates that the standard sRGB color space is used; the sRGB chunk contains only 1 byte, which is used for "rendering intent" (4 values—0, 1, 2, and 3—are defined for rendering intent).
+sTER stereo-image indicator chunk for stereoscopic images.
+tEXt can store text that can be represented in ISO/IEC 8859-1, with one key-value pair for each chunk. The "key" must be between 1 and 79 characters long. Separator is a null character. The "value" can be any length, including zero up to the maximum permissible chunk size minus the length of the keyword and separator. Neither "key" nor "value" can contain null character. Leading or trailing spaces are also disallowed.
+tIME stores the time that the image was last changed.
+tRNS contains transparency information. For indexed images, it stores alpha channel values for one or more palette entries. For truecolor and grayscale images, it stores a single pixel value that is to be regarded as fully transparent.
+zTXt contains compressed text (and a compression method marker) with the same limits as tEXt.The lowercase first letter in these chunks indicates that they are not needed for the PNG specification. The lowercase last letter in some chunks indicates that they are safe to copy, even if the application concerned does not understand them.
+
+
+=== Pixel format ===
+Pixels in PNG images are numbers that may be either indices of sample data in the palette or the sample data itself. The palette is a separate table contained in the PLTE chunk. Sample data for a single pixel consists of a tuple of between one and four numbers. Whether the pixel data represents palette indices or explicit sample values, the numbers are referred to as channels and every number in the image is encoded with an identical format.
+The permitted formats encode each number as an unsigned integer value using a fixed number of bits, referred to in the PNG specification as the bit depth. Notice that this is not the same as color depth, which is commonly used to refer to the total number of bits in each pixel, not each channel. The permitted bit depths are summarized in the table along with the total number of bits used for each pixel.
+The number of channels depends on whether the image is grayscale or color and whether it has an alpha channel. PNG allows the following combinations of channels, called the color type.
+
+The color type is specified as an 8-bit value however only the low 3 bits are used and, even then, only the five combinations listed above are permitted. So long as the color type is valid it can be considered as a bit field as summarized in the adjacent table:
+
+bit value 1: the image data stores palette indices. This is only valid in combination with bit value 2;
+bit value 2: the image samples contain three channels of data encoding trichromatic colors, otherwise the image samples contain one channel of data encoding relative luminance,
+bit value 4: the image samples also contain an alpha channel expressed as a linear measure of the opacity of the pixel. This is not valid in combination with bit value 1.With indexed color images, the palette always stores trichromatic colors at a depth of 8 bits per channel (24 bits per palette entry). Additionally, an optional list of 8-bit alpha values for the palette entries may be included; if not included, or if shorter than the palette, the remaining palette entries are assumed to be opaque. The palette must not have more entries than the image bit depth allows for, but it may have fewer (for example, if an image with 8-bit pixels only uses 90 colors then it does not need palette entries for all 256 colors). The palette must contain entries for all the pixel values present in the image.
+The standard allows indexed color PNGs to have 1, 2, 4 or 8 bits per pixel; grayscale images with no alpha channel may have 1, 2, 4, 8 or 16 bits per pixel. Everything else uses a bit depth per channel of either 8 or 16. The combinations this allows are given in the table above. The standard requires that decoders can read all supported color formats, but many image editors can only produce a small subset of them.
+
+
+=== Transparency of image ===
+PNG offers a variety of transparency options. With true-color and grayscale images either a single pixel value can be declared as transparent or an alpha channel can be added (enabling any percentage of partial transparency to be used). For paletted images, alpha values can be added to palette entries. The number of such values stored may be less than the total number of palette entries, in which case the remaining entries are considered fully opaque.
+The scanning of pixel values for binary transparency is supposed to be performed before any color reduction to avoid pixels becoming unintentionally transparent. This is most likely to pose an issue for systems that can decode 16-bits-per-channel images (as is required for compliance with the specification) but only output at 8 bits per channel (the norm for all but the highest end systems).
+Alpha storage can be "associated" ("premultiplied") or "unassociated", but PNG standardized on "unassociated" ("non-premultiplied") alpha, which means that imagery is not alpha encoded; the emissions represented in RGB are not the emissions at the pixel level. This means that the over operation will multiply the RGB emissions by the alpha, and cannot represent emission and occlusion properly.
+
+
+=== Compression ===
+
+PNG uses a 2-stage compression process:
+
+pre-compression: filtering (prediction)
+compression: DEFLATEPNG uses DEFLATE, a non-patented lossless data compression algorithm involving a combination of LZ77 and Huffman coding. Permissively-licensed DEFLATE implementations, such as zlib, are widely available.
+Compared to formats with lossy compression such as JPG, choosing a compression setting higher than average delays processing, but often does not result in a significantly smaller file size.
+
+
+==== Filtering ====
+
+Before DEFLATE is applied, the data is transformed via a prediction method: a single filter method is used for the entire image, while for each image line, a filter type is chosen to transform the data to make it more efficiently compressible. The filter type used for a scanline is prepended to the scanline to enable inline decompression.
+There is only one filter method in the current PNG specification (denoted method 0), and thus in practice the only choice is which filter type to apply to each line. For this method, the filter predicts the value of each pixel based on the values of previous neighboring pixels, and subtracts the predicted color of the pixel from the actual value, as in DPCM. An image line filtered in this way is often more compressible than the raw image line would be, especially if it is similar to the line above, since the differences from prediction will generally be clustered around 0, rather than spread over all possible image values. This is particularly important in relating separate rows, since DEFLATE has no understanding that an image is a 2D entity, and instead just sees the image data as a stream of bytes.
+There are five filter types for filter method 0; each type predicts the value of each byte (of the image data before filtering) based on the corresponding byte of the pixel to the left (A), the pixel above (B), and the pixel above and to the left (C) or some combination thereof, and encodes the difference between the predicted value and the actual value. Filters are applied to byte values, not pixels; pixel values may be one or two bytes, or several values per byte, but never cross byte boundaries. The filter types are:
+The Paeth filter is based on an algorithm by Alan W. Paeth.
+Compare to the version of DPCM used in lossless JPEG, and to the discrete wavelet transform using 1×2, 2×1, or (for the Paeth predictor) 2×2 windows and Haar wavelets.
+Compression is further improved by choosing filter types adaptively on a line-by-line basis. This improvement, and a heuristic method of implementing it commonly used by PNG-writing software, were created by Lee Daniel Crocker, who tested the methods on many images during the creation of the format; the choice of filter is a component of file size optimization, as discussed below.
+If interlacing is used, each stage of the interlacing is filtered separately, meaning that the image can be progressively rendered as each stage is received; however, interlacing generally makes compression less effective.
+
+
+=== Interlacing ===
+
+PNG offers an optional 2-dimensional, 7-pass interlacing scheme—the Adam7 algorithm. This is more sophisticated than GIF's 1-dimensional, 4-pass scheme, and allows a clearer low-resolution image to be visible earlier in the transfer, particularly if interpolation algorithms such as bicubic interpolation are used.However, the 7-pass scheme tends to reduce the data's compressibility more than simpler schemes.
+
+
+=== Animation ===
+
+PNG itself does not support animation. MNG is an extension to PNG that does; it was designed by members of the PNG Group. MNG shares PNG's basic structure and chunks, but it is significantly more complex and has a different file signature, which automatically renders it incompatible with standard PNG decoders, which led to MNG to almost have no support or support dropped by most web browsers or applications.
+The complexity of MNG led to the proposal of APNG by developers of the Mozilla Foundation. It is based on PNG, supports animation and is simpler than MNG. APNG offers fallback to single-image display for PNG decoders that do not support APNG. Today APNG format is currently widely supported by all major web browsers. APNG is supported in Firefox 3.0 and up, Pale Moon (all versions), and latest version of Opera support APNG since the engine was changed to Blink. The latest version of Safari on iOS 8 and Safari 8 for OS X Yosemite, they use WebKit engine which support APNG. Chromium 59.0 has added APNG support and it was followed by Google Chrome. Microsoft Edge now support APNG with the new Chromium based engine.
+The PNG Group decided in April 2007 not to embrace APNG. Several alternatives were under discussion, ANG, aNIM/mPNG, "PNG in GIF" and its subset "RGBA in GIF". However only APNG currently has support by all major web browsers.
+
+
+=== Examples ===
+Displayed in the fashion of hex editors, with on the left side byte values shown in hex format, and on the right side their equivalent characters from ISO-8859-1 with unrecognized and control characters replaced with periods. Additionally the PNG signature and individual chunks are marked with colors. Note they are easy to identify because of their human readable type names (in this example PNG, IHDR, IDAT, and IEND).
+
+
+== Advantages ==
+Reasons to use this International Standard may be:
+
+Portability: Transmission is independent of the software and hardware platform.
+Completeness: it's possible to represent truecolor, indexed-color, and greyscale images.
+Coding and decoding in series: allows to generate and read data streams in series, that is, the format of the data stream is used for the generation and visualization of images at the moment through serial communication.
+Progressive presentation: to be able to transmit data flows that are initially an approximation of the entire image and progressively they improve as the data flow is received.
+Soundness to transmission errors: detects the transmission errors of the data stream correctly.
+Losslessness: No loss: filtering and compression preserve all information.
+Efficiency: any progressive image presentation, compression and filtering seeks efficient decoding and presentation.
+Compression: images can be compressed efficiently and consistently.
+Easiness: the implementation of the standard is easy.
+Interchangeability: any PNG decoder that follows the standards can read all PNG data streams.
+Flexibility: allows future extensions and private additions without affecting the previous point.
+Freedom of legal restrictions: the algorithms used are free and accessible.
+
+
+== Comparison with other file formats ==
+
+
+=== Graphics Interchange Format (GIF) ===
+On small images, GIF can achieve greater compression than PNG (see the section on filesize, below).
+On most images, except for the above case, a GIF file has a larger size than an indexed PNG image.
+PNG gives a much wider range of transparency options than GIF, including alpha channel transparency.
+Whereas GIF is limited to 8-bit indexed color, PNG gives a much wider range of color depths, including 24-bit (8 bits per channel) and 48-bit (16 bits per channel) truecolor, allowing for greater color precision, smoother fades, etc. When an alpha channel is added, up to 64 bits per pixel (before compression) are possible.
+When converting an image from the PNG format to GIF, the image quality may suffer due to posterization if the PNG image has more than 256 colors.
+GIF intrinsically supports animated images. PNG supports animation only via unofficial extensions (see the section on animation, above).PNG images are less widely supported by older browsers. In particular, IE6 has limited support for PNG.
+
+
+=== JPEG ===
+
+The JPEG (Joint Photographic Experts Group) format can produce a smaller file than PNG for photographic (and photo-like) images, since JPEG uses a lossy encoding method specifically designed for photographic image data, which is typically dominated by soft, low-contrast transitions, and an amount of noise or similar irregular structures. Using PNG instead of a high-quality JPEG for such images would result in a large increase in filesize with negligible gain in quality. In comparison, when storing images that contain text, line art, or graphics – images with sharp transitions and large areas of solid color – the PNG format can compress image data more than JPEG can. Additionally, PNG is lossless, while JPEG produces visual artifacts around high-contrast areas. (Such artifacts depend on the settings used in the JPG compression; they can be quite noticeable when a low-quality [high-compression] setting is used.) Where an image contains both sharp transitions and photographic parts, a choice must be made between the two effects. JPEG does not support transparency.
+JPEG's lossy compression also suffers from generation loss, where repeatedly decoding and re-encoding an image to save it again causes a loss of information each time, degrading the image. Because PNG is lossless, it is suitable for storing images to be edited. While PNG is reasonably efficient when compressing photographic images, there are lossless compression formats designed specifically for photographic images, lossless WebP and Adobe DNG (digital negative) for example. However these formats are either not widely supported, or are proprietary. An image can be stored losslessly and converted to JPEG format only for distribution, so that there is no generation loss.
+While the PNG specification does not explicitly include a standard for embedding Exif image data from sources such as digital cameras, the preferred method for embedding EXIF data in a PNG is to use the non-critical ancillary chunk label eXIf.Early web browsers did not support PNG images; JPEG and GIF were the main image formats. JPEG was commonly used when exporting images containing gradients for web pages, because of GIF's limited color depth. However, JPEG compression causes a gradient to blur slightly. A PNG format reproduces a gradient as accurately as possible for a given bit depth, while keeping the file size small. PNG became the optimal choice for small gradient images as web browser support for the format improved. No images at all are needed to display gradients in modern browsers, as gradients can be created using CSS.
+
+
+=== JPEG-LS ===
+JPEG-LS is an image format by the Joint Photographic Experts Group, though far less widely known and supported than the other lossy JPEG format discussed above. It is directly comparable with PNG, and has a standard set of test images. On the Waterloo Repertoire ColorSet, a standard set of test images (unrelated to the JPEG-LS conformance test set), JPEG-LS generally performs better than PNG, by 10–15%, but on some images PNG performs substantially better, on the order of 50–75%. Thus, if both of these formats are options and file size is an important criterion, they should both be considered, depending on the image.
+
+
+=== TIFF ===
+Tagged Image File Format (TIFF) is a format that incorporates an extremely wide range of options. While this makes TIFF useful as a generic format for interchange between professional image editing applications, it makes adding support for it to applications a much bigger task and so it has little support in applications not concerned with image manipulation (such as web browsers). The high level of extensibility also means that most applications provide only a subset of possible features, potentially creating user confusion and compatibility issues.
+The most common general-purpose, lossless compression algorithm used with TIFF is Lempel–Ziv–Welch (LZW). This compression technique, also used in GIF, was covered by patents until 2003. TIFF also supports the compression algorithm PNG uses (i.e. Compression Tag 000816 'Adobe-style') with medium usage and support by applications. TIFF also offers special-purpose lossless compression algorithms like CCITT Group IV, which can compress bilevel images (e.g., faxes or black-and-white text) better than PNG's compression algorithm.
+PNG supports non-premultiplied alpha only whereas TIFF also supports "associated" (premultiplied) alpha.
+
+
+== Software support ==
+The official reference implementation of the PNG format is the programming library libpng. It is published as free software under the terms of a permissive free software license. Therefore, it is usually found as an important system library in free operating systems.
+
+
+=== Bitmap graphics editor support for PNG ===
+
+The PNG format is widely supported by graphics programs, including Adobe Photoshop, Corel's Photo-Paint and Paint Shop Pro, the GIMP, GraphicConverter, Helicon Filter, ImageMagick, Inkscape, IrfanView, Pixel image editor, Paint.NET and Xara Photo & Graphic Designer and many others. Some programs bundled with popular operating systems which support PNG include Microsoft's Paint and Apple's Photos/iPhoto and Preview, with the GIMP also often being bundled with popular Linux distributions.
+Adobe Fireworks (formerly by Macromedia) uses PNG as its native file format, allowing other image editors and preview utilities to view the flattened image. However, Fireworks by default also stores metadata for layers, animation, vector data, text and effects. Such files should not be distributed directly. Fireworks can instead export the image as an optimized PNG without the extra metadata for use on web pages, etc.
+
+
+=== Web browser support for PNG ===
+
+PNG support first appeared in 1997, in Internet Explorer 4.0b1 (32-bit only for NT), and in Netscape 4.04.Despite calls by the Free Software Foundation and the World Wide Web Consortium (W3C), tools such as gif2png, and campaigns such as Burn All GIFs, PNG adoption on websites was fairly slow due to late and buggy support in Internet Explorer, particularly regarding transparency.PNG compatible browsers include: Apple Safari, Google Chrome, Mozilla Firefox, Opera, Camino, Internet Explorer 7 (still numerous issues), Internet Explorer 8 (still some issues), Internet Explorer 9 and many others. For the complete comparison, see Comparison of web browsers (Image format support).
+Especially versions of Internet Explorer (Windows) below 9.0 (released 2011) have numerous problems which prevent it from correctly rendering PNG images.
+4.0 crashes on large PNG chunks.
+4.0 does not include the functionality to view .png files, but there is a registry fix.
+5.0 and 5.01 have broken OBJECT support.
+5.01 prints palette images with black (or dark gray) backgrounds under Windows 98, sometimes with radically altered colors.
+6.0 fails to display PNG images of 4097 or 4098 bytes in size.
+6.0 cannot open a PNG file that contains one or more zero-length IDAT chunks. This issue was first fixed in security update 947864 (MS08-024). For more information, see this article in the Microsoft Knowledge Base: 947864 MS08-024: Cumulative Security Update for Internet Explorer.
+6.0 sometimes completely loses ability to display PNGs, but there are various fixes.
+6.0 and below have broken alpha-channel transparency support (will display the default background color instead).
+7.0 and below cannot combine 8-bit alpha transparency AND element opacity (CSS – filter: Alpha (opacity=xx)) without filling partially transparent sections with black.
+8.0 and below have inconsistent/broken gamma support.
+8.0 and below don't have color-correction support.
+
+
+=== Operating system support for PNG icons ===
+PNG icons have been supported in most distributions of Linux since at least 1999, in desktop environments such as GNOME. In 2006, Microsoft Windows support for PNG icons was introduced in Windows Vista. PNG icons are supported in AmigaOS 4, AROS, macOS, iOS and MorphOS as well. In addition, Android makes extensive use of PNGs.
+
+
+== File size and optimization software ==
+PNG file size can vary significantly depending on how it is encoded and compressed; this is discussed and a number of tips are given in PNG: The Definitive Guide.
+
+
+=== Compared to GIF ===
+Compared to GIF files, a PNG file with the same information (256 colors, no ancillary chunks/metadata), compressed by an effective compressor is normally smaller than a GIF image. Depending on the file and the compressor, PNG may range from somewhat smaller (10%) to significantly smaller (50%) to somewhat larger (5%), but is rarely significantly larger for large images. This is attributed to the performance of PNG's DEFLATE compared to GIF's LZW, and because the added precompression layer of PNG's predictive filters take account of the 2-dimensional image structure to further compress files; as filtered data encodes differences between pixels, they will tend to cluster closer to 0, rather than being spread across all possible values, and thus be more easily compressed by DEFLATE. However, some versions of Adobe Photoshop, CorelDRAW and MS Paint provide poor PNG compression, creating the impression that GIF is more efficient.
+
+
+=== File size factors ===
+PNG files vary in size due to a number of factors:
+
+color depth
+Color depth can range from 1 to 64 bits per pixel.
+ancillary chunks
+PNG supports metadata—this may be useful for editing, but unnecessary for viewing, as on websites.
+interlacing
+As each pass of the Adam7 algorithm is separately filtered, this can increase file size.
+filter
+As a precompression stage, each line is filtered by a predictive filter, which can change from line to line. As the ultimate DEFLATE step operates on the whole image's filtered data, one cannot optimize this row-by-row; the choice of filter for each row is thus potentially very variable, though heuristics exist.
+compression
+With additional computation, DEFLATE compressors can produce smaller files.There is thus a filesize trade-off between high color depth, maximal metadata (including color space information, together with information that does not affect display), interlacing, and speed of compression, which all yield large files, with lower color depth, fewer or no ancillary chunks, no interlacing, and tuned but computationally intensive filtering and compression. For different purposes, different trade-offs are chosen: a maximal file may be best for archiving and editing, while a stripped down file may be best for use on a website, and similarly fast but poor compression is preferred when repeatedly editing and saving a file, while slow but high compression is preferred when a file is stable: when archiving or posting.
+Interlacing is a trade-off: it dramatically speeds up early rendering of large files (improves latency), but may increase file size (decrease throughput) for little gain, particularly for small files.
+
+
+==== Lossy PNG compression ====
+Although PNG is a lossless format, PNG encoders can preprocess image data in a lossy fashion to improve PNG compression. For example, quantizing a truecolor PNG to 256 colors allows the indexed color type to be used for a likely reduction in file size.
+
+
+=== Image editing software ===
+Some programs are more efficient than others when saving PNG files, this relates to implementation of the PNG compression used by the program.
+Many graphics programs (such as Apple's Preview software) save PNGs with large amounts of metadata and color-correction data that are generally unnecessary for Web viewing. Unoptimized PNG files from Adobe Fireworks are also notorious for this since they contain options to make the image editable in supported editors. Also CorelDRAW (at least version 11) sometimes produces PNGs which cannot be opened by Internet Explorer (versions 6–8).
+Adobe Photoshop's performance on PNG files has improved in the CS Suite when using the Save For Web feature (which also allows explicit PNG/8 use).
+Adobe's Fireworks saves larger PNG files than many programs by default. This stems from the mechanics of its Save format: the images produced by Fireworks' save function include large, private chunks, containing complete layer and vector information. This allows further lossless editing. When saved with the Export option, Fireworks' PNGs are competitive with those produced by other image editors, but are no longer editable as anything but flattened bitmaps. Fireworks is unable to save size-optimized vector-editable PNGs.
+Other notable examples of poor PNG compressors include:
+
+Microsoft's Paint for Windows XP
+Microsoft Picture It! Photo Premium 9Poor compression increases the PNG file size but does not affect the image quality or compatibility of the file with other programs.
+When the color depth of a truecolor image is reduced to an 8-bit palette (as in GIF), the resulting image data is typically much smaller. Thus a truecolor PNG is typically larger than a color-reduced GIF, although PNG could store the color-reduced version as a palettized file of comparable size. Conversely, some tools, when saving images as PNGs, automatically save them as truecolor, even if the original data use only 8-bit color, thus bloating the file unnecessarily. Both factors can lead to the misconception that PNG files are larger than equivalent GIF files.
+
+
+=== Optimizing tools ===
+Various tools are available for optimizing PNG files; they do this by:
+
+(optionally) removing ancillary chunks,
+reducing color depth, either:
+use a palette (instead of RGB) if the image has 256 or fewer colors,
+use a smaller palette, if the image has 2, 4, or 16 colors, or
+(optionally) lossily discard some of the data in the original image,
+optimizing line-by-line filter choice, and
+optimizing DEFLATE compression.
+
+
+==== Tool list ====
+pngcrush is the oldest of the popular PNG optimizers. It allows for multiple trials on filter selection and compression arguments, and finally chooses the smallest one. This working model is used in almost every png optimizer.
+OptiPNG was inspired by pngcrush, but iterates over a wider range of compression parameters and performs trials in-memory for faster execution. The main purpose of OptiPNG is to reduce the size of the PNG IDAT data stream by trying various filtering and compression methods. It also performs automatic bit depth, color type and color palette reduction where possible, and can correct some data integrity errors in input files. (pngcrush has the ability to do color reduction in a later version.)
+advpng and the similar advdef utility in the AdvanceCOMP package recompress the PNG IDAT. Different DEFLATE implementations are applied depending on the selected compression level, trading between speed and file size: zlib at level 1, libdeflate at level 2, 7-zip's LZMA DEFLATE at level 3, and zopfli at level 4.
+pngout was made with the author's own deflater (same to the author's zip utility, kzip), while keeping all facilities of color reduction / filtering. However, pngout doesn't allow for using several trials on filters in a single run. It's suggested to use its commercial GUI version, pngoutwin, or used with a wrapper to automate the trials or to recompress using its own deflater while keep the filter line by line.
+zopflipng was also made with a self-own deflater, zopfli. It has all the optimizing features optipng and pngcrush have (including automating trials) while providing a very good, but slow deflater.A simple comparison of their features is listed below.
+
+Before zopflipng was available, a good way in practice to perform a png optimization is to use a combination of 2 tools in sequence for optimal compression: one which optimizes filters (and removes ancillary chunks), and one which optimizes DEFLATE. Although pngout offers both, only one type of filter can be specified in a single run, therefore it can be used with a wrapper tool or in combination with optipng or pngcrush, acting as a re-deflater, like advdef.
+
+
+==== Ancillary chunk removal ====
+For removing ancillary chunks, most PNG optimization tools have the ability to remove all color correction data from PNG files (gamma, white balance, ICC color profile, standard RGB color profile). This often results in much smaller file sizes. For example, the following command line options achieve this with pngcrush:
+pngcrush -rem gAMA -rem cHRM -rem iCCP -rem sRGB InputFile.png OutputFile.png
+Ancillary chunks can also be losslessly removed using the free Win32 program PNGExtra.
+
+
+==== Filter optimization ====
+OptiPNG, pngcrush, pngout, and zopflipng all offer options applying one of the filter types 0–4 globally (using the same filter type for all lines) or with a "pseudo filter" (numbered 5), which for each line chooses one of the filter types 0–4 using an adaptive algorithm. Zopflipng offers 3 different adaptive method, including a brute-force search that attempts to optimize the filtering.pngout and zopflipng provide an option to preserve/reuse the line-by-line filter set present in the input image.
+OptiPNG, pngcrush and zopflipng provide options to try different filter strategies in a single run and choose the best. The freeware command line version of pngout doesn't offer this, but the commercial version, pngoutwin, does.
+
+
+==== DEFLATE optimization ====
+zopfli and the LZMA SDK employ DEFLATE implementations that produce higher compression ratios than the zlib reference implementation at the cost of performance. AdvanceCOMP's advpng and advdef can use either of these libraries to re-compress PNG files. Additionally, PNGOUT contains its own proprietary DEFLATE implementation.
+advpng doesn't have an option to apply filters and always uses filter 0 globally (leaving the image data unfiltered); therefore it should not be used where the image benefits significantly from filtering. By contrast, advdef from the same package doesn't deal with PNG structure and acts only as a re-deflater, retaining any existing filter settings.
+
+
+=== Icon optimization ===
+Since icons intended for Windows Vista and later versions may contain PNG subimages, the optimizations can be applied to them as well. At least one icon editor, Pixelformer, is able to perform a special optimization pass while saving ICO files, thereby reducing their sizes. FileOptimizer (mentioned above) can also handle ICO files.
+Icons for macOS may also contain PNG subimages, yet there isn't such tool available.
+
+
+== See also ==
+Computer graphics, including:
+Comparison of browser engines (graphics support)
+Image editing
+Image file formats
+Related graphics file formats
+APNG Animated PNG
+JPEG Network Graphics (JNG)
+Multiple-image Network Graphics (MNG)
+Similar file formats
+X PixMap for portable icons
+Scalable Vector Graphics
+WebP
+IrfanView
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Roelofs, Greg (April 1997). "Linux Gazette: History of the Portable Network Graphics (PNG) Format". Linux Journal. Specialized Systems Consultants, Inc. 1997 (36es). ISSN 1075-3583.
+Roelofs, Greg (2003). PNG: The Definitive Guide (2nd ed.). O'Reilly Media. ISBN 1-56592-542-4.
+"Portable Network Graphics (PNG) Specification" (Second ed.). W3C. 10 November 2003.
+
+
+== External links ==
+PNG Home Site
+libpng Home Page
+The Story of PNG by Greg Roelofs
+Test inline PNG images
+RFC 2083
+More information about PNG color correction
+The GD-library to generate dynamic PNG-files with PHP
+A guide to PNG optimization
+PNG Adam7 interlacing
+Encoding Web Shells in PNG files: Encoding human readable data inside an IDAT block.

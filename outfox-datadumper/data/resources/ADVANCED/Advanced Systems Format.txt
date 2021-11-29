@@ -1,0 +1,32 @@
+Advanced Systems Format (formerly Advanced Streaming Format, Active Streaming Format) is Microsoft's proprietary digital audio/digital video container format, especially meant for streaming media. ASF is part of the Media Foundation framework.
+
+
+== Overview and features ==
+ASF is based on serialized objects which are essentially byte sequences identified by a GUID marker.
+The format does not specify how (i.e. with which codec) the video or audio should be encoded; it just specifies the structure of the video/audio stream. This is similar to the function performed by the QuickTime File Format, AVI, or Ogg formats. One of the objectives of ASF was to support playback from digital media servers, HTTP servers, and local storage devices such as hard disk drives.
+The most common media contained within an ASF file are Windows Media Audio (WMA) and Windows Media Video (WMV). The most common file extensions for ASF files are extension .WMA (audio-only files using Windows Media Audio, with MIME-type audio/x-ms-wma) and .WMV (files containing video, using the Windows Media Audio and Video codecs, with MIME-type video/x-ms-asf). These files are identical to the old .ASF files but for their extension and MIME-type. The different extensions are used to make it easier to identify the content of a media file.ASF files can also contain objects representing metadata, such as the artist, title, album and genre for an audio track, or the director of a video track, much like the ID3 tags of MP3 files. It supports scalable media types and stream prioritization; as such, it is a format optimized for streaming.
+The ASF container provides the framework for digital rights management in Windows Media Audio and Windows Media Video. An analysis of an older scheme used in WMA reveals that it is using a combination of elliptic curve cryptography key exchange, DES block cipher, a custom block cipher, RC4 stream cipher and the SHA-1 hashing function.
+ASF container-based media are sometimes still streamed on the internet either through the MMS protocol or the RTSP protocol. Mostly, however, they contain material encoded for 'progressive download', which can be distributed by any webserver and then offers the same advantages as streaming: the file starts playing as soon as a minimum number of bytes is received and the rest of the download continues in the background while one is watching or listening.
+The Library of Congress Digital Preservation project considers ASF to be the de facto successor of RIFF. In 2010 Google picked RIFF as the container format for WebP.
+
+
+== License ==
+The specification is downloadable from the Microsoft website, and the format can be implemented under a license from Microsoft that however does not allow distribution of sources and is not compatible with open source licenses. The author of the free software project VirtualDub reported that a Microsoft employee informed him that his software violated a Microsoft patent regarding ASF playback.Certain error-correcting techniques related to ASF were patented in the United States (United States Patent 6,041,345 Levi, et al. March 21, 2000) by Microsoft until 2019-08-10.
+
+
+== See also ==
+Audio Video Interleave (AVI)
+Advanced Stream Redirector (ASX)
+Comparison of container formats
+
+
+== References ==
+
+
+== External links ==
+An Overview of Advanced Systems Format
+Overview of the ASF Format
+Library of Congress analysis of ASF format sustainability
+ASF Container Format - v2.0 (free available but unused) and v1.0 (reconstructed)
+MSDN How To Embed Windows Media Player in a HTML Web Page (For Webmasters)
+Creating A Windows Media Custom Experience (For Webmasters)
