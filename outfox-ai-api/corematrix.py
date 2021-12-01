@@ -69,7 +69,7 @@ def getGroupRecsFromUser(userId, pageNum):
 
     i=0
     for tag in tags:
-        for obj in calculateRecommendations(tag, 3, 5):
+        for obj in calculateRecommendations(tag, 3, 2):
             groupList.insert(i, Group(obj.group+GRP_MODIFIER, obj.tags))
             i+=1
 
@@ -165,7 +165,6 @@ def calculateRecommendations(param, modifier, resultNo):
     #df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
     df = mainDataframe
     retObj = calc.get_recommendations(df, param, modifier)
-
     sortedVals = sorted(retObj, key=lambda x: x.value, reverse=True)
 
     return sortedVals[:resultNo]
@@ -185,4 +184,5 @@ def buildMatrix():
 #connect.generateMatrixTable()
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
-print(getGroupRecsFromUser(9, 0))
+#print(mainDataframe)
+print(getGroupRecsFromUser(39, 0))

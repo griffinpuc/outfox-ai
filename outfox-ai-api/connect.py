@@ -87,6 +87,32 @@ def saveResourceTags(resourceId, tags):
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
 
+def getDistinctGroupTags():
+    conn = None
+    distinctGn = [''] *29
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select id from groups')
+        cur.execute(sql)
+
+        ids = [item[0] for item in cur.fetchall()]
+        i = 0
+        for id in ids:
+            dTags = calculateGroupTags(id)
+            dTags = list(filter(None, dTags))
+            distinctGn[i] = ' '.join(dTags)
+            i+=1
+
+        cur.close()
+        return(distinctGn)
+
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
 def getDistinctTags():
     conn = None
     distinctTags = []
@@ -182,6 +208,7 @@ def commitCorrelations():
 
 def calculateGroupTags(groupId):
     conn = None
+    tags = []
 
     try:
         params = config()
@@ -192,13 +219,10 @@ def calculateGroupTags(groupId):
         cur.execute(sql.format(groupId=groupId))
 
         row = cur.fetchone()
-
         tags = list(set(row[0].split(",")))
 
         conn.commit()
         cur.close()
-    except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
     finally:
         if conn is not None:
             conn.close()
