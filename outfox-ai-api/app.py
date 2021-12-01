@@ -86,6 +86,7 @@ def getSetUserTags():
     tag3 = request.args['t3']
 
     print(tag1 + ", " + tag2 + ", " + tag3, file=sys.stderr)
+    return jsonify("yes=yes")
 
 @app.route('/getUserPgs')
 def getUserPgs():
