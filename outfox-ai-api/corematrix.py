@@ -185,4 +185,4 @@ def buildMatrix():
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
 #print(mainDataframe)
-print(getGroupRecsFromUser(39, 0))
+#print(getGroupRecsFromUser(39, 0))
