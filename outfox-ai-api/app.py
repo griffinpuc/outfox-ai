@@ -78,12 +78,14 @@ def getUpdateGroup():
 
     return jsonify("true")
 
-@app.route('/setUserTags', methods=['POST'])
+@app.route('/setUserTags')
 def getSetUserTags():
     username = request.args['username']
-    tags = request.args['tags']
+    tag1 = request.args['t1']
+    tag2 = request.args['t2']
+    tag3 = request.args['t3']
 
-    print(str(tags), file=sys.stderr)
+    print(tag1 + ", " + tag2 + ", " + tag3, file=sys.stderr)
 
 @app.route('/getUserPgs')
 def getUserPgs():
