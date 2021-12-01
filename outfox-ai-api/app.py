@@ -83,7 +83,7 @@ def getSetUserTags():
     username = request.args['username']
     tags = request.args['tags']
 
-    print(str(tags), file=sys.stdout)
+    print(str(tags), file=sys.stderr)
 
 @app.route('/getUserPgs')
 def getUserPgs():
