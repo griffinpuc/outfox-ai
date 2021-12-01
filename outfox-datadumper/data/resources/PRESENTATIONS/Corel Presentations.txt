@@ -1,0 +1,19 @@
+Corel Presentations (which is often referred to simply as Presentations) is a presentation program akin to Microsoft PowerPoint and LibreOffice Impress. The current release, version 2020 (Release 20 internally), is available only as part of the Corel's WordPerfect Office productivity suite.
+
+
+== History ==
+Presentations shares much of its code with WordPerfect. It originally evolved from DrawPerfect, a MS-DOS-based drawing program released in 1990 by the now-defunct WordPerfect Corporation. The first version, WordPerfect Presentations 2.0 for DOS, appeared in 1993, and was followed by a Microsoft Windows port of the DOS version a few months later. Due to severe usability and performance issues, the first Windows version was not considered a serious contender in the market. Novell acquired WordPerfect Corporation in April 1994 and shipped an upgrade of Presentations, Novell Presentations 3.0 for Windows, as part of the Novell PerfectOffice 3.0 for Windows productivity suite in December 1994.
+Corel acquired PerfectOffice in January 1996 and released the first 32-bit version of Presentations in May of that year. Since then, the company has issued twelve upgrades: version 8 (1997), version 9 (1999), version 10 (2001), version 11 (2003), version 12 (2004), version 13 (2006), version 14 (2008), version 15 (2010), version 16 (2012), version 17 (2014), version 18 (2016), version 19 (2018) and version 20 (2020). The last DOS release, version 2.1, appeared in 1997 as part of the Corel WordPerfect Suite for DOS.
+Corel Presentations for Linux was included with the various editions of Corel WordPerfect Office for Linux. Corel no longer develops programs for the Linux operating system.
+
+
+== User interface ==
+Over the years, the program's interface has evolved to more closely resemble that of Microsoft PowerPoint. Its primary strengths remain in the areas of graphics manipulation, although it does include a number of advanced transition and animation effects not found in its competitors. The program also has the ability to save to Microsoft PowerPoint and PDF formats, as well as to publish presentations to the Internet.
+
+
+== Features ==
+Corel Presentations can be a handy tool for creating effective and in-depth presentations.  This program includes a number of templates and different types of slide shows to help to lay out an end user's show properly.  The templates include a set background, font, color and set up of the slide.  These defaults can be changed within the slide show.
+
+
+== See also ==
+Comparison of office suites

@@ -1,0 +1,78 @@
+elementary OS is a Linux distribution based on Ubuntu LTS. It promotes itself as a "thoughtful, capable, and ethical" replacement to macOS and Windows and has a pay-what-you-want model. The operating system, the desktop environment (called Pantheon), and accompanying applications are developed and maintained by Elementary, Inc.
+
+
+== Design philosophy ==
+The human interface guidelines of the elementary OS project focus on immediate usability with a gentle learning curve, rather than full-fledged customization.
+The three core rules the developers set for themselves were "concision", "accessible configuration" and "minimal documentation".Since its inception, elementary OS has received praise and criticism for its design. Wired claimed that it closely resembled macOS, visually and in user experience. The elementary developers maintain that any similarities are unintentional.Pantheon's main shell is deeply integrated with other elementary OS applications, like Plank (a dock), Web (the default web browser based on Epiphany) and Code (a simple text editor). This distribution uses Gala as its window manager, which is based on Mutter.
+
+
+== Pantheon desktop environment ==
+The Pantheon desktop environment is built on top of the GNOME software base, i.e. GTK, GDK, Cairo, GLib, (including GObject and GIO), GVfs and Tracker. The desktop allows for multiple workspaces to organize the user's workflow.Pantheon applications that are designed and developed by elementary include:
+
+Pantheon Greeter: session manager based on LightDM
+Gala: window manager
+Wingpanel: top panel, similar in function to GNOME Shell's top panel
+Slingshot: application launcher located in WingPanel
+Plank: dock (upon which Docky is based)
+Switchboard: settings application (or control panel)
+Pantheon Mail: e-mail client written in Vala and based on WebKitGTK
+Calendar: desktop calendar
+Music: audio player
+Code: code-focused text editor, comparable to gedit or leafpad.
+Terminal: terminal emulator
+Files (formerly called Marlin): file manager
+Installer: Installer built in partnership with System76.Bryan Lunduke of Network World wrote that the Pantheon desktop environment, elementary OS's centerpiece, was among the best of 2016.
+Pantheon is also an optional desktop environment in GeckoLinux.
+
+
+== Development ==
+The elementary OS distribution started as a set of themes and applications designed for Ubuntu which later became its own Linux distribution. Being Ubuntu-based, it is compatible with its repositories and packages, and prior to version 0.4 "Loki", it used the Ubuntu software center to handle software installation and uninstallation. However, after the release of Loki, Elementary bundled their own app store, AppCenter, whose user interface is designed to be intuitive for new users without consuming excessive resources.elementary OS is based on Ubuntu's Long Term Support releases, which Ubuntu's developers actively maintain for bugs and security for years even as development continues on the next release.elementary OS founder Danielle Foré has said that the project is not designed to compete with existing open source projects, but to expand their reach. It also seeks to create open source jobs through developer "bounties" on specific tasks. As of the 2016 Loki release, US$17,500 in bounties had been raised.
+
+
+=== 0.1 Jupiter ===
+The first stable version of elementary OS was Jupiter, published on 31 March 2011 and based on Ubuntu 10.10. As of October 2012, it is no longer supported and thus no longer available for download from the official elementary OS web site except in a historical capacity.
+
+
+=== 0.2 Luna ===
+
+In November 2012, the first beta version of elementary OS code-named Luna was released, which uses Ubuntu 12.04 LTS as a base.
+The second beta version of Luna was released on 6 May 2013, carrying more than 300 bug fixes and several changes, such as improved support for multiple localizations, multiple display support and updated applications. On 7 August 2013, a countdown clock appeared on the official website with a countdown to 10 August 2013. The second stable version of elementary OS, Luna, was released that same day, along with a complete overhaul and redesign of the elementary OS website.
+
+
+=== 0.3 Freya ===
+
+The name of the third stable version of elementary OS, Isis, was proposed in August 2013 by Danielle Foré, the project leader. It was later changed to Freya to avoid association with the terrorist group ISIS. It is based on Ubuntu 14.04 LTS, which was released in April 2014. The first beta of Freya was released on 11 August 2014. The second beta of Freya was released on 8 February 2015. The final version was released on 11 April 2015, after a countdown clock appeared on the website eight days earlier.Freya was downloaded 1.2 million times. In line with Elementary's intent to expand the reach of open source software, 73 percent of Freya downloads were from closed source operating systems.In 2015, the elementary OS developers changed the download page to default to a monetary amount before providing a direct HTTP download for the current stable release. Despite the fact that the user could specify any amount, or no amount at all, it sparked controversy about how such practices are typically not perceived as being in alignment with FOSS distribution philosophies. The elementary OS team has defended the action stating that "Around 99.875% of those users download without paying", and that it is needed to ensure the continued development of the distribution.In a review of all Linux distributions, Linux.com gave elementary OS their "best-looking distro" superlative in early 2016. The reviewer noted its developers' design background, their influence from Mac OS X, and their philosophy of prioritizing strict design rules and applications that follow these rules.
+
+
+=== 0.4 Loki ===
+
+elementary OS 0.4, known by its codename "Loki", was released on 9 September 2016. Loki was built atop the Ubuntu "long-term support" version released earlier in the year and its updated kernel (4.4). Loki revamped the operating system's notifications and added multiple new pieces of standard software. It let users set notification display preferences. Updated notification menu bar indicators began to display information from the notification—such as the title of an email—rather than a general alert. The operating system also added a system-wide integration for online accounts for Last.fm and FastMail, with other services in development.Loki replaced Freya's Midori web browser with Epiphany, a WebKit2-based browser with better performance. After the Yorba Foundation which developed the Geary email client was dissolved, elementary OS forked Geary as "Mail" and added new visual and integration features. In a new calendar feature, users could describe events in natural language, which the calendar program interprets and places into the proper time and description fields when creating events.elementary OS also created its own app store that simplifies the process of installing and updating applications. Project founder Danielle Foré called the AppCenter the biggest feature in the Loki release, and noted its speed improvement over other installation methods and internal development benefits for departing from Ubuntu's upgrade tools. Loki developers received $9,000 in bounties during its development—nearly half of the project's total bounty fundraising.Jack Wallen of Linux.com praised Loki as being among the most elegant and best-designed Linux desktops. He found the web browser and app store changes to be significant improvements, and the email client revamp "a much-needed breath of fresh air" in a stagnating field. Overall, Wallen surmised that existing users would appreciate Loki's polish and new users would find it to be a perfect introduction to the operating system. Bryan Lunduke of Network World lauded Loki's performance, usability, polish, and easy installation, but considered it a better fit for new Linux users than for those already established.The elementary OS team received a large donation from an anonymous donor in early August 2018. The donation has allowed the development team to hire an additional full-time employee and expand long-term viability for the project.
+
+
+=== 5.0 Juno ===
+
+elementary OS 5.0, known by its codename "Juno", was released on 16 October 2018. The update brings changes to the AppCenter pay-what-you-want system, as well a Night Light feature for changing the screen color at night, and adjustable window tiling as well as several other new features for the Pantheon desktop and elementary OS applications. The update also contained a new Housekeeping feature in settings, which removes trashed, as well as temporary, files after a given time interval.Jack Wallen, writing for TechRepublic, praised the update for bringing subtle changes and improving upon Loki. Jason Evangelho, writing for Forbes, called the update elegant, stating that "elementary OS 5.0 Juno, thus far, does just work. And looks absolutely beautiful doing it." In a review from LinuxInsider, the reviewer called the operating system a "very solid Linux distro" despite criticizing it for lacking power-user features.As of November 2018, Juno has been downloaded over 160,000 times, with 1% of people choosing to pay (with $10 being the most common amount, followed closely by $1)As part of an October 2019 update, elementary OS started supporting Flatpak out of the box, thereby making it easier to install any of the wide array of Flatpak apps that are available.
+
+
+=== 5.1 Hera ===
+
+
+=== 6.0 Odin ===
+
+
+=== Summary table ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== Apps ===
+
+
+== External links ==
+Official website 
+elementary OS at DistroWatch
+elementary OS archive and downloads

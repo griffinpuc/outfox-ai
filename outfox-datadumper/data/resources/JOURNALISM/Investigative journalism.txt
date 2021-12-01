@@ -1,0 +1,91 @@
+Investigative journalism is a form of journalism in which reporters deeply investigate a single topic of interest, such as serious crimes, political corruption, or corporate wrongdoing. An investigative journalist may spend months or years researching and preparing a report. Practitioners sometimes use the terms "watchdog reporting" or "accountability reporting."
+Most investigative journalism has traditionally been conducted by newspapers, wire services, and freelance journalists. With the decline in income through advertising, many traditional news services have struggled to fund investigative journalism, which is time-consuming and therefore expensive. Journalistic investigations are increasingly carried out by news organizations working together, even internationally (as in the case of the Panama Papers and Paradise Papers), or by organizations such as ProPublica, which have not operated previously as news publishers and which rely on the support of the public and benefactors to fund their work.
+The growth of media conglomerates in the U.S. since the 1980s has been accompanied by massive cuts in the budgets for investigative journalism. A 2002 study concluded "that investigative journalism has all but disappeared from the nation's commercial airwaves". The empirical evidence for this is consistent with the conflicts of interest between the revenue sources for the media conglomerates and the mythology of an unbiased, dispassionate media:  advertisers have reduced their spending with media that reported too many unfavorable details. The major media conglomerates have found ways to retain their audience without the risks of offending advertisers inherent in investigative journalism.
+
+
+== Professional definitions ==
+University of Missouri journalism professor Steve Weinberg defined investigative journalism as: "Reporting, through one's own initiative and work product, matters of importance to readers, viewers, or listeners." In many cases, the subjects of the reporting wish the matters under scrutiny to remain undisclosed. There are currently university departments for teaching investigative journalism. Conferences are conducted presenting peer-reviewed research into investigative journalism.British media theorist Hugo de Burgh (2000) states that: "An investigative journalist is a man or woman whose profession is to discover the truth and to identify lapses from it in whatever media may be available. The act of doing this generally is called investigative journalism and is distinct from apparently similar work done by police, lawyers, auditors, and regulatory bodies in that it is not limited as to target, not legally founded and closely connected to publicity."
+
+
+== Terminology ==
+ 
+American journalism textbooks point out that muckraking standards promoted by McClure's Magazine around 1902,  "Have become integral to the character of modern investigative journalism." Furthermore, the successes of the early muckrakers continued to inspire journalists.
+
+
+== Tools ==
+An investigative reporter may make use of one or more of these tools, among others, on a single story:
+
+Analysis of documents, such as lawsuits and other legal documents, tax records, government reports, regulatory reports, and corporate financial filings.
+Databases of public records.
+Investigation of technical issues, including scrutiny of government and business practices and their effects.
+Research into social and legal issues.
+Subscription research sources such as LexisNexis.
+Numerous interviews with on-the-record sources as well as, in some instances, interviews with anonymous sources (for example whistleblowers).
+Federal or state Freedom of Information Acts to obtain documents and data from government agencies.
+OSINT (Open-Source Intelligence) databases and tools that contain free and open resources that anybody can use.
+
+
+== Examples ==
+Julius Chambers of the New-York Tribune had himself committed to the Bloomingdale Asylum in 1872, and his account led to the release of twelve patients who were not mentally ill, a reorganization of the staff and administration, and eventually to a change in the lunacy laws; this later led to the publication of the book A Mad World and Its Inhabitants (1876).
+Ida B. Wells-Barnett's 1892 Southern Horrors documented lynching in the United States, exposing in the pages of black-owned newspapers as a campaign of oppression and intimidation against African Americans. A white mob destroyed her newspaper press and office in retaliation for her reporting.
+Nellie Bly, a pseudonym used by Elizabeth Cochrane Seaman in the late 19th century, famously feigned insanity as part of her 1887 undercover investigation into and subsequent exposé regarding the inner-workings of the Women's Lunatic Asylum in New York City. Published to wide acclaim as a series of articles in the New York World which were later compiled and further detailed in her book Ten Days in a Mad-House, Bly's revelations led to both a grand jury investigation of the asylum and increased funding for the Department of Public Charities and Corrections.
+Bill Dedman's 1988 investigation, The Color of Money, for The Atlanta Journal-Constitution on racial discrimination by mortgage lenders in middle-income neighborhoods, received the 1989 Pulitzer Prize for Investigative Reporting and was an influential early example of computer-assisted reporting or database journalism.
+Brian Deer's British press award-winning investigation for The Sunday Times of London into the worldwide MMR vaccine controversy which revealed that research, published by The Lancet, associating the children's vaccine with autism was fraudulent.
+The Daily Telegraph investigated claims that various British Members of Parliament had been filing dubious and frivolous expenses claims, and had done for many years in secret. The House of Commons Authority initially tried to block the release of the information, but the expenses were leaked to the Telegraph. The newspaper then released pieces of information which dominated the news for weeks and caused considerable anger in the UK.
+John M. Crewdson of the Chicago Tribune wrote a 1996 article proposing the installment of defibrillators on American airliners. Crewdson argued that based on his research and analysis, "Medical kits and defibrillators would be economically justified if they saved just 3 lives each year." Soon after the article's publication, airlines began installing defibrillators on planes, and the devices began to show up in airports and other public spaces. Ten years after installing defibrillators, American Airlines reported that 80 lives had been saved by the machines.
+One of the largest teams of investigative journalists is the Washington-based International Consortium of Investigative Journalists (ICIJ) launched in 1997 by the Center for Public Integrity which includes 165 investigative reporters in over 65 countries working collaboratively on crime, corruption, and abuse of power at a global level, under Gerard Ryle as Director. Working with major media outlets globally, they have exposed organised crime, international tobacco companies, private military cartels, asbestos companies, climate change lobbyists, details of Iraq and Afghanistan war contracts, and most recently the Panama Papers and Paradise Papers.
+Hopewell Chin'ono, the award-winning Zimbabwean journalist who investigated and exposed the Covid-gate scandal in Zimbabwe in June 2020. US$60 million was siphoned to a shadowy company called Drax that is linked to President Emmerson Mnangagwa. The exposure resulted in the dismissal and arrest of Health Minister Obbidiah Moyo. Hopewell Chin'ono was arrested on flimsy charges in an apparent attempt to silence him.
+The Investigative Commons center opened in Berlin, Germany in 2021 and houses the European Center for Constitutional and Human Rights, Forensic Architecture, and Bellingcat.
+
+
+== Awards ==
+George Polk Awards
+Goldsmith Prize for Investigative Reporting
+Investigative Reporters and Editors Award
+Pulitzer Prize for Investigative Reporting
+Worth Bingham Prize for investigative reporting
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+=== Web ===
+"Current State of Investigative Reporting", talk by Seymour Hersh at Boston University, 19 May 2009
+Video of the 2010 Logan Symposium at University of California Berkeley's "Consequences of Investigative Reporting" panel, in which reporters from the Sahara Reporters, the Medill Innocence Project at Northwestern, The Washington Post, The Las Vegas Review-Journal, and The El Paso Times talk about the dangers investigative reporters face; their experiences range from threat to life and limb for reporting on corruption in Africa, to subpoenas aimed at a journalism professor and his students for attempting to bring to light a miscarriage of justice; a Pulitzer Prize winner describes reporting on national security as her sources face internal inquisitions; a veteran reporter in Las Vegas talks about taking on casino moguls and organized crime; while a reporter covering the Mexican border explains how she has survived the violent reality of the undeclared war on our border, April 2010
+
+
+=== Books ===
+Typewriter Guerillas: Closeups of 20 Top Investigative Reporters, by J. C. Behrens (paperback) 1977.
+Raising Hell: Straight Talk with Investigative Journalists, by Ron Chepesiuk, Haney Howell, and Edward Lee (paperback) 1997
+Investigative Reporting: A Study in Technique (Journalism Media Manual), by David Spark, (paperback) 1999.
+Tell Me No Lies: Investigative Journalism That Changed the World, John Pilger, ed. (paperback) 2005.
+Harber, Anton; Renn, Margaret, eds. (2010). Troublemakers: The Best of South Africa's Investigative Journalism. Auckland Park, South Africa: Jacana Media. ISBN 9781770098930. OCLC 794905854.
+
+
+== External links ==
+
+Global South Development Magazine a magazine of development reporting and investigative journalism
+Global Investigative Journalism (U.K., created 2003)
+International Consortium of Investigative Journalists (U.S., founded 1997)
+Investigative Reporters & Editors (IRE, since 1975)
+Forum for African Investigative Reporters (FAIR)  was established in 2003 in South Africa.
+Nepal Khoj Patrakarita Kendra, or Centre for Investigative Journalism (CIJ, Lalitpur, established 1996)
+Philippine Center for Investigative Journalism (PCIJ, founded 1989)
+Centre for Investigative Journalism (London, launched 2003)
+Bureau of Investigative Journalism  (London, launched 2010)
+Arab Reporters for Investigative Journalism (Jordan)
+Center for Investigative Reporting (CIR, U.S., since 1977)
+Center for Public Integrity's iWatch (U.S., since 1989)
+Investigative News Network (INN, U.S. created 2009)
+ProPublica (established 2007)
+Brazilian Association for Investigative Journalism (ABRAJI, established 2002)
+Investigative Reporting Workshop (American University, created 2008)
+Chart – Real and Fake News (2016)/Vanessa Otero (basis) (Mark Frauenfelder)
+Chart – Real and Fake News (2014) (2016)/Pew Research Center
+"How to expose corruption, vice and incompetence – by those who have". The Guardian. 14 October 2021. An article by six investigative journalists on the situation of investigative journalism in the UK.

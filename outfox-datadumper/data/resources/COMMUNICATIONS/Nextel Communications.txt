@@ -1,0 +1,61 @@
+Nextel Communications, Inc. was an American wireless service operator that merged with and continues to exist as a wholly owned subsidiary of Sprint Corporation, which would later be bought by T-Mobile. Nextel in Brazil, and formerly in Argentina, Chile, Peru, the Philippines, and Mexico, is part of NII Holdings, a stand-alone, publicly traded company not owned by Sprint Corporation.
+Nextel Communications traces its roots to the 1987 foundation of FleetCall by Morgan O'Brien, Brian McAuley, Chris Rogers, and Peter Reinheimer. FleetCall changed its name to Nextel Communications, Inc. in 1993. Nextel provided digital, wireless communications services, originally focusing on the fleet and dispatch customers, but later marketed to all potential wireless customers. Nextel's network operated in the 800-MHz Specialized Mobile Radio band and used iDEN technology developed by Motorola. Nextel's iDEN network offered a then unique push-to-talk "walkie-talkie" feature in addition to direct-dialed voice calls. Nextel was one of the first providers in the United States to offer a national digital cellular coverage footprint.
+Prior to merging with Sprint Corporation in 2005, Nextel Communications, Inc. was a publicly traded company. Shares traded on the NASDAQ under the ticker symbol NXTL. Nextel was headquartered in Reston, Virginia, United States.At the time of its 2005 merger with Sprint Corp., Nextel had over twenty million subscribers in the United States and served 198 of the top 200 markets. Nextel Communications, Inc. offered postpaid services under the Nextel brand and prepaid services under the Boost Mobile brand.
+In late 2010, Sprint Nextel announced plans to decommission the Nextel iDEN network; on May 30, 2012, Sprint Nextel announced that it would shut down the Nextel network as early as June 2013. The Nextel network was officially shut down at 12:01 a.m. on June 30, 2013, and Sprint is currently deploying LTE equipment on the 800 MHz spectrum formerly used by the iDEN network.
+Sprint Corporation continues to offer pre-paid services under the Boost Mobile brand and also offers push-to-talk services as Sprint Direct Connect using CDMA equipment.
+
+
+== History ==
+Telecommunication lawyers Morgan E. O'Brien and Chris Rogers and investment bankers Brian McAuley and Peter Reinheimer founded FleetCall in 1987. FleetCall changed its name to Nextel Communications in 1993. In 1995, wireless industry pioneer Craig McCaw became a significant investor in the company. Other early investors and employees include Mark Warner, now a United States Senator from Virginia, and Jack Markell, the former Governor of Delaware.
+The founders chose the name "FleetCall" because the company's network used the 800 MHz Specialized Mobile Radio frequencies designated by the Federal Communications Commission for use in fleet dispatch. The core of the business model was to buy these fleet dispatch frequencies from existing operators at a substantial discount when compared to the cost for the equivalent bandwidth available via auction from the Federal Communications Commission. These "non-cellular" frequencies were made usable for a consumer and business wireless voice telephone service with the iDEN technology developed by Motorola, which some observers at the time said would not be practical. Initially, FleetCall did not want to include the push to talk feature in their phones, but the FCC required it as the initial frequencies were licensed for dispatch use. Later, Nextel would use the push-to-talk feature as a key marketing advantage.
+
+
+== Innovations and technologies ==
+Nextel affected the cellular phone market in several ways. It was the first company to successfully provide unlimited calling plans to a large customer base. Nextel was the first company to implement a nationwide push-to-talk system similar to a walkie-talkie, marketed as DirectConnect. Unlike other cellular networks, the Nextel network operated in the Specialized Mobile Radio band, and Nextel was one of the first providers in the United States to offer a national digital cellular coverage footprint. The company was the first in the United States to integrate global positioning system features into their phones and to complete their 2G network upgrade.
+Nextel was also an industry leader in customer lifecycle management. They invested significantly in analytics capability, which allowed them to surpass their competitors in handling customer concerns effectively. The company also developed capabilities allowing it to assess and review customer relationship values objectively and to project and respond to customer loyalty. As a result of these efforts, and what was reported to be a strong focus on customer satisfaction across the organization, Nextel was known for industry-leading customer retention rates, average revenue per user, and customer lifetime value.
+
+
+=== iDEN ===
+
+Nextel had long worked closely with a single vendor, Motorola, on both equipment and standards. The close relationship had yielded the Integrated Digital Enhanced Network (iDEN) protocol, which uses a time-division multiple access (TDMA) technology. Some of the special features the company utilized included its push-to-talk feature, which simulated the half-duplex operation of a two-way radio. Nextel was one of the few carriers to have adopted iDEN around the world, although the technology has gained traction through NII Holdings in Latin American countries. iDEN (Motorola) is also utilized in the Southeast of the United States by SouthernLINC Wireless and in Canada by Telus Mobility under the Mike Mobile brand.
+
+
+=== Push to talk ===
+Nextel gained a significant marketing and technological advantage through its push-to-talk technology. In 2003, Verizon Wireless and Sprint PCS each launched push-to-talk features, with Cingular following in 2005. None have gained significant traction. Nextel and Verizon had entered a legal battle in June 2003 over Verizon's advertising for their push-to-talk feature. The companies reached a settlement in early 2004. Initial advertising for Verizon's service was heavy, but it became almost nonexistent fairly quickly, possibly due to poor reviews of the service.
+The push-to-talk feature, with which Nextel has gained popularity, was made interoperable with the QChat technology on the Sprint network in 2008. Sprint had originally launched its own push-to-talk service, known as ReadyLink, which is based on SIP. Due to the difference in technology, users of the ReadyLink service were never able to make or receive push-to-talk calls with users of the iDEN technology. By 2009, Sprint began phasing out QChat to again focus on marketing iDEN devices.
+Nextel also offers a feature on some of their phones, marketed as DirectTalk. The technology uses the 900 MHz ISM band and provides ten FHSS channels for an off-network push to talk communications between individual phones that are not necessarily in range of wireless towers.
+
+
+=== WiDEN ===
+In 2003, prior to its merger with Sprint, Nextel had announced plans for its next generation 3G network. It was reportedly to use an extension to iDEN called WiDEN, developed by Motorola. Nextel upgraded their network to support the WiDEN packet data protocol, increasing data speeds up to 90 kbit/s. The Motorola i850, i860, i870, and i880 were the only phones to support WiDEN without modification. In October 2005, in order to free up network capacity for cellular calls due to rebanding, Sprint removed the ability to connect to the WiDEN service from all Nextel towers.
+
+
+== Merger with Sprint ==
+
+Following the completion of the Sprint-Nextel merger on August 12, 2005, future plans for Nextel included migrating customers to Sprint's CDMA network.
+
+
+== Radio interference ==
+Due to many underlying maintenance and life cycle issues within the legacy Public safety systems of the United States, co-channel interference was a common occurrence within 800 MHz band. To resolve the problems, Nextel and the Federal Communications Commission developed a plan, approved by the FCC in August 2004, to relocate Nextel systems elsewhere in the 800 MHz band in order to reduce the potential for interference.Before rebanding, Public Safety, Business/Industrial, SMR and ESMR's both operate in the 851-861 MHz range. ESMR has exclusive use of the 861-866 MHz range and Public Safety has exclusive use of the 866-869 MHz range.
+During rebanding, the following will occur:
+- All licensees with channels between 866 and 869 MHz (NPSPAC) must relocate to equivalent channels between 851 and 854.
+- All licensees other than ESMRs with channels between 851 and 854 MHz must relocate to equivalent channels between 854 and 862.
+- Nextel and other ESMR operators must relinquish all channels below 862 MHz. The FCC has required Nextel to vacate all its channels in the band from 854 to 854.5 nationwide as soon as possible to provide additional spectrum for Public Safety needs.
+- Public Safety has exclusive access to all vacated Nextel channels for 3 years, after which they are open to all eligible users.
+After rebanding, Public Safety and Critical Infrastructure will have exclusive use of 851-854 MHz. ESMR systems (primarily Nextel) will have exclusive use of 862-869 MHz range, and public safety, business/industrial users, and low-power SMR's will share the 854-862 MHz spectrum. 860-861 MHz is designated as an "Expansion Band", and 861-862 MHz is designated as a "Guard Band". No licensees other than ESMR are required to relocate to channels above 860 MHz.
+The use of contiguous spectrum allows for simple filters to be installed to protect public safety radio systems from interference, which is currently impossible under the existing mixed allocations in the 800 MHz band.
+Nextel (Sprint) is paying for much of the cost of this reconfiguration, but in compensation for lost 800 MHz spectrum, the company is receiving spectrum in the 2 GHz band at 1910–1915/1990–1995 MHz. This spectrum is near the existing Sprint PCS allocations and can be used to expand the number of channels available for that service, without needing to bid for additional capacity in a spectrum auction.
+
+
+== Major sponsorships ==
+On June 19, 2003, Nextel and NASCAR announced a sponsorship agreement to rename NASCAR's top racing series to the Nextel Cup Series beginning in 2004. Nextel replaced R.J. Reynolds Tobacco Company cigarette brand Winston after Winston spent 33 seasons being NASCAR's Cup Series title sponsor. In 2008, however, the series was renamed the Sprint Cup Series due to Sprint Nextel's plan to phase out the Nextel brand name. Nextel was also a major sponsor of the now defunct ChampCar team PacWest Racing, which was owned by Craig McCaw's brother Bruce.
+
+
+== References ==
+
+
+== External links ==
+Nextel website (Archive)
+Official Sprint website
+Yahoo! - Nextel Communications, Inc. Company Profile
+Archive of Nextel Intercept Messages

@@ -1,11 +1,11 @@
 #
 # -----------------------------------------------------
-# OUTFOX-AI: CM3 (CORRELATIONAL-MATRIX-MODEL-MANAGER)
-#                  main.py
+#                  OUTFOX AI
+#                   main.py
 #          Main base file for function
 # -----------------------------------------------------
 #
-# LAST UPDATED: 12 SEPTEMBER 2021
+# LAST UPDATED: 29 NOV 2021
 # UPDATED BY: GCP
 #
 
@@ -16,18 +16,31 @@ import pandas as pd
 from tqdm import tqdm
 from lib import *
 import json
+import connect
+import psycopg2
 
 # VALUES:
 # probably shouldnt change
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) # This is your Project Root
-csvLink1 = ROOT_DIR+"\\csv\\raw_data.csv"
-csvLink2 = ROOT_DIR+"\\csv\\group_tags_bool.csv"
-csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
+#ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) # This is your Project Root
+#csvLink1 = ROOT_DIR+"\\csv\\raw_data.csv"
+#csvLink2 = ROOT_DIR+"\\csv\\group_tags_bool.csv"
+#csvLink3 = ROOT_DIR+"\\csv\\group_tags_corr_matrix.csv"
+
+
+
+def generateDataframe():
+    engine = psycopg2.connect("dbname='outfoxdb' user='griffin' host='pg.terramisha.com' password='alpineair'")
+    sql = "select * from ai_correlation"
+    return pd.read_sql_query(sql, engine).pivot(index='taga',columns='tagb',values='correlation')
+
+mainDataframe = generateDataframe()
+
+
 
 # Should be 0 at default, but here for testing porposes ;)
-grpModifier = 3655
-resModifier = 332
-usrModifier = 731
+GRP_MODIFIER = 0
+RES_MODIFIER = 0
+USR_MODIFIER = 0
 
 ##############################################################################################
 ##############################################################################################
@@ -48,7 +61,7 @@ usrModifier = 731
 def getGroupRecsFromUser(userId, pageNum):
 
     userObj = User(userId, [])
-    userObj.tags = ["CHEMISTRY", "CREATIVITY", "PARTICLES", "DIGITALMEDIA", "PAINTING","LIFE", "LANGUAGESTUDY", "COMMUNICATIONS", "TECHNOLOGY"]
+    userObj.tags = connect.getUserTags(userId)
 
     tags = userObj.tags
 
@@ -57,7 +70,7 @@ def getGroupRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            groupList.insert(i, Group(obj.group+grpModifier, obj.tags))
+            groupList.insert(i, Group(obj.group+GRP_MODIFIER, obj.tags))
             i+=1
 
     groupListP = groupList[(int(pageNum)*10):(int(pageNum)*10)+10]
@@ -67,7 +80,7 @@ def getGroupRecsFromUser(userId, pageNum):
 def getResourceRecsFromUser(userId, pageNum):
 
     userObj = User(userId, [])
-    userObj.tags = ["CHEMISTRY", "CHILDREN", "PARTICLES", "CREATIVE", "PAINTING","LIFE", "LANGUAGESTUDY", "SOCIETY", "TECHNOLOGY"]
+    userObj.tags = connect.getUserTags(userId)
 
     tags = userObj.tags
 
@@ -76,10 +89,8 @@ def getResourceRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            resourceList.insert(i, Resource(i+resModifier, obj.tags))
+            resourceList.insert(i, Resource(i+RES_MODIFIER, obj.tags))
             i+=1
-
-    print(i)
 
     resourceListP = resourceList[(int(pageNum)*10):(int(pageNum)*10)+10]
 
@@ -89,7 +100,7 @@ def getResourceRecsFromUser(userId, pageNum):
 def getUserRecsFromUser(userId, pageNum):
 
     userObj = User(userId, [])
-    userObj.tags = ["PHYSICAL", "NUTRITION", "PARTICLES", "DIGITALMEDIA", "ANIMALS","LIFE", "LANGUAGESTUDY", "PHOTOGRAPHY", "PAINTING"]
+    userObj.tags = connect.getUserTags(userId)
 
     tags = userObj.tags
 
@@ -101,7 +112,7 @@ def getUserRecsFromUser(userId, pageNum):
             if(i==0):
                 userList.insert(i, User(922, obj.tags))
             else:
-                userList.insert(i, User(i+usrModifier, obj.tags))
+                userList.insert(i, User(i+USR_MODIFIER, obj.tags))
             i+=1
 
     userListP = userList[(int(pageNum)*10):(int(pageNum)*10)+10]
@@ -115,41 +126,44 @@ def getUserRecsFromUser(userId, pageNum):
 # GENERATE BOOL MATRIX:
 # generates a csv file with bool values corresponding to each category tag
 def generateBoolMatrix():
-    try:
-        os.remove(csvLink2)
-    except OSError:
-        pass
     
-    funcs.saveFile(csvLink2, calc.generateBools(csvLink1,  "tags_bool"))
-    print(('EXPORT TO: {path}').format(path=csvLink2))
+    bool_df = calc.generateBools()
+    return bool_df
 
 # CALCULATE CORRELATIONAL MATRIX
 # generates a correlational matrix for each category tag
-def calculateCorrelationMatrix():
-    try:
-        os.remove(csvLink3)
-    except OSError:
-        pass
-    df = calc.returnDf(csvLink2)
+def calculateCorrelationMatrix(boolDf):
+
+    df = boolDf
     unique_tags = list(df.columns)
     unique_tags.pop(0)
 
     correlation_matrix_dict = {}
+    conn = connect.openConnection()
+
+    connect.clearRelations()
 
     for tag_a in tqdm(unique_tags):
-        correlation_matrix_dict[tag_a] = calc.correlate_with_every_tag(df, tag_a, dict_mode = False)
+        #correlation_matrix_dict[tag_a] = calc.correlate_with_every_tag(conn, df, tag_a)
+        calc.correlate_with_every_tag(conn, df, tag_a)
+        connect.commitCorrelations()
+    
+    
+    conn.close()
 
-    df_corr_matrix = pd.DataFrame(correlation_matrix_dict)
-    df_corr_matrix.shape
-    df_corr_matrix.head()
-    df_corr_matrix["index"] = unique_tags
-    df_corr_matrix = df_corr_matrix.set_index("index")
-    funcs.saveFile(csvLink3, df_corr_matrix.to_csv())
+    #df_corr_matrix = pd.DataFrame(correlation_matrix_dict)
+    #df_corr_matrix.shape
+    #df_corr_matrix.head()
+    #df_corr_matrix["index"] = unique_tags
+    #df_corr_matrix = df_corr_matrix.set_index("index")
+
+    #funcs.saveFile(csvLink3, df_corr_matrix.to_csv())
 
 # CALCULATE RECOMMENDATIONS
 # calculates a list of recommended categories based on a category input
 def calculateRecommendations(param, modifier, resultNo):
-    df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
+    #df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
+    df = mainDataframe
     retObj = calc.get_recommendations(df, param, modifier)
 
     sortedVals = sorted(retObj, key=lambda x: x.value, reverse=True)
@@ -162,4 +176,13 @@ def calculateTags(param, resultNo):
 
     return retObj
 
+def buildMatrix():
+    calculateCorrelationMatrix(generateBoolMatrix())
+
+#buildMatrix()
 #print(getGroupRecsFromUser(669, 0))
+#generateBoolMatrix()
+#connect.generateMatrixTable()
+#print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
+
+print(getGroupRecsFromUser(9, 0))

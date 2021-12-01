@@ -1,0 +1,39 @@
+In computing, a presentation program (also called presentation software) is a software package used to display information in the form of a slide show. It has three major functions:
+an editor that allows text to be inserted and formatted
+a method for inserting and manipulating graphic images and media clips
+a slide-show system to display the contentPresentation software can be viewed as enabling a functionally-specific category of electronic media, with its own distinct culture and practices as compared to traditional presentation media (such as blackboards, whiteboards and flip charts). 
+Presentations in this mode of delivery have become pervasive in many aspects of business communication, especially in  business planning, as well as in  academic-conference and  professional-conference settings, and in the knowledge economy generally, where ideas are a primary work  output. Presentations may also feature prominently in political settings, especially in workplace politics, where persuasion is a central determinant of group outcomes.Most modern meeting-rooms and conference halls are configured to include presentation electronics, such as overhead projectors suitable for displaying presentation slides, often driven by the presenter's own laptop, under direct control of the presentation program used to develop the presentation. Often a presenter will present a lecture using the slides as a visual aid both for the presenter (to track the lecture's coverage) and for the audience (especially when an audience member mishears or misunderstands the verbal component). 
+Generally in presentations, the visual material is considered supplemental to a strong aural presentation that accompanies the slide show, but in many cases, such as statistical graphics, it can be difficult to convey essential information other than by visual means; additionally, a well-designed infographic can be extremely effective in a way that words are not. Endemic over-reliance on slides with low  information density and with a poor accompanying lecture has given presentation software a negative reputation as sometimes functioning as a crutch for the poorly informed or the poorly prepared.
+Autographix, and Dicomed. It became quite easy to make last-minute changes compared to traditional typesetting and pasteup. It was also a lot easier to produce a large number of slides in a small amount of time. However, these workstations also required skilled operators, and a single workstation represented an investment of $50,000 to $200,000 (in 1979 dollars).
+In the mid-1980s developments in the world of computers changed the way presentations were created. Inexpensive, specialized applications now made it possible for anyone with a PC to create professional-looking presentation graphics.
+Originally these programs were used to generate 35 mm slides, to be presented using a slide projector. As these programs became more common in the late 1980s several companies set up services that would accept the shows on diskette and create slides using a film recorder or print transparencies. In the 1990s dedicated LCD-based screens that could be placed on the projectors started to replace the transparencies, and by the early 2000s they had almost all been replaced by video projectors.The first commercial computer software specifically intended for creating WYSIWYG presentations was developed at Hewlett Packard in 1979 and called BRUNO and later HP-Draw. The first microcomputer-based presentation software was Cromemco's Slidemaster, developed by John F. Dunn and released by Cromemco in 1981. The first software displaying a presentation on a personal computer screen was VCN ExecuVision, developed in 1982. This program allowed users to choose from a library of images to accompany the text of their presentation.  Harvard Graphics was introduced for MS-DOS and Lotus Freelance Graphics was introduced for DOS and OS/2 in 1986. PowerPoint was introduced for the Macintosh computer in 1987.
+
+
+== Features ==
+A presentation program is supposed to help both the speaker with an easier access to his ideas and the participants with visual information which complements the talk.
+There are many different types of presentations including professional (work-related), education, entertainment, and for general communication.  Presentation programs can either supplement or replace the use of older visual-aid technology, such as pamphlets, handouts, chalkboards, flip charts, posters, slides and overhead transparencies. Text, graphics, movies, and other objects are positioned on individual pages or "slides" or "foils". The "slide" analogy is a reference to the slide projector, a device that has become somewhat obsolete due to the use of presentation software. Slides can be printed, or (more usually) displayed on-screen and navigated through at the command of the presenter. An entire presentation can be saved in video format. The slides can also be saved as images of any image file formats for any future reference. Transitions between slides can be animated in a variety of ways, as can the emergence of elements on a slide itself. Typically a presentation has many constraints and the most important being the limited time to present consistent information.
+Many presentation programs come with pre-designed images (clip art) and/or have the ability to import graphic images, such as Visio and Edraw Max. Some tools also have the ability to search and import images from Flickr or Google directly from the tool. Custom graphics can also be created in other programs such as Adobe Photoshop or GIMP and then exported. The concept of clip art originated with the image library that came as a complement with VCN ExecuVision, beginning in 1983.
+With the growth of digital photography and video, many programs that handle these types of media also include presentation functions for displaying them in a similar "slide show" format, for example iPhoto.  These programs allow groups of digital photos to be displayed in a slide show with options such as selecting transitions, choosing whether or not the show stops at the end or continues to loop, and including music to accompany the photos.
+Similar to programming extensions for an operating system or web browser, "add ons" or plugins for presentation programs can be used to enhance their capabilities.
+Apps can enable a smartphone to be a remote control for slideshow presentations, including slide previews, speaker notes, timer, stop watch, pointer, going directly to a given slide, blank screen and more. Presentation programs also offer an interactive integrated hardware element designed to engage an audience (e.g. audience response systems, second screen applications) or facilitate presentations across different geographical locations through the internet (e.g. web conferencing).  Hardware devices such as laser pointers and interactive whiteboards can ease the job of a live presenter .
+
+
+== See also ==
+Office suite
+Productivity software
+
+
+== References ==
+
+
+== Further reading ==
+Farkas, David K. (2006) "Toward a Better Understanding of PowerPoint Deck Design" Information Design Journal + Document Design 4(2): pp 162–171.
+Good, Lance & Bederson, Benjamin B. (2002) "Zoomable User Interfaces as a Medium for Slide Show Presentations" Journal on Information Visualization 1(1): pp 35–49.
+Gross, Alan G. & Harmon, Joseph E. (2009) "The Structure of PowerPoint Presentations: The Art of Grasping Things Whole" IEEE Transactions on Professional Communication 52(2): pp 121–137.
+Knoblauch, Hubert. (2014) "PowerPoint, Communication, and the Knowledge Society". Cambridge University Press.
+Tufte, Edward R. (2006) "The Cognitive Style of PowerPoint: Pitching Out Corrupts Within" 'Graphics Press LLC, Cheshire, USA.
+
+
+== External links ==
+Historic look at presentation software in 1983. on YouTube
+Historic look at presentation software in 1987. on YouTube

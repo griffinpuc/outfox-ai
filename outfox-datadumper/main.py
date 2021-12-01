@@ -18,7 +18,8 @@ if __name__ == "__main__":
     #connect.poop()
 
     if(len(sys.argv) != 4):
-        throwCmdError()
+        connect.injectGroupsNResources()
+        #throwCmdError()
     else:
         entryTotal = int(sys.argv[1])
         groupsTotal = int(sys.argv[2])

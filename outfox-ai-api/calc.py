@@ -15,6 +15,12 @@
 import pandas as pd
 import funcs
 import recengine
+from tqdm import tqdm
+import connect
+import sqlalchemy
+import psycopg2
+
+connect.connect()
 
 # RETURN DATA FRAME:
 # returns a data frame from a csv file
@@ -23,14 +29,19 @@ def returnDf(csvLink):
 
 # GENERATE BOOLS:
 # generates a boolean tables based on categorys
-def generateBools(csvLink, outputName):
+def generateBools():
+
     #df = pd.read_csv(csvLink)
-    df = pd.read_sql_table()
+    
+    engine = psycopg2.connect("dbname='outfoxdb2' user='griffin' host='pg.terramisha.com' password='alpineair'")
+    sql = "select * from resourcetags"
+    df = pd.read_sql_query(sql, engine)
 
     # create empty list
     tag_lists = []
 
     # loop through
+    print("Generating boolean matrix...")
     for string in df["tags"]:
         subtag_list = []
         for substring in str(string).split(","):
@@ -43,14 +54,15 @@ def generateBools(csvLink, outputName):
     df_bool = create_boolean_df(unique_tags, df["tags"])
     df_bool.shape
     df_bool.info()
-    df_bool = df_bool.set_index(df["class_name"])
+    df_bool = df_bool.set_index(df["id"])
 
     print(df_bool.info())
 
     print('\n==========================================\n')
     print('      BOOL TABLE GENERATION COMPLETE')
     print('\n==========================================\n')
-    return df_bool.to_csv()
+
+    return df_bool
 
 # CORRELATION:
 # returns correlation value between 0 and 1
@@ -80,23 +92,19 @@ def correlation(df, tag_a, tag_b):
 
 # CORRELATION WITH EVERY TAG:
 # generates correlation values for a tag against every tag
-def correlate_with_every_tag(df, tag_a, dict_mode = True): 
+def correlate_with_every_tag(conn, df, tag_a): 
     
     unique_tags = list(df.columns)
     unique_tags.pop(0)
 
-    if dict_mode:
-        # Loop through every tag and store the correlation in the dict
-        correlation_dict = {}
-        for tag_b in unique_tags:
-            correlation_dict[tag_b] = correlation(df, tag_a, tag_b)
-        return correlation_dict
-    else:
-        # Loop through every tag and store the correlation in a list
-        correlation_list = []
-        for tag_b in unique_tags:
-            correlation_list.append(correlation(df, tag_a, tag_b))
-        return correlation_list
+    # Loop through every tag and store the correlation in a list
+    correlation_list = []
+    for tag_b in unique_tags:
+        val = correlation(df, tag_a, tag_b)
+        #correlation_list.append(val)
+        connect.addRelation(tag_a, tag_b, val)
+        #connect.insertRelation(conn, tag_a, tag_b, val)
+    #return correlation_list
 
 # CREATE BOOLEAN DF:
 # generate a boolean data frame

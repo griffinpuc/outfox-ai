@@ -1,0 +1,90 @@
+Digital India is a campaign launched by the Government of India in order to ensure the Government's services are made available to citizens electronically by improved online infrastructure and by increasing Internet connectivity or making the country digitally empowered in the field of technology. The initiative includes plans to connect rural areas with high-speed internet networks. It consists of three core components: the development of secure and stable digital infrastructure, delivering government services digitally, and universal digital literacy.
+Launched on 1 July 2015, by Indian Prime Minister Narendra Damodardas Modi, it is both enabler and beneficiary of other key Government of India schemes, such as BharatNet, Make in India, Startup India and Standup India, industrial corridors, Bharatmala, Sagarmala
+As of 31 December 2018, India had a population of 130 crore people (1.3 billion), 123 crore (1.23 billion) Aadhaar digital biometric identity cards, 121 crore (1.21 billion) mobile phones, 44.6 crore (446 million) smartphones, 56 crore (560 million) internet users up from 481 million people (35% of the country's total population) in December 2017, and 51 per cent growth in e-commerce.
+
+
+== History ==
+Digital India was launched by the Prime Minister of India Narendra Modi on 1 July 2015, with an objective of connecting rural areas with high-speed Internet networks and improving digital literacy. The vision of Digital India programme is inclusive growth in areas of electronic services, products, manufacturing and job opportunities. It is centred on three key areas – digital infrastructure as a utility to every citizen, governance and services on demand, and digital empowerment of citizens.
+
+
+== Digital India initiative ==
+The Government of India's entity Bharat Broadband Network Limited (BBNL) which executes the BharatNet project is the custodian of Digital India (DI) project.
+
+
+=== New digital services ===
+Some of the facilities which will be provided through this initiative are Bharat , digital locker, e-education, e-health, e-sign, e-shopping and national scholarship portal. As part of Digital India, Indian Government planned to launch Botnet cleaning centers.National e-Governance Plan aimed at bringing all the front-end government services online.
+MyGov.in is a platform to share inputs and ideas on matters of policy and governance. It is a platform for citizen engagement in governance, through a "Discuss", "Do" and "Disseminate" approach.UMANG (Unified Mobile Application for New-age Governance) is a Government of India all-in-one single unified secure multi-channel multi-platform multi-lingual multi-service freeware mobile app for accessing over 1,200 central and state government services in multiple Indian languages over Android, iOS, Windows and USSD (feature phone) devices, including services such as AADHAAR, DigiLocker, Bharat Bill Payment System, PAN EPFO services, PMKVY services, AICTE, CBSE, tax and fee or utilities bills payments, education, job search, tax, business, health, agriculture, travel, Indian railway tickets bookings, birth certificates, e-District, e-Panchayat, police clearance, passport, other utility services from private companies and much more.
+eSign framework allows citizens to digitally sign a document online using Aadhaar authentication.
+Swachh Bharat Mission (SBM) Mobile app is being used by people and Government organisations for achieving the goals of Swachh Bharat Mission.
+eHospital application provides important services such as online registration, payment of fees and appointment, online diagnostic reports, enquiring availability of blood online, etc.
+Digital attendance: attendance.gov.in was launched by PM Narendra Modi on 1 July 2015, to keep a record of the attendance of Government employees on a real-time basis. This initiative started with implementation of a common Biometric Attendance System (BAS) in the central Government offices located in Delhi.
+Back-end digitisation
+Black money eradication: The 2016, Union budget of India announced 11 technology initiatives including the use of data analytics to nab tax evaders, creating a substantial opportunity for IT companies to build out the systems that will be required. Digital Literacy mission will cover six crore rural households. It is planned to connect 550 farmer markets in the country through the use of technology.
+Facilities to digitally empower citizens
+Digital Locker facility will help citizens to digitally store their important documents like PAN card, Passport, mark sheets and degree certificates. Digital Locker will provide secure access to Government-issued documents. It uses authenticity services provided by Aadhaar. It is aimed at eliminating the use of physical documents and enables the sharing of verified electronic documents across Government agencies. Three key stakeholders of DigiLocker are Citizen, Issuer and requester.
+
+BPO and job growth: The government is planning to create 28,000 seats of BPOs in various states and set up at least one Common Service Centre in each of the gram panchayats in the state.
+
+e-Sampark Vernacular email service: Out of 10% English speaking Indians, only 2% reside in rural areas. Rest everyone depends on their vernacular language for all living their lives. However, as of now, email addresses can only be created in the English language. To connect rural India with Digital India, the Government of India impelled email services provider giants including Gmail, office, and Rediff to provide the email address in regional languages. The email provider companies have shown positive sign and is working in the same process. An Indian-based company, Data Xgen Technologies Pvt Ltd, has launched world's first free linguistic email address under the name ‘DATAMAIL’ which allows creating email ids in 8 Indian languages, English; and three foreign languages – Arabic, Russian and Chinese. Over the period of time, the email service in 22 languages will be offered by Data XGen Technologies.
+The digital age is changing everything around us," said Prime Minister Narendra Modi while addressing the Sydney Dialogue via video conference on Thursday. He spoke about cryptocurrencies and India's digital revolution. Here are the top 10 quotes from PM Modi's speech at the Sydney Dialogue.
+
+
+=== Training ===
+
+Pradhan Mantri Gramin Digital Saksharta Abhiyan is being executed by PMGDisha with an outlay of Rs 2,351.38 crore with the objective of making 6 crore rural households digitally literate by March 2020. Pradhan Mantri Gramin Digital Saksharta Abhiyan (abbreviated as PMGDisha) is an initiative under Digital India program, approved by The Union Cabinet chaired by the PM Narendra Modi. The main objective of the Pradhan Mantri Gramin Digital Saksharta Abhiyan is to make 6 crore people in rural areas across India digitally literate, reaching around 40% of rural households by covering one member from every eligible household.
+
+
+=== Ongoing awareness campaign ===
+Annual Digital India Summit & Awards are held.
+
+
+== E-Cabinet ==
+Taking a step further in e-Governance, for the first time ever in the country, Andhra Pradesh government led by Chief Minister N. Chandrababu Naidu and his Council of Ministers had its first paperless e-Cabinet meeting by Using the app e-Cabinet a first-of-its-kind initiative in the country. The ministers accessed the entire agenda of the Cabinet meeting in electronic form by logging into the app on their laptops or Tabs. The features of the app to prevent the user from sharing it with anyone. Also, there is safety to the data as it is password-protected unlike in the conventional method where papers could easily be taken away from the member of the Cabinet by anyone.
+
+
+=== e-Pragati ===
+E-Pragati, the Andhra Pradesh State Enterprise Architecture, is a holistic and coherent framework designed to provide 750 services to over 30 million citizens by integrating 34 departments on a single platform. Unlike computerizing one department or service in state, e-Pragati aimed to computerize all departments and services in the state. Through this, the citizens will have a seamless service experience as they no longer have to go to government offices and can access the services from anywhere in the world. With e-Pragati platform, the government is making an effort to reach every citizen and serve them effectively.
+
+
+=== Bhudhaar ===
+Bhudhaar is an E-Governance project that is intended to assign a 11 Digits unique number to every land parcel in the state of Andhra Pradesh as part of the "land hub in E-Pragati programme". First of this kind platform in India to addressing issues in land record management Bhuseva Authority, an inter-departmental committee was formulated to implement and monitor the progress. Eventually all land related transactions will use Bhudhaar as single source of truth to reduces land related disputes. On 18-Feb 2019, Andhra pradesh Assembly given its consent to the legal usage of Bhudhaar Number in land documents.
+
+
+=== e-Panta (crop booking) ===
+Electronic crop booking (e- Crop booking) is an Android application launched with a local name called e-Panta, first of this kind platform designed in India to know the ground reality of the crop details and to analyse the crop pattern across the Andhra Pradesh state and to capture the standing crop in the state. Photographs as evidence in the case of crop damage and insurance are also available as the arable land in the state has been captured in latitude and longitude along with subdivision and occupancy. All field officers are trained to capture the crop details in the existing agricultural fields using tabs and to upload the crop details to the server for every crop season. The features include an online transfer of crop details to Webland (land record management website), evidence in the case of crop damage for insurance, evidence for crop loans by banks, crop pattern and water tax demand analysis, and GPS location of each land parcel across the state. The mobile app covers land use and the entire Pattadar's history of land cover.
+
+
+=== Loan charge ===
+Loan charge creation project of Government of Andhra Pradesh, first of this kind in is initially developed in India to curtail bogus and multiple loans issued to the farmers. By using this module, Bankers can verify the land details in adangal and ROR‐1B copies and also know whether any loan is taken on the same land. The financial institutions like banks, Primary Agricultural Cooperative Societies (PACS) and Sub Registrar offices of Registration Department spread across the State of Andhra Pradesh are covered under the application. Nearly 78 lakhs of farmers, 2.25 crores people of the State are covered under the project along with 61 Major Banks, PACS and District Cooperative Central Bank (DCCBs) having 6000 branches are using this application to deliver the loans and for creating charges on the land.
+
+
+== Outcomes ==
+
+
+=== Reception ===
+
+The programme has been favoured by multiple countries including the US, Japan, South Korea, the UK, Canada, Australia, Malaysia, Singapore, Uzbekistan and Vietnam.At the launch ceremony of Digital India Week by Prime Minister Narendra Modi in Delhi on 1 July 2015, top CEOs from India and abroad committed to invest ₹224.5 lakh crore (US$3.0 trillion) towards this initiative. The CEOs said the investments would be utilized towards making smartphones and internet devices at an affordable price in India which would help generate jobs in India as well as reduce the cost of importing them from abroad.Leaders from Silicon Valley, San Jose, California expressed their support for Digital India during PM Narendra Modi's visit in September 2015. Facebook's CEO, Mark Zuckerberg, changed his profile picture in support of Digital India and started a chain on Facebook and promised to work on WiFi Hotspots in rural area of India. Google committed to provide broadband connectivity on 500 railway stations in India. Microsoft agreed to provide broadband connectivity to five hundred thousand villages in India and make India its cloud hub through Indian data centres. Qualcomm announced an investment of US$150 million in Indian startups. Oracle plans to invest in 20 states and will work on payments and Smart city initiatives. However, back in India, cyber experts expressed their concern over internet.org and viewed the Prime Minister's bonhomie with Zuckerberg as the government's indirect approval of the controversial initiative. The Statesman reported, "Prime Minister Narendra Modi's chemistry with Facebook CEO Mark Zuckerberg at the social media giant's headquarters in California may have been greeted enthusiastically in Silicon Valley but back home several social media enthusiasts and cyber activists are disappointed." Later the Prime Minister office clarified that net neutrality will be maintained at all costs and vetoed the Basic Internet plans. Digital India has also been influential in promoting the interests of the Indian Railways.
+
+
+=== Criticisms ===
+Several academic scholars have critiqued ICTs in development. Some take issue with technological determinism, the notion that ICTs are a sure-fire antidote to the world's problems. Instead, governments must adjust solutions to the specific political and social context of their nation. Others note that technology amplifies underlying institutional forces, so technology must be accompanied by significant changes in policy and institutions in order to have meaningful impact.It is being thought that there needs to be more research on the actual worth of these multimillion-dollar government and ICT for development projects. For the most part, the technological revolution in India has benefited the already privileged sectors of Indians. It is also difficult to scale up initiatives to affect all Indians, and fundamental attitudinal and institutional change is still an issue. While much ICT research has been conducted in Kerala, Andhra Pradesh, and Gujarat, poorer states such as Bihar and Odisha are rarely mentioned.Digital India as a programme has been considered by some as a continuation of the long history of bias towards RIL, which has previously manifested in the form of altering TRAI regulations in favour of the company. Reliance Jio has cited the Digital India initiative numerous times for its own marketing purposes.
+
+
+=== Impact ===
+Internet subscribers had increased to 500 million in India as of April 2017. On 28 December 2015, Panchkula district of Haryana was awarded for being the best as well as top performing district in the state under the Digital India campaign.India is now adding approximately 10 million daily active internet users monthly, which is the highest rate of addition to the internet community anywhere in the world.
+
+
+== See also ==
+Electronics and semiconductor manufacturing industry in India
+Flexible electronics
+India.gov.in
+National e-Governance Plan
+Standup India
+Startup India
+
+
+== References ==
+
+
+== External links ==
+Official website

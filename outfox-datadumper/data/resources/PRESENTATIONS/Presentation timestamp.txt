@@ -1,0 +1,11 @@
+The presentation timestamp (PTS) is a timestamp metadata field in an MPEG transport stream or MPEG program stream that is used to achieve synchronization of programs' separate elementary streams (for example Video, Audio, Subtitles) when presented to the viewer. The PTS is given in units related to a program's overall clock reference, either Program Clock Reference (PCR) or System Clock Reference (SCR), which is also transmitted in the transport stream or program stream. 
+Presentation time stamps have a resolution of 90kHz, suitable for the presentation synchronization task. The PCR or SCR has a resolution of 27MHz which is suitable for synchronization of a decoder's overall clock with that of the usual remote encoder, including driving TV signals such as frame and line sync timing, colour sub carrier, etc.Decoding of N elementary streams is synchronized by adjusting the decoding of streams to a common master time base rather than by adjusting the decoding of one stream to match that of another. The master time base may be one of the N decoders' clocks, the data source’s clock, or it may be some external clock.A transport stream may contain multiple programs and each program may have its own time base. The time bases of different programs within a transport stream may be different. Because PTSs apply to the decoding of individual elementary streams, they reside in the PES packet layer of both the transport streams and program streams. End-to-end synchronization occurs when encoders save time stamps at capture time, when the time stamps propagate with associated coded data to decoders, and when decoders use those time stamps to schedule presentations.
+Synchronization of a decoding system with a channel is achieved through the use of the SCR in the program stream and by its analog, the PCR, in the transport stream. The SCR and PCR are time stamps encoding the timing of the bit stream itself, and are derived from the same time base used for the audio and video PTS values from the same program. Since each program may have its own time base, there are separate PCR fields for each program in a transport stream containing multiple programs. In some cases it may be possible for programs to share PCR fields.
+
+
+== See also ==
+Packetized elementary stream
+Audio to video synchronization
+
+
+== References ==

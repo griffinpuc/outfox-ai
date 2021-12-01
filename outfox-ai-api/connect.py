@@ -1,4 +1,5 @@
 #!/usr/bin/python
+from os import X_OK
 import psycopg2
 import datetime
 import string
@@ -8,6 +9,7 @@ from config import config
 
 def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
+
 
 #
 #CONNECT FUNCTION
@@ -42,6 +44,87 @@ def connect():
         if conn is not None:
             conn.close()
 
+def getUserTags(userId):
+    conn = None
+    userTags = []
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        
+        sql = ('(select string_agg(tags,\',\') from resourcetags where resourceid in(select id from resources where "GroupId" in (select groupid from favoritegroup where userid = {userId})))')
+        cur.execute(sql.format(userId=userId))
+
+        row = cur.fetchone()
+        
+        userTags = list(set(row[0].split(",")))
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+
+            return userTags
+
+def saveResourceTags(resourceId, tags):
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        tags = ",".join(tags)
+
+        sql = ("INSERT INTO resourcetags (resourceid, tags) VALUES ({resourceId}, '{tags}')")
+        cur.execute(sql.format(resourceId=resourceId, tags=tags))
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+def getDistinctTags():
+    conn = None
+    distinctTags = []
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select distinct taga from ai_correlation')
+        cur.execute(sql)
+
+        distinctTags = [item[0] for item in cur.fetchall()]
+        return(distinctTags)
+
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+def updateGroupTags(groupId):
+    conn = None
+    distinctTags = []
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select id from resources where GroupId={groupId}')
+        cur.execute(sql)
+
+        distinctTags = [item[0] for item in cur.fetchall()]
+        
+
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+        return(distinctTags)
 #
 def getResourcePath(resourceId):
     conn = None
@@ -61,6 +144,7 @@ def getResourcePath(resourceId):
         resourceUrl = row[4]
         resourcePath = row[5]
 
+
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
@@ -71,3 +155,111 @@ def getResourcePath(resourceId):
             conn.close()
 
             return resourcePath
+
+strng="INSERT INTO ai_correlation (taga, tagb, correlation) VALUES "
+def addRelation(tagA, tagB, correlation):
+    global strng
+    strng+="('"+tagA+"','"+tagB+"',"+str(correlation)+"),"
+
+def commitCorrelations():
+    global strng
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        print("Executing SQL INSERT...")
+        sql = (strng[:-1])
+        cur.execute(sql)
+
+        strng="INSERT INTO ai_correlation (taga, tagb, correlation) VALUES "
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def calculateGroupTags(groupId):
+    conn = None
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+        
+        sql = '(select string_agg(tags,\',\') from resourcetags where resourceid in(select id from resources where "GroupId" = {groupId}))'
+        cur.execute(sql.format(groupId=groupId))
+
+        row = cur.fetchone()
+
+        tags = list(set(row[0].split(",")))
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+
+            return tags
+
+
+
+def clearRelations():
+    try:
+        params = config()
+
+        # connect to the PostgreSQL server
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ("DELETE FROM ai_correlation")
+        cur.execute(sql)
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+def openConnection():
+    params = config()
+    return psycopg2.connect(**params)
+
+def generateMatrixTable():
+
+    params = config()
+    conn = psycopg2.connect(**params)
+    cur = conn.cursor()
+    
+
+    # DYNAMICALLY GETS TAG NAMES AND FORCES TO LIST
+    sql1 = """select
+                overlay
+                (
+                    (select string_agg(distinct taga, ',ai_correlation.') from ai_correlation) placing '' from 1 for 1
+            );"""
+
+    cur.execute(sql1)
+    colspivot = cur.fetchone()[0]
+
+    sql2 = """select taga, """+str(colspivot)+"""
+             from crosstab
+             (
+               select taga taga, tagb tagb, correlation
+               from ai_correlation
+               union all
+               select tagb, taga, correlation
+               from ai_correlation
+               union all
+               select distinct taga, taga, 1.0
+               from ai_correlation
+              ) x
+              pivot
+              (
+                max(correlation) 
+                for tagb in ("""+str(colspivot)+""")
+            ) p"""
+    #print(sql2)
+    #cur.execute(sql2)

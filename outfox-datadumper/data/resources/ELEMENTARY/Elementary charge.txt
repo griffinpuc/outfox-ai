@@ -1,0 +1,246 @@
+The elementary charge, usually denoted by e or sometimes qe is the electric charge carried by a single proton or, equivalently, the magnitude of the negative electric charge carried by a single electron, which has charge −1 e. This elementary charge is a fundamental physical constant. To avoid confusion over its sign, e is sometimes called the elementary positive charge.
+From the 2019 redefinition of SI base units, which took effect on 20 May 2019, its value is exactly 1.602176634×10−19 C, by definition of the coulomb. In the centimetre–gram–second system of units (CGS), it is 4.80320425(10)×10−10 statcoulombs.Making the value of the elementary charge  exact  implies that the value of ε0 (electric constant), which was an exact value before, is now subject to experimental determination: ε0 had an exactly defined value until the 2019 SI redefinition, after which it has become a subject of experimental refinement over time. The SI committees (CGPM, CIPM, etc.) had long  considered redefining the SI base units entirely in terms of physical constants so as to remove their dependence on physical artifacts (such as the International Prototype of the Kilogram): for this to work, it was necessary to define fixed values for the physical constants.Robert A. Millikan's oil drop experiment first measured the magnitude of the elementary charge in 1909.
+
+
+== As a unit ==
+
+In some natural unit systems, such as the system of atomic units, e functions as the unit of electric charge, that is e is equal to 1 e in those unit systems. The use of elementary charge as a unit was promoted by George Johnstone Stoney in 1874 for the first system of natural units, called Stoney units. Later, he proposed the name electron for this unit. At the time, the particle we now call the electron was not yet discovered and the difference between the particle electron and the unit of charge electron was still blurred. Later, the name electron was assigned to the particle and the unit of charge e lost its name. However, the unit of energy electronvolt reminds us that the elementary charge was once called electron.
+In Lorentz–Heaviside units the charge unit is a dependent one, 
+  
+    
+      
+        
+          
+            ℏ
+            c
+          
+        
+      
+    
+    {\displaystyle {\sqrt {\hbar c}}}
+  , so that  e = √4 π α √ħc ≈ 0.30282212088 √ħc, where
+α is the fine-structure constant,
+c is the speed of light,
+
+  
+    
+      
+        ℏ
+      
+    
+    {\displaystyle \hbar }
+   is the reduced Planck's constant.
+
+
+== Quantization ==
+
+Charge quantization is the principle that the charge of any object is an integer multiple of the elementary charge. Thus, an object's charge can be exactly 0 e, or exactly 1 e, −1 e, 2 e, etc., but not, say, 1/2 e, or −3.8 e, etc. (There may be exceptions to this statement, depending on how "object" is defined; see below.)
+This is the reason for the terminology "elementary charge": it is meant to imply that it is an indivisible unit of charge.
+
+
+=== Charges less than an elementary charge ===
+There are two known sorts of exceptions to the indivisibility of the elementary charge: quarks and quasiparticles.
+
+Quarks, first posited in the 1960s, have quantized charge, but the charge is quantized into multiples of 1/3 e. However, quarks cannot be seen as isolated particles; they exist only in groupings, and stable groupings of quarks (such as a proton, which consists of three quarks) all have charges that are integer multiples of e. For this reason, either 1 e or 1/3 e can be justifiably considered to be "the quantum of charge", depending on the context. This charge commensurability, "charge quantization", has partially motivated Grand unified Theories.
+Quasiparticles are not particles as such, but rather an emergent entity in a complex material system that behaves like a particle. In 1982 Robert Laughlin explained the fractional quantum Hall effect by postulating the existence of fractionally charged quasiparticles. This theory is now widely accepted, but this is not considered to be a violation of the principle of charge quantization, since quasiparticles are not elementary particles.
+
+
+=== What is the quantum of charge? ===
+All known elementary particles, including quarks, have charges that are integer multiples of 1/3 e. Therefore, one can say that the "quantum of charge" is 1/3 e. In this case, one says that the "elementary charge" is three times as large as the "quantum of charge".
+On the other hand, all isolatable particles have charges that are integer multiples of e. (Quarks cannot be isolated: they only exist in collective states like protons that have total charges that are integer multiples of e.) Therefore, one can say that the "quantum of charge" is e, with the proviso that quarks are not to be included. In this case, "elementary charge" would be synonymous with the "quantum of charge".
+In fact, both terminologies are used. For this reason, phrases like "the quantum of charge" or "the indivisible unit of charge" can be ambiguous unless further specification is given. On the other hand, the term "elementary charge" is unambiguous: it refers to a quantity of charge equal to that of a proton.
+
+
+=== Lack of fractional charges ===
+Paul Dirac argued in 1931 that if magnetic monopoles exist, then electric charge must be quantized; however, it is unknown whether magnetic monopoles actually exist. It is currently unknown why isolatable particles are restricted to integer charges; much of the string theory landscape appears to admit fractional charges.
+
+
+== Experimental measurements of the elementary charge ==
+Before reading, it must be remembered that the elementary charge is exactly defined since 20 May 2019 by the International System of Units.
+
+
+=== In terms of the Avogadro constant and Faraday constant ===
+If the Avogadro constant NA and the Faraday constant F are independently known, the value of the elementary charge can be deduced using the formula
+
+  
+    
+      
+        e
+        =
+        
+          
+            F
+            
+              N
+              
+                A
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle e={\frac {F}{N_{\text{A}}}}.}
+  (In other words, the charge of one mole of electrons, divided by the number of electrons in a mole, equals the charge of a single electron.)
+This method is not how the most accurate values are measured today. Nevertheless, it is a legitimate and still quite accurate method, and experimental methodologies are described below.
+The value of the Avogadro constant NA was first approximated by Johann Josef Loschmidt who, in 1865, estimated the average diameter of the molecules in air by a method that is equivalent to calculating the number of particles in a given volume of gas. Today the value of NA can be measured at very high accuracy by taking an extremely pure crystal (often silicon), measuring how far apart the atoms are spaced using X-ray diffraction or another method, and accurately measuring the density of the crystal. From this information, one can deduce the mass (m) of a single atom; and since the molar mass (M) is known, the number of atoms in a mole can be calculated: NA = M/m.The value of F can be measured directly using Faraday's laws of electrolysis. Faraday's laws of electrolysis are quantitative relationships based on the electrochemical researches published by Michael Faraday in 1834. In an electrolysis experiment, there is a one-to-one correspondence between the electrons passing through the anode-to-cathode wire and the ions that plate onto or off of the anode or cathode. Measuring the mass change of the anode or cathode, and the total charge passing through the wire (which can be measured as the time-integral of electric current), and also taking into account the molar mass of the ions, one can deduce F.The limit to the precision of the method is the measurement of F: the best experimental value has a relative uncertainty of 1.6 ppm, about thirty times higher than other modern methods of measuring or calculating the elementary charge.
+
+
+=== Oil-drop experiment ===
+
+A famous method for measuring e is Millikan's oil-drop experiment. A small drop of oil in an electric field would move at a rate that balanced the forces of gravity, viscosity (of traveling through the air), and electric force. The forces due to gravity and viscosity could be calculated based on the size and velocity of the oil drop, so electric force could be deduced. Since electric force, in turn, is the product of the electric charge and the known electric field, the electric charge of the oil drop could be accurately computed. By measuring the charges of many different oil drops, it can be seen that the charges are all integer multiples of a single small charge, namely e.
+The necessity of measuring the size of the oil droplets can be eliminated by using tiny plastic spheres of a uniform size. The force due to viscosity can be eliminated by adjusting the strength of the electric field so that the sphere hovers motionless.
+
+
+=== Shot noise ===
+
+Any electric current will be associated with noise from a variety of sources, one of which is shot noise. Shot noise exists because a current is not a smooth continual flow; instead, a current is made up of discrete electrons that pass by one at a time. By carefully analyzing the noise of a current, the charge of an electron can be calculated. This method, first proposed by Walter H. Schottky, can determine a value of e of which the accuracy is limited to a few percent. However, it was used in the first direct observation of Laughlin quasiparticles, implicated in the fractional quantum Hall effect.
+
+
+=== From the Josephson and von Klitzing constants ===
+Another accurate method for measuring the elementary charge is by inferring it from measurements of two effects in quantum mechanics: The Josephson effect, voltage oscillations that arise in certain superconducting structures; and the quantum Hall effect, a quantum effect of electrons at low temperatures, strong magnetic fields, and confinement into two dimensions. The Josephson constant is
+
+  
+    
+      
+        
+          K
+          
+            J
+          
+        
+        =
+        
+          
+            
+              2
+              e
+            
+            h
+          
+        
+        ,
+      
+    
+    {\displaystyle K_{\text{J}}={\frac {2e}{h}},}
+  where h is the Planck constant. It can be measured directly using the Josephson effect.
+The von Klitzing constant is
+
+  
+    
+      
+        
+          R
+          
+            K
+          
+        
+        =
+        
+          
+            h
+            
+              e
+              
+                2
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle R_{\text{K}}={\frac {h}{e^{2}}}.}
+  It can be measured directly using the quantum Hall effect.
+From these two constants, the elementary charge can be deduced:
+
+  
+    
+      
+        e
+        =
+        
+          
+            2
+            
+              
+                R
+                
+                  K
+                
+              
+              
+                K
+                
+                  J
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle e={\frac {2}{R_{\text{K}}K_{\text{J}}}}.}
+  
+
+
+=== CODATA method ===
+The relation used by CODATA to determine elementary charge was:
+
+  
+    
+      
+        
+          e
+          
+            2
+          
+        
+        =
+        
+          
+            
+              2
+              h
+              α
+            
+            
+              
+                μ
+                
+                  0
+                
+              
+              c
+            
+          
+        
+        =
+        2
+        h
+        α
+        
+          ε
+          
+            0
+          
+        
+        c
+        ,
+      
+    
+    {\displaystyle e^{2}={\frac {2h\alpha }{\mu _{0}c}}=2h\alpha \varepsilon _{0}c,}
+  where h is the Planck constant, α is the fine-structure constant, μ0 is the magnetic constant, ε0 is the electric constant, and c is the speed of light. Presently this equation reflects a relation between ε0 and  α, while all others are fixed values. Thus the relative standard uncertainties of both will be same.
+
+
+== See also ==
+CODATA 2018
+
+
+== References ==
+
+
+== Further reading ==
+Fundamentals of Physics, 7th Ed., Halliday, Robert Resnick, and Jearl Walker. Wiley, 2005

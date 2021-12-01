@@ -64,15 +64,24 @@ def getRecResources():
 
     return corematrix.getResourceRecsFromUser(int(userid), pg)
 
-@app.route('/newResource')#test
+@app.route('/newResource')
 def getNewResource():
     resource = request.args['resource']
 
-    print('INCOMING RESOURCE TO PARSE: ' + str(resource), flush=True)
-    #corescraper.consumeResourceId(resource)
+    corescraper.consumeResource(resource)
 
-    return jsonify({"test": "userData", "userid":str(resource)})
+@app.route('/updateGroup')
+def getUpdateGroup():
+    group = request.args['group']
 
+    corescraper.updateGroup(group)
+
+    return jsonify("true")
+
+@app.route('/setUserTags')
+def getSetUserTags():
+    username = request.args['username']
+    tags = request.args['tags']
 
 @app.route('/getUserPgs')
 def getUserPgs():
