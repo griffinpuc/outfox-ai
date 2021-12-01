@@ -68,7 +68,7 @@ def getRecResources():
 def getNewResource():
     resource = request.args['resource']
 
-    corescraper.consumeResource(resource)
+    corescraper.consumeResourceId(resource)
 
 @app.route('/updateGroup')
 def getUpdateGroup():
@@ -82,6 +82,8 @@ def getUpdateGroup():
 def getSetUserTags():
     username = request.args['username']
     tags = request.args['tags']
+
+    print(str(tags), file=sys.stdout)
 
 @app.route('/getUserPgs')
 def getUserPgs():

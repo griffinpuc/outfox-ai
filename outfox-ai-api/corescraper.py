@@ -56,7 +56,7 @@ def updateGroup(groupId):
 
 # CONSUME RESOURCE ID
 # CONSUMES A RESOURCE ID AND RETURNS THE TOP KEYWORDS
-def consumeResourceId(resourceId, groupId):
+def consumeResourceId(resourceId):
     # PULLS FILE URI FROM RESOURCE ID
     fileUri = connect.getResourcePath(resourceId)
     print(fileUri)
