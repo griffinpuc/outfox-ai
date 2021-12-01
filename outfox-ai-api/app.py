@@ -78,7 +78,7 @@ def getUpdateGroup():
 
     return jsonify("true")
 
-@app.route('/setUserTags')
+@app.route('/setUserTags', methods=['POST'])
 def getSetUserTags():
     username = request.args['username']
     tags = request.args['tags']
