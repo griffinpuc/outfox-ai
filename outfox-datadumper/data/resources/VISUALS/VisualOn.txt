@@ -1,0 +1,29 @@
+VisualOn is a Silicon Valley-based multimedia software company that provides high-definition audio and video entertainment to smartphones, tablets, laptops, connected TVs and other mobile and convergent devices. VisualOn's patented technology is modular and platform-agnostic. VisualOn supports streaming, VOD, mobile TV and other multimedia applications.
+VisualOn customers include content providers, technology companies and hardware manufacturers. The company partners with a range of technology companies to ensure streaming media workflow interoperability.
+
+
+== History ==
+VisualOn was founded in 2003 by Dr. Yang Cai and Dr. Bill Lin. The company is headquartered in San Jose, CA, with offices in Shanghai, Taipei, Tokyo, South Korea, Germany and Finland.
+
+
+== Memberships and affiliations ==
+VisualOn joined the Open Handset Alliance in 2010.
+VisualOn is also a member of the Consumer Electronics Association.
+VisualOn also supports the promotion of MPEG-DASH through its involvement in the DASH Industry Forum.
+
+
+== Products ==
+OnStream MediaPlayer+ (OSMP+) is a multimedia player development kit enabling cross-platform content delivery and playback on connected devices including mobile handsets, tablets, desktops, laptops, set-top boxes, and smart TVs.
+OnStream Analytics Foundation (OnStream AF) is designed to measure, and track audio and video playback quality of service (QOS) at the client endpoint.
+
+
+== AAC encoder ==
+VisualOn provided a simple Advanced Audio Coding (AAC) encoder in early versions of Android. The encoder was derived from the 3GPP reference encoder and supported only the AAC-LC profile in mono or stereo. Google added a more advanced AAC codec library to Android as of the 4.1 Jelly Bean release. The VisualOn encoder remains in the Android source code, but development appears to have ended. VisualOn no longer markets any commercial encoder products. VisualOn software codecs listed on its website are software based decoders and not encoders.
+A cross-platform source distribution was maintained by Martin Storsjö as vo-aacenc. The latest vo-aacenc release is 0.1.3 (2013-07-27). The code compiles into a shared library, libvo-aacenc. The media framework FFmpeg supported AAC encoding through libvoaac-enc, but that support was removed in version 3.0 as the native AAC encoder surpassed it and FAAC in quality, and is currently the second best available encoder supported, and the only one built by default, as FDK-AAC's license is incompatible with the GPL.The VisualOn AAC encoder has been shown to be very low quality in ABX testing. Of the four AAC encoders that have been supported in FFMpeg, it was the least recommended option.
+
+
+== References ==
+
+
+== External links ==
+Official website

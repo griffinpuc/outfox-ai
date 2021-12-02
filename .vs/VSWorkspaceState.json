@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\outfox-ai-api",
-    "\\outfox-datadumper"
+    "\\outfox-datadumper",
+    "\\outfox-datadumper\\data",
+    "\\outfox-datadumper\\data\\resources",
+    "\\outfox-datadumper\\data\\resources\\CHEMISTY"
   ],
-  "SelectedNode": "\\outfox-ai-api\\app.py",
+  "SelectedNode": "\\outfox-ai-api\\recengine.py",
   "PreviewInSolutionExplorer": false
 }

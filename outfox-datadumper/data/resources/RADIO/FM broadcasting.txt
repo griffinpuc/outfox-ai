@@ -1,0 +1,317 @@
+FM broadcasting is a method of radio broadcasting using frequency modulation (FM). Invented in 1933 by American engineer Edwin Armstrong, wide-band FM is used worldwide to provide high fidelity sound over broadcast radio. FM broadcasting is capable of higher fidelity—that is, more accurate reproduction of the original program sound—than other broadcasting technologies, such as AM broadcasting. It is also less susceptible to common forms of interference, reducing static and popping sounds often heard on AM. Therefore, FM is used for most broadcasts of music or general audio (in the audio spectrum). FM radio stations use the very high frequency range of radio frequencies.
+
+
+== Broadcast bands ==
+
+Throughout the world, the FM broadcast band falls within the VHF part of the radio spectrum. Usually 87.5 to 108.0 MHz is used, or some portion thereof, with few exceptions:
+
+In the former Soviet republics, and some former Eastern Bloc countries, the older 65.8–74 MHz band is also used. Assigned frequencies are at intervals of 30 kHz. This band, sometimes referred to as the OIRT band, is slowly being phased out. Where the OIRT band is used, the 87.5–108.0 MHz band is referred to as the CCIR band.
+In Japan, the band 76–95 MHz is used.The frequency of an FM broadcast station (more strictly its assigned nominal center frequency) is usually a multiple of 100 kHz. In most of South Korea, the Americas, the Philippines and the Caribbean, only odd multiples are used. Some other countries follow this plan because of the import of vehicles, principally from the United States, with radios that can only tune to these frequencies. In some parts of Europe, Greenland and Africa, only even multiples are used. In the UK odd or even are used. In Italy, multiples of 50 kHz are used. In most countries the maximum permitted frequency error of the unmodulated carrier is specified, which typically should be within 2000 Hz of the assigned frequency.There are other unusual and obsolete FM broadcasting standards in some countries, with non-standard spacings of 1, 10, 30, 74, 500, and 300 kHz. To minimise inter-channel interference, stations operating from the same or geographically close transmitter sites tend to keep to at least a 500 kHz frequency separation even when closer frequency spacing is technically permitted. The ITU publishes Protection Ratio graphs which give the minimum spacing between frequencies based on their relative strengths. Only broadcast stations with large enough geographic separations between their coverage areas can operate on close or the same frequencies.
+
+
+== Technology ==
+
+
+=== Modulation ===
+Frequency modulation or FM is a form of modulation which conveys information by varying the frequency of a carrier wave; the older amplitude modulation or AM varies the amplitude of the carrier, with its frequency remaining constant. With FM, frequency deviation from the assigned carrier frequency at any instant is directly proportional to the amplitude of the (audio) input signal, determining the instantaneous frequency of the transmitted signal. Because transmitted FM signals use more bandwidth than AM signals, this form of modulation is commonly used with the higher (VHF or UHF) frequencies used by TV, the FM broadcast band, and land mobile radio systems.
+The maximum frequency deviation of the carrier is usually specified and regulated by the licensing authorities in each country. For a stereo broadcast, the maximum permitted carrier deviation is invariably ±75 kHz, although a little higher is permitted in the United States when SCA systems are used. For a monophonic broadcast, again the most common permitted maximum deviation is ±75 kHz. However, some countries specify a lower value for monophonic broadcasts, such as ±50 kHz.
+
+
+=== Pre-emphasis and de-emphasis ===
+Random noise has a triangular spectral distribution in an FM system, with the effect that noise occurs predominantly at the higher audio frequencies within the baseband. This can be offset, to a limited extent, by boosting the high frequencies before transmission and reducing them by a corresponding amount in the receiver. Reducing the high audio frequencies in the receiver also reduces the high-frequency noise. These processes of boosting and then reducing certain frequencies are known as pre-emphasis and de-emphasis, respectively.
+The amount of pre-emphasis and de-emphasis used is defined by the time constant of a simple RC filter circuit. In most of the world a 50 µs time constant is used. In the Americas and South Korea, 75 µs is used. This applies to both mono and stereo transmissions. For stereo, pre-emphasis is applied to the left and right channels before multiplexing.
+The use of pre-emphasis becomes a problem because many forms of contemporary music contain more high-frequency energy than the musical styles which prevailed at the birth of FM broadcasting. Pre-emphasizing these high-frequency sounds would cause excessive deviation of the FM carrier. Modulation control (limiter) devices are used to prevent this. Systems more modern than FM broadcasting tend to use either programme-dependent variable pre-emphasis; e.g., dbx in the BTSC TV sound system, or none at all.
+Pre-emphasis and de-emphasis was used in the earliest days of FM broadcasting. According to a BBC report from 1946, 100 µs was originally considered in the US, but 75 µs subsequently adopted.
+
+
+=== Stereo FM ===
+Long before FM stereo transmission was considered, FM multiplexing of other types of audio level information was experimented with. Edwin Armstrong, who invented FM, was the first to experiment with multiplexing, at his experimental 41 MHz station W2XDG located on the 85th floor of the Empire State Building in New York City.
+These FM multiplex transmissions started in November 1934 and consisted of the main channel audio program and three subcarriers: a fax program, a synchronizing signal for the fax program and a telegraph "order" channel. These original FM multiplex subcarriers were amplitude modulated.
+Two musical programs, consisting of both the Red and Blue Network program feeds of the NBC Radio Network, were simultaneously transmitted using the same system of subcarrier modulation as part of a studio-to-transmitter link system. In April 1935, the AM subcarriers were replaced by FM subcarriers, with much improved results.
+The first FM subcarrier transmissions emanating from Major Armstrong's experimental station KE2XCC at Alpine, New Jersey occurred in 1948. These transmissions consisted of two-channel audio programs, binaural audio programs and a fax program. The original subcarrier frequency used at KE2XCC was 27.5 kHz. The IF bandwidth was ±5 kHz, as the only goal at the time was to relay AM radio-quality audio. This transmission system used 75 µs audio pre-emphasis like the main monaural audio and subsequently the multiplexed stereo audio.
+In the late 1950s, several systems to add stereo to FM radio were considered by the FCC. Included were systems from 14 proponents including Crosby, Halstead, Electrical and Musical Industries, Ltd (EMI), Zenith, and General Electric. The individual systems were evaluated for their strengths and weaknesses during field tests in Uniontown, Pennsylvania, using KDKA-FM in Pittsburgh as the originating station. The Crosby system was rejected by the FCC because it was incompatible with existing subsidiary communications authorization (SCA) services which used various subcarrier frequencies including 41 and 67 kHz. Many revenue-starved FM stations used SCAs for "storecasting" and other non-broadcast purposes. The Halstead system was rejected due to lack of high frequency stereo separation and reduction in the main channel signal-to-noise ratio. The GE and Zenith systems, so similar that they were considered theoretically identical, were formally approved by the FCC in April 1961 as the standard stereo FM broadcasting method in the United States and later adopted by most other countries. It is important that stereo broadcasts be compatible with mono receivers. For this reason, the left (L) and right (R) channels are algebraically encoded into sum (L+R) and difference (L−R) signals. A mono receiver will use just the L+R signal so the listener will hear both channels through the single loudspeaker. A stereo receiver will add the difference signal to the sum signal to recover the left channel, and subtract the difference signal from the sum to recover the right channel.
+The (L+R) signal is limited to 30 Hz to 15 kHz to protect a 19 kHz pilot signal. The (L−R) signal, which is also limited to 15 kHz, is amplitude modulated onto a 38 kHz double-sideband suppressed-carrier (DSB-SC) signal, thus occupying 23 kHz to 53 kHz. A 19 kHz ± 2 Hz pilot tone, at exactly half the 38 kHz sub-carrier frequency and with a precise phase relationship to it, as defined by the formula below, is also generated. The pilot is transmitted at 8–10% of overall modulation level and used by the receiver to identify a stereo transmission and to regenerate the 38 kHz sub-carrier with the correct phase. The composite stereo multiplex signal contains the Main Channel (L+R), the pilot tone, and the (L−R) difference signal. This composite signal, along with any other sub-carriers, modulates the FM transmitter.  The terms composite, multiplex and even MPX are used interchangeably to describe this signal.
+The instantaneous deviation of the transmitter carrier frequency due to the stereo audio and pilot tone (at 10% modulation) is
+
+  
+    
+      
+        
+          [
+          
+            0.9
+            
+              [
+              
+                
+                  
+                    
+                      A
+                      +
+                      B
+                    
+                    2
+                  
+                
+                +
+                
+                  
+                    
+                      A
+                      −
+                      B
+                    
+                    2
+                  
+                
+                sin
+                ⁡
+                4
+                π
+                
+                  f
+                  
+                    p
+                  
+                
+                t
+              
+              ]
+            
+            +
+            0.1
+            sin
+            ⁡
+            2
+            π
+            
+              f
+              
+                p
+              
+            
+            t
+          
+          ]
+        
+        ×
+        75
+         
+        
+          k
+          H
+          z
+        
+      
+    
+    {\displaystyle \left[0.9\left[{\frac {A+B}{2}}+{\frac {A-B}{2}}\sin 4\pi f_{p}t\right]+0.1\sin 2\pi f_{p}t\right]\times 75~\mathrm {kHz} }
+  where A and B are the pre-emphasized left and right audio signals and 
+  
+    
+      
+        
+          f
+          
+            p
+          
+        
+      
+    
+    {\displaystyle f_{p}}
+  =19 kHz is the frequency of the pilot tone. Slight variations in the peak deviation may occur in the presence of other subcarriers or because of local regulations.
+Another way to look at the resulting signal is that it alternates between left and right at 38 kHz, with the phase determined by the 19 kHz pilot signal. Most stereo encoders use this switching technique to generate the 38 kHz subcarrier, but practical encoder designs need to incorporate circuitry to deal with the switching harmonics. Converting the multiplex signal back into left and right audio signals is performed by a decoder, built into stereo receivers. Again, the decoder can use a switching technique to recover the left and right channels.
+In addition, for a given RF level at the receiver, the signal-to-noise ratio and multipath distortion for the stereo signal will be worse than for the mono receiver. For this reason many stereo FM receivers include a stereo/mono switch to allow listening in mono when reception conditions are less than ideal, and most car radios are arranged to reduce the separation as the signal-to-noise ratio worsens, eventually going to mono while still indicating a stereo signal is being received. As with monaural transmission, it is normal practice to apply pre-emphasis to the left and right channels before encoding and to apply de-emphasis at the receiver after decoding.
+In the U.S. around 2010, using single-sideband modulation for the stereo subcarrier was proposed. It was theorized to be more spectrum-efficient and to produce a 4 dB s/n improvement at the receiver, and it was claimed that multipath distortion would be reduced as well. A handful of radio stations around the country broadcast stereo in this way, under FCC experimental authority. It may not be compatible with very old receivers, but it is claimed that no difference can be heard with most newer receivers. At present, the FCC rules do not allow this mode of stereo operation.
+
+
+=== Quadraphonic FM ===
+In 1969, Louis Dorren invented the Quadraplex system of single station, discrete, compatible four-channel FM broadcasting. There are two additional subcarriers in the Quadraplex system, supplementing the single one used in standard stereo FM. The baseband layout is as follows:
+
+50 Hz to 15 kHz main channel (sum of all 4 channels) (LF+LR+RF+RR) signal, for mono FM listening compatibility.
+23 to 53 kHz (sine quadrature subcarrier) (LF+LR) − (RF+RR) left minus right difference signal. This signal's modulation in algebraic sum and difference with the main channel is used for 2 channel stereo listener compatibility.
+23 to 53 kHz (cosine quadrature 38 kHz subcarrier) (LF+RR) − (LR+RF) Diagonal difference. This signal's modulation in algebraic sum and difference with the main channel and all the other subcarriers is used for the Quadraphonic listener.
+61 to 91 kHz (sine quadrature 76 kHz subcarrier) (LF+RF) − (LR+RR) Front-back difference. This signal's modulation in algebraic sum and difference with the main channel and all the other subcarriers is also used for the Quadraphonic listener.
+105 kHz SCA subcarrier, phase-locked to 19 kHz pilot, for reading services for the blind, background music, etc.The normal stereo signal can be considered as switching between left and right channels at 38 kHz, appropriately band-limited. The quadraphonic signal can be considered as cycling through LF, LR, RF, RR, at 76 kHz.Early efforts to transmit discrete four-channel quadraphonic music required the use of two FM stations; one transmitting the front audio channels, the other the rear channels. A breakthrough came in 1970 when KIOI (K-101) in San Francisco successfully transmitted true quadraphonic sound from a single FM station using the Quadraplex system under Special Temporary Authority from the FCC. Following this experiment, a long-term test period was proposed that would permit one FM station in each of the top 25 U.S. radio markets to transmit in Quadraplex. The test results hopefully would prove to the FCC that the system was compatible with existing two-channel stereo transmission and reception and that it did not interfere with adjacent stations.
+There were several variations on this system submitted by GE, Zenith, RCA, and Denon for testing and consideration during the National Quadraphonic Radio Committee field trials for the FCC. The original Dorren Quadraplex System outperformed all the others and was chosen as the national standard for Quadraphonic FM broadcasting in the United States. The first commercial FM station to broadcast quadraphonic program content was WIQB (now called WWWW-FM) in Ann Arbor/Saline, Michigan under the guidance of Chief Engineer Brian Jeffrey Brown.
+
+
+=== Noise reduction ===
+Various attempts to add analog noise reduction to FM broadcasting were carried out in the 1970s and 1980s:
+A commercially unsuccessful noise reduction system used with FM radio in some countries during the late 1970s, Dolby FM was similar to Dolby B but used a modified 25 µs pre-emphasis time constant and a frequency selective companding arrangement to reduce noise. The pre-emphasis change compensates for the excess treble response that otherwise would make listening difficult for those without Dolby decoders.
+A similar system named High Com FM was tested in Germany between July 1979 and December 1981 by IRT. It was based on the Telefunken High Com broadband compander system, but was never introduced commercially in FM broadcasting.Yet another system was the CX-based noise reduction system FMX implemented in some radio broadcasting stations in the United States in the 1980s.
+
+
+=== Other subcarrier services ===
+
+FM broadcasting has included subsidiary communications authorization (SCA) services capability since its inception, as it was seen as another service which licensees could use to create additional income. Use of SCAs was particularly popular in the US, but much less so elsewhere. Uses for such subcarriers include radio reading services for the blind, which became common and remain so, private data transmission services (for example sending stock market information to stockbrokers or stolen credit card number denial lists to stores,) subscription commercial-free background music services for shops, paging ("beeper") services, non-native-language programming, and providing a program feed for AM transmitters of AM/FM stations. SCA subcarriers are typically 67 kHz and 92 kHz. Initially the users of SCA services were private analog audio channels which could be used internally or leased, for example Muzak-type services. There were experiments with quadraphonic sound. If a station does not broadcast in stereo, everything from 23 kHz on up can be used for other services. The guard band around 19 kHz (±4 kHz) must still be maintained, so as not to trigger stereo decoders on receivers. If there is stereo, there will typically be a guard band between the upper limit of the DSBSC stereo signal (53 kHz) and the lower limit of any other subcarrier.
+Digital services are now also available. A 57 kHz subcarrier (phase locked to the third harmonic of the stereo pilot tone) is used to carry a low-bandwidth digital Radio Data System signal, providing extra features such as station name, Alternative Frequency (AF), traffic data for commercial GPS receivers and Radio text (RT). This narrowband signal runs at only 1,187.5 bits per second, thus is only suitable for text. A few proprietary systems are used for private communications. A variant of RDS is the North American RBDS or "smart radio" system. In Germany the analog ARI system was used prior to RDS to alert motorists that traffic announcements were being broadcast (without disturbing other listeners). Plans to use ARI for other European countries led to the development of RDS as a more powerful system. RDS is designed to be capable of being used alongside ARI despite using identical subcarrier frequencies.
+In the United States and Canada, digital radio services are being deployed within the FM band rather than using Eureka 147 or the Japanese standard ISDB. This in-band on-channel approach, as do all digital radio techniques, makes use of advanced compressed audio. The proprietary iBiquity system, branded as "HD Radio", currently is authorized for "hybrid" mode operation, wherein both the conventional analog FM carrier and digital sideband subcarriers are transmitted. Eventually, presuming widespread deployment of HD Radio receivers, the analog services could theoretically be discontinued and the FM band become all digital.
+
+
+=== Transmission power ===
+The output power of an FM broadcasting transmitter is one of the parameters that governs how far a transmission will cover.  The other important parameters are the height of the transmitting antenna and the Antenna gain.  Transmitter powers should be carefully chosen so that the required area is covered without causing interference to other stations further away.  Practical transmitter powers range from a few milliwatts to 80 kW.  As transmitter powers increase above a few kilowatts, the operating costs become high and only viable for large stations.  The efficiency of larger transmitters is now better than 70% (AC power in to RF power out) for FM only transmission.  This compares to 50% before high efficiency switch-mode power supplies and LDMOS amplifiers were used.  Efficiency drops dramatically if any digital HD Radio service is added.
+
+
+=== Reception distance ===
+VHF radio waves usually do not travel far beyond the visual horizon, so reception distances for FM stations are typically limited to 30–40 miles (50–60 km). They can also be blocked by hills and to a lesser extent by buildings. Individuals with more-sensitive receivers or specialized antenna systems, or who are located in areas with more favorable topography, may be able to receive useful FM broadcast signals at considerably greater distances.
+The knife edge effect can permit reception where there is no direct line of sight between broadcaster and receiver. The reception can vary considerably depending on the position. One example is the Učka mountain range, which makes constant reception of Italian signals from Veneto and Marche possible in a good portion of Rijeka, Croatia, despite the distance being over 200 km (125 miles). Other radio propagation effects such as tropospheric ducting and Sporadic E can occasionally allow distant stations to be intermittently received over very large distances (hundreds of miles), but cannot be relied on for commercial broadcast purposes. Good reception across the country, is one of the main advantages over DAB/+ radio.
+This is still less than the range of AM radio waves, which because of their lower frequency can travel as ground waves or reflect off the ionosphere, so AM radio stations can be received at hundreds (sometimes thousands) of miles. This is a property of the carrier wave's typical frequency (and power), not its mode of modulation.
+The range of FM transmission is related to the transmitter's RF power, the antenna gain, and antenna height. Interference from other stations is also a factor in some places. In the U.S, the FCC publishes curves that aid in calculation of this maximum distance as a function of signal strength at the receiving location. Computer modelling is more commonly used for this around the world.
+Many FM stations, especially those located in severe multipath areas, use extra audio compression/processing to keep essential sound above the background noise for listeners, often at the expense of overall perceived sound quality. In such instances, however, this technique is often surprisingly effective in increasing the station's useful range.
+
+
+== History ==
+
+
+=== Americas ===
+
+
+==== Brazil ====
+The first radio station to broadcast in FM in Brazil was Rádio Imprensa, which began broadcasting in Rio de Janeiro in 1955, on the 102.1 MHz frequency, founded by businesswoman Anna Khoury. Due to the high import costs of FM radio receivers, transmissions were carried out in circuit closed to businesses and stores, which played ambient music offered by radio. Until 1976, Rádio Imprensa was the only station operating in FM in Brazil. From the second half of the 1970s onwards, FM radio stations began to become popular in Brazil, causing AM radio to gradually lose popularity.In 2021, the Brazilian Ministry of Communications expanded the FM radio band from 87.5-108.0 MHz to 76.1-108.0 MHz to enable the migration of AM radio stations in Brazilian capitals and large cities.
+
+
+==== United States ====
+
+FM broadcasting began in the late 1930s, when it was initiated by a handful of early pioneer stations including W1XOJ/W43B/WGTR (shut down in 1953) and W1XTG/WSRS, both transmitting from Paxton, Massachusetts (now listed as Worcester, Massachusetts); W1XSL/W1XPW/W65H/WDRC-FM/WFMQ/WHCN, Meriden, Connecticut; and W2XMN, KE2XCC, and WFMN, Alpine, New Jersey (owned by Edwin Armstrong himself, closed down upon Armstrong's death in 1954). Also of note were General Electric stations W2XDA Schenectady and W2XOY New Scotland, New York—two experimental FM transmitters on 48.5 MHz—which signed on in 1939. The two began regular programming, as W2XOY, on November 20, 1940. Over the next few years this station operated under the call signs W57A, W87A and WGFM, and moved to 99.5 MHz when the FM band was relocated to the 88–108 MHz portion of the radio spectrum. General Electric sold the station in the 1980s. Today this station is WRVE.
+Other pioneers included W2XQR/W59NY/WQXQ/WQXR-FM, New York; W47NV/WSM-FM Nashville, Tennessee (signed off in 1951); W1XER/W39B/WMNE, with studios in Boston and later Portland, Maine, but whose transmitter was atop the highest mountain in the northeast United States, Mount Washington, New Hampshire (shut down in 1948); and W9XAO/WTMJ-FM Milwaukee, Wisconsin (went off air in 1950). 
+A commercial FM broadcasting band was formally established in the United States as of January 1, 1941, but initially the stations primarily simulcast their AM sister stations, in addition to broadcasting lush orchestral music for stores and offices, classical music to an upmarket listenership in urban areas, and educational programming.On June 27, 1945 the FCC announced the reassignment of the FM band to 80 channels from 88–106 MHz (which was soon expanded to 100 channels from 88–108 MHz). In 1961 WEFM (in the Chicago area) and WGFM (in Schenectady, New York) were reported as the first stereo stations. By the late 1960s, FM had been adopted for broadcast of stereo "A.O.R.—'Album Oriented Rock' Format", but it was not until 1978 that listenership to FM stations exceeded that of AM stations in North America. During the 1980s and 1990s, Top 40 music stations and later even country music stations largely abandoned AM for FM. Today AM is mainly the preserve of talk radio, news, sports, religious programming, ethnic (minority language) broadcasting and some types of minority interest music. This shift has transformed AM into the "alternative band" that FM once was. (Some AM stations have begun to simulcast on, or switch to, FM signals to attract younger listeners and aid reception problems in buildings, during thunderstorms, and near high-voltage wires. Some of these stations now emphasize their presence on the FM dial.)
+
+
+=== Europe ===
+The medium wave band (known as the AM band because most stations using it employ amplitude modulation) was overcrowded in western Europe, leading to interference problems and, as a result, many MW frequencies are suitable only for speech broadcasting.
+Belgium, the Netherlands, Denmark and particularly Germany were among the first countries to adopt FM on a widespread scale. Among the reasons for this were:
+
+The medium wave band in Western Europe became overcrowded after World War II, mainly due to the best available medium wave frequencies being used at high power levels by the Allied Occupation Forces, both for broadcasting entertainment to their troops and for broadcasting Cold War propaganda across the Iron Curtain.
+After World War II, broadcasting frequencies were reorganized and reallocated by delegates of the victorious countries in the Copenhagen Frequency Plan. German broadcasters were left with only two remaining AM frequencies and were forced to look to FM for expansion.Public service broadcasters in Ireland and Australia were far slower at adopting FM radio than those in either North America or continental Europe.
+
+
+==== Netherlands ====
+Hans Idzerda operated a broadcasting station, PCGG, at The Hague from 1919 to 1924, which employed narrow-band FM transmissions.
+
+
+==== United Kingdom ====
+In the United Kingdom the BBC conducted tests during the 1940s, then began FM broadcasting in 1955, with three national networks: the Light Programme, Third Programme and Home Service. These three networks used the sub-band 88.0–94.6 MHz. The sub-band 94.6–97.6 MHz was later used for BBC and local commercial services.
+However, only when commercial broadcasting was introduced to the UK in 1973 did the use of FM pick up in Britain. With the gradual clearance of other users (notably Public Services such as police, fire and ambulance) and the extension of the FM band to 108.0 MHz between 1980 and 1995, FM expanded rapidly throughout the British Isles and effectively took over from LW and MW as the delivery platform of choice for fixed and portable domestic and vehicle-based receivers. In addition, Ofcom (previously the Radio Authority) in the UK issues on demand Restricted Service Licences on FM and also on AM (MW) for short-term local-coverage broadcasting which is open to anyone who does not carry a prohibition and can put up the appropriate licensing and royalty fees. In 2010 around 450 such licences were issued.
+When the BBC's radio networks were renamed Radio 2, Radio 3 and Radio 4 respectively in 1967 to coincide with the launch of Radio 1, the new station was the only one of the main four to not have an FM frequency allocated, which was the case for 21 years. Instead, Radio 1 shared airtime with Radio 2 FM, on Saturday afternoons, Sunday evenings, weekday evenings (10pm to midnight) and Bank Holidays, eventually having its own FM frequency starting in London in October 1987 on 104.8 MHz at Crystal Palace. Eventually in 1987 a frequency range of 97.6-99.8 MHz was allocated as police relay transmitters were moved from the 100 MHz frequency, starting in London before being broadly completed by 1989, where Radio 1 in London moved from the latter frequency to 98.8 MHz to the BBC's Wrotham transmitter. This followed the BBC Radio 1 FM frequencies being rolled out to the rest of the UK.
+
+
+==== Italy ====
+Italy adopted FM broadcast widely in the early 1970s, but first experiments made by RAI dated back to 1950, when the "movement for free radio", developed by so-called "pirates", forced the recognition of free speech rights also through the use of "free radio media such as Broadcast transmitters", and took the case to the Constitutional Court of Italy. The court finally decided in favor of Free Radio. Just weeks after the court's final decision there was an "FM radio boom" involving small private radio stations across the country. By the mid 1970s, every city in Italy had a crowded FM radio spectrum.
+
+
+==== Greece ====
+Greece was another European country where the FM radio spectrum was used at first by the so-called "pirates" (both in Athens and Thessaloniki, the two major Greek cities) in the mid-1970s, before any national stations had started broadcasting on it; there were many AM (MW) stations in use for the purpose. No later than the end of 1977, the national public service broadcasting company EIRT (later also known as ERT) placed in service its first FM transmitter in the capital, Athens. By the end of the 1970s, most of Greek territory was covered by three National FM programs, and every city had many FM "pirates" as well. 
+The adaptation of the FM band for privately owned commercial radio stations came far later, in 1987.
+
+
+=== Australia ===
+FM broadcasting started in Australian capital cities in 1947 on an "experimental" basis, using an ABC national network feed, consisting largely of classical music and Parliament, as a programme source. It had a very small audience and was shut down in 1961 ostensibly to clear the television band: TV channel 5 (102.250 video carrier) if allocated would fall within the VHF FM band (98–108 MHz). The official policy on FM at the time was to eventually introduce it on another band, which would have required FM tuners custom-built for Australia. This policy was finally reversed and FM broadcasting was reopened in 1975 using the VHF band, after the few encroaching TV stations had been moved. Subsequently, it developed steadily until in the 1980s many AM stations transferred to FM due to its superior sound quality and lower operating costs. Today, as elsewhere in the developed world, most urban Australian broadcasting is on FM, although AM talk stations are still very popular. Regional broadcasters still commonly operate AM stations due to the additional range the broadcasting method offers. Some stations in major regional centres simulcast on AM and FM bands. Digital radio using the DAB+ standard has been rolled out to capital cities.
+
+
+=== New Zealand ===
+Like Australia, New Zealand adopted the FM format relatively late. As was the case with privately owned AM radio in the late 1960s, it took a spate of 'pirate' broadcasters to persuade a control-oriented, technology-averse government to allow FM to be introduced after at least five years of consumer campaigning starting in the mid-1970s, particularly in Auckland. An experimental FM station, FM 90.7, was broadcast in Whakatane in early 1982. Later that year, Victoria University of Wellington's Radio Active began full-time FM transmissions. Commercial FM licences were finally approved in 1983, with Auckland-based 91FM and 89FM being the first to take up the offer.New Zealand Pirates. Broadcasting was deregulated in 1989.
+Like many other countries in Africa and Asia that drive on the left, New Zealand imports vehicles from Japan. The standard radios in these vehicles operate on 76-to-90 MHz, which is not compatible with the 88-to-108 MHz range. Imported cars with Japanese radios can have FM expanders installed which down-convert the higher frequencies above 90 MHz. New Zealand has no indigenous car manufacturers.
+
+
+=== Trinidad and Tobago ===
+Trinidad and Tobago's first FM Radio station was 95.1FM, now rebranded as 951 Remix, was launched in March 1976 by the TBC Radio Network.
+
+
+=== Turkey ===
+In Turkey, FM broadcasting began in the late 1960s, carrying several shows from the One television network which was transferred from the AM frequency (also known as MW in Turkey). In subsequent years, more MW stations were slowly transferred to FM, and by the end of the 1970s, most radio stations that were previously on MW had been moved to FM, though many talk, news and sport, but mostly religious stations, still remain on MW.
+
+
+=== Other countries ===
+Most other countries implemented FM broadcasting through 1960s and expanded their use of FM through the 1990s. Because it takes a large number of FM transmitting stations to cover a geographically large country, particularly where there are terrain difficulties, FM is more suited to local broadcasting than for national networks. In such countries, particularly where there are economic or infrastructural problems, "rolling out" a national FM broadcast network to reach the majority of the population can be a slow and expensive process. Despite this, mostly in east European counties, national FM broadcast networks were established in the late 1960s and 1970s. In all Soviet-dependent countries but GDR, the OIRT band was used. First restricted to 68–73 MHz with 100 kHz channel spacing, then in the 1970s eventually expanded to 65.84–74.00 MHz with 30 kHz channel spacing.The use of FM for domestic radio encouraged listeners to acquire cheap FM-only receivers and so reduced the number able to listen to longer-range AM foreign broadcasters. Similar considerations led to domestic radio in South Africa switching to FM in the 1960s.
+
+
+=== ITU Conferences about FM ===
+The frequencies available for FM were decided by some important conferences of ITU. The milestone of those conferences is the Stockholm agreement of 1961 among 38 countries. A 1984 conference in Geneva made some modifications to the original Stockholm agreement particularly in the frequency range above 100 MHz.
+
+
+== FM broadcasting switch-off ==
+
+In 2017, Norway became the first country so far to completely switch to Digital audio broadcasting, the exception being some local stations remaining on FM until 2022, and might be extended to 2031. The switchover to DAB+ meant that especially rural areas obtained a far more diverse radio content compared to the FM-only period; several new radio stations had started transmissions on DAB+ in the years before the FM switch-off.
+
+
+== Small-scale use of the FM broadcast band ==
+
+
+=== Consumer use of FM transmitters ===
+In some countries, small-scale (Part 15 in United States terms) transmitters are available that can transmit a signal from an audio device (usually an MP3 player or similar) to a standard FM radio receiver; such devices range from small units built to carry audio to a car radio with no audio-in capability (often formerly provided by special adapters for audio cassette decks, which are no longer common on car radio designs) up to full-sized, near-professional-grade broadcasting systems that can be used to transmit audio throughout a property. Most such units transmit in full stereo, though some models designed for beginner hobbyists might not. Similar transmitters are often included in satellite radio receivers and some toys.
+Legality of these devices varies by country. The U.S. Federal Communications Commission and Industry Canada allow them. Starting on 1 October 2006, these devices became legal in most countries in the European Union. Devices made to the harmonised European specification became legal in the UK on 8 December 2006.The FM broadcast band is also used by some inexpensive wireless microphones sold as toys for karaoke or similar purposes, allowing the user to use an FM radio as an output rather than a dedicated amplifier and speaker. Professional-grade wireless microphones generally use bands in the UHF region so they can run on dedicated equipment without broadcast interference.
+Some wireless headphones transmit in the FM broadcast band, with the headphones tunable to only a subset of the broadcast band. Higher-quality wireless headphones use infrared transmission or UHF ISM bands such as 315 MHz, 863 MHz, 915 MHz, or 2.4 GHz instead of the FM broadcast band.
+
+
+=== Assistive listening ===
+Some assistive listening devices are based on FM radio, mostly using the 72.1 to 75.8 MHz band. Aside from the assisted listening receivers, only certain kinds of FM receivers can tune to this band.
+
+
+=== Microbroadcasting ===
+Low-power transmitters such as those mentioned above are also sometimes used for neighborhood or campus radio stations, though campus radio stations are often run over carrier current. This is generally considered a form of microbroadcasting. As a general rule, enforcement towards low-power FM stations is stricter than with AM stations, due to problems such as the capture effect, and as a result, FM microbroadcasters generally do not reach as far as their AM competitors.
+
+
+=== Clandestine use of FM transmitters ===
+FM transmitters have been used to construct miniature wireless microphones for espionage and surveillance purposes (covert listening devices or so-called "bugs"); the advantage to using the FM broadcast band for such operations is that the receiving equipment would not be considered particularly suspect. Common practice is to tune the bug's transmitter off the ends of the broadcast band, into what in the United States would be TV channel 6 (<87.9 MHz) or aviation navigation frequencies (>107.9 MHz); most FM radios with analog tuners have sufficient overcoverage to pick up these slightly-beyond-outermost frequencies, although many digitally tuned radios have not.
+Constructing a "bug" is a common early project for electronics hobbyists, and project kits to do so are available from a wide variety of sources. The devices constructed, however, are often too large and poorly shielded for use in clandestine activity.
+In addition, much pirate radio activity is broadcast in the FM range, because of the band's greater clarity and listenership, the smaller size and lower cost of equipment.
+
+
+== See also ==
+
+
+=== FM broadcasting by country ===
+FM broadcasting in Australia
+FM broadcasting in Canada
+FM broadcasting in Egypt
+FM broadcasting in India
+FM broadcasting in Japan
+FM broadcasting in New Zealand
+FM broadcasting in Pakistan
+FM broadcasting in the UK
+FM broadcasting in the United States
+
+
+=== FM broadcasting (technical) ===
+AM broadcasting
+AM stereo (related technology)
+FM broadcast band
+FM stereo
+Frequency modulation
+Long-distance FM reception (FM DX)
+Ripping music from FM broadcasts
+RDS (Radio Data System)
+
+
+=== Lists ===
+List of broadcast station classes
+List of FM radio stations in Bangalore
+List of Indian-language radio stations
+Lists of radio stations in North America
+Lists of radio stations in Ghana
+
+
+=== History ===
+History of radio
+Oldest radio station
+
+
+=== Bands ===
+Band I
+Band II
+Band III
+
+
+== References ==
+
+
+== External links ==
+Related technical contentU.S. Patent 1,941,066
+U.S. Patent 3,708,623 Compatible Four Channel FM System
+Introduction to FM MPX
+Frequency Modulation (FM) Tutorial
+Stereo Multiplexing for Dummies Graphs that show waveforms at different points in the FM Multiplex process
+Factbook list of stations worldwide
+Invention History – The Father of FM
+Audio Engineering Society
+FM Broadcast and TV Broadcast Aural Subcarriers - Clifton Laboratories

@@ -1,0 +1,33 @@
+Basic research, also called pure research or fundamental research, is a type of scientific research with the aim of improving scientific theories for better understanding and prediction of natural or other phenomena.  In contrast, applied research uses scientific theories to develop technology or techniques which can be used to intervene and alter natural or other phenomena. Though often driven simply by curiosity, basic research often fuels the technological innovations of applied science.  The two aims are often practiced simultaneously in coordinated research and development.
+
+
+== Overview ==
+
+Basic research advances fundamental knowledge about the world. It focuses on creating and refuting or supporting theories that explain observed phenomena. Pure research is the source of most new scientific ideas and ways of thinking about the world. It can be exploratory, descriptive, or explanatory; however, explanatory research is the most common.Basic research generates new ideas, principles, and theories, which may not be immediately utilized but nonetheless form the basis of progress and development in different fields. Today's computers, for example, could not exist without research in pure mathematics conducted over a century ago, for which there was no known practical application at the time. Basic research rarely helps practitioners directly with their everyday concerns; nevertheless, it stimulates new ways of thinking that have the potential to revolutionize and dramatically improve how practitioners deal with a problem in the future.
+
+
+== By country ==
+In the United States, basic research is funded mainly by federal government and done mainly at universities and institutes.  As government funding has diminished in the 2010s, however, private funding is increasingly important.
+
+
+== Basic versus applied science ==
+
+Applied science focuses on the development of technology and techniques. In contrast, basic science develops scientific knowledge and predictions, principally in natural sciences but also in other empirical sciences, which are used as the scientific foundation for applied science. Basic science develops and establishes information to predict phenomena and perhaps to understand nature, whereas applied science uses portions of basic science to develop interventions via technology or technique to alter events or outcomes. Applied and basic sciences can interface closely in research and development. The interface between basic research and applied research has been studied by the National Science Foundation.  A worker in basic scientific research is motivated by a driving curiosity about the unknown. When his explorations yield new knowledge, he experiences the satisfaction of those who first attain the summit of a mountain or the upper reaches of a river flowing through unmapped territory. Discovery of truth and understanding of nature are his objectives. His professional standing among his fellows depends upon the originality and soundness of his work. Creativeness in science is of a cloth with that of the poet or painter.It conducted a study in which it traced the relationship between basic scientific research efforts and the development of major innovations, such as oral contraceptives and videotape recorders.  This study found that basic research played a key role in the development in all of the innovations.  The number of basic science research that assisted in the production of a given innovation peaked between 20 and 30 years before the innovation itself.  While most innovation takes the form of applied science and most innovation occurs in the private sector, basic research is a necessary precursor to almost all applied science and associated instances of innovation.  Roughly 76% of basic research is conducted by universities.A distinction can be made between basic science and disciplines such as medicine and technology.  They can be grouped as STM (science, technology, and medicine; not to be confused with STEM [science, technology, engineering, and mathematics]) or STS (science, technology, and society). These groups are interrelated and influence each other, although they may differ in the specifics such as methods and standards.The Nobel Prize mixes basic with applied sciences for its award in Physiology or Medicine. In contrast, the Royal Society of London awards distinguish natural science from applied science.
+
+
+== See also ==
+Blue skies research
+Hard and soft science
+Metascience
+Normative science
+Physics
+Precautionary principle
+Pure mathematics
+Pure Chemistry
+
+
+== References ==
+
+
+== Further reading ==
+Levy, David M. (2002). "Research and Development".  In David R. Henderson (ed.). Concise Encyclopedia of Economics (1st ed.). Library of Economics and Liberty. OCLC 317650570, 50016270, 163149563

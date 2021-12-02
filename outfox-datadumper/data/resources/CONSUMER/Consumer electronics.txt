@@ -1,0 +1,132 @@
+Consumer electronics or home electronics are electronic (analog or digital) equipment intended for everyday use, typically in private homes. Consumer electronics include devices used for entertainment, communications and recreation. Usually referred to as black goods due to many products being housed in black or dark casings. This term is used to distinguish them from "white goods" which are meant for housekeeping tasks, such as washing machines and refrigerators, although nowadays, these would be considered black goods, some of these being connected to the Internet. In British English, they are often called brown goods by producers and sellers. In the 2010s, this distinction is absent in large big box consumer electronics stores, which sell both entertainment, communication, and home office devices and kitchen appliances such as refrigerators.
+Radio broadcasting in the early 20th century brought the first major consumer product, the broadcast receiver. Later products included telephones, televisions, and calculators, then audio and video recorders and players, game consoles, mobile phones, personal computers and MP3 players. In the 2010s, consumer electronics stores often sell GPS, automotive electronics (car stereos), video game consoles, electronic musical instruments (e.g., synthesizer keyboards), karaoke machines, digital cameras, and video players (VCRs in the 1980s and 1990s, followed by DVD players and Blu-ray players). Stores also sell smart appliances, digital cameras, camcorders, cell phones, and smartphones. Some of the newer products sold include virtual reality head-mounted display goggles, smart home devices that connect home devices to the Internet and wearable technology.
+In the 2010s, most consumer electronics have become based on digital technologies, and have largely merged with the computer industry in what is increasingly referred to as the consumerization of information technology. Some consumer electronics stores, have also begun selling office and baby furniture. Consumer electronics stores may be "brick and mortar" physical retail stores, online stores, or combinations of both.
+Annual consumer electronics sales are expected to reach $2.9 trillion by 2020. It is part of the wider electronics industry. In turn, the driving force behind the electronics industry is the semiconductor industry. The basic building block of modern electronics is the MOSFET (metal-oxide-silicon field-effect transistor, or MOS transistor), the scaling and miniaturization of which has been the primary factor behind the rapid exponential growth of electronic technology since the 1960s.
+
+
+== History ==
+
+For its first fifty years the phonograph turntable did not use electronics; the needle and soundhorn were purely mechanical technologies. However, in the 1920s, radio broadcasting became the basis of mass production of radio receivers. The vacuum tubes that had made radios practical were used with record players as well, to amplify the sound so that it could be played through a loudspeaker. Television was soon invented, but remained insignificant in the consumer market until the 1950s.
+The first working transistor, a point-contact transistor, was invented by John Bardeen and Walter Houser Brattain at Bell Laboratories in 1947, which led to significant research in the field of solid-state semiconductors in the early 1950s. The invention and development of the earliest transistors at Bell led to transistor radios. This led to the emergence of the home entertainment consumer electronics industry starting in the 1950s, largely due to the efforts of Tokyo Tsushin Kogyo (now Sony) in successfully commercializing transistor technology for a mass market, with affordable transistor radios and then transistorized television sets.Mohamed M. Atalla's surface passivation process, developed at Bell in 1957, led to the planar process and planar transistor developed by Jean Hoerni at Fairchild Semiconductor in 1959, from which comes the origins of Moore's law, and the invention of the MOSFET (metal–oxide–silicon field-effect transistor, or MOS transistor) by Mohamed Atalla and Dawon Kahng at Bell in 1959. The MOSFET was the first truly compact transistor that could be miniaturised and mass-produced for a wide range of uses, enabling Moore's law and revolutionizing the electronics industry. It has since been the building block of modern digital electronics, and the "workhorse" of the electronics industry.Integrated circuits (ICs) followed when manufacturers built circuits (usually for military purposes) on a single substrate using electrical connections between circuits within the chip itself. The most common type of IC is the MOS integrated circuit chip, capable of the large-scale integration (LSI) of MOSFETs on an IC chip. MOS technology led to more advanced and cheaper consumer electronics, such as transistorized televisions, pocket calculators, and by the 1980s, affordable video game consoles and personal computers that regular middle-class families could buy. The rapid progress of the electronics industry during the late 20th to early 21st centuries was achieved by rapid MOSFET scaling (related to Dennard scaling and Moore's law), down to sub-micron levels and then nanoelectronics in the early 21st century. The MOSFET is the most widely manufactured device in history, with an estimated total of 13 sextillion MOSFETs manufactured between 1960 and 2018.
+
+
+== Products ==
+
+Consumer electronics devices include those used for 
+entertainment (flatscreen TVs, television sets, MP3 players, video recorders, DVD players, radio receivers, etc.)
+communications (telephones, cell phones, e-mail-capable personal computers, desktop computers, laptops, printers, paper shredders, etc.)
+recreation (digital cameras, camcorders, video game consoles, ROM cartridges, remote control cars, Robot kits, etc.).Increasingly consumer electronics products such as Digital distribution of video games have become based on internet and digital technologies. Consumer electronics industry has largely merged with the software industry in what is increasingly referred to as the consumerization of information technology.
+
+
+=== Trends ===
+
+One overriding characteristic of consumer electronic products is the trend of ever-falling prices. This is driven by gains in manufacturing efficiency and automation, lower labor costs as manufacturing has moved to lower-wage countries, and improvements in semiconductor design. Semiconductor components benefit from Moore's law, an observed principle which states that, for a given price, semiconductor functionality doubles every two years.
+While consumer electronics continues in its trend of convergence, combining elements of many products, consumers face different decisions when purchasing. There is an ever-increasing need to keep product information updated and comparable, for the consumer to make an informed choice. Style, price, specification, and performance are all relevant. There is a gradual shift towards e-commerce web-storefronts.
+Many products include Internet connectivity using technologies such as Wi-Fi, Bluetooth, EDGE, or Ethernet. Products not traditionally associated with computer use (such as TVs or Hi-Fi equipment) now provide options to connect to the Internet or to a computer using a home network to provide access to digital content. The desire for high-definition (HD) content has led the industry to develop a number of technologies, such as WirelessHD or ITU-T G.hn, which are optimized for distribution of HD content between consumer electronic devices in a home.
+
+
+== Industries ==
+
+The electronics industry, especially meaning consumer electronics, emerged in the 20th century and has now become a global industry worth billions of dollars. Contemporary society uses all manner of electronic devices built in automated or semi-automated factories operated by the industry.
+
+
+=== Manufacturing ===
+
+Most consumer electronics are built in China, due to maintenance cost, availability of materials, quality, and speed as opposed to other countries such as the United States. Cities such as Shenzhen have become important production centres for the industry, attracting many consumer electronics companies such as Apple Inc.
+
+
+==== Electronic component ====
+
+An electronic component is any basic discrete device or physical entity in an electronic system used to affect electrons or their associated fields. Electronic components are mostly industrial products, available in a singular form and are not to be confused with electrical elements, which are conceptual abstractions representing idealized electronic components.
+
+
+==== Software development ====
+
+Consumer electronics such as personal computers use various types of software. Embedded software is used within some consumer electronics, such as mobile phones. This type of software may be embedded within the hardware of electronic devices. Some consumer electronics include software that is used on a personal computer in conjunction with electronic devices, such as camcorders and digital cameras, and third-party software for such devices also exists.
+
+
+==== Standardization ====
+Some consumer electronics adhere to protocols, such as connection protocols "to high speed bi-directional signals". In telecommunications, a communications protocol is a system of digital rules for data exchange within or between computers.
+
+
+=== Trade shows ===
+The Consumer Electronics Show (CES) trade show has taken place yearly in Las Vegas, Nevada since its foundation in 1973. The event, which grew from having 100 exhibitors in its inaugural year to more than 4,500 exhibiting companies in its 2020 edition, features the latest in consumer electronics, speeches by industry experts and innovation awards.The Internationale Funkausstellung Berlin (IFA) trade show has taken place Berlin, Germany since its foundation in 1924. The event features new consumer electronics and speeches by industry pioneers.
+
+
+=== IEEE initiatives ===
+Institute of Electrical and Electronics Engineers (IEEE), the world's largest professional society, has many initiatives to advance the state of the art of consumer electronics. IEEE has a dedicated society of thousands of professionals to promote CE, called the Consumer Electronics Society (CESoc). IEEE has multiple periodicals and international conferences to promote CE and encourage collaborative research and development in CE. The flagship conference of CESoc, called IEEE International Conference on Consumer Electronics (ICCE), is on its 35th year.
+
+IEEE Transactions on Consumer Electronics
+IEEE Consumer Electronics Magazine
+IEEE International Conference on Consumer Electronics (ICCE)
+
+
+=== Retailing ===
+
+Electronics retailing is a significant part of the retail industry in many countries. In the United States, dedicated consumer electronics stores have mostly given way to big-box retailers such as Best Buy, the largest consumer electronics retailer in the country, although smaller dedicated stores include Apple Stores, and specialist stores that serve, for example, audiophiles and exceptions, such as the single-branch B&H Photo store in New York City. Broad-based retailers, such as Walmart and Target, also sell consumer electronics in many of their stores. In April 2014, retail e-commerce sales were the highest in the consumer electronic and computer categories as well. Some consumer electronics retailers offer extended warranties on products with programs such as SquareTrade.
+
+An electronics district is an area of commerce with a high density of retail stores that sell consumer electronics.
+
+
+=== Service and repair ===
+
+Consumer electronic service can refer to the maintenance of said products. When consumer electronics have malfunctions, they may sometimes be repaired.
+In 2013, in Pittsburgh, Pennsylvania, the increased popularity in listening to sound from analog audio devices, such as record players, as opposed to digital sound, has sparked a noticeable increase of business for the electronic repair industry there.
+
+
+=== Mobile phone industry ===
+
+A mobile phone, cellular phone, cell phone, cellphone, handphone, or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area. The radio frequency link establishes a connection to the switching systems of a mobile phone operator, which provides access to the public switched telephone network (PSTN). Modern mobile telephone services use a cellular network architecture and, therefore, mobile telephones are called cellular telephones or cell phones in North America. In addition to telephony, digital mobile phones (2G) support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications (infrared, Bluetooth), business applications, video games and digital photography. Mobile phones offering only those capabilities are known as feature phones; mobile phones which offer greatly advanced computing capabilities are referred to as smartphones.A smartphone is a portable device that combines mobile telephone and computing functions into one unit. They are distinguished from feature phones by their stronger hardware capabilities and extensive mobile operating systems, which facilitate wider software, internet (including web browsing over mobile broadband), and multimedia functionality (including music, video, cameras, and gaming), alongside core phone functions such as voice calls and text messaging. Smartphones typically contain a number of metal–oxide–semiconductor (MOS) integrated circuit (IC) chips, include various sensors that can be leveraged by pre-included and third-party software (such as a magnetometer, proximity sensors, barometer, gyroscope, accelerometer and more), and support wireless communications protocols (such as Bluetooth, Wi-Fi, or satellite navigation).
+
+
+==== By country ====
+
+
+== Environmental impact ==
+
+In 2017, the Greenpeace USA published a study of 17 of the world's leading consumer electronics companies in relation to their energy and resource consumption and the use of chemicals.
+
+
+=== Rare metals and rare earth elements ===
+Electronic devices use thousands rare metals and rare earth elements (40 on average for a smartphone), these material are extracted and refined using water and energy-intensive processes. These metals are also used in the renewable energy industry meaning that consumer electronics are directly competing for the raw materials.
+
+
+=== Energy consumption ===
+The energy consumption of consumer electronics and their environmental impact, either from their production processes or the disposal of the devices, is increasing steadily. EIA estimates that electronic devices and gadgets account for about 10%–15% of the energy use in American homes – largely because of their number; the average house has dozens of electronic devices. The energy consumption of consumer electronics increases – in America and Europe – to about 50% of household consumption, if the term is redefined to include home appliances such as refrigerators, dryers, clothes washers and dishwashers.
+
+
+=== Standby power ===
+Standby power – used by consumer electronics and appliances while they are turned off – accounts for 5–10% of total household energy consumption, costing $100 annually to the average household in the United States. A study by United States Department of Energy's Berkeley Lab found that a videocassette recorders (VCRs) consume more electricity during the course of a year in standby mode than when they are used to record or playback videos. Similar findings were obtained concerning satellite boxes, which consume almost the same amount of energy in "on" and "off" modes.A 2012 study in the United Kingdom, carried out by the Energy Saving Trust, found that the devices using the most power on standby mode included televisions, satellite boxes and other video and audio equipment. The study concluded that UK households could save up to £86 per year by switching devices off instead of using standby mode. A report from the International Energy Agency in 2014 found that $80 billion of power is wasted globally per year due to inefficiency of electronic devices. Consumers can reduce unwanted use of standby power by unplugging their devices, using power strips with switches, or by buying devices that are standardized for better energy management, particularly Energy Star marked products.
+
+
+=== Electronic waste ===
+
+A high number of different metals and low concentration rates in electronics means that recycling is limited and energy intensive. Electronic waste describes discarded electrical or electronic devices. Many consumer electronics may contain toxic minerals and elements, and many electronic scrap components, such as CRTs, may contain contaminants such as lead, cadmium, beryllium, mercury, dioxins, or brominated flame retardants. Electronic waste recycling may involve significant risk to workers and communities and great care must be taken to avoid unsafe exposure in recycling operations and leaking of materials such as heavy metals from landfills and incinerator ashes. However, large amounts of the produced electronic waste from developed countries is exported, and handled by the informal sector in countries like India, despite the fact that exporting electronic waste to them is illegal. Strong informal sector can be a problem for the safe and clean recycling.Reuse and repair
+E-waste policy has gone through various incarnations since the 1970s, with emphases changing as the decades passed. More weight was gradually placed on the need to dispose of e-waste more carefully due to the toxic materials it may contain. There has also been recognition that various valuable metals and plastics from waste electrical equipment can be recycled for other uses. More recently the desirability of reusing whole appliances has been foregrounded in the 'preparation for reuse' guidelines. The policy focus is slowly moving towards a potential shift in attitudes to reuse and repair.
+With turnover of small household appliances high and costs relatively low, many consumers will throw unwanted electric goods in the normal dustbin, meaning that items of potentially high reuse or recycling value go to landfills. While larger items such as washing machines are usually collected, it has been estimated that the 160,000 tonnes of EEE in regular waste collections was worth £220 million. And 23% of EEE taken to Household Waste Recycling Centres was immediately resaleable – or would be with minor repairs or refurbishment. This indicates a lack of awareness among consumers as to where and how to dispose of EEE, and of the potential value of things that are literally going in the bin.
+For reuse and repair of electrical goods to increase substantially in the UK there are barriers that must be overcome. These include people's mistrust of used equipment in terms of whether it will be functional, safe, and the stigma for some of owning second-hand goods. But the benefits of reuse could allow lower income households access to previously unaffordable technology whilst helping the environment at the same time.<Cole, C., Cooper, T. and Gnanapragasam, A., 2016. Extending product lifetimes through WEEE reuse and repair: opportunities and challenges in the UK. In: Electronics Goes Green 2016+ Conference, Berlin, Germany, 7–9 September 2016>
+
+
+== Health impact ==
+Desktop monitors and laptops produce major physical health concerns for humans when bodies are forced into positions that are unhealthy and uncomfortable in order to see the screen better. From this, neck and back pains and problems increase, commonly referred to as repetitive strain injuries. Using electronics before going to bed makes it difficult for people to fall asleep, which has a negative effect on human health. Sleeping less prevents people from performing to their full potential physically and mentally and can also "increase rates of obesity and diabetes," which are "long-term health consequences". Obesity and diabetes are more commonly seen in students and in youth because they tend to be the ones using electronics the most. "People who frequently use their thumbs to type text messages on cell phones can develop a painful affliction called De Quervain syndrome that affects their tendons on their hands. The best known disease in this category is called carpal tunnel syndrome, which results from pressure on the median nerve in the wrist".
+
+
+== See also ==
+Digital electronics
+Electronics industry
+List of home appliances
+Product teardown
+Timeline of electrical and electronic engineering
+
+
+== References ==
+
+
+== Notes ==
+
+
+== Further reading ==
+Kevin Sintumuang (2 January 2015). "Tech Etiquette: 21 Do's and Don'ts". The Wall Street Journal.
+
+
+== External links ==

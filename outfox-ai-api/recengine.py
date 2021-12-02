@@ -10,30 +10,32 @@ from sklearn.metrics.pairwise import cosine_similarity
 from lib import *
 import connect
 
-groupNum = 912
-
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) # This is the Project Root
-csvLink1 = ROOT_DIR+"\\csv\\raw_data.csv"
+mstrgrouparray = connect.getDistinctGroups()
+mstrtagarray = [''] *len(mstrgrouparray)
+x=0
+for group in mstrgrouparray:
+    mstrtagarray[x] = group.tags
+    x+=1
 
 def calculateAll(tagArray):
 
-
-    grouparray = connect.getDistinctGroupTags()
-    grouparray = [' '.join(tagArray)] + grouparray
+    global mstrtagarray
+    global mstrgrouparray
+    
+    grouparray = [' '.join(tagArray)] + mstrtagarray
     vect = CountVectorizer().fit_transform(grouparray)
     vectors = vect.toarray()
     csim = cosine_similarity(vectors)
-
     cosineVectors = []
 
     x=0
     
-    for group in grouparray:
+    for group in mstrgrouparray:
         if(x>0):
             val = cosineCompVecter(vectors[0], vectors[x])
-            cosineVectors.append(CosineObj(x, val, tagArray))
+            cosineVectors.append(CosineObj(group.id, val, tagArray))
         x+=1
-    
+
     return cosineVectors
     #print("RECOMMENDED GROUP: " + topgroup + ": " + str(topval) + "\n\n====================================\n")
     

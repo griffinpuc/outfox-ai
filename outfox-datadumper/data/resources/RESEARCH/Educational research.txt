@@ -1,0 +1,116 @@
+Educational research refers to the systematic collection and analysis of data related to the field of education. Research may involve a variety of methods and various aspects of education including student learning, teaching methods, teacher training, and classroom dynamics.Educational researchers generally agree that research should be rigorous and systematic. However, there is less agreement about specific standards, criteria and research procedures.  Educational researchers may draw upon a variety of disciplines including psychology, economics, sociology, anthropology, and philosophy. Methods may be drawn from a range of disciplines. Conclusions drawn from an individual research study may be limited by the characteristics of the participants who were studied and the conditions under which the study was conducted.
+
+
+== General characteristics ==
+Gary Anderson outlined ten aspects of educational research:
+Educational research attempts to solve a problem.
+Research involves gathering new data from primary or first-hand sources or using existing data for a new purpose.
+Research is based upon observable experience or empirical evidence.
+Research demands accurate observation and description.
+Research generally employs carefully designed procedures and rigorous analysis.
+Research emphasizes the development of generalizations, principles or theories that will help in understanding, prediction and/or control.
+Research requires expertise—familiarity with the field; competence in methodology; technical skill in collecting and analyzing the data.
+Research attempts to find an objective, unbiased solution to the problem and takes great pains to validate the procedures employed.
+Research is a deliberate and unhurried activity which is directional but often refines the problem or questions as the research progresses.
+Research is carefully recorded and reported to other persons interested in the problem.
+
+
+== Approaches ==
+There are different approaches to educational research. One is a basic approach, also referred to as an academic research approach. Another approach is applied research or a contract research approach. These approaches have different purposes which influence the nature of the respective research.
+
+
+=== Basic approach ===
+Basic, or academic research focuses on the search for truth or the development of educational theory. Researchers with this background "design studies that can test, refine, modify, or develop theories". Generally, these researchers are affiliated with an academic institution and are performing this research as part of their graduate or doctoral work.
+
+
+=== Applied approach ===
+The pursuit of information that can be directly applied to practice is aptly known as applied or contractual research. Researchers in this field are trying to find solutions to existing educational problems. The approach is much more utilitarian as it strives to find information that will directly influence practice.  Applied researchers are commissioned by a sponsor and are responsible for addressing the needs presented by their employer. The goal of this research is "to determine the applicability of educational theory and principles by testing hypotheses within specific settings".
+
+
+=== Comparison of basic and applied research ===
+The following are several defining characteristics written by Gary Anderson to compare basic (academic) and applied (contract) research.
+
+
+== Methodology ==
+The basis for educational research is the scientific method. The scientific method uses directed questions and manipulation of variables to systematically find information about the teaching and learning process. In this scenario questions are answered by the analysis of data that is collected specifically for the purpose of answering these questions. Hypotheses are written and subsequently proved or disproved by data which leads to the creation of new hypotheses. The two main types of data that are used under this method are qualitative and quantitative.
+
+
+=== Qualitative research ===
+Qualitative research uses the data which is descriptive in nature. Tools that educational researchers use in collecting qualitative data include: observations, conducting interviews, conducting document analysis, and analyzing participant products such as journals, diaries, images or blogs.
+
+
+=== Types of qualitative research ===
+Case study
+Ethnography
+Phenomenological research
+Narrative research
+Historical research
+
+
+=== Quantitative research ===
+Quantitative research uses data that is numerical and is based on the assumption that the numbers will describe a single reality. Statistics are often applied to find relationships between variables.
+
+
+=== Types of quantitative research ===
+Descriptive survey research
+Experimental research
+Single-subject research
+Causal-comparative research
+Correlational research
+Meta-analysis
+
+
+=== Mixed methods (Pragmatic) ===
+There also exists a new school of thought that these derivatives of the scientific method are far too reductionist in nature. Since educational research includes other disciplines such as psychology, sociology, anthropology, science, and philosophy and refers to work done in a wide variety of contexts it is proposed that researchers should use "multiple research approaches and theoretical constructs."  This could mean using a combination of qualitative and quantitative methods as well as common methodology from the fields mentioned above. In social research this phenomenon is referred to as triangulation (social science). This idea is well summarized by the work of Barrow in his text An introduction to philosophy of education:
+
+Since educational issues are of many different kinds and logical types, it is to be expected that quite different types of research should be brought into play on different occasions. The question therefore is not whether research into teaching should be conducted by means of quantitative measures (on some such grounds as that they are more 'objective') or qualitative measures (on some such grounds as that they are more 'insightful'), but what kind of research can sensibly be utilized to look into this particular aspect of teaching as opposed to that.
+
+
+=== Types of mixed methods ===
+Action research
+Program evaluationIn analysis of mixed methods, the following ways might be used;
+
+Explanatory mixed method: starts with quantitative followed by qualitative data and results
+Exploratory mixed method: starts with qualitative followed by quantitative data and results
+Triangulation mixed method: all data and results are concurrently analysed
+
+
+== Discipline-based ==
+Discipline-based education research (DBER) is an interdisciplinary research enterprise that "investigates learning and teaching in a discipline [normally from the STEM fields] from a perspective that reflects the discipline's priorities, worldview, knowledge, and practices."
+Examples include:
+
+Astronomy education research (AER)
+Biology education research (BER)
+Chemistry education research (CER)
+Computer science education research (CSER), also computing education research
+Engineering education research (EER)
+Geoscience education research (GER)
+Mathematics education research (MER)
+Physics education research (PER)
+
+
+== Results ==
+In response to increased attention to the replicability of experimental findings in the sciences and medicine, in 2014, Educational Researcher published a review of the entire publication history of the 100 education journals with the highest five-year impact factors that found that out of 164,589 articles published only 221 articles (or 0.13 percent) were attempted replications of previous studies. Only 28.5 percent of the replication studies were direct replications rather than conceptual replications (i.e. usage of a different experimental method to test the same hypothesis). 48.2 percent of the replications were performed by the same research team as produced the original study, and when the same research team published the replication studies in the same journals, 88.7 percent of replications were successful while only 70.6 percent were successful when published in a different journal. When different researchers attempted to replicate the findings, only 54 percent of replications were successful.As of July 2021, along with 289 other psychology and medical journals, the British Journal of Educational Psychology, the Canadian Journal of School Psychology, Frontiers in Education, the Gifted Child Quarterly, the Journal of Educational Psychology, JMIR Medical Education, the Journal of Research in Reading, Language Learning, Learning and Instruction, Mind, Brain, and Education, and Scientific Studies of Reading have adopted result-blind peer review (i.e. where studies are accepted not on the basis of their findings and after the studies are completed, but before the studies are conducted and upon the basis of the methodological rigor of their experimental designs and the theoretical justifications for their statistical analysis techniques before data collection or analysis is done) as part of an initiative organized by the Center for Open Science in response to concerns about publication bias and p-hacking. Early analysis of such reforms has estimated that 61 percent of result-blind studies have led to null results, in contrast to an estimated 5 to 20 percent in earlier psychological research.
+
+
+== See also ==
+American Educational Research Association
+Education Resources Information Center
+Evidence-based education
+Institute of Education Sciences
+Scholastic Aptitude Test (SAT)
+WestEd
+All pages with titles containing educational research OR education research
+Education theory
+Online credentials for learning
+Educational technology
+Science education#Research
+
+
+== References ==
+
+
+== Further reading ==
+Barry, W.J. (2012). "Challenging the Status Quo Meaning of Educational Quality: Introducing Transformational Quality (TQ) Theory©". Educational Journal of Living Theories. 4: 1–29.
+Hsieh, P.-H.; Acee, T.; Chung, W.-H.; Hsieh, Ya-P.; Kim, H.; Thomas, G.D.; You, Ji-in; Levin, J.R.; Robinson, D.H. (November 2005). "Is Educational Intervention Research on the Decline?" (PDF). Journal of Educational Psychology. 97 (4): 523–9. doi:10.1037/0022-0663.97.4.523.
+Furlong, J. and Oancea, A. (2008) Assessing Quality in Applied and Practice Based Research. Continuing the Debate. London, Routledge. https://www.routledge.com/Assessing-quality-in-applied-and-practice-based-research-in-education/Furlong-Oancea/p/book/9780415448017.

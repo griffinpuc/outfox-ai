@@ -1,0 +1,110 @@
+High-definition video (HD video) is video of higher resolution and quality than standard-definition. While there is no standardized meaning for high-definition, generally any video image with considerably more than 480 vertical scan lines (North America) or 576 vertical lines (Europe) is considered high-definition. 480 scan lines is generally the minimum even though the majority of systems greatly exceed that. Images of standard resolution captured at rates faster than normal (60 frames/second North America, 50 fps Europe), by a high-speed camera may be considered high-definition in some contexts. Some television series shot on high-definition video are made to look as if they have been shot on film, a technique which is often known as filmizing.
+
+
+== History ==
+The first electronic scanning format, 405 lines, was the first "high definition" television system, since the mechanical systems it replaced had far fewer. From 1939, Europe and the US tried 605 and 441 lines until, in 1941, the FCC mandated 525 for the US. In wartime France, René Barthélemy tested higher resolutions, up to 1,042. In late 1949, official French transmissions finally began with 819. In 1984, however, this standard was abandoned for 625-line color on the TF1 network.
+
+
+=== Analog ===
+
+Modern HD specifications date to the early 1980s, when Japanese engineers developed the HighVision 1,125-line interlaced TV standard (also called MUSE) that ran at 60 frames per second. The Sony HDVS system was presented at an international meeting of television engineers in Algiers, April 1981 and Japan's NHK presented its analog high-definition television (HDTV) system at a Swiss conference in 1983.
+The NHK system was standardized in the United States as Society of Motion Picture and Television Engineers (SMPTE) standard #240M in the early 1990s, but abandoned later on when it was replaced by a DVB analog standard. HighVision video is still usable for HDTV video interchange, but there is almost no modern equipment available to perform this function. Attempts at implementing HighVision as a 6 MHz broadcast channel were mostly unsuccessful. All attempts at using this format for terrestrial TV transmission were abandoned by the mid-1990s.Europe developed HD-MAC (1,250 lines, 50 Hz), a member of the MAC family of hybrid analogue/digital video standards; however, it never took off as a terrestrial video transmission format. HD-MAC was never designated for video interchange except by the European Broadcasting Union.
+
+
+=== Digital ===
+High-definition digital video was not possible with uncompressed video due to impractically high memory and bandwidth requirements, with a bit rate exceeding 1 Gbit/s for full HD video. Digital HDTV was enabled by the development of discrete cosine transform (DCT) video compression. The DCT is a lossy compression technique that was first proposed by Nasir Ahmed in 1972, and was later adapted into a motion-compensated DCT algorithm for video coding standards such as the H.26x formats from 1988 onwards and the MPEG formats from 1993 onwards. Motion-compensated DCT compression significantly reduced the amount of memory and bandwidth required for digital video, capable of achieving a data compression ratio of around 100:1 compared to uncompressed video. By the early 1990s, DCT video compression had been widely adopted as the video coding standard for HDTV.The current high-definition video standards in North America were developed during the course of the advanced television process initiated by the Federal Communications Commission in 1987 at the request of American broadcasters. In essence, the end of the 1980s was a death knell for most analog high definition technologies that had developed up to that time.
+The FCC process, led by the Advanced Television Systems Committee (ATSC) adopted a range of standards from interlaced 1,080-line video (a technical descendant of the original analog NHK 1125/30 Hz system) with a maximum frame rate of 30 Hz, (60 fields per second) and 720-line video, progressively scanned, with a maximum frame rate of 60 Hz.
+In the end, however, the DVB standard of resolutions (1080, 720, 480) and respective frame rates (24, 25, 30) were adopted in conjunction with the Europeans that were also involved in the same standardization process. The FCC officially adopted the ATSC transmission standard in 1996 (which included both HD and SD video standards).
+In the early 2000s, it looked as if DVB would be the video standard far into the future. However, both Brazil and China have adopted alternative standards for high-definition video that preclude the interoperability that was hoped for after decades of largely non-interoperable analog TV broadcasting.
+
+
+== Technical details ==
+
+High definition video (prerecorded and broadcast) is defined threefold, by:
+
+The number of lines in the vertical display resolution. High-definition television (HDTV) resolution is 1,080 or 720 lines. In contrast, regular digital television (DTV) is 480 lines (upon which NTSC is based, 480 visible scanlines out of 525) or 576 lines (upon which PAL/SECAM are based, 576 visible scanlines out of 625). However, since HD is broadcast digitally, its introduction sometimes coincides with the introduction of DTV. Additionally, current DVD quality is not high-definition, although the high-definition disc systems Blu-ray Disc and the HD DVD are.
+The scanning system: progressive scanning (p) or interlaced scanning (i). Progressive scanning (p) redraws an image frame (all of its lines) when refreshing each image, for example 720p/1080p. Interlaced scanning (i) draws the image field every other line or "odd-numbered" lines during the first image refresh operation, and then draws the remaining "even numbered" lines during a second refreshing, for example 1080i. Interlaced scanning yields  image resolution if subject is not moving, but loses up to half of the resolution and suffers "combing" artifacts when subject is moving.
+The number of frames or fields per second (Hz). In Europe more common (50 Hz) television broadcasting system and in USA (60 Hz). The 720p60 format is 1,280 × 720 pixels, progressive encoding with 60 frames per second (60 Hz). The 1080i50/1080i60 format is 1920 × 1080 pixels, interlaced encoding with 50/60 fields, (50/60 Hz) per second. Two interlaced fields formulate a single frame, because the two fields of one frame are temporally shifted. Frame pulldown and segmented frames are special techniques that allow transmitting full frames by means of interlaced video stream.Often, the rate is inferred from the context, usually assumed to be either 50 Hz (Europe) or 60 Hz (USA), except for 1080p, which denotes 1080p24, 1080p25, and 1080p30, but also 1080p50 and 1080p60.
+A frame or field rate can also be specified without a resolution. For example, 24p means 24 progressive scan frames per second and 50i means 25 progressive frames per second, consisting of 50 interlaced fields per second. Most HDTV systems support some standard resolutions and frame or field rates. The most common are noted below.
+High-definition signals require a high-definition television or computer monitor in order to be viewed. High-definition video has an aspect ratio of 16:9 (1.78:1). The aspect ratio of regular widescreen film shot today is typically 1.85:1 or 2.39:1 (sometimes traditionally quoted at 2.35:1). Standard-definition television (SDTV) has a 4:3 (1.33:1) aspect ratio, although in recent years many broadcasters have transmitted programs "squeezed" horizontally in 16:9 anamorphic format, in hopes that the viewer has a 16:9 set which stretches the image out to normal-looking proportions, or a set which "squishes" the image vertically to present a "letterbox" view of the image, again with correct proportions.
+
+
+=== Common high-definition video modes ===
+
+
+=== Ultra high-definition video modes ===
+Note: 1 Image is either a frame or, in case of interlaced scanning, two fields (EVEN and ODD).
+Also, there are less common but still popular UltraWide resolutions, such as 2560×1080p (1080p UltraWide).
+There is also a WQHD+ option for some of these.
+
+
+== HD content ==
+High-definition image sources include terrestrial broadcast, direct broadcast satellite, digital cable, high definition disc (BD), digital cameras, Internet downloads, and video game consoles.
+
+Most computers are capable of HD or higher resolutions over VGA, DVI, HDMI and/or DisplayPort.
+The optical disc standard Blu-ray Disc can provide enough digital storage to store hours of HD video content. Digital Versatile Discs or DVDs (that hold 4.7 GB for a Single layer or 8.5 GB for a double layer), are not always up to the challenge of today's high-definition (HD) sets. Storing and playing HD movies requires a disc that holds more information, like a Blu-ray Disc (which hold 25 GB in single layer form and 50 GB for double layer) or the now-defunct High Definition Digital Versatile Discs (HD DVDs) which held 15 GB or 30 GB in, respectively, single and double layer variations.Blu-ray Discs were jointly developed by 9 initial partners including Sony and Phillips (which jointly developed CDs for audio), and Pioneer (which developed its own Laser-disc previously with some success) among others. HD-DVD discs were primarily developed by Toshiba and NEC with some backing from Microsoft, Warner Bros., Hewlett Packard, and others. On February 19, 2008, Toshiba announced it was abandoning the format and would discontinue development, marketing and manufacturing of HD-DVD players and drives.
+
+
+=== Types of recorded media ===
+The high resolution photographic film used for cinema projection is exposed at the rate of 24 frames per second but usually projected at 48, each frame getting projected twice helping to minimise flicker. One exception to this was the 1986 National Film Board of Canada short film Momentum, which briefly experimented with both filming and projecting at 48 frame/s, in a process known as IMAX HD.
+
+Depending upon available bandwidth and the amount of detail and movement in the image, the optimum format for video transfer is either 720p24 or 1080p24. When shown on television in PAL system countries, film must be projected at the rate of 25 frames per second by accelerating it by 4.1 percent. In NTSC standard countries, the projection rate is 30 frames per second, using a technique called 3:2 pull-down. One film frame is held for three video fields (1/20 of a second), and the next is held for two video fields (1/30 of a second) and then the process is repeated, thus achieving the correct film projection rate with two film frames shown in one twelfth of a second. 
+Older (pre-HDTV) recordings on video tape such as Betacam SP are often either in the form 480i60 or 576i50. These may be upconverted to a higher resolution format, but removing the interlace to match the common 720p format may distort the picture or require filtering which actually reduces the resolution of the final output.
+Non-cinematic HDTV video recordings are recorded in either the 720p or the 1080i format. The format used is set by the broadcaster (if for television broadcast). In general, 720p is more accurate with fast action, because it progressively scans frames, instead of the 1080i, which uses interlaced fields and thus might degrade the resolution of fast images.
+720p is used more for Internet distribution of high-definition video, because computer monitors progressively scan; 720p video has lower storage-decoding requirements than either the 1080i or the 1080p. This is also the medium for high-definition broadcasts around the world and 1080p is used for Blu-ray movies.
+
+
+=== HD in filmmaking ===
+Film as a medium has inherent limitations, such as difficulty of viewing footage while recording, and suffers other problems, caused by poor film development/processing, or poor monitoring systems. Given that there is increasing use of computer-generated or computer-altered imagery in movies, and that editing picture sequences is often done digitally, some directors have shot their movies using the HD format via high-end digital video cameras. While the quality of HD video is very high compared to SD video, and offers improved signal/noise ratios against comparable sensitivity film, film remains able to resolve more image detail than current HD video formats. In addition some films have a wider dynamic range (ability to resolve extremes of dark and light areas in a scene) than even the best HD cameras. Thus the most persuasive arguments for the use of HD are currently cost savings on film stock and the ease of transfer to editing systems for special effects.
+Depending on the year and format in which a movie was filmed, the exposed image can vary greatly in size. Sizes range from as big as 24 mm × 36 mm for VistaVision/Technirama 8 perforation cameras (same as 35 mm still photo film) going down through 18 mm × 24 mm for Silent Films or Full Frame 4 perforations cameras to as small as 9 mm × 21 mm in Academy Sound Aperture cameras modified for the Techniscope 2 perforation format. Movies are also produced using other film gauges, including 70 mm films (22 mm × 48 mm) or the rarely used 55 mm and CINERAMA.
+The four major film formats provide pixel resolutions (calculated from pixels per millimeter) roughly as follows:
+
+Academy Sound (Sound movies before 1955): 15 mm × 21 mm (1.375) = 2,160 × 2,970
+Academy camera US Widescreen: 11 mm × 21 mm (1.85) = 1,605 × 2,970
+Current Anamorphic Panavision ("Scope"): 17.5 mm × 21 mm (2.39) = 2,485 × 2,970
+Super-35 for Anamorphic prints: 10 mm × 24 mm (2.39) = 1,420 × 3,390In the process of making prints for exhibition, this negative is copied onto other film (negative → interpositive → internegative → print) causing the resolution to be reduced with each emulsion copying step and when the image passes through a lens (for example, on a projector). In many cases, the resolution can be reduced down to 1/6 of the original negative's resolution (or worse). Note that resolution values for 70 mm film are higher than those listed above.
+
+
+=== HD on the World Wide Web/HD streaming ===
+A number of online video streaming/on demand and digital download services offer HD video, among them YouTube, Vimeo, dailymotion, Amazon Video On Demand, Netflix Watch Instantly, Hulu, HBO Max, and others. Due to heavy compression, the image detail produced by these formats is far below that of broadcast HD, and often even inferior to DVD-Video (3-9 Mbit/s MP2) upscaled to the same image size. The following is a chart of numerous online services and their HD offering:
+
+
+==== World Wide Web HD resolutions ====
+
+
+=== HD in video surveillance ===
+Since the late 2000s a considerably large number of security camera manufacturers have started to produce HD cameras. The need for high resolution, color fidelity, and frame rate is acute for surveillance purposes to ensure that the quality of the video output is of an acceptable standard that can be used both for preventative surveillance as well as for evidence purposes.Although, HD cameras can be highly effective indoor, special industries with outdoor environments called for a need to produce much higher resolutions for effective coverage. The ever-evolving image sensor technologies allowed manufacturers to develop cameras with 10-20 MP resolutions, which therefore have become efficient instruments to monitor larger areas.
+In order to further increase the resolution of security cameras, some manufacturers developed multi-sensor cameras. Within these devices several sensor-lens combinations produce the images, which are later merged during image processing. These security cameras are able to deliver even hundreds of megapixels with motion picture frame rate.
+Such high resolutions, however, requires special recording, storage and also video stream display technologies.
+
+
+=== HD in video gaming ===
+Both the PlayStation 3 game console and Xbox 360 can output native 1080p through HDMI or component cables, but the systems have few games which appear in 1080p; most games only run natively at 720p or less, but can be upscaled to 1080p. The Wii can output up to 480p (enhanced-definition) over component, which while not HD, is very useful for HDTVs as it avoids de-interlacing artifacts. The Wii can also output 576i and 576p in PAL regions.
+Visually, native 1080p produces a sharper and clearer picture compared to upscaled 1080p. Though only a handful of games available have the native resolution of 1080p, all games on the Xbox 360 and PlayStation 3 can be upscaled up to this resolution. Xbox 360 and PlayStation 3 games are labeled with the output resolution on the back of their packaging, although on Xbox 360 this indicates the resolution it will upscale to, not the native resolution of the game.
+Generally, PC games are only limited by the display's resolution size. Drivers are capable of supporting very high resolutions, depending on the chipset of the video card. Many game engines support resolutions of 5760×1080 or 5760×1200 (typically achieved with three 1080p displays in a multi-monitor setup) and nearly all will display 1080p at minimum. 1440p and 4K are typically supported resolutions for PC gaming as well.
+Currently all consoles, Nintendo's Wii U and Nintendo Switch, Microsoft's Xbox One, and Sony's PlayStation 4 display games 1080p natively. The Nintendo Switch is an unusual case, due to its hybrid nature as both a home console and a handheld: the built-in screen displays games at 720p maximum, but the console can natively display imagery at 1080p when docked. PlayStation 4 is able to display in 4K, though strictly only for displaying pictures.
+
+
+== See also ==
+ATSC tuner
+Digital Video Broadcasting (DVB)
+DTV channel protection ratios
+HD ready
+HDTV input and colorspace (YPbPr / YCbCr)
+Integrated Services Digital Broadcasting
+United States Federal Standard 1037C
+Waveform monitor
+
+
+== References ==
+
+
+== Further reading ==
+"Images formats for HDTV" (PDF). (549 KiB), article from the EBU Technical Review .
+"High Definition for Europe - a progressive approach" (PDF). (207 KiB), article from the EBU Technical Review .
+"High Definition (HD) Image Formats for Television Production" (PDF). (117 KiB), technical report from the EBU
+"Digital Terrestrial HDTV Broadcasting in Europe" (PDF)., technical report from the EBU
+
+
+== External links ==
+ATSC

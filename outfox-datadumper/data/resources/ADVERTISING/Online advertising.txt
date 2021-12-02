@@ -1,0 +1,275 @@
+Online advertising, also known as online marketing, Internet advertising, digital advertising or web advertising, is a form of marketing and advertising which uses the Internet to deliver promotional marketing messages to consumers.  Many consumers find online advertising disruptive and have increasingly turned to ad blocking for a variety of reasons.
+When software is used to do the purchasing, it is known as programmatic advertising.Online advertising includes email marketing, search engine marketing (SEM), social media marketing, many types of display advertising (including web banner advertising), and mobile advertising. Like other advertising media, online advertising frequently involves a publisher, who integrates advertisements into its online content, and an advertiser, who provides the advertisements to be displayed on the publisher's content. Other potential participants include advertising agencies who help generate and place the ad copy, an ad server which technologically delivers the ad and tracks statistics, and advertising affiliates who do independent promotional work for the advertiser.
+In 2016, Internet advertising revenues in the United States surpassed those of cable television and broadcast television.: 14    In 2017, Internet advertising revenues in the United States totaled $83.0 billion, a 14% increase over the $72.50 billion in revenues in 2016. And research estimates from 2019's online advertising spend puts it at $125.2 billion in the United States, some $54.8 billion higher than the spend on television ($70.4 billion).Many common online advertising practices are controversial and, as a result, have been increasingly subject to regulation. Online ad revenues also may not adequately replace other publishers' revenue streams. Declining ad revenue has led some publishers to place their content behind paywalls.
+
+
+== History ==
+In early days of the Internet, online advertising was mostly prohibited. For example, two of the predecessor networks to the Internet, ARPANET and NSFNet, had "acceptable use policies" that banned network "use for commercial activities by for-profit institutions". The NSFNet began phasing out its commercial use ban in 1991.
+
+
+=== Email ===
+The first widely publicized example of online advertising was conducted via electronic mail. On 3 May 1978, a marketer from DEC (Digital Equipment Corporation), Gary Thuerk, sent an email to most of the ARPANET's American west coast users, advertising an open house for a new model of a DEC computer. Despite the prevailing acceptable use policies, electronic mail marketing rapidly expanded and eventually became known as "spam."
+The first known large-scale non-commercial spam message was sent on 18 January 1994 by an Andrews University system administrator, by cross-posting a religious message to all USENET newsgroups. In January 1994 Mark Eberra started the first email marketing company for opt in email list under the domain Insideconnect.com. He also started the Direct Email Marketing Association to help stop unwanted email and prevent spam.
+Four months later, Laurence Canter and Martha Siegel, partners in a law firm, broadly promoted their legal services in a USENET posting titled "Green Card Lottery – Final One?" Canter and Siegel's Green Card USENET spam raised the profile of online advertising, stimulating widespread interest in advertising via both Usenet and traditional email. More recently, spam has evolved into a more industrial operation, where spammers use armies of virus-infected computers (botnets) to send spam remotely.
+
+
+=== Display ads ===
+Online banner advertising began in the early 1990s as page owners sought additional revenue streams to support their content. Commercial online service Prodigy displayed banners at the bottom of the screen to promote Sears products. The first clickable web ad was sold by Global Network Navigator in 1993 to a Silicon Valley law firm. In 1994, web banner advertising became mainstream when HotWired, the online component of Wired Magazine, and Time Warner's Pathfinder (website) sold banner ads to AT&T and other companies. The first AT&T ad on HotWired had a 44% click-through rate, and instead of directing clickers to AT&T's website, the ad linked to an online tour of seven of the world's most acclaimed art museums.
+
+
+=== Search ads ===
+GoTo.com (renamed Overture in 2001, and acquired by Yahoo! in 2003) created the first search advertising keyword auction in 1998.: 119  Google launched its "AdWords" (now renamed Google Ads) search advertising program in 2000 and introduced quality-based ranking allocation in 2002, which sorts search advertisements by a combination of bid price and searchers' likeliness to click on the ads.: 123 
+
+
+=== Recent trends ===
+More recently, companies have sought to merge their advertising messages into editorial content or valuable services. Examples include Red Bull's Red Bull Media House streaming Felix Baumgartner's jump from space online, Coca-Cola's online magazines, and Nike's free applications for performance tracking. Advertisers are also embracing social media and mobile advertising; mobile ad spending has grown 90% each year from 2010 to 2013.: 13 According to Ad Age Datacenter analysis, in 2017 over half of agency revenue came from digital work.
+
+
+== Delivery methods ==
+
+
+=== Display advertising ===
+
+Display advertising conveys its advertising message visually using text, logos, animations, videos, photographs, or other graphics. Display advertising is commonly used on social media, websites with slots for advertisements, and in real life. In real life, display advertising can be a sign in front of a building or a billboard alongside a highway. The goal of display advertising is to obtain more traffic, clicks, or popularity for the advertising brand or organization. Display advertisers frequently target users with particular traits to increase the ads' effect. Online advertisers (typically through their ad servers) often use cookies, which are unique identifiers of specific computers, to decide which ads to serve to a particular consumer. Cookies can track whether a user left a page without buying anything, so the advertiser can later retarget the user with ads from the site the user visited.As advertisers collect data across multiple external websites about a user's online activity, they can create a detailed profile of the user's interests to deliver even more targeted advertising. This aggregation of data is called behavioral targeting. Advertisers can also target their audience by using contextual to deliver display ads related to the content of the web page where the ads appear.: 118   Retargeting, behavioral targeting, and contextual advertising all are designed to increase an advertiser's return on investment, or ROI, over untargeted ads.Advertisers may also deliver ads based on a user's suspected geography through geotargeting. A user's IP address communicates some geographic information (at minimum, the user's country or general region). The geographic information from an IP can be supplemented and refined with other proxies or information to narrow the range of possible locations. For example, with mobile devices, advertisers can sometimes use a phone's GPS receiver or the location of nearby mobile towers. Cookies and other persistent data on a user's machine may provide help narrowing a user's location further.
+
+
+==== Web banner advertising ====
+Web banners or banner ads typically are graphical ads displayed within a web page. Many banner ads are delivered by a central ad server.
+Banner ads can use rich media to incorporate video, audio, animations, buttons, forms, or other interactive elements using Java applets, HTML5, Adobe Flash, and other programs.
+
+
+===== Frame ad (traditional banner) =====
+Frame ads were the first form of web banners. The colloquial usage of "banner ads" often refers to traditional frame ads. Website publishers incorporate frame ads by setting aside a particular space on the web page. The Interactive Advertising Bureau's Ad Unit Guidelines proposes standardized pixel dimensions for ad units.
+
+
+===== Pop-ups/pop-unders =====
+A pop-up ad is displayed in a new web browser window that opens above a website visitor's initial browser window. A pop-under ad opens a new browser window under a website visitor's initial browser window.: 22  Pop-under ads and similar technologies are now advised against by online authorities such as Google, who state that they "do not condone this practice".
+
+
+===== Floating ad =====
+A floating ad, or overlay ad, is a type of rich media advertisement that appears superimposed over the requested website's content. Floating ads may disappear or become less obtrusive after a pre-set time period.
+
+
+===== Expanding ad =====
+An expanding ad is a rich media frame ad that changes dimensions upon a predefined condition, such as a preset amount of time a visitor spends on a webpage, the user's click on the ad, or the user's mouse movement over the ad. Expanding ads allow advertisers to fit more information into a restricted ad space.
+
+
+===== Trick banners =====
+A trick banner is a banner ad where the ad copy imitates some screen element users commonly encounter, such as an operating system message or popular application message, to induce ad clicks. Trick banners typically do not mention the advertiser in the initial ad, and thus they are a form of bait-and-switch. Trick banners commonly attract a higher-than-average click-through rate, but tricked users may resent the advertiser for deceiving them.
+
+
+===== News Feed Ads =====
+"News Feed Ads", also called "Sponsored Stories", "Boosted Posts", typically exist on social media platforms that offer a steady stream of information updates ("news feed") in regulated formats (i.e. in similar sized small boxes with a uniform style). Those advertisements are intertwined with non-promoted news that the users are reading through. Those advertisements can be of any content, such as promoting a website, a fan page, an app, or a product.
+Some examples are: Facebook's "Sponsored Stories", LinkedIn's "Sponsored Updates", and Twitter's "Promoted Tweets".This display ads format falls into its own category because unlike banner ads which are quite distinguishable, News Feed Ads' format blends well into non-paid news updates. This format of online advertisement yields much higher click-through rates than traditional display ads.
+
+
+==== Display advertising process overview ====
+The process by which online advertising is displayed can involve many parties. In the simplest case, the website publisher selects and serves the ads. Publishers which operate their own advertising departments may use this method.
+
+The ads may be outsourced to an advertising agency under contract with the publisher, and served from the advertising agency's servers.
+
+Alternatively, ad space may be offered for sale in a bidding market using an ad exchange and real-time bidding. This involves many parties interacting automatically in real time. In response to a request from the user's browser, the publisher content server sends the web page content to the user's browser over the Internet. The page does not yet contain ads, but contains links which cause the user's browser to connect to the publisher ad server to request that the spaces left for ads be filled in with ads. Information identifying the user, such as cookies and the page being viewed, is transmitted to the publisher ad server.
+The publisher ad server then communicates with a supply-side platform server. The publisher is offering ad space for sale, so they are considered the supplier. The supply side platform also receives the user's identifying information, which it sends to a data management platform. At the data management platform, the user's identifying information is used to look up demographic information, previous purchases, and other information of interest to advertisers.
+Broadly speaking, there are three types of data obtained through such a data management platform:
+
+First party data refers to the data retrieved from customer relationship management (CRM) platforms, in addition to website and paid media content or cross-platform data. This can include data from customer behaviors, actions or interests.
+Second party data refers to an amalgamation of statistics related to cookie pools on external publications and platforms. The data is provided directly from the source (adservers, hosted solutions for social or an analytics platform). It is also possible to negotiate a deal with a particular publisher to secure specific data points or audiences.
+
+Third party data is sourced from external providers and often aggregated from numerous websites. Businesses sell third-party data and are able to share this via an array of distribution avenues.This customer information is combined and returned to the supply side platform, which can now package up the offer of ad space along with information about the user who will view it. The supply side platform sends that offer to an ad exchange.
+The ad exchange puts the offer out for bid to demand-side platforms. Demand side platforms act on behalf of ad agencies, who sell ads which advertise brands. Demand side platforms thus have ads ready to display, and are searching for users to view them. Bidders get the information about the user ready to view the ad, and decide, based on that information, how much to offer to buy the ad space. According to the Internet Advertising Bureau, a demand side platform has 10 milliseconds to respond to an offer. The ad exchange picks the winning bid and informs both parties.
+The ad exchange then passes the link to the ad back through the supply side platform and the publisher's ad server to the user's browser, which then requests the ad content from the agency's ad server. The ad agency can thus confirm that the ad was delivered to the browser.This is simplified, according to the IAB. Exchanges may try to unload unsold ("remnant") space at low prices through other exchanges. Some agencies maintain semi-permanent pre-cached bids with ad exchanges, and those may be examined before going out to additional demand side platforms for bids. The process for mobile advertising is different and may involve mobile carriers and handset software manufacturers.
+
+
+=== Interstitial ===
+An interstitial ad displays before a user can access requested content, sometimes while the user is waiting for the content to load. Interstitial ads are a form of interruption marketing.
+
+
+==== Text ads ====
+A text ad displays text-based hyperlinks. Text-based ads may display separately from a web page's primary content, or they can be embedded by hyperlinking individual words or phrases to the advertiser's websites. Text ads may also be delivered through email marketing or text message marketing. Text-based ads often render faster than graphical ads and can be harder for ad-blocking software to block.
+
+
+=== Search engine marketing (SEM) ===
+Search engine marketing, or SEM, is designed to increase a website's visibility in search engine results pages (SERPs). Search engines provide sponsored results and organic (non-sponsored) results based on a web searcher's query.: 117   Search engines often employ visual cues to differentiate sponsored results from organic results. Search engine marketing includes all of an advertiser's actions to make a website's listing more prominent for topical keywords. The primary reason behind the rising popularity of Search Engine Marketing has been Google. There were a few companies that had its own PPC and Analytics tools. However, this concept was popularized by Google. Google Ad words was convenient for advertisers to use and create campaigns. And, they realized that the tool did a fair job, by charging only for someone's click on the ad, which reported as the cost-per-click for which a penny was charged. This resulted in the advertisers monitoring the campaign by the number of clicks and were satisfied that the ads could be tracked.
+
+
+==== Search engine optimization (SEO) ====
+Search engine optimization, or SEO, attempts to improve a website's organic search rankings in SERPs by increasing the website content's relevance to search terms. Search engines regularly update their algorithms to penalize poor quality sites that try to game their rankings, making optimization a moving target for advertisers. Many vendors offer SEO services.: 22 
+
+
+==== Sponsored search ====
+Sponsored search (also called sponsored links, search ads, or paid search) allows advertisers to be included in the sponsored results of a search for selected keywords. Search ads are often sold via real-time auctions, where advertisers bid on keywords.: 118  In addition to setting a maximum price per keyword, bids may include time, language, geographical, and other constraints.: 118    Search engines originally sold listings in order of highest bids.: 119    Modern search engines rank sponsored listings based on a combination of bid price, expected click-through rate, keyword relevancy and site quality.
+
+
+=== Social media marketing ===
+Social media marketing is commercial promotion conducted through social media websites. Many companies promote their products by posting frequent updates and providing special offers through their social media profiles. Videos, interactive quizzes, and sponsored posts are all a part of this operation. Usually these ads are found on Facebook, Instagram, Twitter, and Snapchat.
+
+
+=== Mobile advertising ===
+Mobile advertising is ad copy delivered through wireless mobile devices such as smartphones, feature phones, or tablet computers. Mobile advertising may take the form of static or rich media display ads, SMS (Short Message Service) or MMS (Multimedia Messaging Service) ads, mobile search ads, advertising within mobile websites, or ads within mobile applications or games (such as interstitial ads, "advergaming," or application sponsorship).: 23   Industry groups such as the Mobile Marketing Association have attempted to standardize mobile ad unit specifications, similar to the IAB's efforts for general online advertising.Mobile advertising is growing rapidly for several reasons. There are more mobile devices in the field, connectivity speeds have improved (which, among other things, allows for richer media ads to be served quickly), screen resolutions have advanced, mobile publishers are becoming more sophisticated about incorporating ads, and consumers are using mobile devices more extensively.: 14   The Interactive Advertising Bureau predicts continued growth in mobile advertising with the adoption of location-based targeting and other technological features not available or relevant on personal computers.: 14  In July 2014 Facebook reported advertising revenue for the June 2014 quarter of $2.68 billion, an increase of 67 percent over the second quarter of 2013. Of that, mobile advertising revenue accounted for around 62 percent, an increase of 41 percent on the previous year.
+
+
+=== Email advertising ===
+Email advertising is ad copy comprising an entire email or a portion of an email message.: 22    Email marketing may be unsolicited, in which case the sender may give the recipient an option to opt out of future emails, or it may be sent with the recipient's prior consent (opt-in). Businesses may ask for your email and send updates on new products or sales.
+
+
+==== Chat advertising ====
+As opposed to static messaging, chat advertising refers to real-time messages dropped to users on certain sites. This is done using live chat software or tracking applications installed within certain websites with the operating personnel behind the site often dropping adverts on the traffic surfing around the sites. In reality, this is a subset of the email advertising but different because of its time window.
+
+
+=== Online classified advertising ===
+Online classified advertising is advertising posted online in a categorical listing of specific products or services. Examples include online job boards, online real estate listings, automotive listings, online yellow pages, and online auction-based listings.: 22    Craigslist and eBay are two prominent providers of online classified listings.
+
+
+=== Adware ===
+Adware is software that, once installed, automatically displays advertisements on a user's computer. The ads may appear in the software itself, integrated into web pages visited by the user, or in pop-ups/pop-unders. Adware installed without the user's permission is a type of malware.
+
+
+=== Affiliate marketing ===
+Affiliate marketing occurs when advertisers organize third parties to generate potential customers for them. Third-party affiliates receive payment based on sales generated through their promotion.: 22  Affiliate marketers generate traffic to offers from affiliate networks, and when the desired action is taken by the visitor, the affiliate earns a commission. These desired actions can be an email submission, a phone call, filling out an online form, or an online order being completed.
+
+
+=== Content marketing ===
+Content marketing is any marketing that involves the creation and sharing of media and publishing content in order to acquire and retain customers. This information can be presented in a variety of formats, including blogs, news, video, white papers, e-books, infographics, case studies, how-to guides and more.
+Considering that most marketing involves some form of published media, it is almost (though not entirely) redundant to call 'content marketing' anything other than simply 'marketing'. There are, of course, other forms of marketing (in-person marketing, telephone-based marketing, word of mouth marketing, etc.) where the label is more useful for identifying the type of marketing. However, even these are usually merely presenting content that they are marketing as information in a way that is different from traditional print, radio, TV, film, email, or web media.
+
+
+=== Online marketing platform ===
+An online marketing platform (OMP) is an integrated web-based platform that combines the benefits of a business directory, local search engine, search engine optimisation (SEO) tool, customer relationship management (CRM) package and content management system (CMS). eBay and Amazon are used as online marketing and logistics management platforms. On Facebook, Twitter, YouTube, Pinterest, LinkedIn, and other Social Media, retail online marketing is also used. Online business marketing platforms such as Marketo, MarketBright and Pardot have been bought by major IT companies (Eloqua-Oracle, Neolane-Adobe and Unica-IBM).
+Unlike television marketing in which Nielsen TV Ratings can be relied upon for viewing metrics, online advertisers do not have an independent party to verify viewing claims made by the big online platforms.The European Union defines online platforms as "information society services that allow business users to offer goods or services to consumers, with a view to facilitating the initiating of direct transactions between those business users and consumers; they are provided to business users on the basis of contractual relationships between the provider of those services and business users offering goods or services to consumers." Almost half of the small and medium sized businesses who responded to an EU survey in 2018 said that they use online marketplaces to sell their goods and services.
+
+
+==== Legislation ====
+The Online Intermediation Services Regulation (2019/1150/EU) or P2B Regulation came into force in all EU Member States and the UK on 12 July 2020. The Regulation aims to promote fairness and transparency for business users of online intermediation services or online platforms. The main aim of the Regulation is to establish a legal framework which will guarantee transparent terms and conditions for business users of online platforms, as well as effective opportunities for redress when these terms and conditions are not respected. Such transparency and fairness underpin improvements in the function of the Digital Single Market especially for the benefit of SMEs. The regulations also set up an EU Observatory to monitor the impact of the new rules, called the Observatory on the Online Platform Economy.The UK's Online Intermediation Services for Business Users (Enforcement) Regulations 2020 replicate the effects of the EU Regulation.
+
+
+== Compensation methods ==
+
+Advertisers and publishers use a wide range of payment calculation methods. In 2012, advertisers calculated 32% of online advertising transactions on a cost-per-impression basis, 66% on customer performance (e.g. cost per click or cost per acquisition), and 2% on hybrids of impression and performance methods.: 17 
+
+
+=== CPM (cost per mille) ===
+Cost per mille, often abbreviated to CPM, means that advertisers pay for every thousand displays of their message to potential customers (mille is the Latin word for thousand). In the online context, ad displays are usually called "impressions." Definitions of an "impression" vary among publishers, and some impressions may not be charged because they don't represent a new exposure to an actual customer. Advertisers can use technologies such as web bugs to verify if an impression is actually delivered.: 59 
+Similarly, revenue generated can be measured in Revenue per mille (RPM).Publishers use a variety of techniques to increase page views, such as dividing content across multiple pages, repurposing someone else's content, using sensational titles, or publishing tabloid or sexual content.CPM advertising is susceptible to "impression fraud," and advertisers who want visitors to their sites may not find per-impression payments a good proxy for the results they desire.: 1–4 
+
+
+=== CPC (cost per click) ===
+CPC (Cost Per Click) or PPC (Pay per click) means advertisers pay each time a user clicks on the ad. CPC advertising works well when advertisers want visitors to their sites, but it's a less accurate measurement for advertisers looking to build brand awareness. CPC's market share has grown each year since its introduction, eclipsing CPM to dominate two-thirds of all online advertising compensation methods.: 18 : 1 Like impressions, not all recorded clicks are valuable to advertisers. GoldSpot Media reported that up to 50% of clicks on static mobile banner ads are accidental and resulted in redirected visitors leaving the new site immediately.
+
+
+=== CPE (cost per engagement) ===
+Cost per engagement aims to track not just that an ad unit loaded on the page (i.e., an impression was served), but also that the viewer actually saw and/or interacted with the ad.
+
+
+=== CPV (cost per view) ===
+Cost per view video advertising. Both Google and TubeMogul endorsed this standardized CPV metric to the IAB's (Interactive Advertising Bureau) Digital Video Committee, and it's garnering a notable amount of industry support. CPV is the primary benchmark used in YouTube Advertising Campaigns, as part of Google's AdWords platform.
+
+
+=== CPI (cost per install) ===
+The CPI compensation method is specific to mobile applications and mobile advertising. In CPI ad campaigns brands are charged a fixed of bid rate only when the application was installed.
+
+
+=== CPL (cost per lead) ===
+Cost per lead compensation method implies that the advertiser pays for an explicit sign-up from a consumer interested in the advertiser's offer. 
+
+
+=== Attribution of ad value ===
+
+In marketing, "attribution" is the measurement of effectiveness of particular ads in a consumer's ultimate decision to purchase. Multiple ad impressions may lead to a consumer "click" or other action. A single action may lead to revenue being paid to multiple ad space sellers.
+
+
+=== Other performance-based compensation ===
+CPA (Cost Per Action or Cost Per Acquisition) or PPP (Pay Per Performance) advertising means the advertiser pays for the number of users who perform a desired activity, such as completing a purchase or filling out a registration form. Performance-based compensation can also incorporate revenue sharing, where publishers earn a percentage of the advertiser's profits made as a result of the ad. Performance-based compensation shifts the risk of failed advertising onto publishers.: 4, 16 
+
+
+=== Fixed cost ===
+Fixed cost compensation means advertisers pay a fixed cost for delivery of ads online, usually over a specified time period, irrespective of the ad's visibility or users' response to it. One examples is CPD (cost per day) where advertisers pay a fixed cost for publishing an ad for a day irrespective of impressions served or clicks.
+
+
+== Benefits of online advertising ==
+
+
+=== Cost ===
+The low costs of electronic communication reduce the cost of displaying online advertisements compared to offline ads. Online advertising, and in particular social media, provides a low-cost means for advertisers to engage with large established communities. Advertising online offers better returns than in other media.: 1 
+
+
+=== Measurability ===
+Online advertisers can collect data on their ads' effectiveness, such as the size of the potential audience or actual audience response,: 119   how a visitor reached their advertisement, whether the advertisement resulted in a sale, and whether an ad actually loaded within a visitor's view.: 59   This helps online advertisers improve their ad campaigns over time.
+
+
+=== Formatting ===
+Advertisers have a wide variety of ways of presenting their promotional messages, including the ability to convey images, video, audio, and links. Unlike many offline ads, online ads also can be interactive. For example, some ads let users input queries or let users follow the advertiser on social media. Online ads can even incorporate games.
+
+
+=== Targeting ===
+Publishers can offer advertisers the ability to reach customizable and narrow market segments for targeted advertising. Online advertising may use geo-targeting to display relevant advertisements to the user's geography. Advertisers can customize each individual ad to a particular user based on the user's previous preferences. Advertisers can also track whether a visitor has already seen a particular ad in order to reduce unwanted repetitious exposures and provide adequate time gaps between exposures.
+
+
+=== Coverage ===
+Online advertising can reach nearly every global market, and online advertising influences offline sales.
+
+
+=== Speed ===
+Once ad design is complete, online ads can be deployed immediately. The delivery of online ads does not need to be linked to the publisher's publication schedule. Furthermore, online advertisers can modify or replace ad copy more rapidly than their offline counterparts.
+
+
+== Concerns ==
+
+
+=== Security concerns ===
+According to a US Senate investigation in 2014, there are security and privacy concerns for users due to the infrastructure of online advertising. This is because of the potential for malware to be disseminated through online advertisements and for such malvertising to be inserted and triggered without sufficient protection or screening. Ransomware gangs were spotted using carefully targeted Google search advertising to redirect victims to pages dropping malware.
+
+
+=== Banner blindness ===
+Eye-tracking studies have shown that Internet users often ignore web page zones likely to contain display ads (sometimes called "banner blindness"), and this problem is worse online than in offline media. On the other hand, studies suggest that even those ads "ignored" by the users may influence the user subconsciously.
+
+
+=== Fraud on the advertiser ===
+There are numerous ways that advertisers can be overcharged for their advertising. For example, click fraud occurs when a publisher or third parties click (manually or through automated means) on a CPC ad with no legitimate buying intent. For example, click fraud can occur when a competitor clicks on ads to deplete its rival's advertising budget, or when publishers attempt to manufacture revenue.Click fraud is especially associated with pornography sites. In 2011, certain scamming porn websites launched dozens of hidden pages on each visitor's computer, forcing the visitor's computer to click on hundreds of paid links without the visitor's knowledge.As with offline publications, online impression fraud can occur when publishers overstate the number of ad impressions they have delivered to their advertisers. To combat impression fraud, several publishing and advertising industry associations are developing ways to count online impressions credibly.
+
+
+=== Technological variations ===
+
+
+==== Heterogeneous clients ====
+Because users have different operating systems, web browsers and computer hardware (including mobile devices and different screen sizes), online ads may appear to users differently from how the advertiser intended, or the ads may not display properly at all. A 2012 comScore study revealed that, on average, 31% of ads were not "in-view" when rendered, meaning they never had an opportunity to be seen. Rich media ads create even greater compatibility problems, as some developers may use competing (and exclusive) software to render the ads (see e.g. Comparison of HTML 5 and Flash).
+Furthermore, advertisers may encounter legal problems if legally required information doesn't actually display to users, even if that failure is due to technological heterogeneity.: i   In the United States, the FTC has released a set of guidelines indicating that it's the advertisers' responsibility to ensure the ads display any required disclosures or disclaimers, irrespective of the users' technology.: 4–8 
+
+
+==== Ad blocking ====
+Ad blocking, or ad filtering, means the ads do not appear to the user because the user uses technology to screen out ads. Many browsers block unsolicited pop-up ads by default. Other software programs or browser add-ons may also block the loading of ads, or block elements on a page with behaviors characteristic of ads (e.g. HTML autoplay of both audio and video). Approximately 9% of all online page views come from browsers with ad-blocking software installed, and some publishers have 40%+ of their visitors using ad-blockers.
+
+
+==== Anti-targeting technologies ====
+Some web browsers offer privacy modes where users can hide information about themselves from publishers and advertisers. Among other consequences, advertisers can't use cookies to serve targeted ads to private browsers. Most major browsers have incorporated Do Not Track options into their browser headers, but the regulations currently are only enforced by the honor system.
+
+
+=== Privacy concerns ===
+The collection of user information by publishers and advertisers has raised consumer concerns about their privacy. Sixty percent of internet users surveyed sais they would use Do Not Track technology to block all collection of information if given an opportunity. Over half of all Google and Facebook users are concerned about their privacy when using Google and Facebook, according to Gallup.Many consumers have reservations about online behavioral targeting. By tracking users' online activities, advertisers are able to understand consumers quite well. Advertisers often use technology, such as web bugs and respawning cookies, to maximize their abilities to track consumers.: 60  According to a 2011 survey conducted by Harris Interactive, over half of Internet users had a negative impression of online behavioral advertising, and forty percent feared that their personally-identifiable information had been shared with advertisers without their consent. Consumers can be especially troubled by advertisers targeting them based on sensitive information, such as financial or health status. Furthermore, some advertisers attach the MAC address of users' devices to their 'demographic profiles' so they can be retargeted (regardless of the accuracy of the profile) even if the user clears their cookies and browsing history.
+
+
+=== Trustworthiness of advertisers ===
+Scammers can take advantage of consumers' difficulties verifying an online persona's identity,: 1   leading to artifices like phishing (where scam emails look identical to those from a well-known brand owner) and confidence schemes like the Nigerian "419" scam. The Internet Crime Complaint Center received 289,874 complaints in 2012, totaling over half a billion dollars in losses, most of which originated with scam ads.Consumers also face malware risks, i.e. malvertising, when interacting with online advertising. Cisco's 2013 Annual Security Report revealed that clicking on ads was 182 times more likely to install a virus on a user's computer than surfing the Internet for porn. For example, in August 2014 Yahoo's advertising network reportedly saw cases of infection of a variant of Cryptolocker ransomware.
+
+
+=== Spam ===
+The Internet's low cost of disseminating advertising contributes to spam, especially by large-scale spammers. Numerous efforts have been undertaken to combat spam, ranging from blacklists to regulatorily-required labeling to content filters, but most of those efforts have adverse collateral effects, such as mistaken filtering.
+
+
+== Regulation ==
+In general, consumer protection laws apply equally to online and offline activities.: i   However, there are questions over which jurisdiction's laws apply and which regulatory agencies have enforcement authority over transborder activity.As with offline advertising, industry participants have undertaken numerous efforts to self-regulate and develop industry standards or codes of conduct. Several United States advertising industry organizations jointly published Self-Regulatory Principles for Online Behavioral Advertising based on standards proposed by the FTC in 2009. European ad associations published a similar document in 2011. Primary tenets of both documents include consumer control of data transfer to third parties, data security, and consent for collection of certain health and financial data.: 2–4   Neither framework, however, penalizes violators of the codes of conduct.
+
+
+=== Privacy and data collection ===
+Privacy regulation can require users' consent before an advertiser can track the user or communicate with the user. However, affirmative consent ("opt in") can be difficult and expensive to obtain.: 60   Industry participants often prefer other regulatory schemes.
+Different jurisdictions have taken different approaches to privacy issues with advertising. The United States has specific restrictions on online tracking of children in the Children's Online Privacy Protection Act (COPPA),: 16–17  and the FTC has recently expanded its interpretation of COPPA to include requiring ad networks to obtain parental consent before knowingly tracking kids. Otherwise, the U.S. Federal Trade Commission frequently supports industry self-regulation, although increasingly it has been undertaking enforcement actions related to online privacy and security. The FTC has also been pushing for industry consensus about possible Do Not Track legislation.
+In contrast, the European Union's "Privacy and Electronic Communications Directive" restricts websites' ability to use consumer data much more comprehensively. The EU limitations restrict targeting by online advertisers; researchers have estimated online advertising effectiveness decreases on average by around 65% in Europe relative to the rest of the world.: 58 
+
+
+=== Delivery methods ===
+Many laws specifically regulate the ways online ads are delivered. For example, online advertising delivered via email is more regulated than the same ad content delivered via banner ads. Among other restrictions, the U.S. CAN-SPAM Act of 2003 requires that any commercial email provide an opt-out mechanism. Similarly, mobile advertising is governed by the Telephone Consumer Protection Act of 1991 (TCPA), which (among other restrictions) requires user opt-in before sending advertising via text messaging.
+
+
+== See also ==
+
+
+== References ==

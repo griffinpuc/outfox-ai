@@ -1,0 +1,67 @@
+Market research is an organized effort to gather information about target markets and customers: know about them, starting with who they are. It is an important component of business strategy and a major factor in maintaining competitiveness. Market research helps to identify and analyze the needs of the market, the market size and the competition. Its techniques encompass both qualitative techniques such as focus groups, in-depth interviews, and ethnography, as well as quantitative techniques such as customer surveys, and analysis of secondary data.
+It includes social and opinion research, and is the systematic gathering and interpretation of information about individuals or organizations using statistical and analytical methods and techniques of the applied social sciences to gain insight or support decision making.Market research, marketing research, and marketing are a sequence of business activities; sometimes these are handled informally.The field of marketing research is much older than that of market research. Although both involve consumers, Marketing research is concerned specifically about marketing processes, such as advertising effectiveness and salesforce effectiveness, while market research is concerned specifically with markets and distribution. Two explanations given for confusing Market research with Marketing research are the similarity of the terms and also that Market Research is a subset of Marketing Research. Further confusion exists because of major companies with expertise and practices in both areas.
+
+
+== History ==
+Although market research started to be conceptualized and put into formal practice during the 1930s as an offshoot of the advertising boom of the Golden Age of radio in the United States, this was based on 1920s work by Daniel Starch. Starch "developed a theory that advertising had to be seen, read, believed, remembered, and most importantly, acted upon, in order to be considered effective." Advertisers realized the significance of demographics by the patterns in which they sponsored of different radio programs.The Gallup Organization helped invent the public opinion poll; today, "Market research is a way of paying for it."
+
+
+== Market research for business/planning ==
+Market research is a way of getting an overview of consumers' wants, needs and beliefs. It can also involve discovering how they act. The research can be used to determine how a product could be marketed.  Peter Drucker believed market research to be the quintessence of marketing.
+Market research is a way that producers and the marketplace study the consumer and gather information about the consumers' needs.
+There are two major types of market research: primary research, which is sub-divided into quantitative and qualitative research, and secondary research.
+Factors that can be investigated through market research include:
+
+Market information:  Through market information one can know the prices of different commodities in the market, as well as the supply and demand situation. Market researchers have a wider role than previously recognized by helping their clients to understand social, technical, and even legal aspects of markets.
+Market segmentation: Market segmentation is the division of the market or population into subgroups with similar motivations. It is widely used for segmenting on geographic differences, demographic differences (age, gender, ethnicity, etc.), technographic differences, psychographic differences, and differences in product use. For B2B segmentation firmographics is commonly used.
+Market trends: Market trends are the upward or downward movement of a market, during a period of time.  Determining the market size may be more difficult if one is starting with a new innovation. In this case, you will have to derive the figures from the number of potential customers, or customer segments.
+SWOT analysis: SWOT is a written analysis of the Strengths, Weaknesses, Opportunities and Threats to a business entity. A SWOT may also be written up for the competition to understand how to develop the marketing and product mixes. SWOT method helps to determine and also reassess strategies and analyze business process
+PEST analysis: PEST is an analysis about external environment . It includes a complete examine of a firm's Political, Economical, Social and Technological  external factors, which may impact firms' objectives or profitability. They may become a benefit for the firm or harm its productivity.
+Brand health tracker: Brand tracking is way of continuously measuring the health of a brand, both in terms of consumers’ usage of it (i.e. Brand Funnel) and what they think about it. Brand health can be measured in a number of ways, such as brand awareness, brand equity, brand usage and brand loyalty.Another factor that can be measured is marketing effectiveness. This includes:
+
+
+== Data collection ==
+
+"Rigorous sampling methodologies combined with high-quality data collection" is what the magazine Advertising Age considers the backbone of market research. Data collection can use larger audience samples than the few hundred or thousand typically used in market research. Also required is the (at least passive) cooperation of those being surveyed; trust is also helpful.Some data collection is incentivized: a simple form is when those on the road contribute to traffic reporting of which they are consumers. More complex is the relationship of consumer-to-business (C2B), which sometimes introduces reliability problems. Other data collection is to know more about the market, which is the purpose of market research.
+
+
+== International influence from the Internet ==
+The international growth of available research both from and via the Internet has influenced a vast number of consumers and those from whom they make purchases. Although emerging global markets, such as China, Indonesia and Russia are still smaller than the US in B2B e-commerce, their internet-fueled growth factor is stimulated by product-enhancing websites, graphics, and content designed to attract corporate and consumer/B2C shoppers. Estimates for 2010 show between US$400 billion and $600 billion in revenue was generated by this medium.
+A report titled "Global B2C E-Commerce and Online Payment Market 2014" indicated a decrease in overall growth rates in North America and Western Europe, even as absolute growth numbers rose.
+The UK Market Research Society (MRS) listed the top social media platforms primarily used by Millennials are LinkedIn, Facebook, YouTube and Instagram.
+
+
+== Research and market sectors ==
+Regarding details for worldwide corporate market research, "most of them are never written about because they are the consumer research done by the country's manufacturers."Market research data has loss prevention aspects; that less than 60 percent of all proposed modifications and new products are deemed failures. When information about the market is difficult to acquire, and the cost of "going ahead with the decision" to offer the product or service is affordable, the research cost may be more profitably used "to ensure that the new line got the advertising send-off it needed to have the best chances of succeeding."As measured in revenue, USA based Amazon.com is the worldwide E-Commerce leader.
+
+
+=== Market research for the film industry ===
+The film industry is an example where the importance of testing film content and marketing material involves:
+
+concept testing, which evaluates reactions to a film idea and is fairly rare;
+positioning studios, which analyze a script for marketing opportunities;
+focus groups, which probe viewers' opinions about a film in small groups prior to release;
+test screenings, which involve the previewing of films prior to theatrical release;
+tracking studies, which gauge (often by telephone polling) an audience's awareness of a film on a weekly basis prior to and during theatrical release;
+advertising testing, which measures responses to marketing materials such as trailers and television advertisements;
+exit surveys, that measure audience reactions after seeing the film in the cinema.
+
+
+== Small businesses and nonprofits ==
+Small organizations and non-profits can derive needed information by observing the environment of their location. Small scale surveys and focus groups are low cost ways to gather information from potential and existing customers and donors. While secondary data (statistics, demographics, etc.) is available to the public in libraries or on the internet, primary sources, done well, can be quite valuable: talking for an hour each, to twelve people, two apiece from six potential clients, can "get inside their minds.. get a feel for their needs, wants and pain. You can’t get that from a questionnaire."
+
+
+== See also ==
+Marketing research
+Marketing Research Institute International (MRII)
+Mystery shopping
+Nielsen ratings
+
+
+== References ==
+
+
+== External links ==
+Small Business Administration: Market research and competitive analysis
+
+ This article incorporates public domain material from websites or documents of the Small Business Administration.

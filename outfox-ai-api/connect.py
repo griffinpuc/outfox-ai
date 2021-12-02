@@ -3,7 +3,9 @@ from os import X_OK
 import psycopg2
 import datetime
 import string
+from lib import *
 import random
+from collections import Counter
 
 from config import config
 
@@ -44,6 +46,32 @@ def connect():
         if conn is not None:
             conn.close()
 
+
+def getResourceFromGroup(groupId):
+    conn = None
+    resourceId = 0
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select id from resources where \"GroupId\"={groupId} order by RANDOM() limit 1')
+        cur.execute(sql.format(groupId=groupId))
+
+        row = cur.fetchone()
+        resourceId = row[0]
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+
+        return resourceId
+
 def getUserTags(userId):
     conn = None
     userTags = []
@@ -58,8 +86,12 @@ def getUserTags(userId):
         cur.execute(sql.format(userId=userId))
 
         row = cur.fetchone()
+        counter = Counter(row[0].split(","))
+
         
         userTags = list(set(row[0].split(",")))
+        userTags = counter.most_common()
+        userTags = [x[0] for x in userTags]
 
         conn.commit()
         cur.close()
@@ -69,7 +101,7 @@ def getUserTags(userId):
         if conn is not None:
             conn.close()
 
-            return userTags
+        return userTags
 
 def saveResourceTags(resourceId, tags):
     try:
@@ -87,24 +119,27 @@ def saveResourceTags(resourceId, tags):
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
 
-def getDistinctGroupTags():
+def getDistinctGroups():
     conn = None
-    distinctGn = [''] *29
+    distinctGn = []
 
     try:
         params = config()
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
 
-        sql = ('select id from groups')
+        sql = ('select id from groups where id in (select \"GroupId\" from resources)')
         cur.execute(sql)
 
         ids = [item[0] for item in cur.fetchall()]
+        distinctGn = [''] *len(ids)
         i = 0
         for id in ids:
             dTags = calculateGroupTags(id)
             dTags = list(filter(None, dTags))
-            distinctGn[i] = ' '.join(dTags)
+
+            newGroup = Group(id,' '.join(dTags))
+            distinctGn[i] = newGroup
             i+=1
 
         cur.close()
@@ -150,7 +185,6 @@ def updateGroupTags(groupId):
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
-        return(distinctTags)
 #
 def getResourcePath(resourceId):
     conn = None
