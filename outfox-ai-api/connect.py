@@ -118,6 +118,13 @@ def getUserFromGroup(groupId):
         row = cur.fetchone()
         resourceId = row[0]
 
+        if resourceId == 0:
+            sql = ('select createdby from groups where id = {groupId}')
+            cur.execute(sql.format(groupId=groupId))
+
+            row = cur.fetchone()
+            resourceId = row[0]
+
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
