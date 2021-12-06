@@ -112,7 +112,7 @@ def getUserFromGroup(groupId):
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
 
-        sql = ('select id from users where id in (select * from groups where id={groupId}) order by RANDOM() limit 1')
+        sql = ('select id from users where id in (select createdby where id={groupId}) order by RANDOM() limit 1')
         cur.execute(sql.format(groupId=groupId))
 
         row = cur.fetchone()
