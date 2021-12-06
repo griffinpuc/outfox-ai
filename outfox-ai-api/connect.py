@@ -103,6 +103,31 @@ def getUserTags(userId):
 
         return userTags
 
+def getUserFromGroup(groupId):
+    conn = None
+    userId = 0
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select id from users in (select * from groups where \"GroupId\"={groupId}) order by RANDOM() limit 1')
+        cur.execute(sql.format(groupId=groupId))
+
+        row = cur.fetchone()
+        resourceId = row[0]
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+
+        return userId
+
 def saveResourceTags(resourceId, tags):
     try:
         params = config()

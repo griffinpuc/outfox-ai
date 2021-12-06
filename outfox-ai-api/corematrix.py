@@ -109,10 +109,7 @@ def getUserRecsFromUser(userId, pageNum):
     i=0
     for tag in tags:
         for obj in calculateRecommendations(tag, 3, 5):
-            if(i==0):
-                userList.insert(i, User(922, obj.tags))
-            else:
-                userList.insert(i, User(i+USR_MODIFIER, obj.tags))
+            userList.insert(i, User(connect.getUserFromGroup(obj.group+RES_MODIFIER), obj.tags))
             i+=1
 
     userListP = userList[(int(pageNum)*10):(int(pageNum)*10)+10]
@@ -185,4 +182,4 @@ def buildMatrix():
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
 #print(mainDataframe)
-print(getGroupRecsFromUser(39, 0))
+#print(getGroupRecsFromUser(39, 0))
