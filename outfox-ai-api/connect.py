@@ -86,15 +86,15 @@ def getUserTags(userId):
         cur.execute(sql.format(userId=userId))
 
         row = cur.fetchone()
-        counter = Counter(row[0].split(","))
 
-        if not row:
+        if cur.rowcount >1:
+            counter = Counter(row[0].split(","))
+        else:
             sql = ('(select string_agg(tags,\',\') from resourcetags) order by RANDOM() limit 15')
             cur.execute(sql.format(userId=userId))
 
             row = cur.fetchone()
             counter = Counter(row[0].split(","))
-
         
         userTags = list(set(row[0].split(",")))
         userTags = counter.most_common()
