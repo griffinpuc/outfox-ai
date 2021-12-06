@@ -88,7 +88,7 @@ def getUserTags(userId):
         row = cur.fetchone()
         print(str(cur.rowcount))
 
-        if row[0] !='None':
+        if row[0] is not None:
             counter = Counter(row[0].split(","))
         else:
             sql = ('(select string_agg(tags,\',\') from resourcetags) order by RANDOM() limit 15')

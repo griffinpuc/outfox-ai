@@ -69,6 +69,7 @@ def getGroupRecsFromUser(userId, pageNum):
 
     i=0
     for tag in tags:
+        print(i)
         for obj in calculateRecommendations(tag, 3, 3):
             groupList.insert(i, Group(obj.group+GRP_MODIFIER, obj.tags))
             i+=1
@@ -78,16 +79,16 @@ def getGroupRecsFromUser(userId, pageNum):
 
 # GET RESOURCE RECOMMENDATIONS
 def getResourceRecsFromUser(userId, pageNum):
-
     userObj = User(userId, [])
     userObj.tags = connect.getUserTags(userId)
 
-    tags = userObj.tags
+    tags = userObj.tags[:10]
 
     resourceList = []
     
     i=0
     for tag in tags:
+        print(i)
         for obj in calculateRecommendations(tag, 3, 3):
             resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group+RES_MODIFIER), obj.tags))
             i+=1
@@ -102,7 +103,7 @@ def getUserRecsFromUser(userId, pageNum):
     userObj = User(userId, [])
     userObj.tags = connect.getUserTags(userId)
 
-    tags = userObj.tags
+    tags = userObj.tags[:10]
 
     userList = []
 
@@ -182,4 +183,4 @@ def buildMatrix():
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
 #print(mainDataframe)
-print(getGroupRecsFromUser(39, 0))
+print(getResourceRecsFromUser(42, 0))
