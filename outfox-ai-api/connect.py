@@ -116,14 +116,16 @@ def getUserFromGroup(groupId):
         cur.execute(sql.format(groupId=groupId))
 
         row = cur.fetchone()
-        resourceId = row[0]
 
-        if resourceId == 0:
+        if row:
+            userId = row[0]
+
+        else:
             sql = ('select createdby from groups where id = {groupId}')
             cur.execute(sql.format(groupId=groupId))
 
             row = cur.fetchone()
-            resourceId = row[0]
+            userId = row[0]
 
         conn.commit()
         cur.close()

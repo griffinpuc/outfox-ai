@@ -183,3 +183,5 @@ def buildMatrix():
 
 #print(mainDataframe)
 #print(getGroupRecsFromUser(39, 0))
+
+print(getUserRecsFromUser(39, 0))
