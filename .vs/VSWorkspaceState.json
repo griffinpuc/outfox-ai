@@ -3,10 +3,8 @@
     "",
     "\\outfox-ai-api",
     "\\outfox-datadumper",
-    "\\outfox-datadumper\\data",
-    "\\outfox-datadumper\\data\\resources",
-    "\\outfox-datadumper\\data\\resources\\CHEMISTY"
+    "\\outfox-datadumper\\data"
   ],
-  "SelectedNode": "\\outfox-ai-api\\recengine.py",
+  "SelectedNode": "\\outfox-ai-api\\lib.py",
   "PreviewInSolutionExplorer": false
 }
