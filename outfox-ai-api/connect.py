@@ -111,7 +111,6 @@ def getUserTags(userId):
 
 def getUserFromGroup(groupId, userId):
     conn = None
-    userId = 0
 
     try:
         params = config()
