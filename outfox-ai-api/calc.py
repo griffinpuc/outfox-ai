@@ -189,7 +189,7 @@ def find_highest_correlations(corr_df, num_of_values):
 
 # BASE LEVEL GET RECOMMENDATION:
 # takes dataframe, tag, and rec count
-def get_recommendations(df, tag, num_of_recommendations, modifier=5):
+def get_recommendations(df, tag, num_of_recommendations, modifier):
     
     corr_df = find_correlations(df, tag)
     

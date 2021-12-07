@@ -35,12 +35,10 @@ def generateDataframe():
 
 mainDataframe = generateDataframe()
 
+RESULTS_PR_TAG = 2
+RECC_MODIFIER= 3
+TAGS_PR_USR = 10
 
-
-# Should be 0 at default, but here for testing porposes ;)
-GRP_MODIFIER = 0
-RES_MODIFIER = 0
-USR_MODIFIER = 0
 
 ##############################################################################################
 ##############################################################################################
@@ -63,16 +61,14 @@ def getGroupRecsFromUser(userId, pageNum):
     userObj = User(userId, [])
     userObj.tags = connect.getUserTags(userId)
 
-    tags = userObj.tags[:10]
-
+    tags = userObj.tags[:TAGS_PR_USR]
     groupList = []
 
     i=0
     for tag in tags:
-        for obj in calculateRecommendations(tag, 3, 3):
-            groupList.insert(i, Group(obj.group+GRP_MODIFIER, obj.tags))
+        for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+            groupList.insert(i, Group(obj.group, obj.tags))
             i+=1
-
     groupListP = groupList[(int(pageNum)*10):(int(pageNum)*10)+10]
     return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
@@ -81,14 +77,14 @@ def getResourceRecsFromUser(userId, pageNum):
     userObj = User(userId, [])
     userObj.tags = connect.getUserTags(userId)
 
-    tags = userObj.tags[:10]
+    tags = userObj.tags[:TAGS_PR_USR]
 
     resourceList = []
     
     i=0
     for tag in tags:
-        for obj in calculateRecommendations(tag, 3, 3):
-            resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group+RES_MODIFIER), obj.tags))
+        for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+            resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group), obj.tags))
             i+=1
 
     resourceListP = resourceList[(int(pageNum)*10):(int(pageNum)*10)+10]
@@ -101,14 +97,14 @@ def getUserRecsFromUser(userId, pageNum):
     userObj = User(userId, [])
     userObj.tags = connect.getUserTags(userId)
 
-    tags = userObj.tags[:10]
+    tags = userObj.tags[:TAGS_PR_USR]
 
     userList = []
 
     i=0
     for tag in tags:
-        for obj in calculateRecommendations(tag, 3, 5):
-            userList.insert(i, User(connect.getUserFromGroup(obj.group+RES_MODIFIER,userId), obj.tags))
+        for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+            userList.insert(i, User(connect.getUserFromGroup(obj.group,userId), obj.tags))
             i+=1
 
     userListP = userList[(int(pageNum)*10):(int(pageNum)*10)+10]
@@ -160,7 +156,7 @@ def calculateCorrelationMatrix(boolDf):
 def calculateRecommendations(param, modifier, resultNo):
     #df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
     df = mainDataframe
-    retObj = calc.get_recommendations(df, param, modifier)
+    retObj = calc.get_recommendations(df, param,resultNo, modifier)
     sortedVals = sorted(retObj, key=lambda x: x.value, reverse=True)
 
     return sortedVals[:resultNo]
@@ -175,7 +171,6 @@ def buildMatrix():
     calculateCorrelationMatrix(generateBoolMatrix())
 
 #buildMatrix()
-#print(getGroupRecsFromUser(669, 0))
 #generateBoolMatrix()
 #connect.generateMatrixTable()
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)

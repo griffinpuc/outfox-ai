@@ -183,5 +183,5 @@ def test():
 #def scrapeTest():
 
 #updateGroup(37)
-consumeResourceId(244)
+#consumeResourceId(244)
 
