@@ -74,8 +74,7 @@ def updateGroup(groupId):
 # CONSUMES A RESOURCE ID AND RETURNS THE TOP KEYWORDS
 def consumeResourceId(resourceId):
     # PULLS FILE URI FROM RESOURCE ID
-    fileUri = connect.getResourcePath(resourceId)
-    fileUri = Path(str(pathlib.Path().resolve() + fileUri)
+    fileUri = "C:\\Users\\Administrator\\Desktop\\outfox\\server\\src" + connect.getResourcePath(resourceId)
     print(fileUri)
 
     # SCRAPE AND GENERATE TOP KEYWORDS
