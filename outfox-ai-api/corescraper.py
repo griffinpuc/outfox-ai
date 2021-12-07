@@ -19,37 +19,53 @@ from scipy import spatial
 from sklearn.metrics.pairwise import cosine_similarity
 import gensim.downloader as api
 import tqdm
+import pathlib
 from nltk import tokenize
 from operator import itemgetter
 import math
+from pathlib import Path
 import nltk
 from gensim.models import KeyedVectors
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize 
 
+# INITIAL SETUP
+# PERFORMS DOWNLOADS NECESSARY FOR COMPUTATION
+def initialSetup():
+
+    print("[LOAD MODEL] NLTK STOPWORDS...")
+    nltk.download('stopwords')
+    print("Done.")
+
+    print("[LOAD MODEL] NLTK PUNKT...")
+    nltk.download('punkt')
+    print("Done.")
+
+    print("[LOAD MODEL] " + str(model_file))
+    #model = api.load("word2vec-google-news-300") #choose from multiple models https://github.com/RaRe-Technologies/gensim-data
+    model = api.load("glove-wiki-gigaword-300") #choose from multiple models https://github.com/RaRe-Technologies/gensim-data
+    model.save("gigaword-model.d2v")
+    print("Done.")
+
+# CHECK MODEL FILE
+model_file = Path(str(pathlib.Path().resolve())+"\gigaword-model.d2v")
+if model_file.exists():
+    print('Loading ' + str(model_file))
+else:
+    print('Running intial setup...')
+    initialSetup()
+    print('Loading ' + str(model_file))
+
 # Initialize db connection
 connect.connect()
 # Initialize loaded model
-model = KeyedVectors.load("test.d2v")
+model = KeyedVectors.load("gigaword-model.d2v")
 # Initialize stop word set
 stop_words = set(stopwords.words('english'))
 # Initialize spacy
 nlp = spacy.load("en_core_web_lg") #setting up spacy nlp
 # INITIALIZE KEYWORD LIST
 keywords = connect.getDistinctTags()
-
-# INITIAL SETUP
-# PERFORMS DOWNLOADS NECESSARY FOR COMPUTATION
-def initialSetup():
-
-    nltk.download('stopwords')
-    nltk.download('punkt')
-
-    #model = api.load("word2vec-google-news-300") #choose from multiple models https://github.com/RaRe-Technologies/gensim-data
-    model = api.load("glove-wiki-gigaword-300") #choose from multiple models https://github.com/RaRe-Technologies/gensim-data
-    model.save("test.d2v")
-
-
 
 def updateGroup(groupId):
     connect.calculateGroupTags(groupId)
