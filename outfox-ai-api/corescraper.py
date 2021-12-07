@@ -75,6 +75,7 @@ def updateGroup(groupId):
 def consumeResourceId(resourceId):
     # PULLS FILE URI FROM RESOURCE ID
     fileUri = connect.getResourcePath(resourceId)
+    fileUri = Path(str(pathlib.Path().resolve() + fileUri)
     print(fileUri)
 
     # SCRAPE AND GENERATE TOP KEYWORDS
