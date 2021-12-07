@@ -109,7 +109,7 @@ def getUserTags(userId):
 
         return userTags
 
-def getUserFromGroup(groupId):
+def getUserFromGroup(groupId, userId):
     conn = None
     userId = 0
 
@@ -118,8 +118,8 @@ def getUserFromGroup(groupId):
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
 
-        sql = ('select userid from favoritegroup where groupid = {groupId} order by RANDOM() limit 1')
-        cur.execute(sql.format(groupId=groupId))
+        sql = ('select userid from favoritegroup where groupid = {groupId} AND userid != {userId} order by RANDOM() limit 1')
+        cur.execute(sql.format(groupId=groupId, userId=userId))
 
         row = cur.fetchone()
 
