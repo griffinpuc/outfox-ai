@@ -70,7 +70,7 @@ def getGroupRecsFromUser(userId, pageNum):
             groupList.insert(i, Group(obj.group, obj.tags))
             i+=1
     groupListP = groupList[(int(pageNum)*10):(int(pageNum)*10)+10]
-    return(' { "groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
+    return(' { "pgcount": '+str(len(groupList)/10)+',"groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
 # GET RESOURCE RECOMMENDATIONS
 def getResourceRecsFromUser(userId, pageNum):
@@ -176,4 +176,4 @@ def buildMatrix():
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
 #print(mainDataframe)
-#print(getUserRecsFromUser(42, 0))
+#print(getGroupRecsFromUser(402, 0))
