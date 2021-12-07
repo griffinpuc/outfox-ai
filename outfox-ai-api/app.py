@@ -70,6 +70,8 @@ def getNewResource():
 
     corescraper.consumeResourceId(resource)
 
+    return jsonify("true")
+
 @app.route('/updateGroup')
 def getUpdateGroup():
     group = request.args['group']
