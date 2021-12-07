@@ -38,7 +38,7 @@ mainDataframe = generateDataframe()
 RESULTS_PR_TAG = 2
 RECC_MODIFIER= 3
 TAGS_PR_USR = 10
-
+PR_PG = 5
 
 ##############################################################################################
 ##############################################################################################
@@ -69,8 +69,8 @@ def getGroupRecsFromUser(userId, pageNum):
         for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
             groupList.insert(i, Group(obj.group, obj.tags))
             i+=1
-    groupListP = groupList[(int(pageNum)*10):(int(pageNum)*10)+10]
-    return(' { "pgcount": '+str(len(groupList)/10)+',"groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
+    groupListP = groupList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
+    return(' { "pgcount": '+str(len(groupList)/PR_PG)+',"groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
 # GET RESOURCE RECOMMENDATIONS
 def getResourceRecsFromUser(userId, pageNum):
@@ -87,9 +87,9 @@ def getResourceRecsFromUser(userId, pageNum):
             resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group), obj.tags))
             i+=1
 
-    resourceListP = resourceList[(int(pageNum)*10):(int(pageNum)*10)+10]
+    resourceListP = resourceList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
 
-    return(' { "pgcount": '+str(len(resourceList)/10)+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
+    return(' { "pgcount": '+str(len(resourceList)/PR_PG)+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
 
 # GET USER RECOMMENDATIONS
 def getUserRecsFromUser(userId, pageNum):
@@ -107,8 +107,8 @@ def getUserRecsFromUser(userId, pageNum):
             userList.insert(i, User(connect.getUserFromGroup(obj.group,userId), obj.tags))
             i+=1
 
-    userListP = userList[(int(pageNum)*10):(int(pageNum)*10)+10]
-    return(' { "pgcount": '+str(len(userList)/10)+', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
+    userListP = userList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
+    return(' { "pgcount": '+str(len(userList)/PR_PG)+', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
 
 
 
