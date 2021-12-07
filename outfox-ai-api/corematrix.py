@@ -89,7 +89,7 @@ def getResourceRecsFromUser(userId, pageNum):
 
     resourceListP = resourceList[(int(pageNum)*10):(int(pageNum)*10)+10]
 
-    return(' { "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
+    return(' { "pgcount": '+str(len(groupList)/10)+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
 
 # GET USER RECOMMENDATIONS
 def getUserRecsFromUser(userId, pageNum):
@@ -108,7 +108,7 @@ def getUserRecsFromUser(userId, pageNum):
             i+=1
 
     userListP = userList[(int(pageNum)*10):(int(pageNum)*10)+10]
-    return(' { "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
+    return(' { "pgcount": '+str(len(groupList)/10)+', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
 
 
 
