@@ -12,6 +12,7 @@ import connect
 
 mstrgrouparray = connect.getDistinctGroups(0)
 mstrtagarray = [''] *len(mstrgrouparray)
+
 x=0
 for group in mstrgrouparray:
     mstrtagarray[x] = group.tags
