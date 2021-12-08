@@ -47,7 +47,6 @@ def connect():
         if conn is not None:
             conn.close()
 
-
 def injectGroupsNResources():
     conn = None
     try:

@@ -57,55 +57,83 @@ PR_PG = 5
 
 # GET GROUP RECOMMENDATIONS
 def getGroupRecsFromUser(userId, pageNum):
-
-    userObj = User(userId, [])
-    userObj.tags = connect.getUserTags(userId)
-
-    tags = userObj.tags[:TAGS_PR_USR]
+    
+    groupListP = []
     groupList = []
+    
+    cache = connect.getRecsCache(userId,0 )
+    if(cache != ""):
+        cache = json.loads(cache)
+        cachestr=str(cache).replace("\'", "\"")
+        groupList = json.loads(cachestr, object_hook=lambda d: Group(**d))
+    else:
+        userObj = User(userId, [])
+        userObj.tags = connect.getUserTags(userId)
 
-    i=0
-    for tag in tags:
-        for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
-            groupList.insert(i, Group(obj.group, obj.tags))
-            i+=1
+        tags = userObj.tags[:TAGS_PR_USR]
+
+        i=0
+        for tag in tags:
+            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+                groupList.insert(i, Group(obj.group, obj.tags))
+                i+=1
+
+        connect.cacheRecs(userId, groupList, 0)
+
     groupListP = groupList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
-    return(' { "pgcount": '+str(len(groupList)/PR_PG)+',"groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
+    return(' { "currentpg": '+str(pageNum)+', "pgcount": '+str(len(groupList)/PR_PG)+',"groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
 # GET RESOURCE RECOMMENDATIONS
 def getResourceRecsFromUser(userId, pageNum):
-    userObj = User(userId, [])
-    userObj.tags = connect.getUserTags(userId)
 
-    tags = userObj.tags[:TAGS_PR_USR]
-
+    resourceListP = []
     resourceList = []
     
-    i=0
-    for tag in tags:
-        for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
-            resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group), obj.tags))
-            i+=1
+    cache = connect.getRecsCache(userId,2)
+    if(cache != ""):
+        cache = json.loads(cache)
+        cachestr=str(cache).replace("\'", "\"")
+        resourceList = json.loads(cachestr, object_hook=lambda d: Resource(**d))
+    else:
+        userObj = User(userId, [])
+        userObj.tags = connect.getUserTags(userId)
+
+        tags = userObj.tags[:TAGS_PR_USR]
+
+        i=0
+        for tag in tags:
+            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+                resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group), obj.tags))
+                i+=1
+
+        connect.cacheRecs(userId, resourceList, 2)
 
     resourceListP = resourceList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
-
     return(' { "pgcount": '+str(len(resourceList)/PR_PG)+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
 
 # GET USER RECOMMENDATIONS
 def getUserRecsFromUser(userId, pageNum):
-
-    userObj = User(userId, [])
-    userObj.tags = connect.getUserTags(userId)
-
-    tags = userObj.tags[:TAGS_PR_USR]
-
+    userListP = []
     userList = []
+    
+    cache = connect.getRecsCache(userId,1 )
+    if(cache != ""):
+        cache = json.loads(cache)
+        cachestr=str(cache).replace("\'", "\"")
+        userList = json.loads(cachestr, object_hook=lambda d: User(**d))
+    else:
+        userObj = User(userId, [])
+        userObj.tags = connect.getUserTags(userId)
 
-    i=0
-    for tag in tags:
-        for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
-            userList.insert(i, User(connect.getUserFromGroup(obj.group,userId), obj.tags))
-            i+=1
+        tags = userObj.tags[:TAGS_PR_USR]
+
+        i=0
+        for tag in tags:
+            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+                userList.insert(i, User(connect.getUserFromGroup(obj.group,userId), obj.tags))
+                i+=1
+
+        connect.cacheRecs(userId, userList, 1)
 
     userListP = userList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
     return(' { "pgcount": '+str(len(userList)/PR_PG)+', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
@@ -177,3 +205,4 @@ def buildMatrix():
 
 #print(mainDataframe)
 print(getUserRecsFromUser(39, 0))
+#print(getGroupRecsFromUser(39, 1))

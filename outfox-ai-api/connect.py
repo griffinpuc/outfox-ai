@@ -1,10 +1,12 @@
 #!/usr/bin/python
 from os import X_OK
 import psycopg2
-import datetime
+from datetime import datetime,timezone
 import string
 from lib import *
 import random
+import json
+import time
 from collections import Counter
 
 from config import config
@@ -44,6 +46,94 @@ def connect():
         if conn is not None:
             conn.close()
 
+def cacheRecs(userId, objlist, type):
+    conn = None
+    table = ""
+
+    if type==0:
+        table = "ai_grouprec_cache"
+    elif type == 1:
+        table = "ai_userrec_cache"
+    elif type == 2:
+        table = "ai_resourcerec_cache"
+
+    try:
+
+        json_string = ""
+        if type==0:
+            json_string = json.dumps([Group.__dict__ for Group in objlist])
+        elif type == 1:
+            json_string = json.dumps([User.__dict__ for User in objlist])
+        elif type == 2:
+            json_string = json.dumps([Resource.__dict__ for Resource in objlist])
+
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('insert into '+table+' (userid, rec, lastchanged) ')
+        sql += ("values ({userId},'{objlist}','{timeStamp}') ")
+        sql += ('on conflict (userid) do update ')
+        sql += ('set userid=excluded.userid,')
+        sql += ('rec=excluded.rec,')
+        sql += ('lastchanged=excluded.lastchanged;')
+
+        cur.execute(sql.format(userId=userId,objlist=json_string,timeStamp=datetime.now(timezone.utc)))
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+    finally:
+        if conn is not None:
+            conn.close()  
+
+def getRecsCache(userId, type):
+    conn = None
+    recString=""
+    table = ""
+
+    if type==0:
+        table = "ai_grouprec_cache"
+    elif type == 1:
+        table = "ai_userrec_cache"
+    elif type == 2:
+        table = "ai_resourcerec_cache"
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select lastchanged from '+table+' where userid = {userId}')
+        cur.execute(sql.format(userId=userId))
+
+        row = cur.fetchone()
+        timestamp = row[0]
+
+        fmt = '%H:%M:%S.%f'
+        d1 = datetime.strptime(str(datetime.now(timezone.utc).time()), fmt)
+        d2 = datetime.strptime(str(timestamp), fmt)
+        
+        diff = d1-d2
+        diff = int(diff.total_seconds())
+        
+        if((diff <= (5*60))):
+            sql = ('select rec from '+table+' where userid = {userId}')
+            cur.execute(sql.format(userId=userId))
+
+            row = cur.fetchone()
+            recString = row[0]
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+        
+        return recString   
 
 def getResourceFromGroup(groupId):
     conn = None
