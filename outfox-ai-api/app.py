@@ -81,7 +81,7 @@ def getUpdateGroup():
     return jsonify("true")
 
 @app.route('/triggerCache')
-def getUpdateGroup():
+def getTriggerCache():
     userid = request.args['userid']
 
     corematrix.triggerCache(userid)
