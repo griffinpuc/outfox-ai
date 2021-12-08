@@ -41,7 +41,7 @@ def connect():
 	# close the communication with the PostgreSQL
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
     finally:
         if conn is not None:
             conn.close()
@@ -83,7 +83,7 @@ def cacheRecs(userId, objlist, type):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
+            pass
     finally:
         if conn is not None:
             conn.close()  
@@ -108,7 +108,7 @@ def getOwner(groupId):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
+            pass
     finally:
         if conn is not None:
             conn.close() 
@@ -127,7 +127,6 @@ def isFav(groupId, userId):
 
         row = cur.fetchone()
         for item in row:
-            print(str(item) + "." + str(userId))
             if item == userId:
                 return True
 
@@ -136,7 +135,7 @@ def isFav(groupId, userId):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
+            pass
     finally:
         if conn is not None:
             conn.close()  
@@ -181,7 +180,7 @@ def getRecsCache(userId, type):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
+            pass
     finally:
         if conn is not None:
             conn.close()
@@ -206,7 +205,7 @@ def getResourceFromGroup(groupId, userId):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
     finally:
         if conn is not None:
             conn.close()
@@ -227,7 +226,6 @@ def getUserTags(userId):
         cur.execute(sql.format(userId=userId))
 
         row = cur.fetchone()
-        print(str(cur.rowcount))
 
         if row[0] is not None:
             counter = Counter(row[0].split(","))
@@ -245,7 +243,7 @@ def getUserTags(userId):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
     finally:
         if conn is not None:
             conn.close()
@@ -278,7 +276,7 @@ def getUserFromGroup(groupId, userId):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
     finally:
         if conn is not None:
             conn.close()
@@ -299,9 +297,9 @@ def saveResourceTags(resourceId, tags):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
 
-def getDistinctGroups():
+def getDistinctGroups(userId=0):
     conn = None
     distinctGn = []
 
@@ -310,8 +308,8 @@ def getDistinctGroups():
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
 
-        sql = ('select id from groups where id in (select \"GroupId\" from resources)')
-        cur.execute(sql)
+        sql = ('select id from groups where id in (select \"GroupId\" from resources) AND createdby != {userId} AND id not in (select groupid from favoritegroup where userid={userId})')
+        cur.execute(sql.format(userId=userId))
 
         ids = [item[0] for item in cur.fetchall()]
         distinctGn = [''] *len(ids)
@@ -328,7 +326,7 @@ def getDistinctGroups():
         return(distinctGn)
 
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
 
 def getDistinctTags():
     conn = None
@@ -347,7 +345,7 @@ def getDistinctTags():
 
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
 
 def updateGroupTags(groupId):
     conn = None
@@ -366,7 +364,7 @@ def updateGroupTags(groupId):
 
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
 #
 def getResourcePath(resourceId):
     conn = None
@@ -390,7 +388,7 @@ def getResourcePath(resourceId):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
     finally:
         if conn is not None:
             print('Recieved resource upload')
@@ -419,7 +417,7 @@ def commitCorrelations():
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
 
 
 def calculateGroupTags(groupId):
@@ -461,7 +459,7 @@ def clearRelations():
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-        print(error)
+        pass
 
 def openConnection():
     params = config()

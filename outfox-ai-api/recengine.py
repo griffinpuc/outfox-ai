@@ -10,18 +10,18 @@ from sklearn.metrics.pairwise import cosine_similarity
 from lib import *
 import connect
 
-mstrgrouparray = connect.getDistinctGroups()
+mstrgrouparray = connect.getDistinctGroups(0)
 mstrtagarray = [''] *len(mstrgrouparray)
 x=0
 for group in mstrgrouparray:
     mstrtagarray[x] = group.tags
     x+=1
 
-def calculateAll(tagArray):
+def calculateAll(tagArray, userId):
 
-    global mstrtagarray
     global mstrgrouparray
-    
+    global mstrtagarray
+
     grouparray = [' '.join(tagArray)] + mstrtagarray
     vect = CountVectorizer().fit_transform(grouparray)
     vectors = vect.toarray()

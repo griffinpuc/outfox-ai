@@ -84,7 +84,7 @@ def getGroupRecsFromUser(userId, pageNum, bypass=False):
 
         i=0
         for tag in tags:
-            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG, userId):
                 if(connect.getOwner(obj.group) != userId):
                     if not connect.isFav(obj.group, userId):
                         print()
@@ -118,7 +118,7 @@ def getResourceRecsFromUser(userId, pageNum, bypass=False):
 
         i=0
         for tag in tags:
-            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG, userId):
                 resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group, userId), obj.tags))
                 i+=1
 
@@ -147,7 +147,7 @@ def getUserRecsFromUser(userId, pageNum, bypass=False):
 
         i=0
         for tag in tags:
-            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
+            for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG, userId):
                 userList.insert(i, User(connect.getUserFromGroup(obj.group,userId), obj.tags))
                 i+=1
 
@@ -199,10 +199,10 @@ def calculateCorrelationMatrix(boolDf):
 
 # CALCULATE RECOMMENDATIONS
 # calculates a list of recommended categories based on a category input
-def calculateRecommendations(param, modifier, resultNo):
+def calculateRecommendations(param, modifier, resultNo, userId):
     #df = pd.read_csv(csvLink3, index_col = "index",encoding='cp1252')
     df = mainDataframe
-    retObj = calc.get_recommendations(df, param,resultNo, modifier)
+    retObj = calc.get_recommendations(df, param,resultNo, modifier,userId)
     sortedVals = sorted(retObj, key=lambda x: x.value, reverse=True)
 
     return sortedVals[:resultNo]
@@ -224,3 +224,4 @@ def buildMatrix():
 #print(mainDataframe)
 #print(getGroupRecsFromUser(48, 0, True))
 #print(getGroupRecsFromUser(39, 1))
+triggerCache(48)

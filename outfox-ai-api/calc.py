@@ -189,7 +189,7 @@ def find_highest_correlations(corr_df, num_of_values):
 
 # BASE LEVEL GET RECOMMENDATION:
 # takes dataframe, tag, and rec count
-def get_recommendations(df, tag, num_of_recommendations, modifier):
+def get_recommendations(df, tag, num_of_recommendations, modifier, userId):
     
     corr_df = find_correlations(df, tag)
     
@@ -197,7 +197,7 @@ def get_recommendations(df, tag, num_of_recommendations, modifier):
     
     #print("\n====================================\n\nRECOMMENDED TAGS: " + str(list(recommendations_df["tag"])))
     rtags = list(recommendations_df["tag"])[:modifier]
-    return recengine.calculateAll(rtags)
+    return recengine.calculateAll(rtags, userId)
 
 def get_only_tags(df, tag, num_of_recommendations):
     corr_df = find_correlations(df, tag)
