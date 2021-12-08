@@ -111,6 +111,33 @@ def getOwner(groupId):
             print(error)
     finally:
         if conn is not None:
+            conn.close() 
+            
+def isFav(groupId, userId):
+    conn = None
+    isfav=False
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select userid from favoritegroup where groupid = {groupId}')
+        cur.execute(sql.format(groupId=groupId))
+
+        row = cur.fetchone()
+        for item in row:
+            if item == userId:
+                return True
+
+        return isfav
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+    finally:
+        if conn is not None:
             conn.close()  
 
 def getRecsCache(userId, type):

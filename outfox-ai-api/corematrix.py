@@ -85,8 +85,9 @@ def getGroupRecsFromUser(userId, pageNum, bypass=False):
         for tag in tags:
             for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
                 if(connect.getOwner(obj.group) != userId):
-                    groupList.insert(i, Group(obj.group, obj.tags))
-                    i+=1
+                    if is not connect.isFav(obj.group, userId):
+                        groupList.insert(i, Group(obj.group, obj.tags))
+                        i+=1
 
         connect.cacheRecs(userId, groupList, 0)
 
