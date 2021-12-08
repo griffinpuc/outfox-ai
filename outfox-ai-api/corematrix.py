@@ -11,6 +11,7 @@
 
 import calc
 import funcs
+import math
 import os
 import pandas as pd
 from tqdm import tqdm
@@ -92,7 +93,7 @@ def getGroupRecsFromUser(userId, pageNum, bypass=False):
         connect.cacheRecs(userId, groupList, 0)
 
     groupListP = groupList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
-    return(' { "currentpg": '+str(pageNum)+', "pgcount": '+str(len(groupList)/PR_PG)+',"groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
+    return(' { "pgcount": '+str(math.floor(len(groupList)/PR_PG))+',"groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
 # GET RESOURCE RECOMMENDATIONS
 def getResourceRecsFromUser(userId, pageNum, bypass=False):
@@ -123,7 +124,7 @@ def getResourceRecsFromUser(userId, pageNum, bypass=False):
         connect.cacheRecs(userId, resourceList, 2)
 
     resourceListP = resourceList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
-    return(' { "pgcount": '+str(len(resourceList)/PR_PG)+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
+    return(' { "pgcount": '+str(math.floor(len(groupList)/PR_PG))+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
 
 # GET USER RECOMMENDATIONS
 def getUserRecsFromUser(userId, pageNum, bypass=False):
@@ -152,7 +153,7 @@ def getUserRecsFromUser(userId, pageNum, bypass=False):
         connect.cacheRecs(userId, userList, 1)
 
     userListP = userList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
-    return(' { "pgcount": '+str(len(userList)/PR_PG)+', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
+    return(' { "pgcount": '+str(math.floor(len(groupList)/PR_PG))', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
 
 
 
