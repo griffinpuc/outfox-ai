@@ -88,7 +88,6 @@ def consumeResourceId(resourceId):
         # SAVE TAGS TO RESOURCE TAGS TABLE
         connect.saveResourceTags(resourceId, topTags)
 
-
 # SCRAPE TEXT
 # SCRAPES TEXT GIVEN A FILEPATH
 def scrapetTxt(filePath):
@@ -186,4 +185,4 @@ def test():
 
 #updateGroup(37)
 #consumeResourceId(244)
-
+#consumeResourceId(25)
