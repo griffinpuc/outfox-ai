@@ -59,7 +59,7 @@ def isFile(resourceId):
         cur.execute(sql.format(resourceId=resourceId))
         row = cur.fetchone()
         ftype = row[0]
-
+        print(ftype)
         if ftype == "txt":
             retval = True
 
