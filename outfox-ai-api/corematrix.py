@@ -224,4 +224,4 @@ def buildMatrix():
 #print(mainDataframe)
 #print(getGroupRecsFromUser(48, 0, True))
 #print(getGroupRecsFromUser(39, 1))
-triggerCache(48)
+#triggerCache(48)
