@@ -75,6 +75,7 @@ def updateGroup(groupId):
 def consumeResourceId(resourceId):
     # PULLS FILE URI FROM RESOURCE ID
     uri = connect.getResourcePath(resourceId)
+    print("Attempting to scrape")
 
     if(connect.isFile(resourceId)):
         fileUri = "C:/Users/Administrator/Desktop/outfox/server/dist" + uri
@@ -87,6 +88,8 @@ def consumeResourceId(resourceId):
 
         # SAVE TAGS TO RESOURCE TAGS TABLE
         connect.saveResourceTags(resourceId, topTags)
+    else:
+        print('Uploaded resource not a file')
 
 # SCRAPE TEXT
 # SCRAPES TEXT GIVEN A FILEPATH
