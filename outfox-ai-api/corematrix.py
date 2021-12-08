@@ -222,6 +222,6 @@ def buildMatrix():
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
 #print(mainDataframe)
-#print(getGroupRecsFromUser(48, 0, True))
+#print(getGroupRecsFromUser(48, 2))
 #print(getGroupRecsFromUser(39, 1))
 #triggerCache(48)

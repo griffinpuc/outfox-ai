@@ -76,7 +76,7 @@ def consumeResourceId(resourceId):
     # PULLS FILE URI FROM RESOURCE ID
     uri = connect.getResourcePath(resourceId)
     if uri is None:
-        break
+        return
     fileUri = "C:/Users/Administrator/Desktop/outfox/server/dist" + uri
 
     # SCRAPE AND GENERATE TOP KEYWORDS
