@@ -116,7 +116,7 @@ def getResourceRecsFromUser(userId, pageNum, bypass=False):
         i=0
         for tag in tags:
             for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
-                resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group), obj.tags))
+                resourceList.insert(i, Resource(connect.getResourceFromGroup(obj.group, userId), obj.tags))
                 i+=1
 
         connect.cacheRecs(userId, resourceList, 2)

@@ -160,7 +160,7 @@ def getRecsCache(userId, type):
         
         return recString   
 
-def getResourceFromGroup(groupId):
+def getResourceFromGroup(groupId, userId):
     conn = None
     resourceId = 0
 
@@ -170,7 +170,7 @@ def getResourceFromGroup(groupId):
         cur = conn.cursor()
 
         sql = ('select id from resources where \"GroupId\"={groupId} AND creatorid != {userId} order by RANDOM() limit 1')
-        cur.execute(sql.format(groupId=groupId))
+        cur.execute(sql.format(groupId=groupId,userId=userId))
 
         row = cur.fetchone()
         resourceId = row[0]
