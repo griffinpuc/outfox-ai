@@ -46,6 +46,33 @@ def connect():
         if conn is not None:
             conn.close()
 
+def isFile(resourceId):
+    conn = None
+    retval=False
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select type from resources where id = {resourceId}')
+        cur.execute(sql.format(resourceId=resourceId))
+
+        row = cur.fetchone()
+        ftype = row[0]
+
+        if ftype == "txt":
+            return True
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+            pass
+    finally:
+        if conn is not None:
+            conn.close() 
+        return retval
+
 def cacheRecs(userId, objlist, type):
     conn = None
     table = ""
