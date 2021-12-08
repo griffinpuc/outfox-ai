@@ -57,17 +57,20 @@ PR_PG = 5
 
 # Trigger cache on user login
 def triggerCache(userId):
-    getUserRecsFromUser(userId,0)
-    getGroupRecsFromUser(userId,0)
-    getResourceRecsFromUser(userId,0)
+    getUserRecsFromUser(userId,0,True)
+    getGroupRecsFromUser(userId,0,True)
+    getResourceRecsFromUser(userId,0,True)
 
 # GET GROUP RECOMMENDATIONS
-def getGroupRecsFromUser(userId, pageNum):
+def getGroupRecsFromUser(userId, pageNum, bypass=False):
     
     groupListP = []
     groupList = []
     
     cache = connect.getRecsCache(userId,0 )
+    if bypass:
+        cache=""
+
     if(cache != ""):
         cache = json.loads(cache)
         cachestr=str(cache).replace("\'", "\"")
@@ -81,8 +84,9 @@ def getGroupRecsFromUser(userId, pageNum):
         i=0
         for tag in tags:
             for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
-                groupList.insert(i, Group(obj.group, obj.tags))
-                i+=1
+                if(connect.getOwner(obj.group) != userId):
+                    groupList.insert(i, Group(obj.group, obj.tags))
+                    i+=1
 
         connect.cacheRecs(userId, groupList, 0)
 
@@ -90,12 +94,15 @@ def getGroupRecsFromUser(userId, pageNum):
     return(' { "currentpg": '+str(pageNum)+', "pgcount": '+str(len(groupList)/PR_PG)+',"groups":' + json.dumps([Group.__dict__ for Group in groupListP]) + ' }')
 
 # GET RESOURCE RECOMMENDATIONS
-def getResourceRecsFromUser(userId, pageNum):
+def getResourceRecsFromUser(userId, pageNum, bypass=False):
 
     resourceListP = []
     resourceList = []
     
     cache = connect.getRecsCache(userId,2)
+
+    if bypass:
+        cache=""
     if(cache != ""):
         cache = json.loads(cache)
         cachestr=str(cache).replace("\'", "\"")
@@ -118,11 +125,13 @@ def getResourceRecsFromUser(userId, pageNum):
     return(' { "pgcount": '+str(len(resourceList)/PR_PG)+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
 
 # GET USER RECOMMENDATIONS
-def getUserRecsFromUser(userId, pageNum):
+def getUserRecsFromUser(userId, pageNum, bypass=False):
     userListP = []
     userList = []
     
     cache = connect.getRecsCache(userId,1 )
+    if bypass:
+        cache=""
     if(cache != ""):
         cache = json.loads(cache)
         cachestr=str(cache).replace("\'", "\"")

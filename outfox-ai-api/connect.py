@@ -88,6 +88,31 @@ def cacheRecs(userId, objlist, type):
         if conn is not None:
             conn.close()  
 
+def getOwner(groupId):
+    conn = None
+    ownerid=0
+
+    try:
+        params = config()
+        conn = psycopg2.connect(**params)
+        cur = conn.cursor()
+
+        sql = ('select createdby from groups where id = {groupId}')
+        cur.execute(sql.format(userId=userId))
+
+        row = cur.fetchone()
+        ownerid = row[0]
+
+        return ownerid
+
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+    finally:
+        if conn is not None:
+            conn.close()  
+
 def getRecsCache(userId, type):
     conn = None
     recString=""
@@ -144,7 +169,7 @@ def getResourceFromGroup(groupId):
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
 
-        sql = ('select id from resources where \"GroupId\"={groupId} order by RANDOM() limit 1')
+        sql = ('select id from resources where \"GroupId\"={groupId} AND creatorid != {userId} order by RANDOM() limit 1')
         cur.execute(sql.format(groupId=groupId))
 
         row = cur.fetchone()
