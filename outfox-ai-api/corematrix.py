@@ -87,6 +87,7 @@ def getGroupRecsFromUser(userId, pageNum, bypass=False):
             for obj in calculateRecommendations(tag, RECC_MODIFIER, RESULTS_PR_TAG):
                 if(connect.getOwner(obj.group) != userId):
                     if not connect.isFav(obj.group, userId):
+                        print()
                         groupList.insert(i, Group(obj.group, obj.tags))
                         i+=1
 
@@ -221,5 +222,5 @@ def buildMatrix():
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
 #print(mainDataframe)
-#print(getGroupRecsFromUser(39, 0))
+#print(getGroupRecsFromUser(48, 0, True))
 #print(getGroupRecsFromUser(39, 1))

@@ -74,14 +74,15 @@ def updateGroup(groupId):
 # CONSUMES A RESOURCE ID AND RETURNS THE TOP KEYWORDS
 def consumeResourceId(resourceId):
     # PULLS FILE URI FROM RESOURCE ID
-    fileUri = "C:/Users/Administrator/Desktop/outfox/server/dist" + connect.getResourcePath(resourceId)
-    print(fileUri)
+    uri = connect.getResourcePath(resourceId)
+    if uri is None:
+        break
+    fileUri = "C:/Users/Administrator/Desktop/outfox/server/dist" + uri
 
     # SCRAPE AND GENERATE TOP KEYWORDS
     topKeywords = scrapetTxt(fileUri)
     # GENERATE TOP TAGS FROM THOSE KEYWORDS
     topTags = magicMatch(keywords, topKeywords)
-    print(topKeywords)
 
     # SAVE TAGS TO RESOURCE TAGS TABLE
     connect.saveResourceTags(resourceId, topTags)

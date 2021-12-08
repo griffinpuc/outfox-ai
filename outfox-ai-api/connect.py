@@ -127,6 +127,7 @@ def isFav(groupId, userId):
 
         row = cur.fetchone()
         for item in row:
+            print(str(item) + "." + str(userId))
             if item == userId:
                 return True
 
