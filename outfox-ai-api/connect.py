@@ -66,7 +66,7 @@ def isFile(resourceId):
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-            pass
+            print(error)
     finally:
         if conn is not None:
             conn.close() 
