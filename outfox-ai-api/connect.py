@@ -98,7 +98,7 @@ def getOwner(groupId):
         cur = conn.cursor()
 
         sql = ('select createdby from groups where id = {groupId}')
-        cur.execute(sql.format(userId=userId))
+        cur.execute(sql.format(groupId=groupId))
 
         row = cur.fetchone()
         ownerid = row[0]
