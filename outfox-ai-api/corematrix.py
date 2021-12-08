@@ -153,7 +153,7 @@ def getUserRecsFromUser(userId, pageNum, bypass=False):
         connect.cacheRecs(userId, userList, 1)
 
     userListP = userList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
-    return(' { "pgcount": '+str(math.floor(len(groupList)/PR_PG))', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
+    return(' { "pgcount": '+str(math.floor(len(groupList)/PR_PG))+', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
 
 
 
