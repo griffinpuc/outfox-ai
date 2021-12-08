@@ -57,16 +57,18 @@ def isFile(resourceId):
 
         sql = ('select type from resources where id = {resourceId}')
         cur.execute(sql.format(resourceId=resourceId))
+
+        print(consumeResourceId(25))
         row = cur.fetchone()
+
         ftype = row[0]
-        print(ftype + "test" +resourceId)
         if ftype == "txt":
             retval = True
 
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
+        pass
     finally:
         if conn is not None:
             conn.close() 

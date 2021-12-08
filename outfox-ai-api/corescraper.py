@@ -79,7 +79,6 @@ def consumeResourceId(resourceId):
 
     if(connect.isFile(resourceId)):
         fileUri = "C:/Users/Administrator/Desktop/outfox/server/dist" + uri
-        print("Scraping tags...")
         # SCRAPE AND GENERATE TOP KEYWORDS
         topKeywords = scrapetTxt(fileUri)
         # GENERATE TOP TAGS FROM THOSE KEYWORDS
