@@ -124,7 +124,7 @@ def getResourceRecsFromUser(userId, pageNum, bypass=False):
         connect.cacheRecs(userId, resourceList, 2)
 
     resourceListP = resourceList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
-    return(' { "pgcount": '+str(math.floor(len(groupList)/PR_PG))+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
+    return(' { "pgcount": '+str(math.floor(len(resourceList)/PR_PG))+', "resources":' + json.dumps([Resource.__dict__ for Resource in resourceListP]) + ' }')
 
 # GET USER RECOMMENDATIONS
 def getUserRecsFromUser(userId, pageNum, bypass=False):
@@ -153,7 +153,7 @@ def getUserRecsFromUser(userId, pageNum, bypass=False):
         connect.cacheRecs(userId, userList, 1)
 
     userListP = userList[(int(pageNum)*PR_PG):(int(pageNum)*PR_PG)+PR_PG]
-    return(' { "pgcount": '+str(math.floor(len(groupList)/PR_PG))+', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
+    return(' { "pgcount": '+str(math.floor(len(userList)/PR_PG))+', "users":' + json.dumps([User.__dict__ for User in userListP]) + ' }')
 
 
 
@@ -221,5 +221,5 @@ def buildMatrix():
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
 #print(mainDataframe)
-print(getGroupRecsFromUser(39, 0))
+#print(getGroupRecsFromUser(39, 0))
 #print(getGroupRecsFromUser(39, 1))
