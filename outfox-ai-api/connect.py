@@ -57,7 +57,7 @@ def isFile(resourceId):
 
         sql = ('select type from resources where id = {resourceId}')
         cur.execute(sql.format(resourceId=resourceId))
-        print(str(sql.format(resourceId=resourceId)))
+        print(cur.rowcount)
         row = cur.fetchone()
 
         ftype = row[0]
