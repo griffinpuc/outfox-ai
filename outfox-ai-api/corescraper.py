@@ -40,7 +40,7 @@ def initialSetup():
     print("[LOAD MODEL] NLTK PUNKT...")
     nltk.download('punkt')
     print("Done.")
-
+     
     print("[LOAD MODEL] " + str(model_file))
     #model = api.load("word2vec-google-news-300") #choose from multiple models https://github.com/RaRe-Technologies/gensim-data
     model = api.load("glove-wiki-gigaword-300") #choose from multiple models https://github.com/RaRe-Technologies/gensim-data
@@ -83,6 +83,7 @@ def consumeResourceId(resourceId):
         topKeywords = scrapetTxt(fileUri)
         # GENERATE TOP TAGS FROM THOSE KEYWORDS
         topTags = magicMatch(keywords, topKeywords)
+        print("Scraped Tags: " + str(topTags))
 
         # SAVE TAGS TO RESOURCE TAGS TABLE
         connect.saveResourceTags(resourceId, topTags)

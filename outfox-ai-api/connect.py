@@ -62,7 +62,7 @@ def isFile(resourceId):
         ftype = row[0]
 
         if ftype == "txt":
-            return True
+            retval = True
 
         conn.commit()
         cur.close()
