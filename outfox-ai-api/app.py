@@ -80,6 +80,14 @@ def getUpdateGroup():
 
     return jsonify("true")
 
+@app.route('/triggerCache')
+def getUpdateGroup():
+    userid = request.args['userid']
+
+    corematrix.triggerCache(userid)
+
+    return jsonify("true")
+
 @app.route('/setUserTags')
 def getSetUserTags():
     username = request.args['username']

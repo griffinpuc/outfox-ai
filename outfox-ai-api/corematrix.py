@@ -55,6 +55,12 @@ PR_PG = 5
 ##############################################################################################
 ##############################################################################################                                 
 
+# Trigger cache on user login
+def triggerCache(userId):
+    getUserRecsFromUser(userId,0)
+    getGroupRecsFromUser(userId,0)
+    getResourceRecsFromUser(userId,0)
+
 # GET GROUP RECOMMENDATIONS
 def getGroupRecsFromUser(userId, pageNum):
     
@@ -204,5 +210,5 @@ def buildMatrix():
 #print(calculateRecommendations("CHEMISTRY", 3, 5)[0].tags)
 
 #print(mainDataframe)
-print(getUserRecsFromUser(39, 0))
+#print(getUserRecsFromUser(39, 0))
 #print(getGroupRecsFromUser(39, 1))
